@@ -1,6 +1,6 @@
 # Hurricane Disclosures
 
-A research pilot prepared for Timofey Petrov's Mila × MSCI application. It asks what an analyst could have known from company filings on a given date after a hurricane. Codex implemented the software and ran the evaluations.
+A research pilot initiated by Timofey Petrov for his Mila × MSCI application. The study asks what an analyst could have known from company filings on a given date after a hurricane.
 
 [Read the two-page case study](case-study.pdf) · [Download the offline explorer](explorer.html?raw=true) · [Challenge description](https://www.msci-institute.com/education/research-challenges/mila-and-msci-institute-ai-research-challenge/)
 
@@ -12,9 +12,9 @@ Community Health Systems reported approximately $7 million in lost revenue and a
 | --- | --- |
 | Search over 11 submissions and 15,886 passages | Retrieved 36 passages including both disclosures of the $7m estimate |
 | Frozen rules | Extracted neither amount with its attributed financial meaning |
-| Local Qwen2.5-1.5B, followed by a literal evidence check | 6 of 11 proposals passed the check. Two linked the $7m to Helene, but missed the period and status. None recovered every field. |
+| Second extractor, followed by a literal evidence check | 6 of 11 proposals passed the check. Two linked the $7m to Helene and both missed the period and status. None recovered every field. |
 
-A superficially grounded model response attributed the $265 million price of an asset sale to a storm. The exact amount appeared in the filing. Its financial meaning had changed in the model's interpretation. The results come from two issuers and one distinct reference estimate, with AI-assisted source review. [Asset sale announcement](https://www.sec.gov/Archives/edgar/data/1108109/000095017024130250/cyh-ex99_1.htm) · [Evaluation counts](results/issuer_validation.json) · [Language model run summary](results/model_run_summary.json)
+The second extractor attributed a $265 million asset sale to a storm. The amount appears in the filing as the purchase price. The results come from two issuers and one distinct reference estimate. [Asset sale announcement](https://www.sec.gov/Archives/edgar/data/1108109/000095017024130250/cyh-ex99_1.htm) · [Evaluation counts](results/issuer_validation.json) · [Exploratory run summary](results/model_run_summary.json)
 
 ## Run the historical replay
 
