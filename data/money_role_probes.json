@@ -1,0 +1,111 @@
+[
+  {
+    "id": "synthetic_01",
+    "sentence": "During the quarter we incurred $18 million in additional expenses and lost revenues combined because of Hurricanes Helene and Milton.",
+    "expect": [
+      {
+        "raw": "$18 million",
+        "metric": "additional expenses and lost revenues combined",
+        "status": "recorded"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_02",
+    "sentence": "After Hurricane Ian, we expect an adverse sales impact of $7 million in the coming quarter.",
+    "expect": [
+      {
+        "raw": "$7 million",
+        "metric": "adverse sales impact",
+        "status": "forecast"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_03",
+    "sentence": "We now estimate that Hurricane Ian reduced our sales by $9 million in the quarter that ended last month.",
+    "expect": [
+      {
+        "raw": "$9 million",
+        "metric": "adverse sales impact",
+        "status": "past_period_estimate"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_04",
+    "sentence": "Following Hurricane Sally, our policy provided coverage of up to $35 million, and we received $4 million in insurance recoveries during the quarter.",
+    "expect": [
+      {
+        "raw": "$35 million",
+        "metric": null,
+        "status": "unknown"
+      },
+      {
+        "raw": "$4 million",
+        "metric": "insurance recoveries",
+        "status": "recorded"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_05",
+    "sentence": "Following Hurricane Ida, we expect to receive $6 million in insurance recoveries next quarter.",
+    "expect": [
+      {
+        "raw": "$6 million",
+        "metric": "insurance recoveries",
+        "status": "forecast"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_06",
+    "sentence": "We recorded $11 million in net pre-tax charges related to Hurricane Ian, equivalent to an after-tax earnings impact of $0.08 per share.",
+    "expect": [
+      {
+        "raw": "$11 million",
+        "metric": "net pre-tax charges",
+        "status": "recorded"
+      },
+      {
+        "raw": "$0.08 per share",
+        "metric": null,
+        "status": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_07",
+    "sentence": "After Hurricane Helene, our supplier estimated its own lost sales at $8 million, while the effect on our sales remained unknown.",
+    "expect": [
+      {
+        "raw": "$8 million",
+        "metric": null,
+        "status": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_08",
+    "sentence": "Our sales fell by $12 million as a result of Hurricane Milton and an unrelated product recall, and we could not allocate that total between the two causes.",
+    "expect": [
+      {
+        "raw": "$12 million",
+        "metric": null,
+        "status": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_09",
+    "sentence": "In the quarter when Hurricane Laura temporarily closed our warehouse, we repaid $20 million of debt according to our existing payment schedule.",
+    "expect": [
+      {
+        "raw": "$20 million",
+        "metric": null,
+        "status": "unknown"
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "rules_commit": "e94cca9",
+  "events": [
+    "helene",
+    "milton"
+  ],
+  "windows_per_document_per_event": 3,
+  "evaluation_unit": "A reference monetary disclosure in one document; an issuer may repeat a fact in another filing.",
+  "accessions_selected": 11,
+  "accessions_with_text": 11,
+  "missing_accessions": [],
+  "documents": 45,
+  "passages": 15886,
+  "documents_with_windows": 7,
+  "unique_passages_queued": 36,
+  "emitted_grounded_linked_spans": 0,
+  "documented_claims": 2,
+  "reference_matches": {
+    "located": 2,
+    "retrieved": 2,
+    "linked_amount": 0,
+    "strict_match": 0
+  },
+  "cases": [
+    {
+      "id": "chs-q3-helene-1",
+      "accession": "0000950170-24-116674",
+      "doc_id": "0000950170-24-116674-002",
+      "value_usd": 7000000,
+      "metric": "additional expenses and lost revenues combined",
+      "events": [
+        "Helene"
+      ],
+      "period": "2024-Q3",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024116674/cyh-ex99_1.htm",
+      "anchor": "hurricane response efforts of approximately $7 million on a pre-tax basis",
+      "located": true,
+      "retrieved": true,
+      "linked_amount": false,
+      "strict_match": false,
+      "matched_passages": [
+        "0000950170-24-116674-002-P00044"
+      ],
+      "candidates": []
+    },
+    {
+      "id": "chs-q3-helene-2",
+      "accession": "0000950170-24-117088",
+      "doc_id": "0000950170-24-117088-001",
+      "value_usd": 7000000,
+      "metric": "additional expenses and lost revenues combined",
+      "events": [
+        "Helene"
+      ],
+      "period": "2024-Q3",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024117088/cyh-20240930.htm",
+      "anchor": "hurricane response efforts of approximately $7 million on a pre-tax basis",
+      "located": true,
+      "retrieved": true,
+      "linked_amount": false,
+      "strict_match": false,
+      "matched_passages": [
+        "0000950170-24-117088-001-P00670"
+      ],
+      "candidates": []
+    }
+  ],
+  "limits": "Two companies in one sector. The reference is an AI-assisted source review. Counts describe the documented cases. Coverage of all possible claims and population precision are unknown.",
+  "input_sha256": {
+    "passages": "0486a5c85952e7f7dd78cd6bc8b7d9f0de0673ee2553a98c19a9e735084eeebb",
+    "audit": "8e1114d3c08515d26ffcbee3a15cee0a5ca63aa57cc5825266ced23fa80b81c6",
+    "selection": "58de8542e9e85bea2c429452816795c92d22bc3ef9fae8ba049603c54a0f24da"
+  }
+}

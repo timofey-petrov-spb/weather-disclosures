@@ -1,0 +1,135 @@
+{
+  "unit": "EDGAR accession including relevant exhibits",
+  "filing_dates_inclusive": [
+    "2024-09-27",
+    "2025-02-28"
+  ],
+  "selection": "All 10-Q/K and amendments; 8-K and amendments with items 2.02, 7.01 or 8.01.",
+  "filings": [
+    {
+      "cik": "0000070318",
+      "issuer": "TENET HEALTHCARE CORP",
+      "accession": "0000070318-24-000049",
+      "filing_date": "2024-10-29",
+      "form": "8-K",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/70318/000007031824000049/0000070318-24-000049-index.htm"
+    },
+    {
+      "cik": "0000070318",
+      "issuer": "TENET HEALTHCARE CORP",
+      "accession": "0000070318-24-000052",
+      "filing_date": "2024-10-29",
+      "form": "10-Q",
+      "items": [],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/70318/000007031824000052/0000070318-24-000052-index.htm"
+    },
+    {
+      "cik": "0000070318",
+      "issuer": "TENET HEALTHCARE CORP",
+      "accession": "0000070318-25-000005",
+      "filing_date": "2025-02-12",
+      "form": "8-K",
+      "items": [
+        "2.02",
+        "9.01"
+      ],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/70318/000007031825000005/0000070318-25-000005-index.htm"
+    },
+    {
+      "cik": "0000070318",
+      "issuer": "TENET HEALTHCARE CORP",
+      "accession": "0000070318-25-000009",
+      "filing_date": "2025-02-18",
+      "form": "10-K",
+      "items": [],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/70318/000007031825000009/0000070318-25-000009-index.htm"
+    },
+    {
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "accession": "0000950170-24-116674",
+      "filing_date": "2024-10-23",
+      "form": "8-K",
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024116674/0000950170-24-116674-index.htm"
+    },
+    {
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "accession": "0000950170-24-117088",
+      "filing_date": "2024-10-24",
+      "form": "10-Q",
+      "items": [],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024117088/0000950170-24-117088-index.htm"
+    },
+    {
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "accession": "0000950170-24-130250",
+      "filing_date": "2024-11-22",
+      "form": "8-K",
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024130250/0000950170-24-130250-index.htm"
+    },
+    {
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "accession": "0000950170-24-131062",
+      "filing_date": "2024-11-26",
+      "form": "8-K",
+      "items": [
+        "1.02",
+        "7.01",
+        "9.01"
+      ],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024131062/0000950170-24-131062-index.htm"
+    },
+    {
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "accession": "0000950170-24-135399",
+      "filing_date": "2024-12-11",
+      "form": "8-K",
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024135399/0000950170-24-135399-index.htm"
+    },
+    {
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "accession": "0000950170-25-022328",
+      "filing_date": "2025-02-18",
+      "form": "8-K",
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017025022328/0000950170-25-022328-index.htm"
+    },
+    {
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "accession": "0000950170-25-023242",
+      "filing_date": "2025-02-19",
+      "form": "10-K",
+      "items": [],
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017025023242/0000950170-25-023242-index.htm"
+    }
+  ]
+}

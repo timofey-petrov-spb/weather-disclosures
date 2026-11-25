@@ -1,0 +1,5 @@
+# The published runs record byte-level checksums for text inputs and scripts.
+* text=auto eol=lf
+# Preserve the original response logs byte-for-byte, including their line endings.
+results/field_model.json -text
+results/model_diagnostics.json -text

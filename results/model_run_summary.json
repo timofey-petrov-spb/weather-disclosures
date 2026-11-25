@@ -1,0 +1,33 @@
+{
+  "scope": "Exploratory run after the frozen rules baseline. AI-assisted comparison against the source text.",
+  "model": {
+    "repository": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "file": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e"
+  },
+  "summary": {
+    "queue_paragraphs": 36,
+    "dollar_targets": 9,
+    "issuers_with_dollar_targets": 1,
+    "completed_json_responses": 9,
+    "raw_proposals": 11,
+    "lexically_accepted": 6,
+    "lexically_rejected": 5,
+    "source_supported_amount_and_storm_raw": 2,
+    "source_supported_amount_and_storm_accepted": 2,
+    "supported_with_correct_broad_measure": 2,
+    "supported_with_complete_financial_description": 0,
+    "supported_with_correct_status": 0,
+    "supported_with_correct_period": 0,
+    "fully_correct_accepted": 0,
+    "documented_reference_occurrences": 2,
+    "reference_occurrences_with_amount_and_storm": 2,
+    "distinct_reference_facts_with_amount_and_storm": 1
+  },
+  "case_notes": {
+    "qualified_amount_usd": 7000000,
+    "false_attribution_example_usd": 265000000,
+    "false_attribution_explanation": "The source gives the transaction price for a sale of assets and mentions hurricane effects elsewhere."
+  }
+}

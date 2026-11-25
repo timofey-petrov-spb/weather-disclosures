@@ -1,0 +1,189 @@
+[
+  {
+    "id": "HCA-Q3",
+    "doc_id": "SEC-1",
+    "issuer": "HCA Healthcare",
+    "affected_entity": "HCA Healthcare",
+    "events": [
+      "Helene"
+    ],
+    "period": "2024 Q3",
+    "metric": "additional expenses and lost revenues combined",
+    "status": "past_period_estimate",
+    "basis": "before potential insurance recoveries",
+    "amount": {
+      "low": 50,
+      "high": 50,
+      "unit": "USD million"
+    },
+    "relations": [],
+    "find_in_passage": [
+      "\\$\\s*50\\s*million",
+      "loss of revenues",
+      "third quarter"
+    ],
+    "location": "MD&A, third-quarter results; the following paragraph addresses insurance."
+  },
+  {
+    "id": "HCA-Q4-FORECAST",
+    "doc_id": "SEC-1",
+    "issuer": "HCA Healthcare",
+    "affected_entity": "HCA Healthcare",
+    "events": [
+      "Helene",
+      "Milton"
+    ],
+    "period": "2024 Q4",
+    "metric": "additional expenses and lost revenues combined",
+    "status": "forecast",
+    "basis": "before potential insurance recoveries",
+    "amount": {
+      "low": 200,
+      "high": 300,
+      "unit": "USD million"
+    },
+    "relations": [],
+    "find_in_passage": [
+      "\\$\\s*200\\s*million",
+      "\\$\\s*300\\s*million",
+      "anticipate"
+    ],
+    "location": "MD&A, fourth-quarter outlook."
+  },
+  {
+    "id": "HCA-Q4-ESTIMATE",
+    "doc_id": "SEC-2",
+    "issuer": "HCA Healthcare",
+    "affected_entity": "HCA Healthcare",
+    "events": [
+      "Helene",
+      "Milton"
+    ],
+    "period": "2024 Q4",
+    "metric": "additional expenses and lost revenues combined",
+    "status": "past_period_estimate",
+    "basis": "before potential insurance recoveries",
+    "amount": {
+      "low": 200,
+      "high": 200,
+      "unit": "USD million"
+    },
+    "relations": [
+      {
+        "type": "updates",
+        "target": "HCA-Q4-FORECAST"
+      }
+    ],
+    "find_in_passage": [
+      "\\$\\s*200\\s*million",
+      "fourth quarter",
+      "loss of revenues"
+    ],
+    "location": "Impact of Hurricanes, fourth-quarter paragraph; see insurance statement in the same section."
+  },
+  {
+    "id": "HCA-FY",
+    "doc_id": "SEC-2",
+    "issuer": "HCA Healthcare",
+    "affected_entity": "HCA Healthcare",
+    "events": [
+      "Helene",
+      "Milton"
+    ],
+    "period": "2024 FY",
+    "metric": "additional expenses and lost revenues combined",
+    "status": "past_period_estimate",
+    "basis": "before potential insurance recoveries",
+    "amount": {
+      "low": 250,
+      "high": 250,
+      "unit": "USD million"
+    },
+    "relations": [
+      {
+        "type": "includes_period_of",
+        "target": "HCA-Q4-ESTIMATE"
+      },
+      {
+        "type": "includes_period_of",
+        "target": "HCA-Q3"
+      }
+    ],
+    "find_in_passage": [
+      "\\$\\s*250\\s*million",
+      "year ended",
+      "loss of revenues"
+    ],
+    "location": "Impact of Hurricanes, annual paragraph; see insurance statement in the same section."
+  },
+  {
+    "id": "BAXTER-NET",
+    "doc_id": "SEC-5",
+    "issuer": "Baxter International",
+    "affected_entity": "Baxter International",
+    "events": [
+      "Helene"
+    ],
+    "period": "2024 FY",
+    "metric": "net pre-tax charges",
+    "status": "recorded",
+    "basis": "net of insurance recoveries",
+    "amount": {
+      "low": 110,
+      "high": 110,
+      "unit": "USD million"
+    },
+    "relations": [],
+    "find_in_passage": [
+      "\\$\\s*110\\s*million",
+      "pre.tax",
+      "charges"
+    ],
+    "location": "Note 1, Hurricane Helene; also reconciled in MD&A."
+  },
+  {
+    "id": "BAXTER-SALES",
+    "doc_id": "SEC-5",
+    "issuer": "Baxter International",
+    "affected_entity": "Infusion Therapies & Technologies",
+    "events": [
+      "Helene"
+    ],
+    "period": "2024 FY",
+    "metric": "adverse sales impact",
+    "status": "past_period_estimate",
+    "basis": "segment sales",
+    "amount": {
+      "low": 110,
+      "high": 110,
+      "unit": "USD million"
+    },
+    "relations": [],
+    "find_in_passage": [
+      "\\$\\s*110\\s*million",
+      "adverse impact on sales"
+    ],
+    "location": "MD&A, Infusion Therapies & Technologies net sales."
+  },
+  {
+    "id": "ICU-THIRD-PARTY",
+    "doc_id": "SEC-6",
+    "issuer": "ICU Medical",
+    "affected_entity": "Baxter International",
+    "events": [
+      "Helene"
+    ],
+    "period": "September 2024",
+    "metric": "damage to North Cove manufacturing facility",
+    "status": "observed_qualitative",
+    "basis": "competitor's site",
+    "amount": null,
+    "relations": [],
+    "find_in_passage": [
+      "north cove",
+      "damaged",
+      "baxter"
+    ],
+    "location": "MD&A, paragraph on damage to a competitor's facility; monetary effect unspecified."
+  }
+]

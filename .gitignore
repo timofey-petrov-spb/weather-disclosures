@@ -1,0 +1,8 @@
+data/cache/
+data/passages.jsonl
+data/collection_status.json
+data/validation_cache/
+data/validation_passages.jsonl
+models/*.gguf
+__pycache__/
+*.py[cod]

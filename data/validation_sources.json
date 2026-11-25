@@ -1,0 +1,128 @@
+{
+  "scope": "Full SEC submission for each locked accession. Index the primary form and text exhibits in its SGML. Preserve component inventory with graphic, technical and nontext status.",
+  "archive": "https://sec-api.io/docs/sec-filings-render-api",
+  "identity": "Verify accession, issuer CIK, form and filing date against the submission header. Match the full submission byte count and the type, sequence and filename for every primary form and nontechnical exhibit against the archived EDGAR filing index. Preserve the SGML member count and the header public-document count as distinct EDGAR fields.",
+  "submissions": [
+    {
+      "accession": "0000070318-24-000049",
+      "acceptance_utc_offset_hours": -4,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/70318/000007031824000049/0000070318-24-000049-index.htm",
+      "sha256": "9c261820f9ebe932b006ecc51ddae9355cf09dca595bb6c1385da7beb77c3fd9",
+      "index_sha256": "cde7428ece5630ec91df1900c4911a57ae089c08070a4d4ddf41ca563465bb18",
+      "raw_url": "https://edgar-mirror.sec-api.io/70318/000007031824000049/0000070318-24-000049.txt",
+      "raw_bytes": 1095430,
+      "accepted_at_utc": "2024-10-29T10:46:05Z",
+      "primary_document": "thc-20241029.htm"
+    },
+    {
+      "accession": "0000070318-24-000052",
+      "acceptance_utc_offset_hours": -4,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/70318/000007031824000052/0000070318-24-000052-index.htm",
+      "sha256": "f16eca8eb91dbee3f59de90177545936afe1bb6d6031af9d537ed5356f1907e2",
+      "index_sha256": "9d1d2a3ce728a0eb35cf51ab14ad89e8f585036588cfe617fe9e44632a379d49",
+      "raw_url": "https://edgar-mirror.sec-api.io/70318/000007031824000052/0000070318-24-000052.txt",
+      "raw_bytes": 13291432,
+      "accepted_at_utc": "2024-10-29T20:06:37Z",
+      "primary_document": "thc-20240930.htm"
+    },
+    {
+      "accession": "0000070318-25-000005",
+      "acceptance_utc_offset_hours": -5,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/70318/000007031825000005/0000070318-25-000005-index.htm",
+      "sha256": "062700656781407fae87bb487ca352abbb7a76ad3f684d720d158a86b48fbfb3",
+      "index_sha256": "3f052ffda40558be2d33c19d878da89583c4468cd80635e455514b223710b49b",
+      "raw_url": "https://edgar-mirror.sec-api.io/70318/000007031825000005/0000070318-25-000005.txt",
+      "raw_bytes": 1049517,
+      "accepted_at_utc": "2025-02-12T11:47:26Z",
+      "primary_document": "thc-20250212.htm"
+    },
+    {
+      "accession": "0000070318-25-000009",
+      "acceptance_utc_offset_hours": -5,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/70318/000007031825000009/0000070318-25-000009-index.htm",
+      "sha256": "c051b0beb4d1ffe82656d2c3fc3978999e8d86d9f4fcc3c1c955925d7ebb69fb",
+      "index_sha256": "7ddaed4de7b17697893031d1abaa040335d0582ebf1577f518316e20eac768fa",
+      "raw_url": "https://edgar-mirror.sec-api.io/70318/000007031825000009/0000070318-25-000009.txt",
+      "raw_bytes": 21957236,
+      "accepted_at_utc": "2025-02-18T21:59:50Z",
+      "primary_document": "thc-20241231.htm"
+    },
+    {
+      "accession": "0000950170-24-116674",
+      "acceptance_utc_offset_hours": -4,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024116674/0000950170-24-116674-index.htm",
+      "sha256": "9b3d9ddd77f9c32519f2f1d4ab1e13f01fef9de36bc7e38816dc04dbb6e05efd",
+      "index_sha256": "b1dbd58a8a7bb3ada3d3b91c7fa16113967b235442c0a827030f82bd63d7abdd",
+      "raw_url": "https://edgar-mirror.sec-api.io/1108109/000095017024116674/0000950170-24-116674.txt",
+      "raw_bytes": 1525755,
+      "accepted_at_utc": "2024-10-23T20:30:13Z",
+      "primary_document": "cyh-20241023.htm"
+    },
+    {
+      "accession": "0000950170-24-117088",
+      "acceptance_utc_offset_hours": -4,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024117088/0000950170-24-117088-index.htm",
+      "sha256": "b4a547628acf3db0f8ee0b648c223ae8c3635222c638d5e46b6fc4d5046665e0",
+      "index_sha256": "8c8c341de4e8c2c3e8d7110763875f2c8a376b65e09273e97631d90b6f5aef9a",
+      "raw_url": "https://edgar-mirror.sec-api.io/1108109/000095017024117088/0000950170-24-117088.txt",
+      "raw_bytes": 13201924,
+      "accepted_at_utc": "2024-10-24T20:34:58Z",
+      "primary_document": "cyh-20240930.htm"
+    },
+    {
+      "accession": "0000950170-24-130250",
+      "acceptance_utc_offset_hours": -5,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024130250/0000950170-24-130250-index.htm",
+      "sha256": "552ce36464617bf91cb04d150c4bd464ff840b89f1ce1f15663a125d8c69b075",
+      "index_sha256": "22ed770e0d97fe2c8faff3658eac693502ccd86135694847ee718f6ab02eee7b",
+      "raw_url": "https://edgar-mirror.sec-api.io/1108109/000095017024130250/0000950170-24-130250.txt",
+      "raw_bytes": 1040369,
+      "accepted_at_utc": "2024-11-22T21:30:16Z",
+      "primary_document": "cyh-20241122.htm"
+    },
+    {
+      "accession": "0000950170-24-131062",
+      "acceptance_utc_offset_hours": -5,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024131062/0000950170-24-131062-index.htm",
+      "sha256": "213714218b2fd0a82d11e49a8c5eb62be340654bef499a4cd4020b84104f185f",
+      "index_sha256": "d83f6a4be5d38ed8d251cf9cb7ea6365f39dde83f5e7cd28eca8856428f1e2e0",
+      "raw_url": "https://edgar-mirror.sec-api.io/1108109/000095017024131062/0000950170-24-131062.txt",
+      "raw_bytes": 193445,
+      "accepted_at_utc": "2024-11-26T21:30:08Z",
+      "primary_document": "cyh-20241126.htm"
+    },
+    {
+      "accession": "0000950170-24-135399",
+      "acceptance_utc_offset_hours": -5,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024135399/0000950170-24-135399-index.htm",
+      "sha256": "a6f2f254aa3892498dd80947f9a427b71c7fac63d00fe532d74fd102f85bb6d8",
+      "index_sha256": "061406db00756bc1b1ec3a212d31e39d565007bdf8f7c17a7773eaf62d3daf2a",
+      "raw_url": "https://edgar-mirror.sec-api.io/1108109/000095017024135399/0000950170-24-135399.txt",
+      "raw_bytes": 1093520,
+      "accepted_at_utc": "2024-12-11T21:31:44Z",
+      "primary_document": "cyh-20241211.htm"
+    },
+    {
+      "accession": "0000950170-25-022328",
+      "acceptance_utc_offset_hours": -5,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017025022328/0000950170-25-022328-index.htm",
+      "sha256": "b92f390267feae1e4e3d66af336dd8538340486bef24c200a43ff5060268701a",
+      "index_sha256": "6bc28ef586f92ac4c73d30d155bc93a00179da7ed2af49e624e1a4545f0040ca",
+      "raw_url": "https://edgar-mirror.sec-api.io/1108109/000095017025022328/0000950170-25-022328.txt",
+      "raw_bytes": 1890447,
+      "accepted_at_utc": "2025-02-18T21:30:12Z",
+      "primary_document": "cyh-20250218.htm"
+    },
+    {
+      "accession": "0000950170-25-023242",
+      "acceptance_utc_offset_hours": -5,
+      "filing_index": "https://www.sec.gov/Archives/edgar/data/1108109/000095017025023242/0000950170-25-023242-index.htm",
+      "sha256": "286d625a04632768de29410dd207d76f007d40a781e6edcd6860b98845b69013",
+      "index_sha256": "c84af03cec8750f6dd877aa0cf727b5c25c10f51089219d6d53dbcca354de1e3",
+      "raw_url": "https://edgar-mirror.sec-api.io/1108109/000095017025023242/0000950170-25-023242.txt",
+      "raw_bytes": 27501925,
+      "accepted_at_utc": "2025-02-19T21:31:09Z",
+      "primary_document": "cyh-20241231.htm"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "doc_id": "SEC-1",
+    "issuer": "HCA Healthcare",
+    "source_kind": "10-Q",
+    "accession": "0000950170-24-119581",
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000095017024119581/hca-20240930.htm",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/860730/000095017024119581/0000950170-24-119581-index.htm",
+    "report_period_end": "2024-09-30",
+    "accepted_at_utc": "2024-10-31T20:30:23Z",
+    "alternate": {
+      "url": "https://s23.q4cdn.com/949900249/files/doc_financials/2024/q3/a8f58254-4a23-476d-ae41-ce06d9d026a9.pdf",
+      "format": "pdf",
+      "edition": "filing_pdf_render",
+      "replay_eligible": true,
+      "pdf_title": "0000950170-24-119581",
+      "pages": [
+        1,
+        41
+      ],
+      "expected_sha256": "571fb5414ac8804bd36c8cc11a9ebd357aff48985de4a1e540653fe534af52db"
+    }
+  },
+  {
+    "doc_id": "SEC-2",
+    "issuer": "HCA Healthcare",
+    "source_kind": "8-K EX-99.1",
+    "accession": "0000950170-25-008608",
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000095017025008608/hca-ex99_1.htm",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/860730/000095017025008608/0000950170-25-008608-index.htm",
+    "report_period_end": "2024-12-31",
+    "accepted_at_utc": "2025-01-24T12:40:45Z",
+    "alternate": {
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000860730/f4391562-cd4f-43bf-b258-e62dc9b9a128.pdf",
+      "format": "pdf",
+      "edition": "filing_pdf_render",
+      "replay_eligible": true,
+      "pdf_title": "0000950170-25-008608",
+      "pages": [
+        4,
+        15
+      ],
+      "expected_sha256": "94fa08595f8893298a2f6fe6b1abad160ff4d9cde2d7e37e817bff7036b4d46e"
+    }
+  },
+  {
+    "doc_id": "SEC-3",
+    "issuer": "Baxter International",
+    "source_kind": "8-K EX-99.1",
+    "accession": "0001628280-24-046501",
+    "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828024046501/bax-20240930xex991.htm",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/10456/000162828024046501/0001628280-24-046501-index.htm",
+    "report_period_end": "2024-09-30",
+    "accepted_at_utc": "2024-11-08T12:18:38Z",
+    "alternate": {
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000010456/83a04c31-cb97-40bb-9228-0b6ae5d14bcd.pdf",
+      "format": "pdf",
+      "edition": "filing_pdf_render",
+      "replay_eligible": true,
+      "pdf_title": "0001628280-24-046501",
+      "pages": [
+        4,
+        27
+      ],
+      "publisher_link": "https://investor.baxter.com/investors/sec-filings/sec-filings-details/default.aspx?FilingId=17952665",
+      "expected_sha256": "8bb7bcc50c3e42206f557666835872ac5612260817efe61c6a574ba9e3c3378f"
+    }
+  },
+  {
+    "doc_id": "SEC-4",
+    "issuer": "Baxter International",
+    "source_kind": "10-Q",
+    "accession": "0001628280-24-047221",
+    "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828024047221/bax-20240930.htm",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/10456/000162828024047221/0001628280-24-047221-index.htm",
+    "report_period_end": "2024-09-30",
+    "accepted_at_utc": "2024-11-12T21:38:19Z",
+    "alternate": {
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000010456/5ff43ebd-c881-4d61-bf18-08d2c1c7d3c7.pdf",
+      "format": "pdf",
+      "edition": "filing_pdf_render",
+      "replay_eligible": true,
+      "pdf_title": "0001628280-24-047221",
+      "pages": [
+        1,
+        57
+      ],
+      "publisher_link": "https://investor.baxter.com/investors/sec-filings/sec-filings-details/default.aspx?FilingId=17963163",
+      "expected_sha256": "8474fac0d8a11b857a292c893a3838856c915aac5c3a5b62630f6c46371151dd"
+    }
+  },
+  {
+    "doc_id": "SEC-5",
+    "issuer": "Baxter International",
+    "source_kind": "10-K",
+    "accession": "0001628280-25-007201",
+    "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828025007201/bax-20241231.htm",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/10456/000162828025007201/0001628280-25-007201-index.htm",
+    "report_period_end": "2024-12-31",
+    "accepted_at_utc": "2025-02-21T22:15:03Z",
+    "alternate": {
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000010456/e98f6a49-8dc0-4495-a69e-29105a361976.pdf",
+      "format": "pdf",
+      "edition": "filing_pdf_render",
+      "replay_eligible": true,
+      "pdf_title": "0001628280-25-007201",
+      "pages": [
+        1,
+        144
+      ],
+      "publisher_link": "https://investor.baxter.com/investors/sec-filings/sec-filings-details/default.aspx?FilingId=18212644",
+      "expected_sha256": "77ca8c69da1d151cfaf69ef67c6804f063ec51213c1743bdf7ce5de619c6b3ed"
+    }
+  },
+  {
+    "doc_id": "SEC-6",
+    "issuer": "ICU Medical",
+    "source_kind": "10-Q",
+    "accession": "0000883984-24-000042",
+    "url": "https://www.sec.gov/Archives/edgar/data/883984/000088398424000042/icui-20240930.htm",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/883984/000088398424000042/0000883984-24-000042-index.htm",
+    "report_period_end": "2024-09-30",
+    "accepted_at_utc": "2024-11-12T22:01:30Z",
+    "alternate": {
+      "url": "https://edgar-mirror.sec-api.io/883984/000088398424000042/icui-20240930.htm",
+      "format": "html",
+      "edition": "archived_sec_primary_html",
+      "replay_eligible": true,
+      "expected_sha256": "3a012dd7f060a0fabb4eea5eac4e49b165957e9e09995b4a8668a901f0787d7b",
+      "identity_check": {
+        "submission_url": "https://edgar-mirror.sec-api.io/883984/000088398424000042/0000883984-24-000042.txt",
+        "submission_sha256": "da3b3e3bf2776ee09bcfa3004685d87b2baac9f296ffa33f8a0e7c8bac5894aa",
+        "submission_bytes": 11139547,
+        "index_url": "https://edgar-mirror.sec-api.io/883984/000088398424000042/0000883984-24-000042-index.htm",
+        "index_sha256": "5dcb815b2d1041e4902c317289b5df8d2f6143449d9125db0cde3b5e718d675d",
+        "member_filename": "icui-20240930.htm",
+        "member_type": "10-Q",
+        "member_sequence": 1,
+        "member_html_bytes": 1906339,
+        "verification": "The separately served HTML matches the SGML TEXT payload byte for byte after removal of its XBRL wrapper. The archived EDGAR index gives the same primary filename, type, sequence and byte lengths. The submission header records acceptance on 2024-11-12 at 17:01:30 US Eastern."
+      }
+    },
+    "additional_editions": [
+      {
+        "url": "https://ir.icumed.com/static-files/30b544d4-3103-4d0f-8bf4-a98b727a2423",
+        "format": "pdf",
+        "edition": "issuer_filing_pdf_unverified",
+        "replay_eligible": false
+      }
+    ]
+  },
+  {
+    "doc_id": "SEC-7",
+    "issuer": "HCA Healthcare",
+    "source_kind": "8-K EX-99.1",
+    "accession": "0001193125-22-266319",
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312522266319/d311683dex991.htm",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/860730/000119312522266319/0001193125-22-266319-index.htm",
+    "report_period_end": "2022-09-30",
+    "accepted_at_utc": "2022-10-21T11:02:56Z",
+    "alternate": {
+      "url": "https://s23.q4cdn.com/949900249/files/doc_financials/2022/q3/PR_HCA-Reports-3Q-2022-Results.pdf",
+      "format": "pdf",
+      "edition": "issuer_release",
+      "replay_eligible": false,
+      "pages": [
+        1,
+        10
+      ],
+      "expected_sha256": "4f7290af5a53f2bd83e14397f8855f9e23e09ca24720468b16a7be7bde04761f"
+    }
+  },
+  {
+    "doc_id": "NHC-1",
+    "issuer": "NOAA National Hurricane Center",
+    "source_kind": "Tropical Cyclone Update",
+    "url": "https://www.nhc.noaa.gov/archive/2024/al09/al092024.update.09270318.shtml",
+    "storm_id": "AL092024",
+    "issued_at_utc": "2024-09-27T03:20:00Z"
+  },
+  {
+    "doc_id": "NHC-2",
+    "issuer": "NOAA National Hurricane Center",
+    "source_kind": "Tropical Cyclone Update",
+    "url": "https://www.nhc.noaa.gov/archive/2024/al14/al142024.update.10100030.shtml",
+    "storm_id": "AL142024",
+    "issued_at_utc": "2024-10-10T00:30:00Z"
+  },
+  {
+    "doc_id": "NHC-3",
+    "issuer": "NOAA National Hurricane Center",
+    "source_kind": "Tropical Cyclone Update",
+    "url": "https://www.nhc.noaa.gov/archive/2022/al09/al092022.update.09281909.shtml",
+    "storm_id": "AL092022",
+    "issued_at_utc": "2022-09-28T19:10:00Z"
+  }
+]

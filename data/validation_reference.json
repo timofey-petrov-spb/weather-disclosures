@@ -1,0 +1,475 @@
+{
+  "scope": "11 frozen EDGAR accessions. The textual primary and Exhibit 99.1 when present (18 files).",
+  "method": "Independent AI-assisted source reference, produced without viewing extractor code, predictions or another agent's labels. Each full SGML submission was read from the local source cache, the primary and EX-99 HTML files isolated by SGML type/sequence, and their text searched for event names and broader weather, interruption, insurance, closure and restoration terms. Candidate passages were read in context and matched against EDGAR pages or issuer copies. A targeted review of machine-readable text is not an exhaustive human annotation or an audit of images, all contract exhibits, earnings calls, or all publications by the companies.",
+  "unit": "One explicitly stated, directly linked monetary amount per document/fact. Differences in the date a filing appears do not create a new financial fact. Qualitative statements, explicit absence of insurance proceeds without a numeric token, conditional risks, transaction prices and total company results are outside numeric scoring. An unallocated combined amount explicitly linked solely to the two target storms would count once.",
+  "coverage_values": {
+    "complete_documents_targeted_text_review": "All in-scope primary/99.1 files were available; absence of a supported amount means none found in this targeted review.",
+    "complete_document_targeted_text_review": "Complete submitted document available for vocabulary search and targeted contextual inspection. Not a sentence-by-sentence annotation.",
+    "missing": "An intended source was unavailable; exclude from the scored negative denominator."
+  },
+  "filings": [
+    {
+      "accession": "0000070318-24-000049",
+      "cik": "0000070318",
+      "issuer": "TENET HEALTHCARE CORP",
+      "filing_date": "2024-10-29",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000070318-24-000049-001",
+          "kind": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031824000049/thc-20241029.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Item 2.02, quarterly results notice",
+          "qualitative": []
+        },
+        {
+          "doc_id": "0000070318-24-000049-002",
+          "kind": "EX-99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031824000049/thc-20240930ex991earningsr.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Third quarter 2024 earnings release; Results of Operations",
+          "qualitative": []
+        }
+      ],
+      "finding": "No qualifying dollar claim identified."
+    },
+    {
+      "accession": "0000070318-24-000052",
+      "cik": "0000070318",
+      "issuer": "TENET HEALTHCARE CORP",
+      "filing_date": "2024-10-29",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000070318-24-000052-001",
+          "kind": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031824000052/thc-20240930.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Management Overview, Operating Environment and Trends, Weather-Related Events",
+          "qualitative": [
+            {
+              "events": [
+                "Helene"
+              ],
+              "period": "2024-Q3 event; prospective downstream effect at filing date",
+              "status": "third_party_damage_and_conditional_risk",
+              "finding": "The North Carolina IV-fluid supplier's factory was damaged. Tenet reported a resulting national shortage and a conditional risk to its own patient volumes/revenues; no quantified issuer-level loss.",
+              "locator": "North Carolina factory of the largest producer of sterile intravenous"
+            }
+          ]
+        }
+      ],
+      "finding": "Named supplier damage and possible future effect for Tenet, without an issuer-level dollar amount."
+    },
+    {
+      "accession": "0000070318-25-000005",
+      "cik": "0000070318",
+      "issuer": "TENET HEALTHCARE CORP",
+      "filing_date": "2025-02-12",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000070318-25-000005-001",
+          "kind": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031825000005/thc-20250212.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Item 2.02, quarterly results notice",
+          "qualitative": []
+        },
+        {
+          "doc_id": "0000070318-25-000005-002",
+          "kind": "EX-99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031825000005/thc-20241231ex991earningsr.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Fourth quarter 2024 earnings release; consolidated and segment results",
+          "qualitative": []
+        }
+      ],
+      "finding": "No qualifying dollar claim identified."
+    },
+    {
+      "accession": "0000070318-25-000009",
+      "cik": "0000070318",
+      "issuer": "TENET HEALTHCARE CORP",
+      "filing_date": "2025-02-18",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000070318-25-000009-001",
+          "kind": "10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031825000009/thc-20241231.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Risk factors, supply shortages",
+          "qualitative": [
+            {
+              "events": [],
+              "period": "fall 2024",
+              "status": "unnamed_event_with_context",
+              "finding": "Tenet describes an unnamed hurricane damaging the North Carolina IV-fluid factory and a national shortage. The earlier 10-Q independently names Helene for the same narrative. The annual report does not name the storm here or quantify a loss to Tenet.",
+              "locator": "the largest producer of sterile intravenous fluids"
+            }
+          ]
+        }
+      ],
+      "finding": "Unnamed hurricane/supplier narrative, without an issuer-level dollar amount."
+    },
+    {
+      "accession": "0000950170-24-116674",
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "filing_date": "2024-10-23",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000950170-24-116674-001",
+          "kind": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024116674/cyh-20241023.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Items 2.02 and 7.01 incorporate the earnings release",
+          "qualitative": []
+        },
+        {
+          "doc_id": "0000950170-24-116674-002",
+          "kind": "EX-99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024116674/cyh-ex99_1.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Page 3, Other, hurricane impacts paragraph",
+          "qualitative": [
+            {
+              "events": [
+                "Helene",
+                "Milton"
+              ],
+              "period": "late September–October 2024",
+              "status": "reported_qualitative",
+              "finding": "Interruptions and additional costs at certain CHS facilities in Florida, Georgia and Tennessee.",
+              "locator": "facilities in Florida, Georgia and Tennessee"
+            },
+            {
+              "events": [
+                "Helene"
+              ],
+              "period": "2024-Q3",
+              "status": "explicit_none",
+              "finding": "No insurance proceeds received or recognized. The issuer states this in words. No explicit USD amount was printed for insurance recovery.",
+              "locator": "No insurance proceeds related to Hurricane Helene"
+            },
+            {
+              "events": [
+                "Helene",
+                "Milton"
+              ],
+              "period": "2024-Q4 and subsequent period(s)",
+              "status": "forecast_unquantified",
+              "finding": "Additional revenue loss and incremental remediation/restoration expenses expected. Insurer receipts expected to cover substantially all associated costs in future periods; no amount or individual event allocation provided.",
+              "locator": "remediation and restoration efforts in the fourth quarter"
+            },
+            {
+              "events": [
+                "Helene"
+              ],
+              "period": "2024-Q3",
+              "status": "reported_qualitative",
+              "finding": "Listed with personnel costs and claim denials among drivers of net loss and Adjusted EBITDA. The movement in total EBITDA is not allocated to this storm.",
+              "locator": "losses resulting from Hurricane Helene"
+            }
+          ]
+        }
+      ],
+      "finding": "One explicit estimate for Helene in Q3 in Exhibit 99.1."
+    },
+    {
+      "accession": "0000950170-24-117088",
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "filing_date": "2024-10-24",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000950170-24-117088-001",
+          "kind": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024117088/cyh-20240930.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "MD&A, Overview of Operating Results; Liquidity and Capital Resources",
+          "qualitative": [
+            {
+              "events": [
+                "Helene",
+                "Milton"
+              ],
+              "period": "late September–October 2024",
+              "status": "reported_qualitative",
+              "finding": "Interruptions and additional costs at certain CHS facilities in Florida, Georgia and Tennessee.",
+              "locator": "facilities in Florida, Georgia and Tennessee"
+            },
+            {
+              "events": [
+                "Helene"
+              ],
+              "period": "2024-Q3",
+              "status": "explicit_none",
+              "finding": "No insurance proceeds received or recognized. The issuer states this in words. No explicit USD amount was printed for insurance recovery.",
+              "locator": "No insurance proceeds related to Hurricane Helene"
+            },
+            {
+              "events": [
+                "Helene",
+                "Milton"
+              ],
+              "period": "2024-Q4 and subsequent period(s)",
+              "status": "forecast_unquantified",
+              "finding": "Additional revenue loss and incremental remediation/restoration expenses expected. Insurer receipts expected to cover substantially all associated costs in future periods; no amount or individual event allocation provided.",
+              "locator": "remediation and restoration efforts in the fourth quarter"
+            },
+            {
+              "events": [
+                "Helene",
+                "Milton"
+              ],
+              "period": "to reporting date and following remediation",
+              "status": "reported_unquantified_and_forecast",
+              "finding": "Repair costs incurred and additional remediation capital expenditures expected. Total unknown. Substantially different amounts given for aggregate corporate capital expenditure do not quantify hurricane-related spending.",
+              "locator": "an estimate of total capital expenditures for such remedial efforts"
+            }
+          ]
+        }
+      ],
+      "finding": "The same Q3 estimate was published again. Costs for future periods remained unquantified."
+    },
+    {
+      "accession": "0000950170-24-130250",
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "filing_date": "2024-11-22",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000950170-24-130250-001",
+          "kind": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024130250/cyh-20241122.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Item 1.01, ShorePoint transaction",
+          "qualitative": [
+            {
+              "events": [
+                "Helene",
+                "Milton"
+              ],
+              "period": "as of the document date",
+              "status": "reported_qualitative",
+              "finding": "Inpatient operations suspended indefinitely at ShorePoint Health Punta Gorda.",
+              "locator": "indefinitely suspended inpatient operations"
+            }
+          ]
+        },
+        {
+          "doc_id": "0000950170-24-130250-003",
+          "kind": "EX-99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024130250/cyh-ex99_1.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "First paragraph, ShorePoint asset sale announcement",
+          "qualitative": [
+            {
+              "events": [
+                "Helene",
+                "Milton"
+              ],
+              "period": "as of the document date",
+              "status": "reported_qualitative",
+              "finding": "Inpatient operations suspended indefinitely at ShorePoint Health Punta Gorda.",
+              "locator": "indefinitely suspended inpatient operations"
+            }
+          ]
+        }
+      ],
+      "finding": "The closure of inpatient operations is explicit. The $265 million relates to the sale of assets."
+    },
+    {
+      "accession": "0000950170-24-131062",
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "filing_date": "2024-11-26",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000950170-24-131062-001",
+          "kind": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024131062/cyh-20241126.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Item 1.02, termination of WoodBridge purchase agreement",
+          "qualitative": []
+        },
+        {
+          "doc_id": "0000950170-24-131062-002",
+          "kind": "EX-99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024131062/cyh-ex99_1.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Commonwealth Health transaction termination and financing",
+          "qualitative": []
+        }
+      ],
+      "finding": "Termination of Pennsylvania hospital sale; no qualifying dollar claim identified."
+    },
+    {
+      "accession": "0000950170-24-135399",
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "filing_date": "2024-12-11",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000950170-24-135399-001",
+          "kind": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024135399/cyh-20241211.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Item 1.01, Lake Norman Regional Medical Center sale",
+          "qualitative": []
+        },
+        {
+          "doc_id": "0000950170-24-135399-003",
+          "kind": "EX-99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024135399/cyh-ex99_1.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Lake Norman sale to Duke University Health System",
+          "qualitative": []
+        }
+      ],
+      "finding": "Sale of Lake Norman for $280 million; no qualifying hurricane dollar claim identified."
+    },
+    {
+      "accession": "0000950170-25-022328",
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "filing_date": "2025-02-18",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000950170-25-022328-001",
+          "kind": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017025022328/cyh-20250218.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Items 2.02 and 7.01 incorporate the earnings release",
+          "qualitative": []
+        },
+        {
+          "doc_id": "0000950170-25-022328-002",
+          "kind": "EX-99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017025022328/cyh-ex99_1.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Fourth quarter and year-end results; severe-weather language in risk list",
+          "qualitative": [
+            {
+              "events": [],
+              "period": "prospective",
+              "status": "generic_risk_only",
+              "finding": "Forward-looking risk language mentions severe weather and uncertainty of insurance recoveries. No issuer-specific hurricane monetary claim was identified.",
+              "locator": "timing and amount of insurance recoveries"
+            }
+          ]
+        }
+      ],
+      "finding": "No qualifying dollar claim identified in the notice or its earnings release; no separate Q4 amount identified."
+    },
+    {
+      "accession": "0000950170-25-023242",
+      "cik": "0001108109",
+      "issuer": "COMMUNITY HEALTH SYSTEMS INC",
+      "filing_date": "2025-02-19",
+      "coverage": "complete_documents_targeted_text_review",
+      "documents": [
+        {
+          "doc_id": "0000950170-25-023242-001",
+          "kind": "10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017025023242/cyh-20241231.htm",
+          "coverage": "complete_document_targeted_text_review",
+          "locator": "Risk Factors, Demand for services; MD&A divestitures; Note on divestitures",
+          "qualitative": [
+            {
+              "events": [
+                "Helene",
+                "Milton"
+              ],
+              "period": "late September–October 2024",
+              "status": "reported_qualitative",
+              "finding": "Interruptions and additional costs at certain CHS facilities in Florida, Georgia and Tennessee.",
+              "locator": "facilities in Florida, Georgia and Tennessee"
+            },
+            {
+              "events": [
+                "Helene",
+                "Milton"
+              ],
+              "period": "as of the document date",
+              "status": "reported_qualitative",
+              "finding": "Inpatient operations suspended indefinitely at ShorePoint Health Punta Gorda.",
+              "locator": "indefinitely suspended inpatient operations"
+            }
+          ]
+        }
+      ],
+      "finding": "Business interruption, extra costs and a suspended facility are described. No explicit event-specific dollar amount identified."
+    }
+  ],
+  "claims": [
+    {
+      "id": "chs-q3-helene-1",
+      "fact_group": "chs-helene-2024q3-pretax-revenue-loss-and-response-expenses-estimate",
+      "accession": "0000950170-24-116674",
+      "doc_id": "0000950170-24-116674-002",
+      "events": [
+        "Helene"
+      ],
+      "metric": "additional expenses and lost revenues combined",
+      "reported_metric": "estimated loss of operating revenues together with incremental expenses directly related to hurricane response",
+      "status": "past_period_estimate",
+      "period": "2024-Q3",
+      "period_start": "2024-07-01",
+      "period_end": "2024-09-30",
+      "entity": "Community Health Systems, Inc.",
+      "scope": "issuer-reported combined consequence; affected facilities",
+      "basis": "pre-tax",
+      "direction": "adverse_magnitude",
+      "value_usd": 7000000,
+      "raw": "$7 million",
+      "approximate": true,
+      "locator": "Page 3, Other, hurricane impacts paragraph",
+      "anchor": "hurricane response efforts of approximately $7 million on a pre-tax basis",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024116674/cyh-ex99_1.htm"
+    },
+    {
+      "id": "chs-q3-helene-2",
+      "fact_group": "chs-helene-2024q3-pretax-revenue-loss-and-response-expenses-estimate",
+      "accession": "0000950170-24-117088",
+      "doc_id": "0000950170-24-117088-001",
+      "events": [
+        "Helene"
+      ],
+      "metric": "additional expenses and lost revenues combined",
+      "reported_metric": "estimated loss of operating revenues together with incremental expenses directly related to hurricane response",
+      "status": "past_period_estimate",
+      "period": "2024-Q3",
+      "period_start": "2024-07-01",
+      "period_end": "2024-09-30",
+      "entity": "Community Health Systems, Inc.",
+      "scope": "issuer-reported combined consequence; affected facilities",
+      "basis": "pre-tax",
+      "direction": "adverse_magnitude",
+      "value_usd": 7000000,
+      "raw": "$7 million",
+      "approximate": true,
+      "locator": "MD&A, Overview of Operating Results; Liquidity and Capital Resources",
+      "anchor": "hurricane response efforts of approximately $7 million on a pre-tax basis",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024117088/cyh-20240930.htm"
+    }
+  ],
+  "context_outside_scoring": [
+    {
+      "accession": "0000950170-24-130250",
+      "kind": "EX-2.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024130250/cyh-ex2_1.htm",
+      "locator": "Recital B",
+      "finding": "Spot-check confirms inpatient suspension in Punta Gorda; the legal agreement is outside the primary/EX-99.1 source universe."
+    }
+  ]
+}

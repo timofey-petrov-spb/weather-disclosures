@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hurricane disclosures | Evidence explorer</title>
+<style>
+:root{color-scheme:light;--ink:#163336;--dim:#4b6566;--line:#c7d5cf;--accent:#146d64}
+*{box-sizing:border-box}body{background:#f7f7f1;color:var(--ink);margin:0;font:16px/1.5 system-ui,sans-serif}
+main{max-width:1050px;margin:auto;padding:48px 30px}header{border-top:5px solid var(--accent);padding:24px 0 12px}
+h1{font:normal clamp(38px,6vw,68px)/1.04 Georgia,serif;letter-spacing:-.045em;margin:9px 0 16px}
+p{max-width:790px;margin:8px 0}header p{font-size:18px;color:var(--dim)}
+form{display:flex;flex-wrap:wrap;gap:16px 28px;margin:26px 0 20px;padding:21px 0;border-block:1px solid var(--line)}
+label{display:grid;gap:5px;font-size:14px;font-weight:650}select{color:var(--ink);background:white;font:inherit;min-width:180px;padding:8px 25px 8px 10px;border:1px solid #849f97;border-radius:4px}
+.note{background:#e4eee8;padding:14px 17px;border-left:3px solid var(--accent);max-width:none;margin-bottom:20px}
+#count{color:var(--dim);font-size:14px}.card{border-top:1px solid var(--line);padding:18px 0;display:grid;grid-template-columns:160px 1fr;gap:2px 20px}.value{font:normal 29px/1.15 Georgia,serif;margin:3px 0}
+.stamp,.detail,footer{color:var(--dim);font-size:14px}h2{font:normal 21px/1.22 Georgia,serif;margin:0 0 5px}
+.evidence{margin-top:8px}.evidence a{color:var(--accent);text-underline-offset:3px;font-size:14px}.linknote{color:#82441e;font-weight:600}
+footer{border-top:1px solid var(--line);padding-top:15px;margin-top:26px}button,select,a{outline-offset:4px}
+@media(max-width:590px){main{padding:22px 15px}.card{grid-template-columns:1fr}.card>div+div{margin-top:8px}form{gap:12px}h1{margin-top:5px}select{min-width:130px}}
+</style></head><body><main>
+<header><h1>Hurricane disclosures</h1><p>What had a company disclosed by a given date? Follow an estimate back to its filing and see when a later statement changed its meaning.</p></header>
+<form><label>Company<select id="issuer"></select></label><label>Information available through<select id="date"></select></label></form>
+<p class="note" id="insight"></p><p id="count" role="status"></p><section id="list" aria-label="Disclosed impacts"></section>
+<footer>Dates use SEC acceptance in UTC as a proxy for public availability. Values are reported in US dollars. The explorer shows selected, AI-reviewed examples. Automatic extraction results and source coverage are reported separately in the case study.</footer></main>
+<script type="application/json" id="records">[{"id": "chs-q3-helene-1", "issuer": "COMMUNITY HEALTH SYSTEMS INC", "event": "Helene", "time": "2024-10-23T20:30:13Z", "period": "2024-Q3", "status": "past_period_estimate", "metric": "additional expenses and lost revenues combined", "basis": "Page 3, Other, hurricane impacts paragraph", "affected": "COMMUNITY HEALTH SYSTEMS INC", "value": [7.0, 7.0], "relations": [], "source": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024116674/cyh-ex99_1.htm", "accession": "0000950170-24-116674", "kind": "Evaluation reference", "group": "chs-helene-2024q3-pretax-revenue-loss-and-response-expenses-estimate"}, {"id": "chs-q3-helene-2", "issuer": "COMMUNITY HEALTH SYSTEMS INC", "event": "Helene", "time": "2024-10-24T20:34:58Z", "period": "2024-Q3", "status": "past_period_estimate", "metric": "additional expenses and lost revenues combined", "basis": "MD&A, Overview of Operating Results; Liquidity and Capital Resources", "affected": "COMMUNITY HEALTH SYSTEMS INC", "value": [7.0, 7.0], "relations": [], "source": "https://www.sec.gov/Archives/edgar/data/1108109/000095017024117088/cyh-20240930.htm", "accession": "0000950170-24-117088", "kind": "Evaluation reference", "group": "chs-helene-2024q3-pretax-revenue-loss-and-response-expenses-estimate"}, {"id": "HCA-Q3", "issuer": "HCA Healthcare", "event": "Helene", "time": "2024-10-31T20:30:23Z", "period": "2024 Q3", "status": "past_period_estimate", "metric": "additional expenses and lost revenues combined", "basis": "before potential insurance recoveries", "affected": "HCA Healthcare", "value": [50, 50], "relations": [], "source": "https://www.sec.gov/Archives/edgar/data/860730/000095017024119581/hca-20240930.htm", "accession": "0000950170-24-119581", "kind": "Development example", "group": null}, {"id": "HCA-Q4-FORECAST", "issuer": "HCA Healthcare", "event": "Helene + Milton", "time": "2024-10-31T20:30:23Z", "period": "2024 Q4", "status": "forecast", "metric": "additional expenses and lost revenues combined", "basis": "before potential insurance recoveries", "affected": "HCA Healthcare", "value": [200, 300], "relations": [], "source": "https://www.sec.gov/Archives/edgar/data/860730/000095017024119581/hca-20240930.htm", "accession": "0000950170-24-119581", "kind": "Development example", "group": null}, {"id": "ICU-THIRD-PARTY", "issuer": "ICU Medical", "event": "Helene", "time": "2024-11-12T22:01:30Z", "period": "September 2024", "status": "observed_qualitative", "metric": "damage to North Cove manufacturing facility", "basis": "competitor's site", "affected": "Baxter International", "value": null, "relations": [], "source": "https://www.sec.gov/Archives/edgar/data/883984/000088398424000042/icui-20240930.htm", "accession": "0000883984-24-000042", "kind": "Development example", "group": null}, {"id": "HCA-FY", "issuer": "HCA Healthcare", "event": "Helene + Milton", "time": "2025-01-24T12:40:45Z", "period": "2024 FY", "status": "past_period_estimate", "metric": "additional expenses and lost revenues combined", "basis": "before potential insurance recoveries", "affected": "HCA Healthcare", "value": [250, 250], "relations": [{"type": "includes_period_of", "target": "HCA-Q4-ESTIMATE"}, {"type": "includes_period_of", "target": "HCA-Q3"}], "source": "https://www.sec.gov/Archives/edgar/data/860730/000095017025008608/hca-ex99_1.htm", "accession": "0000950170-25-008608", "kind": "Development example", "group": null}, {"id": "HCA-Q4-ESTIMATE", "issuer": "HCA Healthcare", "event": "Helene + Milton", "time": "2025-01-24T12:40:45Z", "period": "2024 Q4", "status": "past_period_estimate", "metric": "additional expenses and lost revenues combined", "basis": "before potential insurance recoveries", "affected": "HCA Healthcare", "value": [200, 200], "relations": [{"type": "updates", "target": "HCA-Q4-FORECAST"}], "source": "https://www.sec.gov/Archives/edgar/data/860730/000095017025008608/hca-ex99_1.htm", "accession": "0000950170-25-008608", "kind": "Development example", "group": null}, {"id": "BAXTER-NET", "issuer": "Baxter International", "event": "Helene", "time": "2025-02-21T22:15:03Z", "period": "2024 FY", "status": "recorded", "metric": "net pre-tax charges", "basis": "net of insurance recoveries", "affected": "Baxter International", "value": [110, 110], "relations": [], "source": "https://www.sec.gov/Archives/edgar/data/10456/000162828025007201/bax-20241231.htm", "accession": "0001628280-25-007201", "kind": "Development example", "group": null}, {"id": "BAXTER-SALES", "issuer": "Baxter International", "event": "Helene", "time": "2025-02-21T22:15:03Z", "period": "2024 FY", "status": "past_period_estimate", "metric": "adverse sales impact", "basis": "segment sales", "affected": "Infusion Therapies & Technologies", "value": [110, 110], "relations": [], "source": "https://www.sec.gov/Archives/edgar/data/10456/000162828025007201/bax-20241231.htm", "accession": "0001628280-25-007201", "kind": "Development example", "group": null}]</script>
+<script>
+const records=JSON.parse(document.querySelector('#records').textContent);
+const issuer=document.querySelector('#issuer'), date=document.querySelector('#date');
+const list=document.querySelector('#list'), insight=document.querySelector('#insight');
+const usd=new Intl.NumberFormat('en-US',{maximumFractionDigits:3});
+function option(el,value,label){el.add(new Option(label,value))}
+const companies=[...new Set(records.map(r=>r.issuer))].sort();
+option(issuer,'*','All companies');for(const name of companies){option(issuer,name,name)}
+const dates=[...new Set(['2024-09-01',...records.map(r=>r.time.slice(0,10))])].sort();
+for(const d of dates){option(date,d,d+' · end of day UTC')}
+issuer.value='HCA Healthcare';date.value='2025-01-24';
+function node(tag,text,cls){const el=document.createElement(tag);el.textContent=text;if(cls)el.className=cls;return el}
+function money(r){if(!r.value)return 'Unquantified';const [a,b]=r.value;return '$'+usd.format(a)+(a===b?'':'–'+usd.format(b))+'m'}
+function render(){
+ const shown=records.filter(r=>(issuer.value==='*'||issuer.value===r.issuer)&&r.time.slice(0,10)<=date.value);
+ const ids=new Map(shown.map(r=>[r.id,r]));
+ const has=(id)=>ids.has(id);
+ if(issuer.value==='HCA Healthcare' && has('HCA-FY'))insight.textContent='The $250m full-year estimate includes the $200m fourth-quarter estimate. Both cover Helene and Milton together.';
+ else if(issuer.value==='HCA Healthcare' && has('HCA-Q4-FORECAST'))insight.textContent='HCA has disclosed a fourth-quarter forecast covering two hurricanes. The quarter was still in progress.';
+ else if(issuer.value==='Baxter International'&&has('BAXTER-SALES')&&has('BAXTER-NET'))insight.textContent='The two $110m figures describe different measures: an adverse segment sales impact and net pre-tax charges.';
+ else insight.textContent='Each entry records the company’s wording and its reporting period. An empty selection means this sample contains no entry for the chosen company and cutoff.';
+ document.querySelector('#count').textContent=shown.length+' source-backed '+(shown.length===1?'entry':'entries');
+ list.replaceChildren();
+ for(const r of [...shown].sort((a,b)=>b.time.localeCompare(a.time))){
+  const card=node('article','','card'), left=node('div',''), right=node('div','');
+  left.append(node('div',r.time.slice(0,10),'stamp'),node('div',money(r),'value'),node('div',r.period,'detail'));
+  right.append(node('h2',r.metric.slice(0,1).toUpperCase()+r.metric.slice(1)),node('div',r.issuer+' · '+r.event,'detail'));
+  right.append(node('div',r.status.replaceAll('_',' ')+' · '+r.basis,'detail'));
+  if(r.affected!==r.issuer)right.append(node('div','Affected entity: '+r.affected,'detail'));
+  for(const rel of r.relations){const dest=ids.get(rel.target);if(dest)right.append(node('div',(rel.type==='updates'?'Revises the forecast of ':'Includes the period of ')+dest.period+' ('+money(dest)+').','detail linknote'))}
+  if(r.group && shown.some(other=>other.id!==r.id&&other.group===r.group))right.append(node('div','The same estimate appears in another source shown here.','detail linknote'));
+  const links=node('div','','evidence'),a=node('a','Open SEC filing ↗');a.href=r.source;a.target='_blank';a.rel='noopener noreferrer';
+  links.append(a,node('span','  ·  '+r.kind,'detail'));right.append(links);card.append(left,right);list.append(card);
+ }
+}
+issuer.addEventListener('change',render);date.addEventListener('change',render);render();
+</script></body></html>
