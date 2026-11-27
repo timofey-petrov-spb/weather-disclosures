@@ -1,0 +1,20 @@
+{
+  "registered_utc": "2026-11-27T16:48:23.968639+00:00",
+  "purpose": "Conditional prospective transfer of frozen extraction rules to previously unexamined insurers reporting their own explicitly allocated hurricane amounts in genuine financial tables. No claim about all filings or all issuers.",
+  "priority": [
+    "PXRE Group Ltd. (later Argo Group)",
+    "Quanta Capital Holdings Ltd.",
+    "Allied World Assurance Company Holdings Ltd. (Fairfax family)",
+    "W. R. Berkley Corporation",
+    "EMC Insurance Group Inc.",
+    "Horace Mann Educators Corporation",
+    "Mercury General Corporation",
+    "Donegal Group Inc.",
+    "Assured Guaranty Ltd."
+  ],
+  "independence": "Exclude all issuer families with primary or supplemental sources actually assessed in prior evaluations, related parents or successors known from earlier work, and the complete earlier 2022 supplemental roster. An unused fallback name in a protocol alone is not a previously screened source. No prior research/SEC inventory contains a tested source for the current roster. Keep only one filing per distinct family. Do not use Endurance, Montpelier, Transatlantic, Platinum, Validus or Flagstone, to avoid overlap through ownership with prior firms.",
+  "order": "Stop at the first three distinct eligible issuers in the registered order. For each examine original SEC FY2005 10-K/20-F for Katrina, Rita, Wilma (storm priority in that order), then if no original FY2005 annual filing exists use the first final U.S. IPO prospectus filed in 2006 containing the full FY2005 accounts, then FY2006 10-K/20-F for the same storms. If still ineligible, try FY2017 10-K/20-F (Harvey, Irma, Maria), FY2012 (Sandy), FY2008 (Ike, Gustav), and FY2022 (Ian), in that order. If an issuer ceased independent reporting, skip unavailable periods. Include an incorporated HTML annual report exhibit only when the primary delegates the relevant financial statements to it. For each filing scan tables in document order, pick first table with qualifying event-specific monetary facts; if multiple named storms in that table select the first *eligible* storm in that period priority. No predictions or method-based selection. Identify checked forms, unavailable forms, skipped years and stopping point.",
+  "table_eligibility": "A genuine financial table has separate amount cells, a printed table row, column, or unique adjoining governing text that unambiguously attributes a company-specific amount to the named event (not layout prose). Count every explicitly reported USD-valued economic fact in that selected table for the target, including event loss, subsidiary/component amounts, income impact, reserves or revisions, even if negative. Require verifiable USD scale and entity; no guessed allocation. Exclude catastrophe groups, industry totals, unrelated event/year, per-share amounts, rates and dash-only cells. Preserve basis, period, gross/net and deductible distinctions, signs and original precision. Collapse genuinely duplicate renderings within that table only.",
+  "scoring": "Compare frozen v8 and v9 on identical full primary HTML, input and event. Evaluate unique signed and unsigned reference coverage, numeric-only matches vs financial-measure and fully qualified records, unsupported proposals, duplicates and review rows per selected table. Isolate other full-filing outputs for separate review without full-filing recall. Publish sources, coordinates and near misses.",
+  "blinding": "Source collectors and independent second reader seal agreement before either model runs on selected filings. No sharing new source identities with method developer before freeze."
+}

@@ -1,0 +1,7 @@
+[
+  {"id":"premium_revision","doc":"PR05","table":36,"row":6,"description":"Raise earned premiums from 54 to 71 and update the net income impact from (511) to (494).","expected_signed_usd":[-563000000,-2000000,71000000,-494000000]},
+  {"id":"caption_scale","doc":"PR05","table":36,"row":6,"description":"Express only the target table in thousands of U.S. dollars in its governing caption.","expected_signed_usd":[-563000,-2000,54000,-511000]},
+  {"id":"premium_sign","doc":"XL05","table":31,"row":11,"description":"Turn the negative Insurance premium contribution into a positive one, keeping the original separate sign-cell structure and updating the consolidated amount.","expected_signed_usd":[74600000,16300000,23600000,114500000]},
+  {"id":"different_year","doc":"AS05","table":185,"row":5,"description":"Raise the California brush fire amount in the 2003 block. Keep Katrina's 2005 value unchanged.","expected_signed_usd":[427500000]},
+  {"id":"other_event","doc":"AS05","table":185,"row":5,"description":"Replace Katrina in the 2005 event cell with another named hurricane. Continue to query Katrina.","expected_signed_usd":[]}
+]
