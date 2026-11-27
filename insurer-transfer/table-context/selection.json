@@ -1,0 +1,128 @@
+{
+  "registered_utc": "2026-11-27T17:58:49.016987+00:00",
+  "target": "Issuer-transfer stress test conditional on an eligible financial table. Select the first three eligible independent families in the order below. Never select by method output. Retain all failures and disqualifications; report denominator and reporting periods. Source inspection may proceed concurrently in registered order; a prefetched lower-priority case never displaces an eligible earlier one.",
+  "eligibility": "First genuine financial table in primary-document order (or a substantive HTML EX-13 where the 10-K expressly incorporates the annual report). Require at least one issuer-specific USD amount in a separate monetary cell, with a unique attribution to one of the specified storms in a row, column, caption, preceding governing paragraph or footnote. Tables of independent occurrences, losses, adjustments, event-specific premiums, outstanding reserves or restrictions qualify. Exclude layout prose/bullets, ownership unrelated to the issuer, industry totals, limits/capacity unconnected with actual event, undivided multi-storm buckets, ratios, counts, shares, non-USD and non-monetary facts. In the first eligible table choose the first eligible storm in the stated storm priority. Collect EVERY explicit, attributable monetary fact for the named storm, including comparable periods/revisions/gross/net/segment amounts and displayed negatives/zero. Preserve signs, scale and original resolution. Separately identify repeated renderings of the exact same fact and components vs totals.",
+  "family_exclusion": "Review earlier source inventories and full supplemental 2022 candidate list, recognized parents, successors and common-control companies. The unused low-priority reserve list in the v9 protocol was not examined. Reject any family with an earlier examined filing. We do not treat a purchase of a portfolio of policies as a merger of two issuers, but will choose at most one of Slide and FedNat to avoid even an asset-transfer overlap.",
+  "periods": {
+    "IPO23": "first final common-share 2023 IPO prospectus reporting completed FY2022; target Ian, Fiona, Ida, Laura, Dorian, Michael, Irma, Harvey, Maria, Jebi, Hagibis, Faxai in that order if actually attributable in the table",
+    "IPO25": "first final common-share 2025 IPO prospectus reporting completed FY2024; target Milton, Helene, Debby, Ian, Idalia, Nicole, Michael, Irma in that order",
+    "24": "FY2024 original 10-K/20-F for Milton, Helene, Debby, Beryl",
+    "22": "FY2022 original 10-K/20-F for Ian, Fiona, Nicole",
+    "21": "FY2021 original 10-K/20-F for Ida",
+    "19": "FY2019 original 10-K/20-F for Dorian, Hagibis, Faxai",
+    "18": "FY2018 original 10-K/20-F for Michael, Florence, Jebi",
+    "17": "FY2017 original 10-K/20-F for Irma, Harvey, Maria",
+    "12": "FY2012 original 10-K/20-F for Sandy",
+    "08": "FY2008 original 10-K/20-F for Ike, Gustav",
+    "05": "FY2005 original 10-K/20-F for Katrina, Rita, Wilma, Dennis",
+    "04": "FY2004 original 10-K/20-F for Charley, Frances, Ivan, Jeanne"
+  },
+  "order": [
+    [
+      "Hamilton Insurance Group",
+      [
+        "IPO23",
+        "24"
+      ]
+    ],
+    [
+      "Federated National / 21st Century Holding Company / FedNat",
+      [
+        "17",
+        "05",
+        "04",
+        "18",
+        "19"
+      ]
+    ],
+    [
+      "Greenlight Capital Re",
+      [
+        "22",
+        "17",
+        "18",
+        "19",
+        "21",
+        "24"
+      ]
+    ],
+    [
+      "Fidelis Insurance Holdings",
+      [
+        "IPO23",
+        "24"
+      ]
+    ],
+    [
+      "American Integrity Insurance Group",
+      [
+        "IPO25",
+        "24"
+      ]
+    ],
+    [
+      "Slide Insurance Holdings",
+      [
+        "IPO25",
+        "24"
+      ]
+    ],
+    [
+      "NYMAGIC / New York Marine",
+      [
+        "05",
+        "08",
+        "04"
+      ]
+    ],
+    [
+      "Maiden Holdings",
+      [
+        "17",
+        "12",
+        "18",
+        "19",
+        "22"
+      ]
+    ],
+    [
+      "Kinsale Capital Group",
+      [
+        "22",
+        "24",
+        "17",
+        "18"
+      ]
+    ],
+    [
+      "Safety Insurance Group",
+      [
+        "12",
+        "17",
+        "05",
+        "22"
+      ]
+    ],
+    [
+      "American National Group / American National Insurance Company",
+      [
+        "17",
+        "05",
+        "08",
+        "18",
+        "21"
+      ]
+    ],
+    [
+      "Hallmark Financial Services",
+      [
+        "17",
+        "05",
+        "18",
+        "22"
+      ]
+    ]
+  ],
+  "reserve": "If primary yields fewer than three, screen the same remaining issuer order and period priorities for original Q3 10-Q/6-K in each calendar year listed numerically above, followed by original Q4/FY completed-earnings release (8-K/6-K EX-99 in attachment order); then Q3 completed-earnings release. If still no three, report the observed denominator. Use the same fact eligibility in every stratum.",
+  "independence": "Use only SEC accession indexes, filings and exhibits. Each selected primary HTML body must match indexed byte size and be SHA256 pinned. Register labels and HTML table coordinates after two separate source readings before either prior or revised reader is run on these documents. Do not send any candidate identity or table to the method developer until freeze. All disclosures from outside selected tables are separate from selected-table recall."
+}
