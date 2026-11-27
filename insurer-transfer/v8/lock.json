@@ -1,0 +1,64 @@
+{
+  "freeze_utc": "2026-11-27T16:37:33.596055+00:00",
+  "implementation": {
+    "v6/extract.py": "b4e8686a9733c7fd97577d90f9d20c0c84038c24148ae76a69199e942543f20e",
+    "v5/extract.py": "e6c774ea8894f962ab3e863388e2ecff9261895c6cced4b82f7b5d6bc21d4b0c",
+    "v4/extract.py": "8691f90f08724ab5a312aa43aff5a3b82885dc5856470cae36ad1506d9c0c383",
+    "v4/source_reader.py": "6dabdd91eebc3e1b5925f304f7e98a1d86f144d45ac79a238327aaa7275eb0b5",
+    "xbrl_units.py": "1f59a71ca3facd12ec25049b4cc8dea1c3231ddd8fd19b193942b3c6e8544353",
+    "extractor_v3.py": "d95fb23188e6e73b46d1c36bd3b63fa1819e75555ded5634f7f575504a144bc2",
+    "v7/extract.py": "ad3f2984a11fcde582c4c5221a70c9eac3b3253b24c11181fa0badc25eaefafd",
+    "v7/tables.py": "3d234f1089040eb401e2d245d6e053b2f9f8232d2ffd1d3109d54ef747b5e736",
+    "v8/extract.py": "fec8ff1c178f9a829ec00a25b8d54942297e162a8df5fe55892d32a3edefbee5"
+  },
+  "implementation_fingerprint": "0de156edcaf44dea064183897b27a7842c3921c666c4653e88d33fb87295e027",
+  "fingerprint_recipe": "SHA-256 of sorted, compact JSON of implementation encoded as UTF-8.",
+  "tests_sha256": "ce724f0b3ee5881241282b177d16273496c5e3569354cb5f9a34d98ae73c03e2",
+  "development": {
+    "travelers": {
+      "outputs_sha256": "ee32a022a26971bdfc6dccb09cdb52490d04c3aa97f022192308ed2ef4bacfc3",
+      "records": 4
+    },
+    "renaissance": {
+      "outputs_sha256": "5688942eb384d67c5e6a4122d5acc1b4d1403fb3972fe791e134c835a4264aed",
+      "records": 18
+    },
+    "chubb": {
+      "outputs_sha256": "c76f4fda5d418b10fe09e53f11232f17e83682a0e5265989cd4888abdcbf02d5",
+      "records": 2
+    },
+    "elliott": {
+      "outputs_sha256": "d2a724d6d99e5e05b8cd9f48171d6775163716d9c2b35c0cb15a29994dea9b39",
+      "records": 1
+    },
+    "allstate": {
+      "outputs_sha256": "1f7cc8be6c7940d35508eaf3fc4d86edf9bf76f901fee3489744d8d9530bbabb",
+      "records": 5
+    },
+    "hci": {
+      "outputs_sha256": "f0e67810b6ac8e9d494d33300a094127ec48f231f676035f4568011c6334f951",
+      "records": 23
+    },
+    "michael": {
+      "outputs_sha256": "d511f8908a98024069eac3cfe482193fc6f4ab85e949c7027d9ed31681c20a7c",
+      "records": 6
+    },
+    "irma": {
+      "outputs_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "records": 0
+    },
+    "CIQ": {
+      "outputs_sha256": "4bc635def375bc7b79574bb228d6da840cbf661dcd9702e279af6cfc11af43c7",
+      "records": 4
+    },
+    "PLQ": {
+      "outputs_sha256": "3c568bf9695a058324b26d06f97ff92ea20a61358ebcdffacd179e5b6b48d783",
+      "records": 2
+    }
+  },
+  "development_findings": "The two targeted tables returned four unique Cincinnati facts and one Palomar fact. An additional Palomar narrative record is a reinsurance expense. All eight v7 comparison output arrays match on the prior development controls.",
+  "tests": "Seven v8 tests passed, including the complete development filings and adverse context variants. Eight v7 tests passed.",
+  "scope": "Only the previously evaluated Cincinnati and Palomar SEC filings, original earlier development controls and fabricated variants were used in preparing the new reader. No new test issuer identity, selection, source filing, target count or prediction was accessed by the developer.",
+  "runtime": "Python 3.10+ standard library",
+  "cli": "python v8/extract.py INPUTS.jsonl PRIMARY_DIRECTORY OUTPUT.json [--event NAME]"
+}

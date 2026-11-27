@@ -1,0 +1,19 @@
+{
+  "registered_utc": "2026-11-27T16:32:45.066680+00:00",
+  "purpose": "Prospective issuer-transfer diagnostic on actual hurricane tables, conditional on such a table existing. Deliberately include different named storms and older filing layouts. Results cannot estimate detection rates across unselected filings.",
+  "exclusion": "All previously assessed or screened issuers in the Ida, HCI/Allstate/Chubb and four-insurer inventories and full v7 supplemental candidate list (including Selective and United Fire), as well as AIG, Markel and other known common-control predecessors or subsidiaries. One family per panel slot. New historical filers should be named on their own filings.",
+  "roster": [
+    "PartnerRe Ltd.",
+    "XL Capital Ltd. / XL Group",
+    "Aspen Insurance Holdings Ltd.",
+    "Allied World Assurance Company Holdings",
+    "Transatlantic Holdings Inc.",
+    "W. R. Berkley Corporation",
+    "Endurance Specialty Holdings Ltd. (exclude if Aspen already selected, common successor family)",
+    "Hanover Insurance International is ineligible; reserve candidate Horace Mann Educators Corporation"
+  ],
+  "order": "For each issuer in the stated order, inspect first the original FY2005 annual report on Form 10-K/20-F/40-F for Katrina, Rita and Wilma; if absent/no eligible table, original FY2017 annual report for Harvey, Irma and Maria; then FY2012 for Sandy; then FY2008 for Ike/Gustav; then FY2022 for Ian. If a company ceased independent filing, move on. Use original primary HTML, or an HTML annual report exhibit explicitly incorporated by reference when the primary filing delegates the financial tables there. For each issuer choose the first qualifying HTML table in filing order, and the first storm in that period's preceding priority list with an individually allocated company amount in that table. Stop after three distinct issuer families. Log every investigated form even if ineligible and exclude all period/industry/mixed totals without specific allocation.",
+  "eligibility": "A real table has an event row or column or a caption/note allocating the cell uniquely to the chosen storm and period. A dollar value must physically appear in a separate data cell. Require established USD and units, company/segment amounts only. No inferred dollar amounts, industry estimates, market indices, percentages, per-share impacts, number of claims, reinsurer capacity or premium volume without a specific event effect. Count every explicitly attributable USD economic measure for that storm in the selected table, including gross, net, reserves, and separate P&L components, under each source reporting window. Negative adjustments count with source signs. Identical repeats in precisely the same scope/meaning/window count once. Count zero only as explicit printed quantitative zero, exclude dash/blank. Broad combined storm groups never qualify. A prose paragraph placed in a layout table is ineligible.",
+  "scoring": "Per issuer score v7 and frozen v8 on same complete filing/event input. Exact absolute amount paired with matching chosen event, entity/metric and same monetary source assertion for one-to-one unique linkage. Separate signed source (source expense magnitude convention) and fully correct field+evidence checks (window, actual/estimate, measure, company or segment, gross/net, tax if stated, citation connecting event, dollar scale and amount). Look for errors within selected table, record outputs from outside separately as unscored, and report precision/concordance denominators. No projection from this conditional small historical sample to all insurers.",
+  "blinding": "Register selection before inspecting candidate sources, keep new names/material away from method development, independently cross-read the original tables and freeze reference plus SHA before either version runs on them. No dropping hard tables or changing extractor after running."
+}

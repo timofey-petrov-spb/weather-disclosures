@@ -1,0 +1,14 @@
+{
+  "sealed_utc": "2026-11-27T16:41:06.069073+00:00",
+  "note": "Independent source review, source inputs and both protocols are recorded before running either model on the three test issuers. The source collector independently reconciles the final reference before inference. Amounts refer to the first qualifying named-storm table in each selected filing.",
+  "files": {
+    "independent-reference.json": "0bbf7de656dc90a38bfdfc93ec762164cc84bcdd7ebf42efff0ca9004e092d32"
+  },
+  "selection": "8b71afa04846c7395b2cca8478687139f67ce65e99891be82719822fe5079e15",
+  "scoring": "e66fd954b73c8ccc0c04cd10c348bd64511b69ec5ab40f2cc334389b9dd28fbb",
+  "source_inputs": {
+    "PR05": "9a256cdf46355f1a06c562597950daed12c0752df1a4419499fddc28a3bab8e0",
+    "XL05": "78de109ed1cad14345049a22ee480a1221c4894d6bca961474e1782c6dbe7b32",
+    "AS05": "f33d69065a7c788cf4e17a27619850b9f611866baa9344b46d47c21259c65554"
+  }
+}

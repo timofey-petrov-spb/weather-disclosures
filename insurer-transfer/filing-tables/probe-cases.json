@@ -1,0 +1,11 @@
+{
+  "purpose": "Controlled changes to copies of the two development filings. Expected signed amounts refer only to the selected table row. Two quarter/YTD mentions of one measure count once. No changed text is a real insurer disclosure.",
+  "cases": [
+    {"id":"regional_event","doc":"CIQ","row":"CIQ-P00952","edit":"Change South (Ian) to South (Eloise). Keep the query Ian.","expected_signed_usd":[]},
+    {"id":"commercial_and_total","doc":"CIQ","row":"CIQ-P00952","edit":"In both quarter and YTD columns change commercial 26 to 39 and consolidated 220 to 233. Other businesses and the event label are unchanged.","expected_signed_usd":[39000000,51000000,143000000,233000000]},
+    {"id":"other_storm","doc":"PLQ","row":"PLQ-P00724","edit":"Name Hurricane Eloise instead of Ian in the below-table attribution. Keep the query Ian.","expected_signed_usd":[]},
+    {"id":"mixed_storms","doc":"PLQ","row":"PLQ-P00724","edit":"Have the same note attribute the total to both Ian and Fiona with no split.","expected_signed_usd":[]},
+    {"id":"partly_attributed","doc":"PLQ","row":"PLQ-P00724","edit":"State that Ian accounts for only part of the catastrophe losses, without a disclosed amount.","expected_signed_usd":[]},
+    {"id":"wrong_year","doc":"PLQ","row":"PLQ-P00724","edit":"Change the current note's reporting year to 2020, a year absent from the table.","expected_signed_usd":[]}
+  ]
+}
