@@ -1,0 +1,15 @@
+{
+  "sealed_utc": "2026-11-27T17:03:44.112053+00:00",
+  "method_commit": "b73ed79320adc5986bfa4a00dfeea38d858b3d9f",
+  "selection_protocol_sha256": "ca7310a37972ffa551f7c21b2159fd52a437a69daad52e3452fe6b136035fd87",
+  "reserve_protocol_sha256": "65b197aa67a565f9d240079b8812f7014067291056a7c7f5e2052fc73db594a5",
+  "scoring_protocol_sha256": "87cb4b2f48739c059b1a4567fd12a99b9690ec4a05723149df42fb5ae8902751",
+  "source_reference_sha256": "19b1f2ef048a07558e647ab8fccae73f5a60e4047c33b9d40b6e0dc0a0537267",
+  "independent_reference_sha256": "a503c50f8fbd726c7567ea1570cf250aaa0d0fdf51ec65e8cfc4e28221ade2dd",
+  "screen_sha256": "44a3fb94f27ce1f44faf65c88b01c20960e1e987b324982cca7d31b6b3b30585",
+  "source_input_sha256": {
+    "PX05": "29ecb001afd5dbfc9adb08b7c844a9aabd35ee26ab7ec53a2b54a6ad1e2dc75d",
+    "CV05": "f4b1be5f45ede1bd06f9d6940f49ffe5e03dd4c8f0f25442cb9db4f9910ff092",
+    "PH05": "85bcae1885faa62def553a9b8060f600b2ec21347d021c53c437cd54e31bc95f"
+  }
+}

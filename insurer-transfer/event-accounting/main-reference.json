@@ -1,0 +1,109 @@
+{
+  "sealed_utc": "2026-11-27T17:02:07.528016+00:00",
+  "selection_sha256": "ca7310a37972ffa551f7c21b2159fd52a437a69daad52e3452fe6b136035fd87",
+  "scoring_protocol_sha256": "87cb4b2f48739c059b1a4567fd12a99b9690ec4a05723149df42fb5ae8902751",
+  "roster_sha256": "0bba4afa647f8c051ec0573ee3eb080fc29741afc90b967a3068139959c2ad7b",
+  "screen_sha256": "8e66c4eb0fdae0093d38b66578dd2d6a355a41b10a016a8ef4bb1d10d614aa35",
+  "scope": "All monetary facts allocated to Hurricane Katrina in the first qualifying table of the primary registered stratum. Any other full-filing outputs require separate review.",
+  "independent_concordance": "Two separate readings of original HTML agreed on both signed amounts, economic meanings, column assignments and the table's scope before model execution.",
+  "coordinates": "One-based source HTML table, direct row and physical td/th ordinal in that row; separator and dollar-sign cells count.",
+  "claims": [
+    {
+      "id": "PX05-gross",
+      "claim_id": "PX05-gross",
+      "doc_id": "PX05",
+      "event": "Hurricane Katrina",
+      "owner": "PXRE Group Ltd. consolidated",
+      "measure": "Gross incurred loss",
+      "signed_low_usd": 771010000,
+      "signed_high_usd": 771010000,
+      "low_usd": 771010000,
+      "high_usd": 771010000,
+      "display": "771010",
+      "unit": "USD thousands",
+      "scale": 1000,
+      "table": 23,
+      "row": 5,
+      "visible_column": 4,
+      "source_cell": "771,010",
+      "period": "as of 2005-12-31",
+      "basis": "gross",
+      "tax": "pre-tax",
+      "status": "incurred; estimate of ultimate losses, including unpaid claims",
+      "premium_treatment": "Before the impact of inwards and outwards reinstatements and additional premiums.",
+      "scope": "Consolidated gross of outwards recoveries",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/b412207_10k.htm",
+      "passage_id": "PX05-P00290",
+      "evidence_passage_ids": [
+        "PX05-P00287",
+        "PX05-P00288",
+        "PX05-P00289",
+        "PX05-P00290",
+        "PX05-P00294",
+        "PX05-P00295"
+      ],
+      "source_chain": "The introduction sets the premium and tax treatment. The date and scale appear above the row and the header distinguishes gross and net. Footnote 1 defines net; the subsequent paragraph distinguishes incurred estimates from paid losses."
+    },
+    {
+      "id": "PX05-net",
+      "claim_id": "PX05-net",
+      "doc_id": "PX05",
+      "event": "Hurricane Katrina",
+      "owner": "PXRE Group Ltd. consolidated",
+      "measure": "Net incurred loss",
+      "signed_low_usd": 638010000,
+      "signed_high_usd": 638010000,
+      "low_usd": 638010000,
+      "high_usd": 638010000,
+      "display": "638010",
+      "unit": "USD thousands",
+      "scale": 1000,
+      "table": 23,
+      "row": 5,
+      "visible_column": 7,
+      "source_cell": "638,010",
+      "period": "as of 2005-12-31",
+      "basis": "net",
+      "tax": "pre-tax",
+      "status": "incurred; estimate of ultimate losses, including unpaid claims",
+      "premium_treatment": "Before the impact of inwards and outwards reinstatements and additional premiums.",
+      "scope": "Consolidated net of outwards reinsurance recoveries per footnote (1).",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/b412207_10k.htm",
+      "passage_id": "PX05-P00290",
+      "evidence_passage_ids": [
+        "PX05-P00287",
+        "PX05-P00288",
+        "PX05-P00289",
+        "PX05-P00290",
+        "PX05-P00294",
+        "PX05-P00295"
+      ],
+      "source_chain": "The introduction sets the premium and tax treatment. The date and scale appear above the row and the header distinguishes gross and net. Footnote 1 defines net; the subsequent paragraph distinguishes incurred estimates from paid losses."
+    }
+  ],
+  "near_misses": [
+    {
+      "doc_id": "PX05",
+      "table": 23,
+      "passage_id": "PX05-P00291",
+      "reason": "Separate Rita row."
+    },
+    {
+      "doc_id": "PX05",
+      "table": 23,
+      "passage_id": "PX05-P00292",
+      "reason": "Separate Wilma row."
+    },
+    {
+      "doc_id": "PX05",
+      "table": 23,
+      "passage_id": "PX05-P00293",
+      "reason": "Three-storm gross $1,014,506,000 and net $850,809,000 aggregates."
+    },
+    {
+      "doc_id": "PX05",
+      "table": 48,
+      "reason": "A later table reports $602,606,000 on another basis and is outside the preregistered first-table denominator."
+    }
+  ]
+}

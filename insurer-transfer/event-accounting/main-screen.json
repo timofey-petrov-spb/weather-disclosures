@@ -1,0 +1,818 @@
+{
+  "selection_sha256": "ca7310a37972ffa551f7c21b2159fd52a437a69daad52e3452fe6b136035fd87",
+  "registered_issuers_in_order": [
+    "PXRE Group Ltd. (later Argo Group)",
+    "Quanta Capital Holdings Ltd.",
+    "Allied World Assurance Company Holdings Ltd. (Fairfax family)",
+    "W. R. Berkley Corporation",
+    "EMC Insurance Group Inc.",
+    "Horace Mann Educators Corporation",
+    "Mercury General Corporation",
+    "Donegal Group Inc.",
+    "Assured Guaranty Ltd."
+  ],
+  "registered_families": 9,
+  "selected_families": 1,
+  "selected_reference_cells": 2,
+  "files": {
+    "10-K": 41,
+    "424B4": 1,
+    "incorporated_EX-13": 6,
+    "total": 48
+  },
+  "stopping_point": "Entire registered main list exhausted. This stratum supplies one eligible table.",
+  "unavailable_or_skipped": [
+    "PXRE: stop after first eligible FY2005 table; later years and later tables are out of scope.",
+    "Quanta: original 2005 and 2006 reviewed; eligible later priority years have no independent annual filing.",
+    "Allied World: no original FY2005 10-K/20-F; final July 2006 common-stock IPO prospectus with full FY2005 financial statements used. No independent FY2017/FY2022 original annual filing.",
+    "EMC: no independent FY2022 original annual filing.",
+    "For each other issuer all six registered original annual vintages were reviewed. An IPO prospectus is an alternative only if the original FY2005 annual filing is missing."
+  ],
+  "filing_metadata_crosscheck": "https://sraf.nd.edu/sec-edgar-data/master-index-data/",
+  "scope": "Source-first conditional sample of tabulated positive cases. The negative screens are selection disclosures, not model predictions, and the filing set is not a random sample.",
+  "screened_documents_in_order": [
+    {
+      "doc_id": "PX05",
+      "issuer": "PXRE Group Ltd.",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/b412207_10k.htm",
+      "accession": "0001125282-06-001680",
+      "primary_sha256": "1575d7a463af372fbb5a6d7b5fcacc381c60625751a3d3a86738dcd434d7ae9a",
+      "html_tables": 162,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "selected",
+      "reason": "Table 23, row 5 has separate gross and net incurred loss cells for Katrina."
+    },
+    {
+      "doc_id": "QU05",
+      "issuer": "Quanta Capital Holdings Ltd.",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1264242/000095013606002636/file001.htm",
+      "accession": "0000950136-06-002636",
+      "primary_sha256": "c04b4938cf36a542004474c9a97a393c2bc7545a58b088dee79976f4b8803acd",
+      "html_tables": 0,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Complete primary uses preformatted text. It contains no HTML table elements."
+    },
+    {
+      "doc_id": "QU06",
+      "issuer": "Quanta Capital Holdings Ltd.",
+      "form": "10-K",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1264242/000095013607001644/file1.htm",
+      "accession": "0000950136-07-001644",
+      "primary_sha256": "fbafa85d092a2e2f74a22c857e450d93c0259967d94334639115cad66c426455",
+      "html_tables": 316,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Tables 104 and 108 contain prose. $5.0m and $83.3m refer to the group of three 2005 storms."
+    },
+    {
+      "doc_id": "AWIP",
+      "issuer": "Allied World Assurance Company Holdings, Ltd",
+      "form": "424B4",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1163348/000095012306008931/y15272b4e424b4.htm",
+      "accession": "0000950123-06-008931",
+      "primary_sha256": "dfca5626781f04450e411d9cc4f30480d58725f4c1c4bb51fff712839cb993f2",
+      "html_tables": 324,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Review of financial tables and their captions and adjoining paragraphs found no isolated event-specific USD cell."
+    },
+    {
+      "doc_id": "AW06",
+      "issuer": "Allied World Assurance Company Holdings, Ltd",
+      "form": "10-K",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1163348/000095012307004078/y31952e10vk.htm",
+      "accession": "0000950123-07-004078",
+      "primary_sha256": "b2ac18a4b8294df30674fd7b40cabd8d4464022fec4d7ccb150893fdd322a6b7",
+      "html_tables": 223,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Review of financial tables and their captions and adjoining paragraphs found no isolated event-specific USD cell."
+    },
+    {
+      "doc_id": "AW12",
+      "issuer": "Allied World Assurance Company Holdings",
+      "form": "10-K",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1163348/000119312513074494/d466838d10k.htm",
+      "accession": "0001193125-13-074494",
+      "primary_sha256": "241be3d64450ca2abdaa5faa9787260db61ce218677d017dc0b363b79c593396",
+      "html_tables": 416,
+      "events_reviewed": [
+        "Sandy"
+      ],
+      "decision": "no eligible table",
+      "reason": "Sandy and Isaac allocations appear in prose by segment. Nearby tabulated lines and ratios lack separate event-specific monetary cells."
+    },
+    {
+      "doc_id": "AW08",
+      "issuer": "Allied World Assurance Company Holdings",
+      "form": "10-K",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1163348/000095012309003689/y74829e10vk.htm",
+      "accession": "0000950123-09-003689",
+      "primary_sha256": "e5d90e5c0409c7b015350ab2578a12bf8ce857bba9c7628f534c3a50ea526afe",
+      "html_tables": 327,
+      "events_reviewed": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "no eligible table",
+      "reason": "An Ike dollar amount appears in prose. The preceding comparison table contains ratios."
+    },
+    {
+      "doc_id": "WR05",
+      "issuer": "W. R. Berkley Corporation",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000095012306003047/y18323e10vk.htm",
+      "accession": "0000950123-06-003047",
+      "primary_sha256": "e13bcc6f526bed61b3381c0ce43b22b5f69974e3eb39ebfc09ff553e86544d57",
+      "html_tables": 60,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "No separate eligible storm amount in primary financial tables or applicable incorporated annual reports."
+    },
+    {
+      "doc_id": "WR05E",
+      "issuer": "W. R. Berkley Corporation",
+      "form": "EX-13",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000095012306003047/y18323exv13.htm",
+      "accession": "0000950123-06-003047",
+      "primary_sha256": "90e60eed4692fb2207c9561aa7163c5f5e9fed118c11c4ce09212a4e127ba535",
+      "html_tables": 64,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "No separate eligible storm amount in primary financial tables or applicable incorporated annual reports."
+    },
+    {
+      "doc_id": "WR06",
+      "issuer": "W. R. Berkley Corporation",
+      "form": "10-K",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000095012307003012/y30637e10vk.htm",
+      "accession": "0000950123-07-003012",
+      "primary_sha256": "eaa02067ebb7e751075cf73a9f963a81ccc8bb81468e6f8568ee729d07b56014",
+      "html_tables": 76,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "No separate eligible storm amount in primary financial tables or applicable incorporated annual reports."
+    },
+    {
+      "doc_id": "WR06E",
+      "issuer": "W. R. Berkley Corporation",
+      "form": "EX-13",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000095012307003012/y30637exv13.txt",
+      "accession": "0000950123-07-003012",
+      "primary_sha256": "9d116572a96cc9844f5f2fe2a1c3dd167d1aaa52b8c07216740b980c820fb51e",
+      "html_tables": 55,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "No separate eligible storm amount in primary financial tables or applicable incorporated annual reports."
+    },
+    {
+      "doc_id": "WR17",
+      "issuer": "W. R. Berkley Corporation",
+      "form": "10-K",
+      "period": "2017-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000001154418000012/wrb1231201710k.htm",
+      "accession": "0000011544-18-000012",
+      "primary_sha256": "37ced1bbeacd05d4bea9e26b10a07fe5d5a2d5dc7ae6a1b334d7fd89d1f3fd1c",
+      "html_tables": 203,
+      "events_reviewed": [
+        "Harvey",
+        "Irma",
+        "Maria"
+      ],
+      "decision": "no eligible table",
+      "reason": "The catastrophe-loss figure combines hurricanes, earthquakes and fires."
+    },
+    {
+      "doc_id": "WR12",
+      "issuer": "W. R. Berkley Corporation",
+      "form": "10-K",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000001154413000018/wrb1231201210k.htm",
+      "accession": "0000011544-13-000018",
+      "primary_sha256": "5e70f9ad75235a51d481e1058fd6b9f9dd17ce135a45f3385c48ecb455aa0952",
+      "html_tables": 204,
+      "events_reviewed": [
+        "Sandy"
+      ],
+      "decision": "no eligible table",
+      "reason": "No separate eligible storm amount in primary financial tables or applicable incorporated annual reports."
+    },
+    {
+      "doc_id": "WR08",
+      "issuer": "W. R. Berkley Corporation",
+      "form": "10-K",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000095012309003653/y74875e10vk.htm",
+      "accession": "0000950123-09-003653",
+      "primary_sha256": "429eeea523c7baf4ab4d2177e0287f0d2605c51d55c3b6e066f32921fa0c2bcf",
+      "html_tables": 68,
+      "events_reviewed": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "no eligible table",
+      "reason": "No separate eligible storm amount in primary financial tables or applicable incorporated annual reports."
+    },
+    {
+      "doc_id": "WR08E",
+      "issuer": "W. R. Berkley Corporation",
+      "form": "EX-13",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000095012309003653/y74875exv13.htm",
+      "accession": "0000950123-09-003653",
+      "primary_sha256": "84da544597200d6cc26210ecbbf5638758c1c70370cb61d1159b70f0573434a9",
+      "html_tables": 82,
+      "events_reviewed": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "no eligible table",
+      "reason": "No separate eligible storm amount in primary financial tables or applicable incorporated annual reports."
+    },
+    {
+      "doc_id": "WR22",
+      "issuer": "W. R. Berkley Corporation",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000001154423000004/wrb-20221231.htm",
+      "accession": "0000011544-23-000004",
+      "primary_sha256": "9cdd33e0533a2db0d8c67703b0e51a49892b37582526752c57c361570eaaace7",
+      "html_tables": 120,
+      "events_reviewed": [
+        "Ian"
+      ],
+      "decision": "no eligible table",
+      "reason": "No separate eligible storm amount in primary financial tables or applicable incorporated annual reports."
+    },
+    {
+      "doc_id": "EM05",
+      "issuer": "EMC Insurance Group Inc.",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356130/000035613006000034/form10k.htm",
+      "accession": "0000356130-06-000034",
+      "primary_sha256": "ef2e82ae0e3f1db8d7af8e75b43340224c4333d2eb288baf3b6eeeb4f05f0569",
+      "html_tables": 213,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Aggregate losses and prose do not supply qualifying event-specific monetary cells."
+    },
+    {
+      "doc_id": "EM06",
+      "issuer": "EMC Insurance Group Inc.",
+      "form": "10-K",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356130/000035613007000031/form10k.htm",
+      "accession": "0000356130-07-000031",
+      "primary_sha256": "bfe3495ac67d4939683658fca8a53c1bdf584a4b4da5e1b341ec73f0e4dcde53",
+      "html_tables": 239,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Aggregate losses and prose do not supply qualifying event-specific monetary cells."
+    },
+    {
+      "doc_id": "EM17",
+      "issuer": "EMC Insurance Group Inc.",
+      "form": "10-K",
+      "period": "2017-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356130/000035613018000035/a2017123110k.htm",
+      "accession": "0000356130-18-000035",
+      "primary_sha256": "cddadb734b6c6326ce11c17cbddaf9eaea1fd7b061be7e4982a852214ec01e44",
+      "html_tables": 272,
+      "events_reviewed": [
+        "Harvey",
+        "Irma",
+        "Maria"
+      ],
+      "decision": "no eligible table",
+      "reason": "Aggregate losses and prose do not supply qualifying event-specific monetary cells."
+    },
+    {
+      "doc_id": "EM12",
+      "issuer": "EMC Insurance Group Inc.",
+      "form": "10-K",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356130/000114036113011989/form10k.htm",
+      "accession": "0001140361-13-011989",
+      "primary_sha256": "234496a35e92537c5e8cdb515dd9b425c82aa6f80414d1a4db31178b6f50ceb5",
+      "html_tables": 304,
+      "events_reviewed": [
+        "Sandy"
+      ],
+      "decision": "no eligible table",
+      "reason": "Sandy is mentioned in prose. Aggregate insurance and reinsurance categories do not isolate the event."
+    },
+    {
+      "doc_id": "EM08",
+      "issuer": "EMC Insurance Group Inc.",
+      "form": "10-K",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/356130/000114036109006898/form10k.htm",
+      "accession": "0001140361-09-006898",
+      "primary_sha256": "ca60dadcbbb0bca12bbc66c2c0cbcc0be21c03db96e9a7d2954facba69532e2e",
+      "html_tables": 226,
+      "events_reviewed": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "no eligible table",
+      "reason": "Aggregate losses and prose do not supply qualifying event-specific monetary cells."
+    },
+    {
+      "doc_id": "HM05",
+      "issuer": "Horace Mann Educators Corporation",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/850141/000119312506056252/d10k.htm",
+      "accession": "0001193125-06-056252",
+      "primary_sha256": "cb8021e5bd5bd178735e9b3859fe17720923bd1c3fc1713a027baccf9a787d15",
+      "html_tables": 227,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Table 26 prints Katrina $23.7m, Wilma $15.0m and Rita $10.8m in a prose list in a single cell."
+    },
+    {
+      "doc_id": "HM06",
+      "issuer": "Horace Mann Educators Corporation",
+      "form": "10-K",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/850141/000119312507043888/d10k.htm",
+      "accession": "0001193125-07-043888",
+      "primary_sha256": "43c19d0aa2d2cd2194764596806c47da91ba10b8734499224102ec669c161247",
+      "html_tables": 230,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "No individually tabulated event amount. Some layout tables contain an entire prose list inside a single cell."
+    },
+    {
+      "doc_id": "HM17",
+      "issuer": "Horace Mann Educators Corporation",
+      "form": "10-K",
+      "period": "2017-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/850141/000162828018002567/a201710k.htm",
+      "accession": "0001628280-18-002567",
+      "primary_sha256": "4298f342004cef2558fa5a91884e96d9e8248f786e896e8f9bf8e646d83daa6a",
+      "html_tables": 214,
+      "events_reviewed": [
+        "Harvey",
+        "Irma",
+        "Maria"
+      ],
+      "decision": "no eligible table",
+      "reason": "No individually tabulated event amount. Some layout tables contain an entire prose list inside a single cell."
+    },
+    {
+      "doc_id": "HM12",
+      "issuer": "Horace Mann Educators Corporation",
+      "form": "10-K",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/850141/000119312513084660/d444107d10k.htm",
+      "accession": "0001193125-13-084660",
+      "primary_sha256": "8b764c0ad2d4cf387e9312b17b88799dd75c9483ef5254796bbd30044495f1aa",
+      "html_tables": 223,
+      "events_reviewed": [
+        "Sandy"
+      ],
+      "decision": "no eligible table",
+      "reason": "No individually tabulated event amount. Some layout tables contain an entire prose list inside a single cell."
+    },
+    {
+      "doc_id": "HM08",
+      "issuer": "Horace Mann Educators Corporation",
+      "form": "10-K",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/850141/000119312509042231/d10k.htm",
+      "accession": "0001193125-09-042231",
+      "primary_sha256": "0e76b9c926f4c86677ea81fa5007904b8365f13c1578fb74ef2d9fc15da6b36c",
+      "html_tables": 249,
+      "events_reviewed": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "no eligible table",
+      "reason": "No individually tabulated event amount. Some layout tables contain an entire prose list inside a single cell."
+    },
+    {
+      "doc_id": "HM22",
+      "issuer": "Horace Mann Educators Corporation",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/850141/000162828023005501/hmn-20221231.htm",
+      "accession": "0001628280-23-005501",
+      "primary_sha256": "4f658652deb28d536a2e75041cc17cd141ba65b25356041c62c0a83fe921f33e",
+      "html_tables": 294,
+      "events_reviewed": [
+        "Ian"
+      ],
+      "decision": "no eligible table",
+      "reason": "No individually tabulated event amount. Some layout tables contain an entire prose list inside a single cell."
+    },
+    {
+      "doc_id": "MC05",
+      "issuer": "Mercury General Corporation",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/64996/000119312506049713/d10k.htm",
+      "accession": "0001193125-06-049713",
+      "primary_sha256": "42b43afe2162ea0bf9023e894912dff3fc932ffdd14798d9b9f4c277764c3643",
+      "html_tables": 125,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "The $16m after-tax Wilma amount is in prose."
+    },
+    {
+      "doc_id": "MC06",
+      "issuer": "Mercury General Corporation",
+      "form": "10-K",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/64996/000119312507039974/d10k.htm",
+      "accession": "0001193125-07-039974",
+      "primary_sha256": "3b31f63de03605f9aaac89eabcb3bf3e650d8e58680aa592204335b6d3701dc4",
+      "html_tables": 148,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "The comparative $16m after-tax Wilma amount is in prose."
+    },
+    {
+      "doc_id": "MC17",
+      "issuer": "Mercury General Corporation",
+      "form": "10-K",
+      "period": "2017-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/64996/000006499618000010/mcy-20171231x10k.htm",
+      "accession": "0000064996-18-000010",
+      "primary_sha256": "959ec91ad9990ae7cd991701220ff1280a927413bfbd0f35b905e8a1a162af1a",
+      "html_tables": 244,
+      "events_reviewed": [
+        "Harvey",
+        "Irma",
+        "Maria"
+      ],
+      "decision": "no eligible table",
+      "reason": "Tables do not assign an individual dollar amount unambiguously to a registered storm."
+    },
+    {
+      "doc_id": "MC12",
+      "issuer": "Mercury General Corporation",
+      "form": "10-K",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/64996/000006499613000004/mcy-20121231x10k.htm",
+      "accession": "0000064996-13-000004",
+      "primary_sha256": "7fa27ede8a23c8aab7f728f782d6701965845daa304d7e282a872cbdd46e6298",
+      "html_tables": 228,
+      "events_reviewed": [
+        "Sandy"
+      ],
+      "decision": "no eligible table",
+      "reason": "An amount of $39m was mostly attributable to Sandy. Exclusive allocation to this event cannot be established."
+    },
+    {
+      "doc_id": "MC08",
+      "issuer": "Mercury General Corporation",
+      "form": "10-K",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/64996/000006499609000002/form10-k.htm",
+      "accession": "0000064996-09-000002",
+      "primary_sha256": "e9dac3eeeb85a07a53e2e3e333c10552b67b2af22bbd762b1ae3b1c5e69b8a55",
+      "html_tables": 207,
+      "events_reviewed": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "no eligible table",
+      "reason": "Tables do not assign an individual dollar amount unambiguously to a registered storm."
+    },
+    {
+      "doc_id": "MC22",
+      "issuer": "Mercury General Corporation",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/64996/000006499623000004/mcy-20221231.htm",
+      "accession": "0000064996-23-000004",
+      "primary_sha256": "ab9b5bf935d8d13d6be7a616fc482e1563e16eb1fddb8ed52096481e693825ec",
+      "html_tables": 113,
+      "events_reviewed": [
+        "Ian"
+      ],
+      "decision": "no eligible table",
+      "reason": "Tables do not assign an individual dollar amount unambiguously to a registered storm."
+    },
+    {
+      "doc_id": "DG05",
+      "issuer": "Donegal Group Inc.",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/800457/000089322006000518/w18512e10vk.htm",
+      "accession": "0000893220-06-000518",
+      "primary_sha256": "949f92c22d733227ba82023d95f7a389632d3d7ac756ff6fea32215206715f65",
+      "html_tables": 91,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "No eligible event-specific USD cell in the financial tables, including incorporated exhibits where applicable."
+    },
+    {
+      "doc_id": "DG05E",
+      "issuer": "Donegal Group Inc.",
+      "form": "EX-13",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/800457/000089322006000518/w18512exv13.htm",
+      "accession": "0000893220-06-000518",
+      "primary_sha256": "5d2bdf3d63552e47f029301272d9dd964d319066440b998119555805c0f33ffb",
+      "html_tables": 65,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "No eligible event-specific USD cell in the financial tables, including incorporated exhibits where applicable."
+    },
+    {
+      "doc_id": "DG06",
+      "issuer": "Donegal Group Inc.",
+      "form": "10-K",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/800457/000089322007000708/w31622e10vk.htm",
+      "accession": "0000893220-07-000708",
+      "primary_sha256": "0d15ed9de35b187ae52214cad3365aff99828cbf627cbb62284f5113351a1013",
+      "html_tables": 79,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "No eligible event-specific USD cell in the financial tables, including incorporated exhibits where applicable."
+    },
+    {
+      "doc_id": "DG06E",
+      "issuer": "Donegal Group Inc.",
+      "form": "EX-13",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/800457/000089322007000708/w31622exv13.htm",
+      "accession": "0000893220-07-000708",
+      "primary_sha256": "7d49f099ef635fe35ff7bbf1327fcf8cb3653cf3c203c8bf70f438565cd681f7",
+      "html_tables": 68,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "No eligible event-specific USD cell in the financial tables, including incorporated exhibits where applicable."
+    },
+    {
+      "doc_id": "DG17",
+      "issuer": "Donegal Group Inc.",
+      "form": "10-K",
+      "period": "2017-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/800457/000119312518077161/d475968d10k.htm",
+      "accession": "0001193125-18-077161",
+      "primary_sha256": "33e2349c7ce3f26672679ed28c61201522c2a9001e0b004913f2b30460d2aa42",
+      "html_tables": 424,
+      "events_reviewed": [
+        "Harvey",
+        "Irma",
+        "Maria"
+      ],
+      "decision": "no eligible table",
+      "reason": "No eligible event-specific USD cell in the financial tables, including incorporated exhibits where applicable."
+    },
+    {
+      "doc_id": "DG12",
+      "issuer": "Donegal Group Inc.",
+      "form": "10-K",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/800457/000119312513103135/d444229d10k.htm",
+      "accession": "0001193125-13-103135",
+      "primary_sha256": "987cc3f49980d4b33d574b795614db9ebd2b5a67e9f7cd6d94872c0685b9530c",
+      "html_tables": 362,
+      "events_reviewed": [
+        "Sandy"
+      ],
+      "decision": "no eligible table",
+      "reason": "No eligible event-specific USD cell in the financial tables, including incorporated exhibits where applicable."
+    },
+    {
+      "doc_id": "DG08",
+      "issuer": "Donegal Group Inc.",
+      "form": "10-K",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/800457/000089322009000521/w73156e10vk.htm",
+      "accession": "0000893220-09-000521",
+      "primary_sha256": "33671ad6332feb9830c19e85fc02b966b5cb93f66cc4a05286569dcd5a610821",
+      "html_tables": 78,
+      "events_reviewed": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "no eligible table",
+      "reason": "No eligible event-specific USD cell in the financial tables, including incorporated exhibits where applicable."
+    },
+    {
+      "doc_id": "DG08E",
+      "issuer": "Donegal Group Inc.",
+      "form": "EX-13",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/800457/000089322009000521/w73156exv13.htm",
+      "accession": "0000893220-09-000521",
+      "primary_sha256": "b09e6eaf723e05c57abfcbdf670fd8b963724862684acd7e7afdf888c7dc4166",
+      "html_tables": 67,
+      "events_reviewed": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "no eligible table",
+      "reason": "No eligible event-specific USD cell in the financial tables, including incorporated exhibits where applicable."
+    },
+    {
+      "doc_id": "DG22",
+      "issuer": "Donegal Group Inc.",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/800457/000114036123010291/brhc10049169_10k.htm",
+      "accession": "0001140361-23-010291",
+      "primary_sha256": "54930003eabc508572378a49e401ecc6a868772801eab05bb06e7ea60cc4473e",
+      "html_tables": 309,
+      "events_reviewed": [
+        "Ian"
+      ],
+      "decision": "no eligible table",
+      "reason": "No eligible event-specific USD cell in the financial tables, including incorporated exhibits where applicable."
+    },
+    {
+      "doc_id": "AG05",
+      "issuer": "Assured Guaranty Ltd.",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1273813/000110465906013292/a06-5644_110k.htm",
+      "accession": "0001104659-06-013292",
+      "primary_sha256": "a16081f0bb2d7d301141c9989e84209cc2f45aeb61281da4c199df8282a37244",
+      "html_tables": 140,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Amounts of $44.8m and $80.6m attributed to Katrina are footnoted subsets of broader credit categories in tables 21 and 36. Neither subset appears in a separate data cell."
+    },
+    {
+      "doc_id": "AG06",
+      "issuer": "Assured Guaranty Ltd.",
+      "form": "10-K",
+      "period": "2006-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1273813/000110465907014987/a07-5896_110k.htm",
+      "accession": "0001104659-07-014987",
+      "primary_sha256": "737319642e69f5769f482f684d1d71ac159832b062f171bdddd9116f81330437",
+      "html_tables": 143,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Amounts of $97.8m and $9.7m appear in notes to broad credit exposure classes."
+    },
+    {
+      "doc_id": "AG17",
+      "issuer": "Assured Guaranty Ltd.",
+      "form": "10-K",
+      "period": "2017-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1273813/000127381318000004/ago-12312017x10k.htm",
+      "accession": "0001273813-18-000004",
+      "primary_sha256": "a8dd4a8119a542bf3fefba2d772889fd99097de218227f68f7a4bde3565f6e7f",
+      "html_tables": 522,
+      "events_reviewed": [
+        "Harvey",
+        "Irma",
+        "Maria"
+      ],
+      "decision": "no eligible table",
+      "reason": "No qualifying event-specific USD cell. Portfolio exposure, credit classification or narrative allocations are not individual monetary cells attributed to a storm."
+    },
+    {
+      "doc_id": "AG12",
+      "issuer": "Assured Guaranty Ltd.",
+      "form": "10-K",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1273813/000127381313000006/ago-12312012x10k.htm",
+      "accession": "0001273813-13-000006",
+      "primary_sha256": "9621d8c33e87f2ae028b649469088a8efe65dbeef03296d80eedfc7ae4268058",
+      "html_tables": 541,
+      "events_reviewed": [
+        "Sandy"
+      ],
+      "decision": "no eligible table",
+      "reason": "No qualifying event-specific USD cell. Portfolio exposure, credit classification or narrative allocations are not individual monetary cells attributed to a storm."
+    },
+    {
+      "doc_id": "AG08",
+      "issuer": "Assured Guaranty Ltd.",
+      "form": "10-K",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1273813/000104746909001890/a2190898z10-k.htm",
+      "accession": "0001047469-09-001890",
+      "primary_sha256": "7f4908b9cdf8ab95093c790a917730c824f64d278e902f04443286483b4267dc",
+      "html_tables": 192,
+      "events_reviewed": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "no eligible table",
+      "reason": "No qualifying event-specific USD cell. Portfolio exposure, credit classification or narrative allocations are not individual monetary cells attributed to a storm."
+    },
+    {
+      "doc_id": "AG22",
+      "issuer": "Assured Guaranty Ltd.",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1273813/000127381323000005/ago-20221231.htm",
+      "accession": "0001273813-23-000005",
+      "primary_sha256": "eb18946f7371c053b17a5008fdafcf8d8005743966a472ef884fd73a1b6032e8",
+      "html_tables": 194,
+      "events_reviewed": [
+        "Ian"
+      ],
+      "decision": "no eligible table",
+      "reason": "No qualifying event-specific USD cell. Portfolio exposure, credit classification or narrative allocations are not individual monetary cells attributed to a storm."
+    }
+  ]
+}

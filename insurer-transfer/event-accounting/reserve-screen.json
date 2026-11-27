@@ -1,0 +1,111 @@
+{
+  "selection_sha256": "65b197aa67a565f9d240079b8812f7014067291056a7c7f5e2052fc73db594a5",
+  "registered_issuers_in_order": [
+    "Converium Holding AG (SCOR family)",
+    "United America Indemnity / Global Indemnity Group",
+    "Philadelphia Consolidated Holding Corp. (Tokio Marine family)",
+    "Hamilton Insurance Group",
+    "Fidelis Insurance Holdings Ltd.",
+    "American Integrity Insurance Group",
+    "Slide Insurance Holdings",
+    "New York Marine / NYMAGIC"
+  ],
+  "registered_families": 8,
+  "selected_families": 2,
+  "selected_reference_cells": 4,
+  "files": {
+    "20-F": 1,
+    "10-K": 4,
+    "incorporated_EX-13": 0,
+    "total": 5
+  },
+  "stopping_point": "The first three reserve families supplied two qualifying tables. Together with the original stratum this meets the registered target of three families.",
+  "unavailable_or_skipped": [
+    "Philadelphia FY2008 follows its eligible FY2005 table. The five lower-priority reserve families are outside the scored sample."
+  ],
+  "filing_metadata_crosscheck": "Original SEC accession index listed by each inventory.",
+  "scope": "This is a table-positive stress test across potentially different storms and periods, not a prevalence or whole-industry accuracy estimate.",
+  "screened_documents_in_order": [
+    {
+      "doc_id": "CV05",
+      "issuer": "Converium Holding AG",
+      "form": "20-F",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/u50380e20vf.htm",
+      "accession": "0001156973-06-000763",
+      "primary_sha256": "02872b0a9631d662dd981100041a315667240164a8a7bc84f520189edd47060c",
+      "html_tables": 248,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "selected",
+      "reason": "Table 104 is the first qualifying financial table. Its introduction defines net incurred losses, and its footnote gives a shared Run-Off subtotal for multiple hurricanes. Exclude the $15.6m footnote, the $164.8m multiple-event total, and the Rita and Wilma rows."
+    },
+    {
+      "doc_id": "UA05",
+      "issuer": "United America Indemnity, Ltd.",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1263813/000089322006000581/w18557e10vk.htm",
+      "accession": "0000893220-06-000581",
+      "primary_sha256": "2f165a7c19368f539af2e052f41b81754a2e27a1e177e8cd6e74856d520f8c17",
+      "html_tables": 284,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "no eligible table",
+      "reason": "Individual first- and second-landfall gross and net loss estimates occur in prose between tables 99 and 100. Table 95 is a bullet stating $1.8m premium in prose, with no monetary cell. Other passages cover industry exposure or multiple events. No annual report EX-13 in the accession."
+    },
+    {
+      "doc_id": "GI12",
+      "issuer": "Global Indemnity plc",
+      "form": "10-K",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1494904/000119312513109940/d444808d10k.htm",
+      "accession": "0001193125-13-109940",
+      "primary_sha256": "e2bcffa7d17a353eaa19eee5a619be80069e187b1281d4c2fc54e69aa28b28a2",
+      "html_tables": 426,
+      "events_reviewed": [
+        "Sandy"
+      ],
+      "decision": "no eligible table",
+      "reason": "Sandy-specific estimated ultimate loss of $12m appears under a prose subheading between tables 108 and 109. Tables 131 and 145 contain narrative bullets comparing calendar-year catastrophe/property losses, each encompassing more than Sandy. No annual report EX-13 in the accession."
+    },
+    {
+      "doc_id": "GI22",
+      "issuer": "Global Indemnity Group, LLC",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1494904/000095017023008195/gbli-20221231.htm",
+      "accession": "0000950170-23-008195",
+      "primary_sha256": "4bb1144a26990cc4652fbb39766fe22131bfc9a0a3579220f51c3f59a21211d0",
+      "html_tables": 148,
+      "events_reviewed": [
+        "Ian"
+      ],
+      "decision": "no eligible table",
+      "reason": "No standalone occurrence of the name Ian in the visible financial or narrative text; no annual report EX-13 in the accession."
+    },
+    {
+      "doc_id": "PH05",
+      "issuer": "Philadelphia Consolidated Holding Corp.",
+      "form": "10-K",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/w18434e10vk.htm",
+      "accession": "0000893220-06-000532",
+      "primary_sha256": "fd92170669032317704e6d89e914743bf68762c4123526414c0668ac283fd89d",
+      "html_tables": 194,
+      "events_reviewed": [
+        "Katrina",
+        "Rita",
+        "Wilma"
+      ],
+      "decision": "selected",
+      "reason": "Table 57 is the first eligible financial table. Align its hurricane column header (Katrina spans grid columns 7–8), USD-million unit row, net loss and loss adjustment expense heading and segment/total row. Both Katrina landfalls are captured in the displayed Katrina column. The $24.7m total covers all hurricanes. FY2008 is not selected because FY2005 qualifies."
+    }
+  ]
+}

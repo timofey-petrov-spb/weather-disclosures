@@ -1,0 +1,20 @@
+[
+  {
+    "doc_id": "PX05",
+    "issuer": "PXRE Group Ltd.",
+    "event": "Katrina",
+    "cik": "1091748",
+    "accession": "0001125282-06-001680",
+    "form": "10-K",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-03-16T20:38:07Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/b412207_10k.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/0001125282-06-001680-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1091748/000112528206001680/b412207_10k.htm",
+    "primary_bytes": 2287889,
+    "primary_sha256": "1575d7a463af372fbb5a6d7b5fcacc381c60625751a3d3a86738dcd434d7ae9a",
+    "index_sha256": "84efd8870100ad2c3e0544816dec9fdc712fec2fc56d22fdb6f490a2c2db2ef9",
+    "rows": 2435,
+    "inputs_sha256": "29ecb001afd5dbfc9adb08b7c844a9aabd35ee26ab7ec53a2b54a6ad1e2dc75d"
+  }
+]

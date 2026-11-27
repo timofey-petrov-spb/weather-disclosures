@@ -1,0 +1,20 @@
+{
+  "selection": "Original nine-family roster plus the registered contingency in the order stipulated there. Concurrently located lower-priority candidates do not enter the scored denominator.",
+  "groups": {
+    "main": {
+      "file": "main-screen.json",
+      "sha256": "8e66c4eb0fdae0093d38b66578dd2d6a355a41b10a016a8ef4bb1d10d614aa35",
+      "eligible_source_ids": [
+        "PX05"
+      ]
+    },
+    "reserve": {
+      "file": "reserve-screen.json",
+      "sha256": "d441fcb11f6393ddb5426040dfd29071e71c2dd107f1a999add9d3a6206cfb77",
+      "eligible_source_ids": [
+        "CV05",
+        "PH05"
+      ]
+    }
+  }
+}

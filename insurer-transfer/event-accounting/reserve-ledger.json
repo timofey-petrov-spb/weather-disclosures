@@ -1,0 +1,171 @@
+{
+  "recorded_utc": "2026-11-27T17:02:01.938289+00:00",
+  "protocol_sha256": "65b197aa67a565f9d240079b8812f7014067291056a7c7f5e2052fc73db594a5",
+  "scope": "First three registered reserve issuer families. Only primary sources and original accession indices were examined. Extraction predictions were not accessed.",
+  "source_review": [
+    {
+      "doc_id": "CV05",
+      "issuer": "Converium Holding AG",
+      "form": "20-F",
+      "accession": "0001156973-06-000763",
+      "report_period": "2005-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/u50380e20vf.htm",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/0001156973-06-000763-index.htm",
+      "sha256": "02872b0a9631d662dd981100041a315667240164a8a7bc84f520189edd47060c",
+      "accepted_utc": "2006-06-29T19:56:23Z",
+      "decision": "eligible",
+      "reason": "Table 104 is the first qualifying financial table. Its introduction defines net incurred losses, and its footnote gives a shared Run-Off subtotal for multiple hurricanes. Exclude the $15.6m footnote, the $164.8m multiple-event total, and the Rita and Wilma rows."
+    },
+    {
+      "doc_id": "UA05",
+      "issuer": "United America Indemnity, Ltd.",
+      "form": "10-K",
+      "accession": "0000893220-06-000581",
+      "report_period": "2005-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1263813/000089322006000581/w18557e10vk.htm",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1263813/000089322006000581/0000893220-06-000581-index.htm",
+      "sha256": "2f165a7c19368f539af2e052f41b81754a2e27a1e177e8cd6e74856d520f8c17",
+      "accepted_utc": "2006-03-16T21:59:40Z",
+      "decision": "no eligible table",
+      "reason": "Individual first- and second-landfall gross and net loss estimates occur in prose between tables 99 and 100. Table 95 is a bullet stating $1.8m premium in prose, with no monetary cell. Other passages cover industry exposure or multiple events. No annual report EX-13 in the accession."
+    },
+    {
+      "doc_id": "GI12",
+      "issuer": "Global Indemnity plc",
+      "form": "10-K",
+      "accession": "0001193125-13-109940",
+      "report_period": "2012-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1494904/000119312513109940/d444808d10k.htm",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1494904/000119312513109940/0001193125-13-109940-index.htm",
+      "sha256": "e2bcffa7d17a353eaa19eee5a619be80069e187b1281d4c2fc54e69aa28b28a2",
+      "accepted_utc": "2013-03-15T20:09:44Z",
+      "decision": "no eligible table",
+      "reason": "Sandy-specific estimated ultimate loss of $12m appears under a prose subheading between tables 108 and 109. Tables 131 and 145 contain narrative bullets comparing calendar-year catastrophe/property losses, each encompassing more than Sandy. No annual report EX-13 in the accession."
+    },
+    {
+      "doc_id": "GI22",
+      "issuer": "Global Indemnity Group, LLC",
+      "form": "10-K",
+      "accession": "0000950170-23-008195",
+      "report_period": "2022-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1494904/000095017023008195/gbli-20221231.htm",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1494904/000095017023008195/0000950170-23-008195-index.htm",
+      "sha256": "4bb1144a26990cc4652fbb39766fe22131bfc9a0a3579220f51c3f59a21211d0",
+      "accepted_utc": "2023-03-15T20:51:31Z",
+      "decision": "no eligible table",
+      "reason": "No standalone occurrence of the name Ian in the visible financial or narrative text; no annual report EX-13 in the accession."
+    },
+    {
+      "doc_id": "PH05",
+      "issuer": "Philadelphia Consolidated Holding Corp.",
+      "form": "10-K",
+      "accession": "0000893220-06-000532",
+      "report_period": "2005-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/w18434e10vk.htm",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/0000893220-06-000532-index.htm",
+      "sha256": "fd92170669032317704e6d89e914743bf68762c4123526414c0668ac283fd89d",
+      "accepted_utc": "2006-03-14T21:10:33Z",
+      "decision": "eligible",
+      "reason": "Table 57 is the first eligible financial table. Align its hurricane column header (Katrina spans grid columns 7–8), USD-million unit row, net loss and loss adjustment expense heading and segment/total row. Both Katrina landfalls are captured in the displayed Katrina column. The $24.7m total covers all hurricanes. FY2008 is not selected because FY2005 qualifies."
+    }
+  ],
+  "reference": [
+    {
+      "id": "CV05-net",
+      "doc_id": "CV05",
+      "target_event": "Hurricane Katrina",
+      "table": 104,
+      "row": 5,
+      "column": 4,
+      "document_coordinates": "1-based HTML table and row, expanded-column grid",
+      "printed": "44.6",
+      "scale_usd": 1000000,
+      "signed_usd": 44600000,
+      "owner": "Converium Holding AG, consolidated",
+      "measure": "Net incurred property catastrophe losses",
+      "basis": "Net incurred loss, including relevant Run-Off exposure. Tax basis unspecified by the table.",
+      "period": "year ended December 31, 2005",
+      "evidence": [
+        "CV05-P01450",
+        "CV05-P01451",
+        "CV05-P01454",
+        "CV05-P01458"
+      ]
+    },
+    {
+      "id": "PH05-personal",
+      "doc_id": "PH05",
+      "target_event": "Hurricane Katrina",
+      "table": 57,
+      "row": 7,
+      "column": 8,
+      "document_coordinates": "1-based HTML table and row, expanded-column grid",
+      "printed": "2.0",
+      "scale_usd": 1000000,
+      "signed_usd": 2000000,
+      "owner": "Personal Lines Segment",
+      "measure": "Net loss and loss adjustment expense estimates",
+      "basis": "Net retained estimated loss and LAE under catastrophe reinsurance; event-specific column combines both landfalls. Upstream narrative describes pre-tax per-occurrence retention terms.",
+      "period": "year ended December 31, 2005",
+      "evidence": [
+        "PH05-P00613",
+        "PH05-P00614",
+        "PH05-P00615",
+        "PH05-P00616",
+        "PH05-P00617",
+        "PH05-P00618",
+        "PH05-P00619"
+      ]
+    },
+    {
+      "id": "PH05-commercial",
+      "doc_id": "PH05",
+      "target_event": "Hurricane Katrina",
+      "table": 57,
+      "row": 8,
+      "column": 8,
+      "document_coordinates": "1-based HTML table and row, expanded-column grid",
+      "printed": "5.7",
+      "scale_usd": 1000000,
+      "signed_usd": 5700000,
+      "owner": "Commercial Lines Segment",
+      "measure": "Net loss and loss adjustment expense estimates",
+      "basis": "Net retained estimated loss and LAE under catastrophe reinsurance; event-specific column combines both landfalls. Upstream narrative describes pre-tax per-occurrence retention terms.",
+      "period": "year ended December 31, 2005",
+      "evidence": [
+        "PH05-P00613",
+        "PH05-P00614",
+        "PH05-P00615",
+        "PH05-P00616",
+        "PH05-P00617",
+        "PH05-P00618",
+        "PH05-P00620"
+      ]
+    },
+    {
+      "id": "PH05-total",
+      "doc_id": "PH05",
+      "target_event": "Hurricane Katrina",
+      "table": 57,
+      "row": 10,
+      "column": 8,
+      "document_coordinates": "1-based HTML table and row, expanded-column grid",
+      "printed": "7.7",
+      "scale_usd": 1000000,
+      "signed_usd": 7700000,
+      "owner": "Philadelphia Consolidated, total of personal and commercial lines",
+      "measure": "Net loss and loss adjustment expense estimates",
+      "basis": "Net retained estimated loss and LAE under catastrophe reinsurance; event-specific column combines both landfalls. Upstream narrative describes pre-tax per-occurrence retention terms.",
+      "period": "year ended December 31, 2005",
+      "evidence": [
+        "PH05-P00613",
+        "PH05-P00614",
+        "PH05-P00615",
+        "PH05-P00616",
+        "PH05-P00617",
+        "PH05-P00618",
+        "PH05-P00621"
+      ]
+    }
+  ]
+}

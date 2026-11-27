@@ -1,0 +1,207 @@
+{
+  "sealed_utc": "2026-11-27T17:02:17.602085+00:00",
+  "selection_sha256": "ca7310a37972ffa551f7c21b2159fd52a437a69daad52e3452fe6b136035fd87",
+  "reserve_selection_sha256": "65b197aa67a565f9d240079b8812f7014067291056a7c7f5e2052fc73db594a5",
+  "scoring_protocol_sha256": "87cb4b2f48739c059b1a4567fd12a99b9690ec4a05723149df42fb5ae8902751",
+  "original_roster": [
+    "PX05"
+  ],
+  "reserve_supplement": [
+    "CV05",
+    "PH05"
+  ],
+  "negative_values_in_selected_truth": 0,
+  "scope": "Independent read of the original financial tables. All printed amounts, signs, row/column, units, owners, accounting qualifiers, near misses and reporting periods were assessed before frozen predictions were opened.",
+  "filings": {
+    "PX05": {
+      "issuer": "PXRE Group Ltd.",
+      "event": "Hurricane Katrina",
+      "url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/b412207_10k.htm",
+      "table": 23,
+      "primary_sha256": "1575d7a463af372fbb5a6d7b5fcacc381c60625751a3d3a86738dcd434d7ae9a",
+      "controls": "Columns distinguish gross incurred from incurred after outwards reinsurance recoveries. The $850.809m net and $1,014.506m gross totals include Rita and Wilma. A later net-impact table shows $602.606m on a different basis. Do not combine or replace the two Katrina values in this table."
+    },
+    "CV05": {
+      "issuer": "Converium Holding AG",
+      "event": "Hurricane Katrina",
+      "url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/u50380e20vf.htm",
+      "table": 104,
+      "primary_sha256": "02872b0a9631d662dd981100041a315667240164a8a7bc84f520189edd47060c",
+      "controls": "The asterisk assigns $15.6m to Run-Off across Katrina, Rita and Wilma combined. $164.8m is the total for five catastrophes. The surrounding prose also identifies $149.2m for ongoing operations across the five. None is a standalone Katrina group loss."
+    },
+    "PH05": {
+      "issuer": "Philadelphia Consolidated Holding Corp.",
+      "event": "Hurricane Katrina",
+      "url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/w18434e10vk.htm",
+      "table": 57,
+      "primary_sha256": "fd92170669032317704e6d89e914743bf68762c4123526414c0668ac283fd89d",
+      "controls": "The Katrina column covers the 25 and 29 August occurrences; it is distinct from Dennis, Rita and Wilma. The $5.0m pre-tax retention per commercial occurrence is a contractual threshold. $24.7m is the sum of all four storms. The consolidated $7.7m includes the two segments, so summing all three would double count."
+    }
+  },
+  "claims": [
+    {
+      "id": "PX05-gross",
+      "doc_id": "PX05",
+      "event": "Hurricane Katrina",
+      "owner": "PXRE Group consolidated",
+      "measure": "Gross incurred loss",
+      "status": "incurred; management estimate of ultimate loss as of year-end",
+      "basis": "Gross, before reinsurance recoveries",
+      "period": "as of December 31, 2005",
+      "usd_scale": 1000,
+      "printed": "771,010",
+      "signed_low_usd": 771010000,
+      "signed_high_usd": 771010000,
+      "table": 23,
+      "row": 5,
+      "column": 4,
+      "evidence": [
+        "PX05-P00287",
+        "PX05-P00288",
+        "PX05-P00289",
+        "PX05-P00290",
+        "PX05-P00294",
+        "PX05-P00295"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/b412207_10k.htm"
+    },
+    {
+      "id": "PX05-net",
+      "doc_id": "PX05",
+      "event": "Hurricane Katrina",
+      "owner": "PXRE Group consolidated",
+      "measure": "Net incurred loss",
+      "status": "incurred; management estimate of ultimate loss as of year-end",
+      "basis": "Net of outwards reinsurance recoveries, before tax and impact of inward/outward reinstatement or additional premium",
+      "period": "as of December 31, 2005",
+      "usd_scale": 1000,
+      "printed": "638,010",
+      "signed_low_usd": 638010000,
+      "signed_high_usd": 638010000,
+      "table": 23,
+      "row": 5,
+      "column": 7,
+      "evidence": [
+        "PX05-P00287",
+        "PX05-P00288",
+        "PX05-P00289",
+        "PX05-P00290",
+        "PX05-P00294",
+        "PX05-P00295"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/b412207_10k.htm"
+    },
+    {
+      "id": "CV05-net",
+      "doc_id": "CV05",
+      "event": "Hurricane Katrina",
+      "owner": "Converium consolidated including ongoing and Run-Off operations",
+      "measure": "Net incurred property catastrophe loss",
+      "status": "incurred",
+      "basis": "net; tax treatment not specified for this consolidated row",
+      "period": "year ended December 31, 2005",
+      "usd_scale": 1000000,
+      "printed": "44.6",
+      "signed_low_usd": 44600000,
+      "signed_high_usd": 44600000,
+      "table": 104,
+      "row": 5,
+      "column": 4,
+      "evidence": [
+        "CV05-P01450",
+        "CV05-P01451",
+        "CV05-P01454",
+        "CV05-P01458",
+        "CV05-P01459"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/u50380e20vf.htm"
+    },
+    {
+      "id": "PH05-personal",
+      "doc_id": "PH05",
+      "event": "Hurricane Katrina",
+      "owner": "Philadelphia personal lines segment",
+      "measure": "Retained net loss and loss adjustment expense",
+      "status": "estimated; may still change",
+      "basis": "net after catastrophe reinsurance; pre-tax retention described in the preceding paragraph",
+      "period": "calendar 2005; Katrina occurrence dates August 25 and 29, 2005",
+      "usd_scale": 1000000,
+      "printed": "2.0",
+      "signed_low_usd": 2000000,
+      "signed_high_usd": 2000000,
+      "table": 57,
+      "row": 7,
+      "column": 8,
+      "evidence": [
+        "PH05-P00609",
+        "PH05-P00612",
+        "PH05-P00613",
+        "PH05-P00614",
+        "PH05-P00615",
+        "PH05-P00616",
+        "PH05-P00617",
+        "PH05-P00618",
+        "PH05-P00619"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/w18434e10vk.htm"
+    },
+    {
+      "id": "PH05-commercial",
+      "doc_id": "PH05",
+      "event": "Hurricane Katrina",
+      "owner": "Philadelphia commercial lines segment",
+      "measure": "Retained net loss and loss adjustment expense",
+      "status": "estimated; may still change",
+      "basis": "net after catastrophe reinsurance; pre-tax retention described in the preceding paragraph",
+      "period": "calendar 2005; Katrina occurrence dates August 25 and 29, 2005",
+      "usd_scale": 1000000,
+      "printed": "5.7",
+      "signed_low_usd": 5700000,
+      "signed_high_usd": 5700000,
+      "table": 57,
+      "row": 8,
+      "column": 8,
+      "evidence": [
+        "PH05-P00609",
+        "PH05-P00612",
+        "PH05-P00613",
+        "PH05-P00614",
+        "PH05-P00615",
+        "PH05-P00616",
+        "PH05-P00617",
+        "PH05-P00618",
+        "PH05-P00620"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/w18434e10vk.htm"
+    },
+    {
+      "id": "PH05-total",
+      "doc_id": "PH05",
+      "event": "Hurricane Katrina",
+      "owner": "Philadelphia Consolidated, total of affected segments",
+      "measure": "Retained net loss and loss adjustment expense",
+      "status": "estimated; may still change",
+      "basis": "net after catastrophe reinsurance; pre-tax retention described in the preceding paragraph",
+      "period": "calendar 2005; Katrina occurrence dates August 25 and 29, 2005",
+      "usd_scale": 1000000,
+      "printed": "7.7",
+      "signed_low_usd": 7700000,
+      "signed_high_usd": 7700000,
+      "table": 57,
+      "row": 10,
+      "column": 8,
+      "evidence": [
+        "PH05-P00609",
+        "PH05-P00612",
+        "PH05-P00613",
+        "PH05-P00614",
+        "PH05-P00615",
+        "PH05-P00616",
+        "PH05-P00617",
+        "PH05-P00618",
+        "PH05-P00621"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/w18434e10vk.htm"
+    }
+  ]
+}

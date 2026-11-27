@@ -1,0 +1,38 @@
+[
+  {
+    "doc_id": "CV05",
+    "issuer": "Converium Holding AG",
+    "event": "Katrina",
+    "cik": "1162586",
+    "accession": "0001156973-06-000763",
+    "form": "20-F",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-06-29T19:56:23Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/u50380e20vf.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/0001156973-06-000763-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1162586/000115697306000763/u50380e20vf.htm",
+    "primary_bytes": 2264810,
+    "primary_sha256": "02872b0a9631d662dd981100041a315667240164a8a7bc84f520189edd47060c",
+    "index_sha256": "496f5c5e8c61f45067382b2145b0713e326405b53c3fd5286cf7b2aa9f42fa67",
+    "rows": 4568,
+    "inputs_sha256": "f4b1be5f45ede1bd06f9d6940f49ffe5e03dd4c8f0f25442cb9db4f9910ff092"
+  },
+  {
+    "doc_id": "PH05",
+    "issuer": "Philadelphia Consolidated Holding Corp.",
+    "event": "Katrina",
+    "cik": "909109",
+    "accession": "0000893220-06-000532",
+    "form": "10-K",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-03-14T21:10:33Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/w18434e10vk.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/0000893220-06-000532-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/909109/000089322006000532/w18434e10vk.htm",
+    "primary_bytes": 1235253,
+    "primary_sha256": "fd92170669032317704e6d89e914743bf68762c4123526414c0668ac283fd89d",
+    "index_sha256": "d190e301893e832010a55d32f6d5b78f5fbba3e37e5e72496223e24cbc73a40a",
+    "rows": 2141,
+    "inputs_sha256": "85bcae1885faa62def553a9b8060f600b2ec21347d021c53c437cd54e31bc95f"
+  }
+]
