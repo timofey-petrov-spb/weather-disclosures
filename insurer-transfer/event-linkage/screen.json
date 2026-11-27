@@ -1,0 +1,141 @@
+{
+  "status": "Reachable originals checked; full registered roster incomplete. No positive native-HTML table selected. The PDF at Liberty Mutual disclosed signed losses, but the browser resource returned a PDF and direct download did not yield the original during this run.",
+  "checked": [
+    {
+      "doc_id": "BA05",
+      "form": "10-K",
+      "issuer": "Berkshire Hathaway Inc.",
+      "event": "Katrina",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095012906002521/a18139e10vk.htm",
+      "candidate_tables": [
+        15
+      ],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "BA17",
+      "form": "10-K",
+      "issuer": "Berkshire Hathaway Inc.",
+      "event": "Irma",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312518057033/d437858d10k.htm",
+      "candidate_tables": [],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "BA24",
+      "form": "10-K",
+      "issuer": "Berkshire Hathaway Inc.",
+      "event": "Helene",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "candidate_tables": [],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "BAQ17",
+      "form": "10-Q",
+      "issuer": "Berkshire Hathaway Inc.",
+      "event": "Irma",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312517332829/d473873d10q.htm",
+      "candidate_tables": [],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "BHQ05",
+      "form": "10-Q",
+      "issuer": "Berkshire Hathaway Inc.",
+      "event": "Katrina",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095012905010572/a14052e10vq.htm",
+      "candidate_tables": [
+        41
+      ],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "HG24",
+      "form": "10-K",
+      "issuer": "Hagerty, Inc.",
+      "event": "Milton",
+      "url": "https://www.sec.gov/Archives/edgar/data/1840776/000184077625000033/hgty-20241231.htm",
+      "candidate_tables": [],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "SAE12",
+      "form": "EX-99.1",
+      "issuer": "State Auto Financial Corporation",
+      "event": "Sandy",
+      "url": "https://www.sec.gov/Archives/edgar/data/874977/000119312513072960/d489407dex991.htm",
+      "candidate_tables": [],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "TW12",
+      "form": "10-K",
+      "issuer": "Tower Group, Inc.",
+      "event": "Sandy",
+      "url": "https://www.sec.gov/Archives/edgar/data/1289592/000119312513088924/d449965d10k.htm",
+      "candidate_tables": [
+        140,
+        242,
+        243,
+        246
+      ],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "TWAE12",
+      "form": "EX-99.1",
+      "issuer": "Tower Group, Inc.",
+      "event": "Sandy",
+      "url": "https://www.sec.gov/Archives/edgar/data/1289592/000119312513112385/d503797dex991.htm",
+      "candidate_tables": [],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "TWYE12",
+      "form": "EX-99.1",
+      "issuer": "Tower Group, Inc.",
+      "event": "Sandy",
+      "url": "https://www.sec.gov/Archives/edgar/data/1289592/000115752313001019/a50575828ex99_1.htm",
+      "candidate_tables": [],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "WM05",
+      "form": "10-K",
+      "issuer": "White Mountains Insurance Group, Ltd.",
+      "event": "Katrina",
+      "url": "https://www.sec.gov/Archives/edgar/data/776867/000110465906014685/a06-2418_110k.htm",
+      "candidate_tables": [
+        21
+      ],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    },
+    {
+      "doc_id": "WME05",
+      "form": "EX-99.1",
+      "issuer": "White Mountains Insurance Group, Ltd.",
+      "event": "Katrina",
+      "url": "https://www.sec.gov/Archives/edgar/data/776867/000110465906006162/a06-4129_1ex99d1.htm",
+      "candidate_tables": [],
+      "reason": "No independently eligible event-specific USD table located in this screen. See the selected case notes when included in the supplement."
+    }
+  ],
+  "other_sources": [
+    {
+      "issuer": "Liberty Mutual",
+      "url": "https://www.libertymutualgroup.com/about-lm/news/media/1651",
+      "reason": "PDF identified by source inspection; outside HTML protocol"
+    },
+    {
+      "issuer": "Hannover Re",
+      "url": "https://www.hannover-re.com/en/news/2018/annual-results-2017-hannover-re-generates-highly-satisfactory-group-net-income-for-2017-despite-large-losses/",
+      "reason": "Reported in EUR. No table selected in inspected FY2017 results"
+    },
+    {
+      "issuer": "Hannover Re",
+      "url": "https://www.hannover-re.com/en/news/2017/quarterly-statement-as-at-30-september-2017-hannover-re-records-solid-group-net-income-despite-substantial-natural-catastrophe-losses/",
+      "reason": "No actual qualifying USD event-specific financial table was located"
+    }
+  ]
+}

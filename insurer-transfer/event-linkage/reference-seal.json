@@ -1,0 +1,9 @@
+{
+  "sealed_utc": "2026-11-27T22:14:25.148399+00:00",
+  "method_commit": "ca8aa5dab4450de5f0f50c9a23494a362c39ded1",
+  "digests": {
+    "reference.json": "bbe7a502d519596171b64770eb36e3be414f0929bf3f2c00101319994c56e1ad",
+    "screen.json": "94846237b19379334b7ea38ea8606b506633f4d7ee4a165ce8a2ee75181e3dae",
+    "source-filings.json": "5759f387365ffb95f76cae9ef23e5c64bd999c305a5d12bbb9b7519e15dbb673"
+  }
+}

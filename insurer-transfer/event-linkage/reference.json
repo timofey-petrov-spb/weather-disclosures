@@ -1,0 +1,167 @@
+{
+  "purpose": "Supplemental pre-inference negative controls and fixed source-assertion checks on five new insurance groups. The provisional native-HTML table search was sparse and did not complete the full planned roster. This supplementary corpus is source-selected and neither exhaustively labeled nor a substitute for the original positive-table endpoint.",
+  "source_rubric": "Source-passages were read, assigned and frozen before prediction. Numeric recall checks for the exact amount, single named storm and one of the listed passage IDs. Economic matching also requires correct measure and reporting owner. Multistorm totals and the wrong storm or reporting period in specifically listed passages are forbidden. Proposals outside these passages are reported with their own source review. Source review by one reader with original filing table/caption or surrounding context checks.",
+  "cases": [
+    {
+      "doc": "BA05",
+      "why": "Berkshire: distinct holdings and a footnote share aggregate amounts for Katrina, Rita and Wilma. No separate company amount in the examined accounting sections of the annual filing. A $3.0bn Q3 figure combines Katrina and Rita.",
+      "targets": [],
+      "decoys": [
+        {
+          "usd": 3400000000,
+          "passages": [
+            544,
+            582
+          ],
+          "reason": "Aggregate of Katrina, Rita and Wilma"
+        },
+        {
+          "usd": 3000000000,
+          "passages": [
+            1842
+          ],
+          "reason": "Aggregate Katrina and Rita"
+        },
+        {
+          "usd": 685000000,
+          "passages": [
+            622
+          ],
+          "reason": "Gross/net description is for General Re and all three storms"
+        },
+        {
+          "usd": 2500000000,
+          "passages": [
+            646
+          ],
+          "reason": "Three storms in underwriting footnote"
+        }
+      ]
+    },
+    {
+      "doc": "TW12",
+      "why": "Tower: three distinct scoped loss figures and one group after-tax figure in prose. The $42.8m personal-lines figure mixes Sandy and other severe storms in P01336 and is not eligible for Sandy alone.",
+      "targets": [
+        {
+          "usd": 80100000,
+          "passages": [
+            1229
+          ],
+          "owner": "Tower group",
+          "measure": "after-tax Sandy loss"
+        },
+        {
+          "usd": 58200000,
+          "passages": [
+            1284
+          ],
+          "owner": "Commercial Insurance Segment",
+          "measure": "net losses"
+        },
+        {
+          "usd": 9000000,
+          "passages": [
+            1339
+          ],
+          "owner": "Reciprocal Exchanges",
+          "measure": "losses"
+        },
+        {
+          "usd": 101000000,
+          "passages": [
+            2783
+          ],
+          "owner": "Tower excluding Reciprocal Exchanges",
+          "measure": "net loss and loss adjustment expenses"
+        }
+      ],
+      "decoys": [
+        {
+          "usd": 42800000,
+          "passages": [
+            1336,
+            1343
+          ],
+          "reason": "Personal-lines losses also include other storms (P01336); later paragraph is looser"
+        },
+        {
+          "usd": 113900000,
+          "passages": [
+            1291
+          ],
+          "reason": "Includes first-half reserve strengthening"
+        }
+      ]
+    },
+    {
+      "doc": "WME05",
+      "why": "White Mountains: grouped bullet has company after-tax loss from each named hurricane and a separate combined subtotal.",
+      "targets": [
+        {
+          "usd": 44000000,
+          "passages": [
+            7
+          ],
+          "owner": "White Mountains group",
+          "measure": "Q4 additional after-tax loss"
+        }
+      ],
+      "decoys": [
+        {
+          "usd": 91000000,
+          "passages": [
+            7
+          ],
+          "reason": "Combined Katrina, Rita and Wilma total"
+        },
+        {
+          "usd": 10000000,
+          "passages": [
+            7
+          ],
+          "reason": "Rita"
+        }
+      ]
+    },
+    {
+      "doc": "SAE12",
+      "why": "State Auto (later Liberty Mutual): the first item with the event amount in a dated published HTML earnings release, with other catastrophe losses at different scales in company-wide results.",
+      "targets": [
+        {
+          "usd": 7300000,
+          "passages": [
+            21
+          ],
+          "owner": "State Auto Financial group",
+          "measure": "Q4 incurred loss"
+        }
+      ],
+      "decoys": []
+    },
+    {
+      "doc": "HG24",
+      "why": "Hagerty: the original 10-K reports Hagerty Re estimated/pre-tax loss and LAE for Milton and Helene separately in prose two times; record once.",
+      "targets": [
+        {
+          "usd": 3700000,
+          "passages": [
+            791,
+            1970
+          ],
+          "owner": "Hagerty Re",
+          "measure": "FY2024 estimated pre-tax loss and LAE"
+        }
+      ],
+      "decoys": [
+        {
+          "usd": 23000000,
+          "passages": [
+            791,
+            1970
+          ],
+          "reason": "Helene"
+        }
+      ]
+    }
+  ]
+}
