@@ -1,0 +1,14 @@
+{
+  "locked_utc": "2026-11-27T15:42:52.7537581Z",
+  "issuer": "The Allstate Corporation",
+  "cik": "0000899051",
+  "event": "Hurricane Ian (2022)",
+  "prior_sample_check": "No Allstate or CIK 899051 in existing local issuer inventories, data, research markdown or sample definition scripts. Prior Ian/HCI uses another issuer. Checks covered weather-disclosures/data, portfolio counterpart, prior application source rosters and Ida validation.",
+  "sample_rule": "All original first 10-Q for report ended 2022-09-30 and first 10-K for report ended 2022-12-31 for this CIK, accepted after 2022-09-28; primary HTML only; exclude amendments, supplemental exhibits and other entities' filings. Keep both forms irrespective of disclosures.",
+  "ids": [
+    "AQ",
+    "AK"
+  ],
+  "reference": "One separate event-attributed dollar fact in a main form, de-duplicating repeated mentions of the same owner, measure, basis, period, status and amount within that form. Include positively stated incurred, estimated, original/revised, paid, reserve, premium/reinsurance/event cost, event-specific prior adjustments and unique labelled quantitative table facts. Exclude historic totals combining events, limits applicable to multiple events, probabilities, non-money and sector/assorted totals. Preserve derived vs stated, currency scales, bound, negation, financial basis, period and claim entity. No new-issuer outcome accessed by builder; source review precedes opening frozen outputs.",
+  "secondary": "If no isolated dollar amounts, preserve empty reference and report specificity only. No replacement or further selection."
+}

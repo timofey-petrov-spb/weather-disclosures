@@ -1,0 +1,12 @@
+{
+  "locked_utc": "2026-11-27T15:48:46.1096399Z",
+  "issuer": "Chubb Limited",
+  "cik": "0000896159",
+  "event": "Hurricane Ian (2022)",
+  "previous": "No Chubb or CIK 896159 in prior issuer inventories, dataset source definitions, references and earlier CV/application project materials.",
+  "legacy_seen": "No Allstate prediction opened by the registering source reviewer before fixing these independent docs. New sample retained regardless of quality of Allstate results.",
+  "sample": "First original Chubb 10-Q ending 2022-09-30 and 10-K ending 2022-12-31 accepted since 2022-09-28; only original main HTML, archives and report period signatures verified. BQ=Q3, BK=FY. No substitutes, amendments or exhibit if no event amounts.",
+  "measure": "One distinct supported storm-specific reported USD measure per document, including identified entity, metric, status, scope/basis, bounds and dates with text/table evidence. Distinguish named from uniquely linked table facts, don't infer monetary amounts solely from percentages or allocation of aggregate across events. Repeat within a filing once. Include disjoint accounting concepts with coincident dollar value if explicitly tagged. Other storms, prior years and industry/program totals are controls.",
+  "decision_rule": "If v4 automatically recovers fewer than half the five Allstate reference facts (<3 of 5), Allstate becomes development for a separately locked v5; Chubb then serves as confirmation of v5 with v4 baseline also retained on the same two documents. Otherwise evaluate v4 unchanged on Chubb. Never select on this sample's contents. Only open the reference for prediction comparison after algorithm lock.",
+  "rationale": "Additional independent set was selected because Allstate comprised just three directly named dollar facts in a single filing plus two source-linked table/footnote facts; two documents from another issuer improve diversity."
+}

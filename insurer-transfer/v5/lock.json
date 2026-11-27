@@ -1,0 +1,38 @@
+{
+  "freeze_utc": "2026-11-27T15:52:50.326640+00:00",
+  "implementation": {
+    "v5/extract.py": "e6c774ea8894f962ab3e863388e2ecff9261895c6cced4b82f7b5d6bc21d4b0c",
+    "v4/extract.py": "8691f90f08724ab5a312aa43aff5a3b82885dc5856470cae36ad1506d9c0c383",
+    "v4/source_reader.py": "6dabdd91eebc3e1b5925f304f7e98a1d86f144d45ac79a238327aaa7275eb0b5",
+    "xbrl_units.py": "1f59a71ca3facd12ec25049b4cc8dea1c3231ddd8fd19b193942b3c6e8544353",
+    "extractor_v3.py": "d95fb23188e6e73b46d1c36bd3b63fa1819e75555ded5634f7f575504a144bc2"
+  },
+  "implementation_fingerprint": "780561d5e9d30b07d756d03465280781119521c31476a6c22590117e77eb4e4d",
+  "test_sha256": "a5b30b20b7928a4663665b6c813be3ee9921fb25a674a261b7221747350b7976",
+  "runtime": "Pure Python 3.10+. Development runtime 3.12.14",
+  "cli": "python v5/extract.py INPUTS_JSONL PRIMARY_HTML_DIRECTORY OUTPUT_JSON",
+  "unit": "Financial record per original filing, with printed amount, scope and source evidence. Source documents only for inference; review rows excluded from automatic scores.",
+  "development": {
+    "allstate": {
+      "output_sha256": "1f7cc8be6c7940d35508eaf3fc4d86edf9bf76f901fee3489744d8d9530bbabb",
+      "automatic": 5,
+      "review": 0
+    },
+    "hci": {
+      "output_sha256": "89b0b38ddffdeea910b74537d56c72515f538c74ce056846d38625855d967343",
+      "automatic": 23,
+      "review": 0
+    },
+    "michael": {
+      "output_sha256": "d511f8908a98024069eac3cfe482193fc6f4ab85e949c7027d9ed31681c20a7c",
+      "automatic": 6,
+      "review": 0
+    },
+    "irma": {
+      "output_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "automatic": 0,
+      "review": 0
+    }
+  },
+  "blindness": "The implementation developer saw only previous development material plus the now disclosed, original failed Allstate evaluation. Neither the new confirmation insurer, documents, peer labels nor predictions were accessed by the developer before this freeze."
+}

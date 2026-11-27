@@ -1,0 +1,33 @@
+{
+  "freeze_utc": "2026-11-27T15:48:16.639443+00:00",
+  "implementation": {
+    "v4/extract.py": "8691f90f08724ab5a312aa43aff5a3b82885dc5856470cae36ad1506d9c0c383",
+    "v4/source_reader.py": "6dabdd91eebc3e1b5925f304f7e98a1d86f144d45ac79a238327aaa7275eb0b5",
+    "xbrl_units.py": "1f59a71ca3facd12ec25049b4cc8dea1c3231ddd8fd19b193942b3c6e8544353",
+    "extractor_v3.py": "d95fb23188e6e73b46d1c36bd3b63fa1819e75555ded5634f7f575504a144bc2"
+  },
+  "implementation_fingerprint": "6a760d39ff7725a45663129817d4a7f379b4cd012d15991e427def7bc7436bd9",
+  "test_sha256": "92fce9a6bf9e22f6011099f55ab470d7f75deaf5014ce3dccfcab5ed726a8a3d",
+  "runtime": "Pure Python 3.10+. Development run: 3.12.14",
+  "input": "JSONL passage manifest and canonical primary HTML named {doc_id}.htm. All words, issuers and storm labels come from supplied documents and accession metadata. No reference annotations or past predictions are read by the extractor.",
+  "cli": "python v4/extract.py INPUTS_JSONL PRIMARY_HTML_DIRECTORY OUTPUT_JSON",
+  "unit": "one distinct financial record per filing; evidence_passage_ids preserve repeated mentions; flagged review rows excluded from all automatic counts",
+  "development_cohorts": {
+    "HCI / Ian": {
+      "output_sha256": "89b0b38ddffdeea910b74537d56c72515f538c74ce056846d38625855d967343",
+      "records": 23,
+      "automatic": 23
+    },
+    "Universal and Heritage / Michael": {
+      "output_sha256": "d511f8908a98024069eac3cfe482193fc6f4ab85e949c7027d9ed31681c20a7c",
+      "records": 6,
+      "automatic": 6
+    },
+    "United / Irma": {
+      "output_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "records": 0,
+      "automatic": 0
+    }
+  },
+  "blindness": "Producer did not access or inspect new issuer, holdout files, labels or predictions before this lock."
+}

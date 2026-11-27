@@ -1,0 +1,158 @@
+[
+  {
+    "id": "hci",
+    "filings": [
+      {
+        "doc_id": "CQ",
+        "issuer": "HCI Group, Inc.",
+        "cik": "0001400810",
+        "period": "2022-09-30",
+        "form": "10-Q",
+        "filing_date": "2022-11-09",
+        "accepted_at_utc": "2022-11-09T21:01:52Z",
+        "accession": "0000950170-22-023815",
+        "primary_name": "hci-20220930.htm",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm",
+        "official_index_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/0000950170-22-023815-index.htm",
+        "source_sgml_url": "https://edgar-mirror.sec-api.io/1400810/000095017022023815/0000950170-22-023815.txt",
+        "source_sgml_bytes": 34441077,
+        "source_sgml_sha256": "dbe4c21f33e2f9828f0e14c17f8a471a7bf8588317067c72c553a41ddcf774a0",
+        "index_sha256": "09925be3a3396efee1d9d2390b42410ef44c69c874621f9fe4da425097827a09",
+        "primary_bytes": 8198704,
+        "primary_sha256": "3818eab3b02c1da3011beb10299c218c776282cd53d5923ba6f77c2dbeb3d2df",
+        "paragraphs": 1815,
+        "event": "Ian"
+      },
+      {
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "cik": "0001400810",
+        "period": "2022-12-31",
+        "form": "10-K",
+        "filing_date": "2023-03-10",
+        "accepted_at_utc": "2023-03-10T21:09:32Z",
+        "accession": "0000950170-23-007271",
+        "primary_name": "hci-20221231.htm",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "official_index_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/0000950170-23-007271-index.htm",
+        "source_sgml_url": "https://edgar-mirror.sec-api.io/1400810/000095017023007271/0000950170-23-007271.txt",
+        "source_sgml_bytes": 52158963,
+        "source_sgml_sha256": "7e2f1a9c072f794cc219ef3afbec6c296cb89137d5d67914a81a3c31501b3271",
+        "index_sha256": "476ee4d81dd3d1fb453eff60fae019648a6059c021fc4a44ce7122e9374d0d7c",
+        "primary_bytes": 11076488,
+        "primary_sha256": "1439eff40bbfab03c725b5a6ae207aa4318f760dc7417859ce1d52b71175bcd4",
+        "paragraphs": 2855,
+        "event": "Ian"
+      }
+    ],
+    "output_digests": {
+      "v3": "a0fe8fea594691db5c026718dab74ca2a9bb0d547289417faea4fc4b36853502",
+      "v4": "5baa37c1bc8b05cebd1ab5da987c9fa17a1ef0af73007b30c69ae2fba991a5ad",
+      "v5": "5baa37c1bc8b05cebd1ab5da987c9fa17a1ef0af73007b30c69ae2fba991a5ad"
+    }
+  },
+  {
+    "id": "allstate",
+    "filings": [
+      {
+        "doc_id": "AQ",
+        "issuer": "The Allstate Corporation",
+        "cik": "0000899051",
+        "period": "2022-09-30",
+        "form": "10-Q",
+        "filing_date": "2022-11-02",
+        "accepted_at_utc": "2022-11-02T20:18:16Z",
+        "accession": "0000899051-22-000079",
+        "primary_name": "all-20220930.htm",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm",
+        "official_index_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/0000899051-22-000079-index.htm",
+        "source_sgml_url": "https://edgar-mirror.sec-api.io/899051/000089905122000079/0000899051-22-000079.txt",
+        "source_sgml_bytes": 26895806,
+        "source_sgml_sha256": "7513ff0fb54bf7aea9cb490eb5a43d4a99a5ae50d254826fba580e0d454445d8",
+        "index_sha256": "308bfa0aebc09fb82f93129c06c3b8bbf13bb93a8b52eb923790abb4598c85e1",
+        "primary_bytes": 6448664,
+        "primary_sha256": "b734a65b5627105a482582c98dc9397641d82a1c020716844453d841fcccde71",
+        "paragraphs": 2515,
+        "event": "Ian"
+      },
+      {
+        "doc_id": "AK",
+        "issuer": "The Allstate Corporation",
+        "cik": "0000899051",
+        "period": "2022-12-31",
+        "form": "10-K",
+        "filing_date": "2023-02-16",
+        "accepted_at_utc": "2023-02-16T22:32:22Z",
+        "accession": "0000899051-23-000020",
+        "primary_name": "all-20221231.htm",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905123000020/all-20221231.htm",
+        "official_index_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905123000020/0000899051-23-000020-index.htm",
+        "source_sgml_url": "https://edgar-mirror.sec-api.io/899051/000089905123000020/0000899051-23-000020.txt",
+        "source_sgml_bytes": 88626323,
+        "source_sgml_sha256": "3cdeec39ba141f618574146168ee143c9f42ed09a12d9c1eabaa39789af42178",
+        "index_sha256": "96f4771b5bad4ef746307b2a59e39e1810a64e9dbc89bbd6c8d27989f53882b7",
+        "primary_bytes": 10933746,
+        "primary_sha256": "9a083056d50b4b6ce521bfa6f5e4cd47bbfed65ca330960334cb99d4ccf9d11a",
+        "paragraphs": 5391,
+        "event": "Ian"
+      }
+    ],
+    "output_digests": {
+      "v3": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v4": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v5": "6621f0f39bc60085d8d216839383127c142f782177f8292a197474ba2d3ffcf2"
+    }
+  },
+  {
+    "id": "chubb",
+    "filings": [
+      {
+        "doc_id": "BQ",
+        "issuer": "Chubb Limited",
+        "cik": "0000896159",
+        "period": "2022-09-30",
+        "form": "10-Q",
+        "filing_date": "2022-10-28",
+        "accepted_at_utc": "2022-10-28T20:08:42Z",
+        "accession": "0000896159-22-000014",
+        "primary_name": "cb-20220930.htm",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615922000014/cb-20220930.htm",
+        "official_index_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615922000014/0000896159-22-000014-index.htm",
+        "source_sgml_url": "https://edgar-mirror.sec-api.io/896159/000089615922000014/0000896159-22-000014.txt",
+        "source_sgml_bytes": 24126272,
+        "source_sgml_sha256": "85c102a91a3a4ec8264ff5ba05b990be9b7b9097da48cf9d63731c44f7791acd",
+        "index_sha256": "81d583a38598aa1045998feaa3354ac86b91cf2fb60012a0a791e19453078d58",
+        "primary_bytes": 6323738,
+        "primary_sha256": "9f48d8cbbd2fe6a73358a13a4965581a31472a8b1d167f2b2f17d56cadec19a7",
+        "paragraphs": 2388,
+        "event": "Ian"
+      },
+      {
+        "doc_id": "BK",
+        "issuer": "Chubb Limited",
+        "cik": "0000896159",
+        "period": "2022-12-31",
+        "form": "10-K",
+        "filing_date": "2023-02-24",
+        "accepted_at_utc": "2023-02-24T20:47:16Z",
+        "accession": "0000896159-23-000007",
+        "primary_name": "cb-20221231.htm",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615923000007/cb-20221231.htm",
+        "official_index_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615923000007/0000896159-23-000007-index.htm",
+        "source_sgml_url": "https://edgar-mirror.sec-api.io/896159/000089615923000007/0000896159-23-000007.txt",
+        "source_sgml_bytes": 51019332,
+        "source_sgml_sha256": "a60b93dab5859dc6d748ef2077b6bf42607b67dd4add5a1819d54fb2a0b8efcd",
+        "index_sha256": "78e1c36565210509a2da9cd68269625974bcd0008133f483bb59b0ac74def919",
+        "primary_bytes": 11433897,
+        "primary_sha256": "a1d5bd77c93db780529a69f0a2c8e5c5b797342646cae92621aba928c10135bb",
+        "paragraphs": 4882,
+        "event": "Ian"
+      }
+    ],
+    "output_digests": {
+      "v3": "4173bd4ee33b56592cd5de0a1a951cf1a3781da114e06de3f045532114a9761a",
+      "v4": "633219e47ca7b55dda66376808167540d91c1e9a644129933943704ef597da7e",
+      "v5": "633219e47ca7b55dda66376808167540d91c1e9a644129933943704ef597da7e"
+    }
+  }
+]

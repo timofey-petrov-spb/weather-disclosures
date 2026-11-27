@@ -1,0 +1,3153 @@
+{
+  "unit": "One distinct source-labelled monetary fact per filing. Repeated publications across filings are counted separately. Review-only entries are not automatic matches.",
+  "actual_references": {
+    "hci": [
+      {
+        "claim_id": "CQ-gross",
+        "doc_id": "CQ",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "estimated storm loss and LAE",
+        "basis": "gross pre-tax",
+        "status": "current estimate",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 970000000,
+        "high_usd": 970000000,
+        "passage_ids": [
+          "CQ-P00382",
+          "CQ-P01424"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm"
+      },
+      {
+        "claim_id": "CQ-net",
+        "doc_id": "CQ",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "storm losses after anticipated reinsurance recoveries",
+        "basis": "net pre-tax",
+        "status": "incurred estimate",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 65000000,
+        "high_usd": 65000000,
+        "passage_ids": [
+          "CQ-P00382",
+          "CQ-P00930",
+          "CQ-P01424"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm"
+      },
+      {
+        "claim_id": "CQ-gross-hcpci",
+        "doc_id": "CQ",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCPCI / Homeowners Choice Property & Casualty Insurance Company, Inc.",
+        "event": "Hurricane Ian (2022)",
+        "measure": "storm losses including adjustment expenses",
+        "basis": "gross",
+        "status": "current estimate",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 550518000,
+        "high_usd": 550518000,
+        "passage_ids": [
+          "CQ-P00382",
+          "CQ-P01424"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm"
+      },
+      {
+        "claim_id": "CQ-gross-typtap",
+        "doc_id": "CQ",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "TypTap",
+        "event": "Hurricane Ian (2022)",
+        "measure": "storm losses including adjustment expenses",
+        "basis": "gross",
+        "status": "current estimate",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 419482000,
+        "high_usd": 419482000,
+        "passage_ids": [
+          "CQ-P00382",
+          "CQ-P01424"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm"
+      },
+      {
+        "claim_id": "CQ-reversal",
+        "doc_id": "CQ",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "decrease of accrued benefits / increase in ceded premiums",
+        "basis": "reinsurance expense adjustment",
+        "status": "recognized reversal",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 12600000,
+        "high_usd": 12600000,
+        "passage_ids": [
+          "CQ-P00383",
+          "CQ-P00894",
+          "CQ-P01425",
+          "CQ-P01478",
+          "CQ-P01510",
+          "CQ-P01590"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm"
+      },
+      {
+        "claim_id": "CQ-allowance",
+        "doc_id": "CQ",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "allowance for credit losses on unpaid ceded reinsurance recoverable",
+        "basis": "credit-loss allowance",
+        "status": "recognized",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 399000,
+        "high_usd": 399000,
+        "passage_ids": [
+          "CQ-P00383",
+          "CQ-P01425"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm"
+      },
+      {
+        "claim_id": "CQ-hcpci-expense",
+        "doc_id": "CQ",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCPCI / Homeowners Choice Property & Casualty Insurance Company, Inc.",
+        "event": "Hurricane Ian (2022)",
+        "measure": "Ian component of reported segment loss and LAE expense",
+        "basis": "segment expense after cessions",
+        "status": "incurred / recognized expense",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 42346000,
+        "high_usd": 42346000,
+        "passage_ids": [
+          "CQ-P01494",
+          "CQ-P01525"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm"
+      },
+      {
+        "claim_id": "CQ-typtap-expense",
+        "doc_id": "CQ",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "TypTap",
+        "event": "Hurricane Ian (2022)",
+        "measure": "Ian component of reported segment loss and LAE expense",
+        "basis": "segment expense after cessions",
+        "status": "incurred / recognized expense",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 22251000,
+        "high_usd": 22251000,
+        "passage_ids": [
+          "CQ-P01494",
+          "CQ-P01525"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm"
+      },
+      {
+        "claim_id": "CK-gross",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "storm losses and LAE for all lines",
+        "basis": "gross",
+        "status": "current estimate",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022",
+        "low_usd": 847500000,
+        "high_usd": 847500000,
+        "passage_ids": [
+          "CK-P01815"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-gross-hcpci",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCPCI / Homeowners Choice Property & Casualty Insurance Company, Inc.",
+        "event": "Hurricane Ian (2022)",
+        "measure": "storm losses and LAE",
+        "basis": "gross",
+        "status": "current estimate",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022",
+        "low_usd": 452050000,
+        "high_usd": 452050000,
+        "passage_ids": [
+          "CK-P01815"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-gross-typtap",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "TypTap",
+        "event": "Hurricane Ian (2022)",
+        "measure": "storm losses and LAE",
+        "basis": "gross",
+        "status": "current estimate",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022",
+        "low_usd": 395450000,
+        "high_usd": 395450000,
+        "passage_ids": [
+          "CK-P01815"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-net",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "losses and LAE retained after reinsurance",
+        "basis": "net retained",
+        "status": "reported incurred loss estimate",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022",
+        "low_usd": 65300000,
+        "high_usd": 65300000,
+        "passage_ids": [
+          "CK-P01815"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-flood",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "retained flood losses above coverage exhausted",
+        "basis": "net / retained component",
+        "status": "reported loss",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022",
+        "low_usd": 7000000,
+        "high_usd": 7000000,
+        "passage_ids": [
+          "CK-P01815"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-hcpci-expense",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCPCI / Homeowners Choice Property & Casualty Insurance Company, Inc.",
+        "event": "Hurricane Ian (2022)",
+        "measure": "Ian component of reported segment loss and LAE expense",
+        "basis": "segment expense after cessions",
+        "status": "incurred / recognized expense",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022",
+        "low_usd": 42100000,
+        "high_usd": 42100000,
+        "passage_ids": [
+          "CK-P00561"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-typtap-expense",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "TypTap",
+        "event": "Hurricane Ian (2022)",
+        "measure": "Ian component of reported segment loss and LAE expense",
+        "basis": "segment expense after cessions",
+        "status": "incurred / recognized expense",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022",
+        "low_usd": 23200000,
+        "high_usd": 23200000,
+        "passage_ids": [
+          "CK-P00561"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-reversal",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "decrease of accrued benefits / increase in ceded premiums",
+        "basis": "reinsurance expense adjustment",
+        "status": "recognized reversal",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "occurrence 2022-Q3; reported FY2022",
+        "low_usd": 12600000,
+        "high_usd": 12600000,
+        "passage_ids": [
+          "CK-P00546",
+          "CK-P00666",
+          "CK-P01758"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-ceded",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "ceded losses recognized as reductions in losses and LAE",
+        "basis": "ceded",
+        "status": "recognized reduction",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022",
+        "low_usd": 782071000,
+        "high_usd": 782071000,
+        "passage_ids": [
+          "CK-P01751"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-reinstatement",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "elected reinstatement premium to restore first-event flood coverage",
+        "basis": "reinsurance premium",
+        "status": "elected to pay",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022",
+        "low_usd": 6684000,
+        "high_usd": 6684000,
+        "passage_ids": [
+          "CK-P01757"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-writeoff",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "unamortized first-event flood reinsurance premiums written off",
+        "basis": "ceded premium expense",
+        "status": "written off and charged",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q4",
+        "low_usd": 3306000,
+        "high_usd": 3306000,
+        "passage_ids": [
+          "CK-P01757"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-incurred-table",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "incurred claims and allocated claim adjustment expenses",
+        "basis": "net of reinsurance",
+        "status": "incurred at year end",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "as at 2022-12-31",
+        "low_usd": 65325000,
+        "high_usd": 65325000,
+        "passage_ids": [
+          "CK-P01931",
+          "CK-P01932"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-ibnr-table",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "IBNR plus expected development on reported claims",
+        "basis": "net of reinsurance",
+        "status": "reserve estimate at year end",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "as at 2022-12-31",
+        "low_usd": 32327000,
+        "high_usd": 32327000,
+        "passage_ids": [
+          "CK-P01931"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-paid-table",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "cumulative paid claims and allocated claim adjustment expenses",
+        "basis": "net of reinsurance",
+        "status": "paid cumulative",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "as at 2022-12-31",
+        "low_usd": 32998000,
+        "high_usd": 32998000,
+        "passage_ids": [
+          "CK-P01935",
+          "CK-P01936"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      },
+      {
+        "claim_id": "CK-liability-table",
+        "doc_id": "CK",
+        "issuer": "HCI Group, Inc.",
+        "affected_entity": "HCI Group, Inc. (consolidated)",
+        "event": "Hurricane Ian (2022)",
+        "measure": "outstanding liability for unpaid loss and LAE",
+        "basis": "net of reinsurance",
+        "status": "balance at year end",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "as at 2022-12-31",
+        "low_usd": 32327000,
+        "high_usd": 32327000,
+        "passage_ids": [
+          "CK-P01937",
+          "CK-P01951"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm"
+      }
+    ],
+    "allstate": [
+      {
+        "claim_id": "AQ-gross",
+        "doc_id": "AQ",
+        "issuer": "The Allstate Corporation",
+        "affected_entity": "Allstate Protection segment",
+        "event": "Hurricane Ian (2022)",
+        "measure": "estimated catastrophe losses, excluding NFIP claim expenses",
+        "basis": "gross pre-tax",
+        "status": "estimated",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 671000000,
+        "high_usd": 671000000,
+        "bound_type": "stated point",
+        "passage_ids": [
+          "AQ-P01861"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm"
+      },
+      {
+        "claim_id": "AQ-recoveries",
+        "doc_id": "AQ",
+        "issuer": "The Allstate Corporation",
+        "affected_entity": "Allstate Protection segment",
+        "event": "Hurricane Ian (2022)",
+        "measure": "anticipated reinsurance recoveries for the Florida Excess Catastrophe Reinsurance Program",
+        "basis": "ceded / expected recovery",
+        "status": "anticipated",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 305000000,
+        "high_usd": 305000000,
+        "bound_type": "stated point",
+        "passage_ids": [
+          "AQ-P01272",
+          "AQ-P01861"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm"
+      },
+      {
+        "claim_id": "AQ-net",
+        "doc_id": "AQ",
+        "issuer": "The Allstate Corporation",
+        "affected_entity": "Allstate Protection segment",
+        "event": "Hurricane Ian (2022)",
+        "measure": "estimated catastrophe losses after anticipated recoveries, excluding NFIP claim expenses",
+        "basis": "net of expected reinsurance; same pre-tax loss group",
+        "status": "estimated",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 366000000,
+        "high_usd": 366000000,
+        "bound_type": "stated point",
+        "passage_ids": [
+          "AQ-P01861"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm"
+      },
+      {
+        "claim_id": "AQ-net-including-nfip",
+        "doc_id": "AQ",
+        "issuer": "The Allstate Corporation",
+        "affected_entity": "Allstate Protection segment",
+        "event": "Hurricane Ian (2022)",
+        "measure": "reported current-year hurricane/tropical-storm catastrophe losses including NFIP claim expenses",
+        "basis": "net of recoveries including NFIP claim expenses",
+        "status": "reported event loss estimate",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 378000000,
+        "high_usd": 378000000,
+        "bound_type": "stated point",
+        "passage_ids": [
+          "AQ-P01870"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm"
+      },
+      {
+        "claim_id": "AQ-nfip-expense",
+        "doc_id": "AQ",
+        "issuer": "The Allstate Corporation",
+        "affected_entity": "Allstate Protection segment",
+        "event": "Hurricane Ian (2022)",
+        "measure": "NFIP claim expenses included in the stated current-year single-storm category",
+        "basis": "NFIP expense component; separate program scope",
+        "status": "included in reported event expense",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 12000000,
+        "high_usd": 12000000,
+        "bound_type": "stated point",
+        "passage_ids": [
+          "AQ-P01880"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm"
+      }
+    ],
+    "chubb": [
+      {
+        "claim_id": "BQ-loss",
+        "doc_id": "BQ",
+        "issuer": "Chubb Limited",
+        "affected_entity": "Chubb Limited; consolidated P&C catastrophe loss",
+        "event": "Hurricane Ian (2022)",
+        "measure": "reported catastrophe losses attributable to Ian",
+        "basis": "pre-tax; source does not separately label this event amount gross or net of reinsurance",
+        "status": "reported catastrophe loss incurred in the reporting period; not an anticipated charge or an identified cash payment",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "low_usd": 975000000,
+        "high_usd": 975000000,
+        "bound_type": "stated point",
+        "passage_ids": [
+          "BQ-P01379",
+          "BQ-P01437"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615922000014/cb-20220930.htm"
+      },
+      {
+        "claim_id": "BK-loss",
+        "doc_id": "BK",
+        "issuer": "Chubb Limited",
+        "affected_entity": "Chubb Limited; consolidated P&C catastrophe loss",
+        "event": "Hurricane Ian (2022)",
+        "measure": "reported catastrophe losses attributable to Ian",
+        "basis": "pre-tax; source does not separately label this event amount gross or net of reinsurance",
+        "status": "reported catastrophe loss incurred in the reporting period; not an anticipated charge or an identified cash payment",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022; repeats the same event-level figure from Q3",
+        "low_usd": 975000000,
+        "high_usd": 975000000,
+        "bound_type": "stated point",
+        "passage_ids": [
+          "BK-P00725",
+          "BK-P00784"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615923000007/cb-20221231.htm"
+      }
+    ]
+  },
+  "hci_v3": {
+    "raw_rows": 18,
+    "automatic": 8,
+    "review": 10,
+    "automatic_event_and_bounds_correct_rows": 6,
+    "automatic_distinct_event_and_bounds_correct_units": 4,
+    "automatic_amount_matches_collapsed_as_duplicate_rows": 2,
+    "automatic_wrong_scale_rows": 1,
+    "automatic_unrelated_amount_rows": 1,
+    "automatic_partial_entity_or_period_rows": 5,
+    "core_fields_matched_units": 1,
+    "review_event_amount_correct_rows": 1,
+    "distinct_correct_amount_review_only_units": 1,
+    "review_wrong_scale_rows": 1,
+    "review_unrelated_rows": 8
+  },
+  "hci_v4": {
+    "dataset": "HCI Group, Hurricane Ian, 10-Q Q3 and 10-K FY2022. v4 development data.",
+    "prediction_sha256": "89b0b38ddffdeea910b74537d56c72515f538c74ce056846d38625855d967343",
+    "reference_sha256": "db57c692fbdfe56726dc4546d3b413313385eb78f01cf5dee0137c7f40bca14b",
+    "scoring_protocol_sha256": "3da634613a6f46491ec8d69feb0f6d6ae92c920324031186c7513123d51b9c5d",
+    "summary": {
+      "gold_facts": 23,
+      "automatic_rows": 23,
+      "review_rows": 0,
+      "supported_amount_event_rows": 23,
+      "unsupported_automatic_rows": 0,
+      "duplicate_supported_rows": 0,
+      "unique_amount_matches": 23,
+      "full_semantic_matches": 22,
+      "numerical_hits_with_incomplete_semantics": 1
+    },
+    "by_filing": {
+      "CQ": {
+        "gold_facts": 8,
+        "automatic_rows": 8,
+        "review_rows": 0,
+        "supported_amount_event_rows": 8,
+        "unsupported_automatic_rows": 0,
+        "duplicate_supported_rows": 0,
+        "unique_amount_matches": 8,
+        "full_semantic_matches": 8,
+        "numerical_hits_with_incomplete_semantics": 0
+      },
+      "CK": {
+        "gold_facts": 15,
+        "automatic_rows": 15,
+        "review_rows": 0,
+        "supported_amount_event_rows": 15,
+        "unsupported_automatic_rows": 0,
+        "duplicate_supported_rows": 0,
+        "unique_amount_matches": 15,
+        "full_semantic_matches": 14,
+        "numerical_hits_with_incomplete_semantics": 1
+      }
+    },
+    "reference_ledger": [
+      {
+        "claim_id": "CQ-gross",
+        "doc_id": "CQ",
+        "amount_usd": 970000000,
+        "metric": "estimated storm loss and LAE",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm",
+        "reference_passages": [
+          "CQ-P00382",
+          "CQ-P01424"
+        ],
+        "auto_rows": [
+          0
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CQ-net",
+        "doc_id": "CQ",
+        "amount_usd": 65000000,
+        "metric": "storm losses after anticipated reinsurance recoveries",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm",
+        "reference_passages": [
+          "CQ-P00382",
+          "CQ-P00930",
+          "CQ-P01424"
+        ],
+        "auto_rows": [
+          1
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CQ-gross-hcpci",
+        "doc_id": "CQ",
+        "amount_usd": 550518000,
+        "metric": "storm losses including adjustment expenses",
+        "entity": "HCPCI / Homeowners Choice Property & Casualty Insurance Company, Inc.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm",
+        "reference_passages": [
+          "CQ-P00382",
+          "CQ-P01424"
+        ],
+        "auto_rows": [
+          2
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CQ-gross-typtap",
+        "doc_id": "CQ",
+        "amount_usd": 419482000,
+        "metric": "storm losses including adjustment expenses",
+        "entity": "TypTap",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm",
+        "reference_passages": [
+          "CQ-P00382",
+          "CQ-P01424"
+        ],
+        "auto_rows": [
+          3
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CQ-reversal",
+        "doc_id": "CQ",
+        "amount_usd": 12600000,
+        "metric": "decrease of accrued benefits / increase in ceded premiums",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm",
+        "reference_passages": [
+          "CQ-P00383",
+          "CQ-P00894",
+          "CQ-P01425",
+          "CQ-P01478",
+          "CQ-P01510",
+          "CQ-P01590"
+        ],
+        "auto_rows": [
+          4
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CQ-allowance",
+        "doc_id": "CQ",
+        "amount_usd": 399000,
+        "metric": "allowance for credit losses on unpaid ceded reinsurance recoverable",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm",
+        "reference_passages": [
+          "CQ-P00383",
+          "CQ-P01425"
+        ],
+        "auto_rows": [
+          5
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CQ-hcpci-expense",
+        "doc_id": "CQ",
+        "amount_usd": 42346000,
+        "metric": "Ian component of reported segment loss and LAE expense",
+        "entity": "HCPCI / Homeowners Choice Property & Casualty Insurance Company, Inc.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm",
+        "reference_passages": [
+          "CQ-P01494",
+          "CQ-P01525"
+        ],
+        "auto_rows": [
+          6
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CQ-typtap-expense",
+        "doc_id": "CQ",
+        "amount_usd": 22251000,
+        "metric": "Ian component of reported segment loss and LAE expense",
+        "entity": "TypTap",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017022023815/hci-20220930.htm",
+        "reference_passages": [
+          "CQ-P01494",
+          "CQ-P01525"
+        ],
+        "auto_rows": [
+          7
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-gross",
+        "doc_id": "CK",
+        "amount_usd": 847500000,
+        "metric": "storm losses and LAE for all lines",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01815"
+        ],
+        "auto_rows": [
+          14
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-gross-hcpci",
+        "doc_id": "CK",
+        "amount_usd": 452050000,
+        "metric": "storm losses and LAE",
+        "entity": "HCPCI / Homeowners Choice Property & Casualty Insurance Company, Inc.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01815"
+        ],
+        "auto_rows": [
+          15
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-gross-typtap",
+        "doc_id": "CK",
+        "amount_usd": 395450000,
+        "metric": "storm losses and LAE",
+        "entity": "TypTap",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01815"
+        ],
+        "auto_rows": [
+          16
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-net",
+        "doc_id": "CK",
+        "amount_usd": 65300000,
+        "metric": "losses and LAE retained after reinsurance",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01815"
+        ],
+        "auto_rows": [
+          17
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-flood",
+        "doc_id": "CK",
+        "amount_usd": 7000000,
+        "metric": "retained flood losses above coverage exhausted",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01815"
+        ],
+        "auto_rows": [
+          18
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-hcpci-expense",
+        "doc_id": "CK",
+        "amount_usd": 42100000,
+        "metric": "Ian component of reported segment loss and LAE expense",
+        "entity": "HCPCI / Homeowners Choice Property & Casualty Insurance Company, Inc.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P00561"
+        ],
+        "auto_rows": [
+          8
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-typtap-expense",
+        "doc_id": "CK",
+        "amount_usd": 23200000,
+        "metric": "Ian component of reported segment loss and LAE expense",
+        "entity": "TypTap",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P00561"
+        ],
+        "auto_rows": [
+          9
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-reversal",
+        "doc_id": "CK",
+        "amount_usd": 12600000,
+        "metric": "decrease of accrued benefits / increase in ceded premiums",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P00546",
+          "CK-P00666",
+          "CK-P01758"
+        ],
+        "auto_rows": [
+          13
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": false
+      },
+      {
+        "claim_id": "CK-ceded",
+        "doc_id": "CK",
+        "amount_usd": 782071000,
+        "metric": "ceded losses recognized as reductions in losses and LAE",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01751"
+        ],
+        "auto_rows": [
+          10
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-reinstatement",
+        "doc_id": "CK",
+        "amount_usd": 6684000,
+        "metric": "elected reinstatement premium to restore first-event flood coverage",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01757"
+        ],
+        "auto_rows": [
+          11
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-writeoff",
+        "doc_id": "CK",
+        "amount_usd": 3306000,
+        "metric": "unamortized first-event flood reinsurance premiums written off",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01757"
+        ],
+        "auto_rows": [
+          12
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-incurred-table",
+        "doc_id": "CK",
+        "amount_usd": 65325000,
+        "metric": "incurred claims and allocated claim adjustment expenses",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01931",
+          "CK-P01932"
+        ],
+        "auto_rows": [
+          19
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-ibnr-table",
+        "doc_id": "CK",
+        "amount_usd": 32327000,
+        "metric": "IBNR plus expected development on reported claims",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01931"
+        ],
+        "auto_rows": [
+          20
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-paid-table",
+        "doc_id": "CK",
+        "amount_usd": 32998000,
+        "metric": "cumulative paid claims and allocated claim adjustment expenses",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01935",
+          "CK-P01936"
+        ],
+        "auto_rows": [
+          21
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      },
+      {
+        "claim_id": "CK-liability-table",
+        "doc_id": "CK",
+        "amount_usd": 32327000,
+        "metric": "outstanding liability for unpaid loss and LAE",
+        "entity": "HCI Group, Inc. (consolidated)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1400810/000095017023007271/hci-20221231.htm",
+        "reference_passages": [
+          "CK-P01937",
+          "CK-P01951"
+        ],
+        "auto_rows": [
+          22
+        ],
+        "review_rows": [],
+        "auto_amount_event": true,
+        "full_semantic": true
+      }
+    ],
+    "all_output_rows": [
+      {
+        "row": 0,
+        "doc_id": "CQ",
+        "passage": "CQ-P00382",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "claims_losses_and_lae",
+        "basis": "gross",
+        "tax": "pretax",
+        "status": "estimate",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-09-30"
+        ],
+        "bounds": [
+          970000000,
+          970000000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CQ-gross"
+        ],
+        "filing_reporting_period": "2022-Q3",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:PolicyholderBenefitsAndClaimsIncurredGross",
+        "reference_id": "CQ-gross",
+        "full_match": true,
+        "assessment": "Consolidated gross pre-tax current estimate; the tag normalizes the displayed thousands. The quarter end and the named event agree."
+      },
+      {
+        "row": 1,
+        "doc_id": "CQ",
+        "passage": "CQ-P00382",
+        "also": [
+          "CQ-P00930"
+        ],
+        "owner": "HCI Group, Inc.",
+        "metric": "claims_losses_and_lae",
+        "basis": "net",
+        "tax": "pretax",
+        "status": "incurred_estimate",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-09-30"
+        ],
+        "bounds": [
+          65000000,
+          65000000
+        ],
+        "approx": true,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CQ-net"
+        ],
+        "filing_reporting_period": "2022-Q3",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:PolicyholderBenefitsAndClaimsIncurredNet",
+        "reference_id": "CQ-net",
+        "full_match": true,
+        "assessment": "Consolidated net pre-tax incurred estimate, correctly marked approximate and matched to the named-event paragraph and its repeat."
+      },
+      {
+        "row": 2,
+        "doc_id": "CQ",
+        "passage": "CQ-P00382",
+        "also": [],
+        "owner": "Homeowners Choice Property And Casualty Insurance Company Inc.",
+        "metric": "claims_losses_and_lae",
+        "basis": "gross",
+        "tax": null,
+        "status": "estimate",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-09-30"
+        ],
+        "bounds": [
+          550518000,
+          550518000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CQ-gross-hcpci"
+        ],
+        "filing_reporting_period": "2022-Q3",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:PolicyholderBenefitsAndClaimsIncurredGross",
+        "reference_id": "CQ-gross-hcpci",
+        "full_match": true,
+        "assessment": "First gross component, entity identified using the subsidiary dimension and event scope in the notes."
+      },
+      {
+        "row": 3,
+        "doc_id": "CQ",
+        "passage": "CQ-P00382",
+        "also": [],
+        "owner": "TypTap",
+        "metric": "claims_losses_and_lae",
+        "basis": "gross",
+        "tax": null,
+        "status": "estimate",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-09-30"
+        ],
+        "bounds": [
+          419482000,
+          419482000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CQ-gross-typtap"
+        ],
+        "filing_reporting_period": "2022-Q3",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:PolicyholderBenefitsAndClaimsIncurredGross",
+        "reference_id": "CQ-gross-typtap",
+        "full_match": true,
+        "assessment": "Second gross component of the same estimate, with a separate TypTap dimension."
+      },
+      {
+        "row": 4,
+        "doc_id": "CQ",
+        "passage": "CQ-P00383",
+        "also": [
+          "CQ-P00894"
+        ],
+        "owner": "HCI Group, Inc.",
+        "metric": "ceded_premium_adjustment",
+        "basis": "ceded",
+        "tax": null,
+        "status": "recognized_reversal",
+        "event_period": "2022-Q3",
+        "recognition": "2022-Q3",
+        "financial_period": [
+          "2022-07-01",
+          "2022-09-30"
+        ],
+        "bounds": [
+          12600000,
+          12600000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CQ-reversal"
+        ],
+        "filing_reporting_period": "2022-Q3",
+        "basis_evidence_source": null,
+        "accounting_concept": "hci:NetIncreaseToCededPremiumResultingFromReinsuranceAdjustments",
+        "reference_id": "CQ-reversal",
+        "full_match": true,
+        "assessment": "Accrued treaty benefit reversed, increasing ceded premiums in Q3. Tagged as recognized reversal with Q3 recognition and matching CIK."
+      },
+      {
+        "row": 5,
+        "doc_id": "CQ",
+        "passage": "CQ-P00383",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "credit_loss_allowance",
+        "basis": "credit_loss_allowance",
+        "tax": null,
+        "status": "recognized",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          null,
+          "2022-09-30"
+        ],
+        "bounds": [
+          399000,
+          399000
+        ],
+        "approx": true,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CQ-allowance"
+        ],
+        "filing_reporting_period": "2022-Q3",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:ReinsuranceRecoverablesOnUnpaidLossesAllowance",
+        "reference_id": "CQ-allowance",
+        "full_match": true,
+        "assessment": "Net credit loss allowance on unpaid ceded reinsurance; recognized balance, approximate amount and quarter-end context supported."
+      },
+      {
+        "row": 6,
+        "doc_id": "CQ",
+        "passage": "CQ-P01494",
+        "also": [
+          "CQ-P01525"
+        ],
+        "owner": "HCPCI",
+        "metric": "segment_claims_expense",
+        "basis": "segment_expense_after_cessions",
+        "tax": null,
+        "status": "recognized_expense",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          null,
+          null
+        ],
+        "bounds": [
+          42346000,
+          42346000
+        ],
+        "approx": false,
+        "source": "attributed_clause",
+        "review": false,
+        "candidates": [
+          "CQ-hcpci-expense"
+        ],
+        "filing_reporting_period": "2022-Q3",
+        "basis_evidence_source": "inferred_from_filing_policy",
+        "accounting_concept": null,
+        "reference_id": "CQ-hcpci-expense",
+        "full_match": true,
+        "assessment": "Correct HCPCI segment expense and quarter. After-cession presentation is explicitly qualified as an inference from the linked accounting policy."
+      },
+      {
+        "row": 7,
+        "doc_id": "CQ",
+        "passage": "CQ-P01494",
+        "also": [
+          "CQ-P01525"
+        ],
+        "owner": "TypTap",
+        "metric": "segment_claims_expense",
+        "basis": "segment_expense_after_cessions",
+        "tax": null,
+        "status": "recognized_expense",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          null,
+          null
+        ],
+        "bounds": [
+          22251000,
+          22251000
+        ],
+        "approx": false,
+        "source": "attributed_clause",
+        "review": false,
+        "candidates": [
+          "CQ-typtap-expense"
+        ],
+        "filing_reporting_period": "2022-Q3",
+        "basis_evidence_source": "inferred_from_filing_policy",
+        "accounting_concept": null,
+        "reference_id": "CQ-typtap-expense",
+        "full_match": true,
+        "assessment": "Correct TypTap segment expense and quarter, with a contextual policy citation for its basis."
+      },
+      {
+        "row": 8,
+        "doc_id": "CK",
+        "passage": "CK-P00561",
+        "also": [],
+        "owner": "HCPCI",
+        "metric": "segment_claims_expense",
+        "basis": "segment_expense_after_cessions",
+        "tax": null,
+        "status": "recognized_expense",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          null,
+          null
+        ],
+        "bounds": [
+          42100000,
+          42100000
+        ],
+        "approx": true,
+        "source": "attributed_clause",
+        "review": false,
+        "candidates": [
+          "CK-hcpci-expense"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": "inferred_from_filing_policy",
+        "accounting_concept": null,
+        "reference_id": "CK-hcpci-expense",
+        "full_match": true,
+        "assessment": "Approximate HCPCI segment expense in FY2022; the causal subclause points to Ian and basis is qualified as contextual."
+      },
+      {
+        "row": 9,
+        "doc_id": "CK",
+        "passage": "CK-P00561",
+        "also": [],
+        "owner": "TypTap",
+        "metric": "segment_claims_expense",
+        "basis": "segment_expense_after_cessions",
+        "tax": null,
+        "status": "recognized_expense",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          null,
+          null
+        ],
+        "bounds": [
+          23200000,
+          23200000
+        ],
+        "approx": true,
+        "source": "attributed_clause",
+        "review": false,
+        "candidates": [
+          "CK-typtap-expense"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": "inferred_from_filing_policy",
+        "accounting_concept": null,
+        "reference_id": "CK-typtap-expense",
+        "full_match": true,
+        "assessment": "Approximate TypTap segment expense in FY2022. The prior false policy-growth amount was not emitted; basis is qualified."
+      },
+      {
+        "row": 10,
+        "doc_id": "CK",
+        "passage": "CK-P01751",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "ceded_losses",
+        "basis": "ceded",
+        "tax": null,
+        "status": "recognized_reduction",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-12-31"
+        ],
+        "bounds": [
+          782071000,
+          782071000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-ceded"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:ReinsuranceEffectOnClaimsAndBenefitsIncurredAmountCeded",
+        "reference_id": "CK-ceded",
+        "full_match": true,
+        "assessment": "Ceded amount recognized to reduce expenses for 2022. The separately named Ian event dimension resolves the multiple-event sequence."
+      },
+      {
+        "row": 11,
+        "doc_id": "CK",
+        "passage": "CK-P01757",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "reinstatement_premium",
+        "basis": "reinsurance_premium",
+        "tax": null,
+        "status": "elected_to_pay",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-12-31"
+        ],
+        "bounds": [
+          6684000,
+          6684000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-reinstatement"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "hci:PaymentForReinstatementPremiums",
+        "reference_id": "CK-reinstatement",
+        "full_match": true,
+        "assessment": "Premium elected for payment to restore exhausted flood coverage, with no invented settlement date."
+      },
+      {
+        "row": 12,
+        "doc_id": "CK",
+        "passage": "CK-P01757",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "reinsurance_premium_writeoff",
+        "basis": "ceded",
+        "tax": null,
+        "status": "written_off",
+        "event_period": "2022-Q3",
+        "recognition": "2022-Q4",
+        "financial_period": [
+          "2022-10-01",
+          "2022-12-31"
+        ],
+        "bounds": [
+          3306000,
+          3306000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-writeoff"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "hci:WriteOffOfReinsurancePremiums",
+        "reference_id": "CK-writeoff",
+        "full_match": true,
+        "assessment": "Unamortized premium separately expensed, quarter of recognition explicitly Q4 despite Q3 landfall."
+      },
+      {
+        "row": 13,
+        "doc_id": "CK",
+        "passage": "CK-P01758",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "ceded_premium_adjustment",
+        "basis": "ceded",
+        "tax": null,
+        "status": "recognized_reversal",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-09-30"
+        ],
+        "bounds": [
+          12600000,
+          12600000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-reversal"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "hci:NetIncreaseToCededPremiumResultingFromReinsuranceAdjustments",
+        "reference_id": "CK-reversal",
+        "full_match": false,
+        "assessment": "Amount, owner, reversal and FY filing all correct. The source says the accounting entry was made in September. The annual record leaves recognition_period null; its Q3 field denotes storm timing, and the Jan–Sep XBRL duration cannot independently locate the entry in Q3. Lower-bound strict semantic score withholds this row."
+      },
+      {
+        "row": 14,
+        "doc_id": "CK",
+        "passage": "CK-P01815",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "claims_losses_and_lae",
+        "basis": "gross",
+        "tax": null,
+        "status": "estimate",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-12-31"
+        ],
+        "bounds": [
+          847500000,
+          847500000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-gross"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:PolicyholderBenefitsAndClaimsIncurredGross",
+        "reference_id": "CK-gross",
+        "full_match": true,
+        "assessment": "FY2022 gross estimate for all lines; proper thousands scale and annual period."
+      },
+      {
+        "row": 15,
+        "doc_id": "CK",
+        "passage": "CK-P01815",
+        "also": [],
+        "owner": "Homeowners Choice Property And Casualty Insurance Company Inc.",
+        "metric": "claims_losses_and_lae",
+        "basis": "gross",
+        "tax": null,
+        "status": "estimate",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-12-31"
+        ],
+        "bounds": [
+          452050000,
+          452050000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-gross-hcpci"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:PolicyholderBenefitsAndClaimsIncurredGross",
+        "reference_id": "CK-gross-hcpci",
+        "full_match": true,
+        "assessment": "Gross subsidiary amount in the event-specific financial context; estimate status and annual period supported."
+      },
+      {
+        "row": 16,
+        "doc_id": "CK",
+        "passage": "CK-P01815",
+        "also": [],
+        "owner": "TypTap",
+        "metric": "claims_losses_and_lae",
+        "basis": "gross",
+        "tax": null,
+        "status": "estimate",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-12-31"
+        ],
+        "bounds": [
+          395450000,
+          395450000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-gross-typtap"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:PolicyholderBenefitsAndClaimsIncurredGross",
+        "reference_id": "CK-gross-typtap",
+        "full_match": true,
+        "assessment": "Gross TypTap estimate in the event-specific context and annual period."
+      },
+      {
+        "row": 17,
+        "doc_id": "CK",
+        "passage": "CK-P01815",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "claims_losses_and_lae",
+        "basis": "net",
+        "tax": null,
+        "status": "incurred_estimate",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-12-31"
+        ],
+        "bounds": [
+          65300000,
+          65300000
+        ],
+        "approx": true,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-net"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:PolicyholderBenefitsAndClaimsIncurredNet",
+        "reference_id": "CK-net",
+        "full_match": true,
+        "assessment": "Rounded approximate retained cost as stated, indexed to the annual period. Do not sum with nearby exact incurred-table measure."
+      },
+      {
+        "row": 18,
+        "doc_id": "CK",
+        "passage": "CK-P01815",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "retained_flood_losses",
+        "basis": "net",
+        "tax": null,
+        "status": "reported",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          "2022-01-01",
+          "2022-12-31"
+        ],
+        "bounds": [
+          7000000,
+          7000000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-flood"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:PolicyholderBenefitsAndClaimsIncurredNet",
+        "reference_id": "CK-flood",
+        "full_match": true,
+        "assessment": "Component retained for losses exceeding exhausted coverage; source context distinguishes it from a policy cap."
+      },
+      {
+        "row": 19,
+        "doc_id": "CK",
+        "passage": "CK-P01931",
+        "also": [
+          "CK-P01932"
+        ],
+        "owner": "HCI Group, Inc.",
+        "metric": "incurred_claims_and_allocated_expense",
+        "basis": "net",
+        "tax": null,
+        "status": "incurred",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          null,
+          "2022-12-31"
+        ],
+        "bounds": [
+          65325000,
+          65325000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-incurred-table"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:ShortdurationInsuranceContractsIncurredClaimsAndAllocatedClaimAdjustmentExpenseNet",
+        "reference_id": "CK-incurred-table",
+        "full_match": true,
+        "assessment": "Distinct net incurred claims and allocated loss adjustment expense; 2022-12-31 valuation context, table position and tag identify the measure."
+      },
+      {
+        "row": 20,
+        "doc_id": "CK",
+        "passage": "CK-P01931",
+        "also": [],
+        "owner": "HCI Group, Inc.",
+        "metric": "ibnr_and_development",
+        "basis": "net",
+        "tax": null,
+        "status": "reserve_estimate",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          null,
+          "2022-12-31"
+        ],
+        "bounds": [
+          32327000,
+          32327000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-ibnr-table"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:ShortdurationInsuranceContractsIncurredButNotReportedIbnrClaimsLiabilityNet",
+        "reference_id": "CK-ibnr-table",
+        "full_match": true,
+        "assessment": "Separate reserve concept for IBNR and expected development with 2022-12-31 date, distinguishable from unpaid liability despite identical number."
+      },
+      {
+        "row": 21,
+        "doc_id": "CK",
+        "passage": "CK-P01935",
+        "also": [
+          "CK-P01936"
+        ],
+        "owner": "HCI Group, Inc.",
+        "metric": "paid_claims_and_allocated_expense",
+        "basis": "net",
+        "tax": null,
+        "status": "paid_cumulative",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          null,
+          "2022-12-31"
+        ],
+        "bounds": [
+          32998000,
+          32998000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-paid-table"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:ShortdurationInsuranceContractsCumulativePaidClaimsAndAllocatedClaimAdjustmentExpenseNet",
+        "reference_id": "CK-paid-table",
+        "full_match": true,
+        "assessment": "Cumulative paid claims plus allocated adjustment expense, correct year-end valuation and dollar scale."
+      },
+      {
+        "row": 22,
+        "doc_id": "CK",
+        "passage": "CK-P01937",
+        "also": [
+          "CK-P01951"
+        ],
+        "owner": "HCI Group, Inc.",
+        "metric": "unpaid_claims_liability",
+        "basis": "net",
+        "tax": null,
+        "status": "balance",
+        "event_period": "2022-Q3",
+        "recognition": null,
+        "financial_period": [
+          null,
+          "2022-12-31"
+        ],
+        "bounds": [
+          32327000,
+          32327000
+        ],
+        "approx": false,
+        "source": "inline_xbrl",
+        "review": false,
+        "candidates": [
+          "CK-liability-table"
+        ],
+        "filing_reporting_period": "FY2022",
+        "basis_evidence_source": null,
+        "accounting_concept": "us-gaap:ShortdurationInsuranceContractsLiabilityForUnpaidClaimsAndAllocatedClaimAdjustmentExpenseNet",
+        "reference_id": "CK-liability-table",
+        "full_match": true,
+        "assessment": "Net outstanding liability at year-end, supported by claims table and reconciliation. Separate from IBNR."
+      }
+    ],
+    "limitations": [
+      "HCI was used to select changes; the 23/23 amount coverage measures repair on known examples.",
+      "22/23 strict semantic matches. All 23 match amount, event, financial category and owner. A looser analysis crediting a correct event quarter as recognition for the September reversal would count 23/23.",
+      "The after-cession basis of four segment expenses is contextual, not explicit in each individual segment sentence. The method labels this inference and cites the supporting policy.",
+      "The 23 source-labelled measures are not additive. Reporting-period metadata alone would not identify the fiscal period of a special adjusting entry."
+    ]
+  },
+  "allstate_first_transfer": {
+    "created_utc": "2026-11-27T15:49:10.839430+00:00",
+    "sample": "The Allstate Corporation, original 2022-Q3 and FY2022 SEC primary forms, Hurricane Ian, unseen issuer.",
+    "sources_sha256": {
+      "protocol": "801a8d912f115657cbf6363b5b6969f6b3eef6cc069087c742617202103596bb",
+      "inputs": "7332aa1cbb1132144619f6967ca3f8aba8d1b007ceca11816e9c5630f59082e9",
+      "source_reference": "9d813bc9252163a28212cb93c4c9717a5a4e50e81616693e57ac1188d2b09b45",
+      "second_read": "bcf6a7bc91b8a62153345d2eb9a18750d127eee0f463168137ec6709df693454",
+      "scoring_plan": "f3c7d9efbf5731e0d952771f0e1c9e66caa540f50864c3a7e351ff09eec61d5e"
+    },
+    "interpretation": "Five source-supported monetary facts in the first filing. Three explicitly named, two tied uniquely through single-storm count and NFIP footnote. The annual form is a test of abstention on two-storm totals. Rates are sample descriptions.",
+    "summary": {
+      "v3": {
+        "all": {
+          "reference": 5,
+          "direct_denominator": 3,
+          "linked_denominator": 2,
+          "automatic_mentions": 0,
+          "review_mentions": 0,
+          "supported_automatic_amount_mentions": 0,
+          "repeated_supported_amount_mentions": 0,
+          "false_automatic_mentions": 0,
+          "supported_review_amount_mentions": 0,
+          "unrelated_or_wrong_review_mentions": 0,
+          "direct_amount_matches": 0,
+          "linked_amount_matches": 0,
+          "unique_amount_matches": 0,
+          "core_field_matches": 0,
+          "all_contextual_qualifiers_matches": 0,
+          "misses": [
+            "AQ-gross",
+            "AQ-net",
+            "AQ-net-including-nfip",
+            "AQ-nfip-expense",
+            "AQ-recoveries"
+          ],
+          "precision_amount_mentions": null,
+          "recall_unique_amount": 0.0
+        },
+        "by_filing": {
+          "AQ": {
+            "reference": 5,
+            "direct_denominator": 3,
+            "linked_denominator": 2,
+            "automatic_mentions": 0,
+            "review_mentions": 0,
+            "supported_automatic_amount_mentions": 0,
+            "repeated_supported_amount_mentions": 0,
+            "false_automatic_mentions": 0,
+            "supported_review_amount_mentions": 0,
+            "unrelated_or_wrong_review_mentions": 0,
+            "direct_amount_matches": 0,
+            "linked_amount_matches": 0,
+            "unique_amount_matches": 0,
+            "core_field_matches": 0,
+            "all_contextual_qualifiers_matches": 0,
+            "misses": [
+              "AQ-gross",
+              "AQ-net",
+              "AQ-net-including-nfip",
+              "AQ-nfip-expense",
+              "AQ-recoveries"
+            ],
+            "precision_amount_mentions": null,
+            "recall_unique_amount": 0.0
+          },
+          "AK": {
+            "reference": 0,
+            "direct_denominator": 0,
+            "linked_denominator": 0,
+            "automatic_mentions": 0,
+            "review_mentions": 0,
+            "supported_automatic_amount_mentions": 0,
+            "repeated_supported_amount_mentions": 0,
+            "false_automatic_mentions": 0,
+            "supported_review_amount_mentions": 0,
+            "unrelated_or_wrong_review_mentions": 0,
+            "direct_amount_matches": 0,
+            "linked_amount_matches": 0,
+            "unique_amount_matches": 0,
+            "core_field_matches": 0,
+            "all_contextual_qualifiers_matches": 0,
+            "misses": [],
+            "precision_amount_mentions": null,
+            "recall_unique_amount": null
+          }
+        },
+        "predictions_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "v4": {
+        "all": {
+          "reference": 5,
+          "direct_denominator": 3,
+          "linked_denominator": 2,
+          "automatic_mentions": 0,
+          "review_mentions": 0,
+          "supported_automatic_amount_mentions": 0,
+          "repeated_supported_amount_mentions": 0,
+          "false_automatic_mentions": 0,
+          "supported_review_amount_mentions": 0,
+          "unrelated_or_wrong_review_mentions": 0,
+          "direct_amount_matches": 0,
+          "linked_amount_matches": 0,
+          "unique_amount_matches": 0,
+          "core_field_matches": 0,
+          "all_contextual_qualifiers_matches": 0,
+          "misses": [
+            "AQ-gross",
+            "AQ-net",
+            "AQ-net-including-nfip",
+            "AQ-nfip-expense",
+            "AQ-recoveries"
+          ],
+          "precision_amount_mentions": null,
+          "recall_unique_amount": 0.0
+        },
+        "by_filing": {
+          "AQ": {
+            "reference": 5,
+            "direct_denominator": 3,
+            "linked_denominator": 2,
+            "automatic_mentions": 0,
+            "review_mentions": 0,
+            "supported_automatic_amount_mentions": 0,
+            "repeated_supported_amount_mentions": 0,
+            "false_automatic_mentions": 0,
+            "supported_review_amount_mentions": 0,
+            "unrelated_or_wrong_review_mentions": 0,
+            "direct_amount_matches": 0,
+            "linked_amount_matches": 0,
+            "unique_amount_matches": 0,
+            "core_field_matches": 0,
+            "all_contextual_qualifiers_matches": 0,
+            "misses": [
+              "AQ-gross",
+              "AQ-net",
+              "AQ-net-including-nfip",
+              "AQ-nfip-expense",
+              "AQ-recoveries"
+            ],
+            "precision_amount_mentions": null,
+            "recall_unique_amount": 0.0
+          },
+          "AK": {
+            "reference": 0,
+            "direct_denominator": 0,
+            "linked_denominator": 0,
+            "automatic_mentions": 0,
+            "review_mentions": 0,
+            "supported_automatic_amount_mentions": 0,
+            "repeated_supported_amount_mentions": 0,
+            "false_automatic_mentions": 0,
+            "supported_review_amount_mentions": 0,
+            "unrelated_or_wrong_review_mentions": 0,
+            "direct_amount_matches": 0,
+            "linked_amount_matches": 0,
+            "unique_amount_matches": 0,
+            "core_field_matches": 0,
+            "all_contextual_qualifiers_matches": 0,
+            "misses": [],
+            "precision_amount_mentions": null,
+            "recall_unique_amount": null
+          }
+        },
+        "predictions_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    "claim_to_proposals": {
+      "v3": {
+        "AQ-gross": {
+          "auto_rows": [],
+          "review_rows": []
+        },
+        "AQ-recoveries": {
+          "auto_rows": [],
+          "review_rows": []
+        },
+        "AQ-net": {
+          "auto_rows": [],
+          "review_rows": []
+        },
+        "AQ-net-including-nfip": {
+          "auto_rows": [],
+          "review_rows": []
+        },
+        "AQ-nfip-expense": {
+          "auto_rows": [],
+          "review_rows": []
+        }
+      },
+      "v4": {
+        "AQ-gross": {
+          "auto_rows": [],
+          "review_rows": []
+        },
+        "AQ-recoveries": {
+          "auto_rows": [],
+          "review_rows": []
+        },
+        "AQ-net": {
+          "auto_rows": [],
+          "review_rows": []
+        },
+        "AQ-net-including-nfip": {
+          "auto_rows": [],
+          "review_rows": []
+        },
+        "AQ-nfip-expense": {
+          "auto_rows": [],
+          "review_rows": []
+        }
+      }
+    },
+    "all_rows": {
+      "v3": [],
+      "v4": []
+    }
+  },
+  "hci_v5": {
+    "dataset": "HCI Group. Development checks on the original two filings.",
+    "v5_sha256": "89b0b38ddffdeea910b74537d56c72515f538c74ce056846d38625855d967343",
+    "v4_sha256": "89b0b38ddffdeea910b74537d56c72515f538c74ce056846d38625855d967343",
+    "all_json_output_fields_identical": true,
+    "all_output_bytes_identical": true,
+    "unchanged_semantic_audit_sha256": "99914a38ca3ffeed6e5e4b5917e52b9115b06c30913c63fbe5360ab3eb5bb3a4",
+    "summary": {
+      "gold_facts": 23,
+      "automatic_rows": 23,
+      "review_rows": 0,
+      "supported_amount_event_rows": 23,
+      "unsupported_automatic_rows": 0,
+      "duplicate_supported_rows": 0,
+      "unique_amount_matches": 23,
+      "full_semantic_matches": 22,
+      "numerical_hits_with_incomplete_semantics": 1
+    },
+    "by_filing": {
+      "CQ": {
+        "gold_facts": 8,
+        "automatic_rows": 8,
+        "review_rows": 0,
+        "supported_amount_event_rows": 8,
+        "unsupported_automatic_rows": 0,
+        "duplicate_supported_rows": 0,
+        "unique_amount_matches": 8,
+        "full_semantic_matches": 8,
+        "numerical_hits_with_incomplete_semantics": 0
+      },
+      "CK": {
+        "gold_facts": 15,
+        "automatic_rows": 15,
+        "review_rows": 0,
+        "supported_amount_event_rows": 15,
+        "unsupported_automatic_rows": 0,
+        "duplicate_supported_rows": 0,
+        "unique_amount_matches": 15,
+        "full_semantic_matches": 14,
+        "numerical_hits_with_incomplete_semantics": 1
+      }
+    },
+    "one_remaining_semantic_gap": "CK-reversal: the annual record repeats a September adjustment, but its explicit recognition_period field remains empty."
+  },
+  "allstate_v5_development": {
+    "created_utc": "2026-11-27T15:53:49.682784+00:00",
+    "sample": "The Allstate Corporation, original 2022-Q3 and FY2022 SEC primary forms, Hurricane Ian, v5 development after previously inspected v4 errors.",
+    "sources_sha256": {
+      "protocol": "801a8d912f115657cbf6363b5b6969f6b3eef6cc069087c742617202103596bb",
+      "inputs": "7332aa1cbb1132144619f6967ca3f8aba8d1b007ceca11816e9c5630f59082e9",
+      "source_reference": "9d813bc9252163a28212cb93c4c9717a5a4e50e81616693e57ac1188d2b09b45",
+      "second_read": "bcf6a7bc91b8a62153345d2eb9a18750d127eee0f463168137ec6709df693454",
+      "scoring_plan": "f3c7d9efbf5731e0d952771f0e1c9e66caa540f50864c3a7e351ff09eec61d5e"
+    },
+    "interpretation": "Five source-supported monetary facts in the first filing. Three explicitly named, two tied uniquely through single-storm count and NFIP footnote. The annual form is a test of abstention on two-storm totals. Rates are sample descriptions.",
+    "summary": {
+      "v5": {
+        "all": {
+          "reference": 5,
+          "direct_denominator": 3,
+          "linked_denominator": 2,
+          "automatic_mentions": 5,
+          "review_mentions": 0,
+          "supported_automatic_amount_mentions": 5,
+          "repeated_supported_amount_mentions": 0,
+          "false_automatic_mentions": 0,
+          "supported_review_amount_mentions": 0,
+          "unrelated_or_wrong_review_mentions": 0,
+          "direct_amount_matches": 3,
+          "linked_amount_matches": 2,
+          "unique_amount_matches": 5,
+          "core_field_matches": 5,
+          "all_contextual_qualifiers_matches": 5,
+          "misses": [],
+          "precision_amount_mentions": 1.0,
+          "recall_unique_amount": 1.0
+        },
+        "by_filing": {
+          "AQ": {
+            "reference": 5,
+            "direct_denominator": 3,
+            "linked_denominator": 2,
+            "automatic_mentions": 5,
+            "review_mentions": 0,
+            "supported_automatic_amount_mentions": 5,
+            "repeated_supported_amount_mentions": 0,
+            "false_automatic_mentions": 0,
+            "supported_review_amount_mentions": 0,
+            "unrelated_or_wrong_review_mentions": 0,
+            "direct_amount_matches": 3,
+            "linked_amount_matches": 2,
+            "unique_amount_matches": 5,
+            "core_field_matches": 5,
+            "all_contextual_qualifiers_matches": 5,
+            "misses": [],
+            "precision_amount_mentions": 1.0,
+            "recall_unique_amount": 1.0
+          },
+          "AK": {
+            "reference": 0,
+            "direct_denominator": 0,
+            "linked_denominator": 0,
+            "automatic_mentions": 0,
+            "review_mentions": 0,
+            "supported_automatic_amount_mentions": 0,
+            "repeated_supported_amount_mentions": 0,
+            "false_automatic_mentions": 0,
+            "supported_review_amount_mentions": 0,
+            "unrelated_or_wrong_review_mentions": 0,
+            "direct_amount_matches": 0,
+            "linked_amount_matches": 0,
+            "unique_amount_matches": 0,
+            "core_field_matches": 0,
+            "all_contextual_qualifiers_matches": 0,
+            "misses": [],
+            "precision_amount_mentions": null,
+            "recall_unique_amount": null
+          }
+        },
+        "predictions_sha256": "1f7cc8be6c7940d35508eaf3fc4d86edf9bf76f901fee3489744d8d9530bbabb"
+      }
+    },
+    "claim_to_proposals": {
+      "v5": {
+        "AQ-gross": {
+          "auto_rows": [
+            1
+          ],
+          "review_rows": []
+        },
+        "AQ-recoveries": {
+          "auto_rows": [
+            2
+          ],
+          "review_rows": []
+        },
+        "AQ-net": {
+          "auto_rows": [
+            3
+          ],
+          "review_rows": []
+        },
+        "AQ-net-including-nfip": {
+          "auto_rows": [
+            4
+          ],
+          "review_rows": []
+        },
+        "AQ-nfip-expense": {
+          "auto_rows": [
+            5
+          ],
+          "review_rows": []
+        }
+      }
+    },
+    "all_rows": {
+      "v5": [
+        {
+          "row_number": 1,
+          "doc_id": "AQ",
+          "passage_id": "AQ-P01861",
+          "bounds_usd": [
+            671000000,
+            671000000
+          ],
+          "amount_event_ref": "AQ-gross",
+          "review": false,
+          "core_fields_correct": true,
+          "all_contextual_qualifiers": true,
+          "explanation": "Parent and segment identified, pre-tax gross, estimate, exclusion of NFIP, Q3 and source match.",
+          "output": {
+            "doc_id": "AQ",
+            "passage_id": "AQ-P01861",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm",
+            "accession": "0000899051-22-000079",
+            "issuer": "Allstate Protection segment",
+            "reporting_issuer": "The Allstate Corporation",
+            "entity_scope": "named_segment_or_subsidiary",
+            "event": "Ian",
+            "measure": "catastrophe_losses",
+            "basis": "gross",
+            "status": "estimate",
+            "period": "2022-Q3",
+            "event_quarter": "2022-Q3",
+            "recognition_period": null,
+            "low_usd": 671000000,
+            "high_usd": 671000000,
+            "bound_type": "point",
+            "evidence": "Hurricane Ian estimated gross catastrophe losses, excluding National Flood Insurance Program (“NFIP”) claim expenses, totaled $671 million, pre-tax, which will be reduced by $305 million in anticipated reinsurance recoveries for a net estimated loss of $366 million.",
+            "event_evidence": "Hurricane Ian estimated gross catastrophe losses, excluding National Flood Insurance Program (“NFIP”) claim expenses, totaled $671 million, pre-tax, which will be reduced by $305 million in anticipated reinsurance recoveries for a net estimated loss of $366 million.",
+            "amount_text": "$671 million",
+            "tax_basis": "pretax",
+            "review": false,
+            "review_reasons": [],
+            "source_channel": "explicit_financial_bridge",
+            "reporting_period": "2022-Q3",
+            "reporting_period_source": "AQ-P00005",
+            "evidence_passage_ids": [
+              "AQ-P01861"
+            ],
+            "owner_evidence_passage": "AQ-P01860",
+            "approximate_amount": false,
+            "reconciliation": "all_three_values_printed",
+            "excludes": "National Flood Insurance Program (“NFIP”) claim expenses"
+          }
+        },
+        {
+          "row_number": 2,
+          "doc_id": "AQ",
+          "passage_id": "AQ-P01861",
+          "bounds_usd": [
+            305000000,
+            305000000
+          ],
+          "amount_event_ref": "AQ-recoveries",
+          "review": false,
+          "core_fields_correct": true,
+          "all_contextual_qualifiers": true,
+          "explanation": "Correctly stored as anticipated ceded recovery. Both the consolidated Florida program footnote and the segment disclosure are linked, no spurious cash payment.",
+          "output": {
+            "doc_id": "AQ",
+            "passage_id": "AQ-P01861",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm",
+            "accession": "0000899051-22-000079",
+            "issuer": "Allstate Protection segment",
+            "reporting_issuer": "The Allstate Corporation",
+            "entity_scope": "named_segment_or_subsidiary",
+            "event": "Ian",
+            "measure": "reinsurance_recoveries",
+            "basis": "ceded",
+            "status": "anticipated",
+            "period": "2022-Q3",
+            "event_quarter": "2022-Q3",
+            "recognition_period": null,
+            "low_usd": 305000000,
+            "high_usd": 305000000,
+            "bound_type": "point",
+            "evidence": "Hurricane Ian estimated gross catastrophe losses, excluding National Flood Insurance Program (“NFIP”) claim expenses, totaled $671 million, pre-tax, which will be reduced by $305 million in anticipated reinsurance recoveries for a net estimated loss of $366 million.",
+            "event_evidence": "Hurricane Ian estimated gross catastrophe losses, excluding National Flood Insurance Program (“NFIP”) claim expenses, totaled $671 million, pre-tax, which will be reduced by $305 million in anticipated reinsurance recoveries for a net estimated loss of $366 million.",
+            "amount_text": "$305 million",
+            "tax_basis": null,
+            "review": false,
+            "review_reasons": [],
+            "source_channel": "explicit_financial_bridge",
+            "reporting_period": "2022-Q3",
+            "reporting_period_source": "AQ-P00005",
+            "evidence_passage_ids": [
+              "AQ-P01861",
+              "AQ-P01272"
+            ],
+            "owner_evidence_passage": "AQ-P01860",
+            "approximate_amount": false,
+            "reconciliation": "all_three_values_printed",
+            "excludes": null,
+            "program": "Florida Excess Catastrophe Reinsurance Program"
+          }
+        },
+        {
+          "row_number": 3,
+          "doc_id": "AQ",
+          "passage_id": "AQ-P01861",
+          "bounds_usd": [
+            366000000,
+            366000000
+          ],
+          "amount_event_ref": "AQ-net",
+          "review": false,
+          "core_fields_correct": true,
+          "all_contextual_qualifiers": true,
+          "explanation": "The estimated net loss retains the NFIP exclusion and tax basis from the stated bridge. Parent, segment and source match.",
+          "output": {
+            "doc_id": "AQ",
+            "passage_id": "AQ-P01861",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm",
+            "accession": "0000899051-22-000079",
+            "issuer": "Allstate Protection segment",
+            "reporting_issuer": "The Allstate Corporation",
+            "entity_scope": "named_segment_or_subsidiary",
+            "event": "Ian",
+            "measure": "catastrophe_losses",
+            "basis": "net",
+            "status": "estimate",
+            "period": "2022-Q3",
+            "event_quarter": "2022-Q3",
+            "recognition_period": null,
+            "low_usd": 366000000,
+            "high_usd": 366000000,
+            "bound_type": "point",
+            "evidence": "Hurricane Ian estimated gross catastrophe losses, excluding National Flood Insurance Program (“NFIP”) claim expenses, totaled $671 million, pre-tax, which will be reduced by $305 million in anticipated reinsurance recoveries for a net estimated loss of $366 million.",
+            "event_evidence": "Hurricane Ian estimated gross catastrophe losses, excluding National Flood Insurance Program (“NFIP”) claim expenses, totaled $671 million, pre-tax, which will be reduced by $305 million in anticipated reinsurance recoveries for a net estimated loss of $366 million.",
+            "amount_text": "$366 million",
+            "tax_basis": "pretax",
+            "review": false,
+            "review_reasons": [],
+            "source_channel": "explicit_financial_bridge",
+            "reporting_period": "2022-Q3",
+            "reporting_period_source": "AQ-P00005",
+            "evidence_passage_ids": [
+              "AQ-P01861"
+            ],
+            "owner_evidence_passage": "AQ-P01860",
+            "approximate_amount": false,
+            "reconciliation": "all_three_values_printed",
+            "excludes": "National Flood Insurance Program (“NFIP”) claim expenses"
+          }
+        },
+        {
+          "row_number": 4,
+          "doc_id": "AQ",
+          "passage_id": "AQ-P01870",
+          "bounds_usd": [
+            378000000,
+            378000000
+          ],
+          "amount_event_ref": "AQ-net-including-nfip",
+          "review": false,
+          "core_fields_correct": true,
+          "all_contextual_qualifiers": true,
+          "explanation": "Both currency scale and 2022 one-event column are sourced; source chain shows named event, unique count and explicit NFIP adjustment.",
+          "output": {
+            "doc_id": "AQ",
+            "passage_id": "AQ-P01870",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm",
+            "accession": "0000899051-22-000079",
+            "issuer": "Allstate Protection segment",
+            "reporting_issuer": "The Allstate Corporation",
+            "entity_scope": "named_segment_or_subsidiary",
+            "event": "Ian",
+            "measure": "catastrophe_losses_including_program_expenses",
+            "basis": "net_including_expenses",
+            "status": "reported_estimate",
+            "period": "2022-Q3",
+            "event_quarter": "2022-Q3",
+            "recognition_period": null,
+            "low_usd": 378000000,
+            "high_usd": 378000000,
+            "bound_type": "point",
+            "evidence": "Hurricanes/Tropical storms (1) | | 1 | | | $ | 378 | | | 5 | | | $ | 747 | | | 1 | | | $ | 378 | | | 6 | | | $ | 754",
+            "event_evidence": "Hurricane Ian estimated gross catastrophe losses, excluding National Flood Insurance Program (“NFIP”) claim expenses, totaled $671 million, pre-tax, which will be reduced by $305 million in anticipated reinsurance recoveries for a net estimated loss of $366 million.",
+            "amount_text": "378",
+            "tax_basis": null,
+            "review": false,
+            "review_reasons": [],
+            "source_channel": "unique_event_count_footnote",
+            "reporting_period": "2022-Q3",
+            "reporting_period_source": "AQ-P00005",
+            "evidence_passage_ids": [
+              "AQ-P01870"
+            ],
+            "owner_evidence_passage": "AQ-P01860",
+            "approximate_amount": false,
+            "supporting_passage_ids": [
+              "AQ-P01861",
+              "AQ-P01867",
+              "AQ-P01868",
+              "AQ-P01869",
+              "AQ-P01870",
+              "AQ-P01880"
+            ],
+            "includes": "National Flood Insurance Program (“NFIP”) claim expenses",
+            "event_count": 1,
+            "reported_year": 2022
+          }
+        },
+        {
+          "row_number": 5,
+          "doc_id": "AQ",
+          "passage_id": "AQ-P01880",
+          "bounds_usd": [
+            12000000,
+            12000000
+          ],
+          "amount_event_ref": "AQ-nfip-expense",
+          "review": false,
+          "core_fields_correct": true,
+          "all_contextual_qualifiers": true,
+          "explanation": "Reported expense component and NFIP description are correct. The sole current-year event row and its footnote, the named 366m and the 378m total are linked.",
+          "output": {
+            "doc_id": "AQ",
+            "passage_id": "AQ-P01880",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/899051/000089905122000079/all-20220930.htm",
+            "accession": "0000899051-22-000079",
+            "issuer": "Allstate Protection segment",
+            "reporting_issuer": "The Allstate Corporation",
+            "entity_scope": "named_segment_or_subsidiary",
+            "event": "Ian",
+            "measure": "program_claim_expense",
+            "basis": "program_expense_component",
+            "status": "included_expense",
+            "period": "2022-Q3",
+            "event_quarter": "2022-Q3",
+            "recognition_period": null,
+            "low_usd": 12000000,
+            "high_usd": 12000000,
+            "bound_type": "point",
+            "evidence": "(1)2022 includes $12 million of claims expenses related to the National Flood Insurance Program.",
+            "event_evidence": "Hurricane Ian estimated gross catastrophe losses, excluding National Flood Insurance Program (“NFIP”) claim expenses, totaled $671 million, pre-tax, which will be reduced by $305 million in anticipated reinsurance recoveries for a net estimated loss of $366 million.",
+            "amount_text": "$12 million",
+            "tax_basis": null,
+            "review": false,
+            "review_reasons": [],
+            "source_channel": "unique_event_count_footnote",
+            "reporting_period": "2022-Q3",
+            "reporting_period_source": "AQ-P00005",
+            "evidence_passage_ids": [
+              "AQ-P01880"
+            ],
+            "owner_evidence_passage": "AQ-P01860",
+            "approximate_amount": false,
+            "supporting_passage_ids": [
+              "AQ-P01861",
+              "AQ-P01867",
+              "AQ-P01868",
+              "AQ-P01869",
+              "AQ-P01870",
+              "AQ-P01880"
+            ],
+            "includes": "National Flood Insurance Program (“NFIP”) claim expenses",
+            "event_count": 1,
+            "reported_year": 2022
+          }
+        }
+      ]
+    }
+  },
+  "chubb_final": {
+    "dataset": "Chubb Limited, Hurricane Ian 2022, previously unseen issuer in final transfer evaluation",
+    "strict_gold_records": 2,
+    "economic_amounts_if_collapsed_across_filings": 1,
+    "dollars": 975000000,
+    "reference_facts": [
+      {
+        "claim_id": "BQ-loss",
+        "doc_id": "BQ",
+        "issuer": "Chubb Limited",
+        "affected_entity": "Chubb Limited; consolidated P&C catastrophe loss",
+        "event": "Hurricane Ian (2022)",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "2022-Q3",
+        "measure": "reported catastrophe losses attributable to Ian",
+        "basis": "pre-tax; source does not separately label this event amount gross or net of reinsurance",
+        "tax_basis": "pre-tax",
+        "status": "reported catastrophe loss incurred in the reporting period; not an anticipated charge or an identified cash payment",
+        "low_usd": 975000000,
+        "high_usd": 975000000,
+        "bound_type": "stated point",
+        "unit": "USD",
+        "approximate": false,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615922000014/cb-20220930.htm",
+        "accession": "0000896159-22-000014",
+        "passage_ids": [
+          "BQ-P01379",
+          "BQ-P01437"
+        ],
+        "evidence_tier": "named",
+        "anchors": {
+          "BQ-P01379": "$975 million",
+          "BQ-P01437": "$975 million"
+        },
+        "notes": "The named dollar value identifies this storm alone, although surrounding clause also discusses other events. The 975 is a component of the reported consolidated losses. The economic exposure is not doubled by its reappearance in the later filing."
+      },
+      {
+        "claim_id": "BK-loss",
+        "doc_id": "BK",
+        "issuer": "Chubb Limited",
+        "affected_entity": "Chubb Limited; consolidated P&C catastrophe loss",
+        "event": "Hurricane Ian (2022)",
+        "event_quarter": "2022-Q3",
+        "reporting_or_recognition_period": "FY2022; repeats the same event-level figure from Q3",
+        "measure": "reported catastrophe losses attributable to Ian",
+        "basis": "pre-tax; source does not separately label this event amount gross or net of reinsurance",
+        "tax_basis": "pre-tax",
+        "status": "reported catastrophe loss incurred in the reporting period; not an anticipated charge or an identified cash payment",
+        "low_usd": 975000000,
+        "high_usd": 975000000,
+        "bound_type": "stated point",
+        "unit": "USD",
+        "approximate": false,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615923000007/cb-20221231.htm",
+        "accession": "0000896159-23-000007",
+        "passage_ids": [
+          "BK-P00725",
+          "BK-P00784"
+        ],
+        "evidence_tier": "named",
+        "anchors": {
+          "BK-P00725": "$975 million",
+          "BK-P00784": "$975 million"
+        },
+        "notes": "The named dollar value identifies this storm alone, although surrounding clause also discusses other events. The 975 is a component of the reported consolidated losses. The economic exposure is not doubled by its reappearance in the later filing."
+      }
+    ],
+    "reference_sha256": "6cd5949b474b89f450319f95df3b03e531363a0963a87cf9181b0ecbb91e3680",
+    "independent_reference_sha256": "1c9e75f1c397e7c95950fd881c3b6b07d88a0235ce77e23a7430e755bd6f0e69",
+    "scoring_protocol_sha256": "3da634613a6f46491ec8d69feb0f6d6ae92c920324031186c7513123d51b9c5d",
+    "chubb_addendum_sha256": "e7b583acd50356f5d6da22ad677a824223a82c2070962d7eb29a1dd989d79e88",
+    "versions": {
+      "v3": {
+        "version": "v3",
+        "input_file_sha256": "a2eb985c9b09fe7b319777566222c4f735a06bd6103d9e23fb9f511cccf302a5",
+        "summary": {
+          "gold_filing_facts": 2,
+          "auto_rows": 1,
+          "review_rows": 0,
+          "auto_supported_amount_rows": 1,
+          "auto_unsupported_rows": 0,
+          "correct_duplicate_mentions": 0,
+          "distinct_correct_filing_amounts": 1,
+          "distinct_full_filing_records": 0,
+          "precision_supported_rows": 1.0,
+          "amount_coverage": 0.5,
+          "full_coverage": 0.0,
+          "full_with_financial_reporting_context": 0,
+          "full_with_separate_supported_storm_quarter": 0
+        },
+        "by_filing": {
+          "BQ": {
+            "gold_filing_facts": 1,
+            "auto_rows": 1,
+            "review_rows": 0,
+            "auto_supported_amount_rows": 1,
+            "auto_unsupported_rows": 0,
+            "correct_duplicate_mentions": 0,
+            "distinct_correct_filing_amounts": 1,
+            "distinct_full_filing_records": 0,
+            "precision_supported_rows": 1.0,
+            "amount_coverage": 1.0,
+            "full_coverage": 0.0
+          },
+          "BK": {
+            "gold_filing_facts": 1,
+            "auto_rows": 0,
+            "review_rows": 0,
+            "auto_supported_amount_rows": 0,
+            "auto_unsupported_rows": 0,
+            "correct_duplicate_mentions": 0,
+            "distinct_correct_filing_amounts": 0,
+            "distinct_full_filing_records": 0,
+            "precision_supported_rows": null,
+            "amount_coverage": 0.0,
+            "full_coverage": 0.0
+          }
+        },
+        "all_rows": [
+          {
+            "doc_id": "BQ",
+            "passage_id": "BQ-P01379",
+            "review": false,
+            "issuer": "Chubb Limited",
+            "entity_scope": "reporting_company",
+            "measure": "claims_losses",
+            "basis": null,
+            "tax_basis": "pretax",
+            "status": "reported",
+            "period": null,
+            "event_quarter": null,
+            "recognition_period": null,
+            "reporting_period": null,
+            "reporting_period_start": null,
+            "reporting_period_end": null,
+            "low_usd": 975000000,
+            "high_usd": 975000000,
+            "bound_type": "point",
+            "approximate_amount": false,
+            "source_channel": null,
+            "row": 0,
+            "correct_amount_event": true,
+            "full_semantic": false,
+            "assessment": "Correct consolidated Chubb reported pre-tax catastrophe loss. Neither source nor record assigns an explicit gross/net reinsurance basis. Although the quoted sentence says current quarter, all structured period and date fields are null, so the record lacks a usable financial period.",
+            "evidence_passage_ids": [
+              "BQ-P01379"
+            ],
+            "reference_id": "BQ-loss"
+          }
+        ]
+      },
+      "v4": {
+        "version": "v4",
+        "input_file_sha256": "bd0091b72733c2c3256e35d0698b9a534b8d0c7594c200af88003ad783b06884",
+        "summary": {
+          "gold_filing_facts": 2,
+          "auto_rows": 1,
+          "review_rows": 0,
+          "auto_supported_amount_rows": 1,
+          "auto_unsupported_rows": 0,
+          "correct_duplicate_mentions": 0,
+          "distinct_correct_filing_amounts": 1,
+          "distinct_full_filing_records": 1,
+          "precision_supported_rows": 1.0,
+          "amount_coverage": 0.5,
+          "full_coverage": 0.5,
+          "full_with_financial_reporting_context": 1,
+          "full_with_separate_supported_storm_quarter": 0
+        },
+        "by_filing": {
+          "BQ": {
+            "gold_filing_facts": 1,
+            "auto_rows": 1,
+            "review_rows": 0,
+            "auto_supported_amount_rows": 1,
+            "auto_unsupported_rows": 0,
+            "correct_duplicate_mentions": 0,
+            "distinct_correct_filing_amounts": 1,
+            "distinct_full_filing_records": 1,
+            "precision_supported_rows": 1.0,
+            "amount_coverage": 1.0,
+            "full_coverage": 1.0
+          },
+          "BK": {
+            "gold_filing_facts": 1,
+            "auto_rows": 0,
+            "review_rows": 0,
+            "auto_supported_amount_rows": 0,
+            "auto_unsupported_rows": 0,
+            "correct_duplicate_mentions": 0,
+            "distinct_correct_filing_amounts": 0,
+            "distinct_full_filing_records": 0,
+            "precision_supported_rows": null,
+            "amount_coverage": 0.0,
+            "full_coverage": 0.0
+          }
+        },
+        "all_rows": [
+          {
+            "doc_id": "BQ",
+            "passage_id": "BQ-P01379",
+            "review": false,
+            "issuer": "Chubb Limited",
+            "entity_scope": "reporting_company",
+            "measure": "claims_losses",
+            "basis": null,
+            "tax_basis": "pretax",
+            "status": "reported",
+            "period": null,
+            "event_quarter": null,
+            "recognition_period": null,
+            "reporting_period": "2022-Q3",
+            "reporting_period_start": null,
+            "reporting_period_end": null,
+            "low_usd": 975000000,
+            "high_usd": 975000000,
+            "bound_type": "point",
+            "approximate_amount": false,
+            "source_channel": "legacy_evidence",
+            "row": 0,
+            "correct_amount_event": true,
+            "full_semantic": true,
+            "assessment": "Correct consolidated Chubb reported pre-tax catastrophe loss. Neither source nor record assigns an explicit gross/net reinsurance basis. The sentence explicitly says the current quarter and the structured quarterly reporting period is 2022-Q3, supported by BQ-P00006 and the financial highlights heading BQ-P01375. This satisfies the as-stated financial-period criterion. The landfall date and a separate event-quarter field remain unset.",
+            "evidence_passage_ids": [
+              "BQ-P01379",
+              "BQ-P01437"
+            ],
+            "reference_id": "BQ-loss"
+          }
+        ]
+      },
+      "v5": {
+        "version": "v5",
+        "input_file_sha256": "bd0091b72733c2c3256e35d0698b9a534b8d0c7594c200af88003ad783b06884",
+        "summary": {
+          "gold_filing_facts": 2,
+          "auto_rows": 1,
+          "review_rows": 0,
+          "auto_supported_amount_rows": 1,
+          "auto_unsupported_rows": 0,
+          "correct_duplicate_mentions": 0,
+          "distinct_correct_filing_amounts": 1,
+          "distinct_full_filing_records": 1,
+          "precision_supported_rows": 1.0,
+          "amount_coverage": 0.5,
+          "full_coverage": 0.5,
+          "full_with_financial_reporting_context": 1,
+          "full_with_separate_supported_storm_quarter": 0
+        },
+        "by_filing": {
+          "BQ": {
+            "gold_filing_facts": 1,
+            "auto_rows": 1,
+            "review_rows": 0,
+            "auto_supported_amount_rows": 1,
+            "auto_unsupported_rows": 0,
+            "correct_duplicate_mentions": 0,
+            "distinct_correct_filing_amounts": 1,
+            "distinct_full_filing_records": 1,
+            "precision_supported_rows": 1.0,
+            "amount_coverage": 1.0,
+            "full_coverage": 1.0
+          },
+          "BK": {
+            "gold_filing_facts": 1,
+            "auto_rows": 0,
+            "review_rows": 0,
+            "auto_supported_amount_rows": 0,
+            "auto_unsupported_rows": 0,
+            "correct_duplicate_mentions": 0,
+            "distinct_correct_filing_amounts": 0,
+            "distinct_full_filing_records": 0,
+            "precision_supported_rows": null,
+            "amount_coverage": 0.0,
+            "full_coverage": 0.0
+          }
+        },
+        "all_rows": [
+          {
+            "doc_id": "BQ",
+            "passage_id": "BQ-P01379",
+            "review": false,
+            "issuer": "Chubb Limited",
+            "entity_scope": "reporting_company",
+            "measure": "claims_losses",
+            "basis": null,
+            "tax_basis": "pretax",
+            "status": "reported",
+            "period": null,
+            "event_quarter": null,
+            "recognition_period": null,
+            "reporting_period": "2022-Q3",
+            "reporting_period_start": null,
+            "reporting_period_end": null,
+            "low_usd": 975000000,
+            "high_usd": 975000000,
+            "bound_type": "point",
+            "approximate_amount": false,
+            "source_channel": "legacy_evidence",
+            "row": 0,
+            "correct_amount_event": true,
+            "full_semantic": true,
+            "assessment": "Correct consolidated Chubb reported pre-tax catastrophe loss. Neither source nor record assigns an explicit gross/net reinsurance basis. The sentence explicitly says the current quarter and the structured quarterly reporting period is 2022-Q3, supported by BQ-P00006 and the financial highlights heading BQ-P01375. This satisfies the as-stated financial-period criterion. The landfall date and a separate event-quarter field remain unset.",
+            "evidence_passage_ids": [
+              "BQ-P01379",
+              "BQ-P01437"
+            ],
+            "reference_id": "BQ-loss"
+          }
+        ]
+      }
+    },
+    "limitations": [
+      "Both references are valid disclosures of the same $975m loss in different filings. A one-filing hit is 1/2 disclosure coverage; it is not a second independent measurement of event magnitude.",
+      "The full-year statement separately prices Ian at $975m and Elliott at $400m. V3–V5 failed to recover the former from a clause naming both storms. There are zero erroneous automatic claims in this small test, but only one accepted row per version.",
+      "All three outputs leave event_quarter unset. V4 and V5 correctly supply the as-stated reporting quarter, corroborated by the explicit current-quarter reference in the evidence sentence. If a stricter use requires a separately encoded storm quarter, none of the outputs fulfil that additional criterion.",
+      "The final lock precedes unsealing of all Chubb predictions. No post-hoc remediation is scored here."
+    ]
+  },
+  "chubb_second_adjudication": {
+    "dataset": "Chubb Limited original Q3 and FY2022 SEC reports on Hurricane Ian; timestamped confirmation cohort.",
+    "created_utc": "2026-11-27T15:54:04.104000+00:00",
+    "reference_sha256": "6cd5949b474b89f450319f95df3b03e531363a0963a87cf9181b0ecbb91e3680",
+    "input_sha256": "c24e409d5b69837e2d47b9114cb47efaaaa941c64a663ebd939f2fc6a5dcad09",
+    "protocol_sha256": "c90273d5bea36c19ecad5948a21c05e38ebdf2e31f94469d63fbc023079cf00f",
+    "second_read_sha256": "1c9e75f1c397e7c95950fd881c3b6b07d88a0235ce77e23a7430e755bd6f0e69",
+    "versions": {
+      "v3": {
+        "sha256": "a2eb985c9b09fe7b319777566222c4f735a06bd6103d9e23fb9f511cccf302a5",
+        "all": {
+          "reference": 2,
+          "automatic_mentions": 1,
+          "review_mentions": 0,
+          "correct_amount_mentions": 1,
+          "repeated_correct_mentions": 0,
+          "wrong_auto_mentions": 0,
+          "unique_amounts": 1,
+          "unique_core": 0,
+          "correct_review_mentions": 0,
+          "missed": [
+            "BK-loss"
+          ],
+          "core_missed": [
+            "BK-loss",
+            "BQ-loss"
+          ],
+          "amount_mention_precision": 1.0,
+          "amount_filing_recall": 0.5,
+          "complete_at_reported_accounting_period_with_current_quarter_evidence": 0,
+          "complete_with_explicit_structured_economic_quarter": 0
+        },
+        "by_filing": {
+          "BQ": {
+            "reference": 1,
+            "automatic_mentions": 1,
+            "review_mentions": 0,
+            "correct_amount_mentions": 1,
+            "repeated_correct_mentions": 0,
+            "wrong_auto_mentions": 0,
+            "unique_amounts": 1,
+            "unique_core": 0,
+            "correct_review_mentions": 0,
+            "missed": [],
+            "core_missed": [
+              "BQ-loss"
+            ],
+            "amount_mention_precision": 1.0,
+            "amount_filing_recall": 1.0
+          },
+          "BK": {
+            "reference": 1,
+            "automatic_mentions": 0,
+            "review_mentions": 0,
+            "correct_amount_mentions": 0,
+            "repeated_correct_mentions": 0,
+            "wrong_auto_mentions": 0,
+            "unique_amounts": 0,
+            "unique_core": 0,
+            "correct_review_mentions": 0,
+            "missed": [
+              "BK-loss"
+            ],
+            "core_missed": [
+              "BK-loss"
+            ],
+            "amount_mention_precision": null,
+            "amount_filing_recall": 0.0
+          }
+        },
+        "rows": [
+          {
+            "row": 1,
+            "doc_id": "BQ",
+            "verdict": {
+              "pid": "BQ-P01379",
+              "cid": "BQ-loss",
+              "bounds_usd": [
+                975000000,
+                975000000
+              ],
+              "review": false,
+              "core": false,
+              "note": "Source explicitly ties this pre-tax catastrophe loss to Ian in the current quarter; issuer, status, number and tax basis are right. Structured economic quarter is absent; the report period, where provided, is not the economic period. The annual restatement of the same amount was missed."
+            },
+            "proposal": {
+              "doc_id": "BQ",
+              "passage_id": "BQ-P01379",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615922000014/cb-20220930.htm",
+              "issuer": "Chubb Limited",
+              "reporting_issuer": "Chubb Limited",
+              "entity_scope": "reporting_company",
+              "event": "Ian",
+              "measure": "claims_losses",
+              "basis": null,
+              "gross_ultimate": false,
+              "at_contractual_cap": false,
+              "approximate_amount": false,
+              "status_detail": "reported",
+              "event_quarter": null,
+              "event_date_text": null,
+              "event_date_evidence": null,
+              "recognition_period": null,
+              "tax_basis": "pretax",
+              "status": "reported",
+              "period": null,
+              "estimate_as_of": null,
+              "low_usd": 975000000,
+              "high_usd": 975000000,
+              "bound_type": "point",
+              "evidence": "Catastrophe losses in the current quarter were primarily from Hurricane Ian losses of $975 million pre-tax and global weather-related events.",
+              "event_evidence": "Catastrophe losses in the current quarter were primarily from Hurricane Ian losses of $975 million pre-tax and global weather-related events.",
+              "amount_text": "$975 million",
+              "review": false,
+              "review_reasons": []
+            }
+          }
+        ]
+      },
+      "v4": {
+        "sha256": "bd0091b72733c2c3256e35d0698b9a534b8d0c7594c200af88003ad783b06884",
+        "all": {
+          "reference": 2,
+          "automatic_mentions": 1,
+          "review_mentions": 0,
+          "correct_amount_mentions": 1,
+          "repeated_correct_mentions": 0,
+          "wrong_auto_mentions": 0,
+          "unique_amounts": 1,
+          "unique_core": 0,
+          "correct_review_mentions": 0,
+          "missed": [
+            "BK-loss"
+          ],
+          "core_missed": [
+            "BK-loss",
+            "BQ-loss"
+          ],
+          "amount_mention_precision": 1.0,
+          "amount_filing_recall": 0.5,
+          "complete_at_reported_accounting_period_with_current_quarter_evidence": 1,
+          "complete_with_explicit_structured_economic_quarter": 0
+        },
+        "by_filing": {
+          "BQ": {
+            "reference": 1,
+            "automatic_mentions": 1,
+            "review_mentions": 0,
+            "correct_amount_mentions": 1,
+            "repeated_correct_mentions": 0,
+            "wrong_auto_mentions": 0,
+            "unique_amounts": 1,
+            "unique_core": 0,
+            "correct_review_mentions": 0,
+            "missed": [],
+            "core_missed": [
+              "BQ-loss"
+            ],
+            "amount_mention_precision": 1.0,
+            "amount_filing_recall": 1.0
+          },
+          "BK": {
+            "reference": 1,
+            "automatic_mentions": 0,
+            "review_mentions": 0,
+            "correct_amount_mentions": 0,
+            "repeated_correct_mentions": 0,
+            "wrong_auto_mentions": 0,
+            "unique_amounts": 0,
+            "unique_core": 0,
+            "correct_review_mentions": 0,
+            "missed": [
+              "BK-loss"
+            ],
+            "core_missed": [
+              "BK-loss"
+            ],
+            "amount_mention_precision": null,
+            "amount_filing_recall": 0.0
+          }
+        },
+        "rows": [
+          {
+            "row": 1,
+            "doc_id": "BQ",
+            "verdict": {
+              "pid": "BQ-P01379",
+              "cid": "BQ-loss",
+              "bounds_usd": [
+                975000000,
+                975000000
+              ],
+              "review": false,
+              "core": false,
+              "note": "Source explicitly ties this pre-tax catastrophe loss to Ian in the current quarter; issuer, status, number and tax basis are right. Structured economic quarter is absent; the report period, where provided, is not the economic period. The annual restatement of the same amount was missed."
+            },
+            "proposal": {
+              "doc_id": "BQ",
+              "passage_id": "BQ-P01379",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615922000014/cb-20220930.htm",
+              "issuer": "Chubb Limited",
+              "reporting_issuer": "Chubb Limited",
+              "entity_scope": "reporting_company",
+              "event": "Ian",
+              "measure": "claims_losses",
+              "basis": null,
+              "gross_ultimate": false,
+              "at_contractual_cap": false,
+              "approximate_amount": false,
+              "status_detail": "reported",
+              "event_quarter": null,
+              "event_date_text": null,
+              "event_date_evidence": null,
+              "recognition_period": null,
+              "tax_basis": "pretax",
+              "status": "reported",
+              "period": null,
+              "estimate_as_of": null,
+              "low_usd": 975000000,
+              "high_usd": 975000000,
+              "bound_type": "point",
+              "evidence": "Catastrophe losses in the current quarter were primarily from Hurricane Ian losses of $975 million pre-tax and global weather-related events.",
+              "event_evidence": "Catastrophe losses in the current quarter were primarily from Hurricane Ian losses of $975 million pre-tax and global weather-related events.",
+              "amount_text": "$975 million",
+              "review": false,
+              "review_reasons": [],
+              "source_channel": "legacy_evidence",
+              "accession": "0000896159-22-000014",
+              "reporting_period": "2022-Q3",
+              "reporting_period_source": "BQ-P00006",
+              "evidence_passage_ids": [
+                "BQ-P01379",
+                "BQ-P01437"
+              ]
+            }
+          }
+        ]
+      },
+      "v5": {
+        "sha256": "bd0091b72733c2c3256e35d0698b9a534b8d0c7594c200af88003ad783b06884",
+        "all": {
+          "reference": 2,
+          "automatic_mentions": 1,
+          "review_mentions": 0,
+          "correct_amount_mentions": 1,
+          "repeated_correct_mentions": 0,
+          "wrong_auto_mentions": 0,
+          "unique_amounts": 1,
+          "unique_core": 0,
+          "correct_review_mentions": 0,
+          "missed": [
+            "BK-loss"
+          ],
+          "core_missed": [
+            "BK-loss",
+            "BQ-loss"
+          ],
+          "amount_mention_precision": 1.0,
+          "amount_filing_recall": 0.5,
+          "complete_at_reported_accounting_period_with_current_quarter_evidence": 1,
+          "complete_with_explicit_structured_economic_quarter": 0
+        },
+        "by_filing": {
+          "BQ": {
+            "reference": 1,
+            "automatic_mentions": 1,
+            "review_mentions": 0,
+            "correct_amount_mentions": 1,
+            "repeated_correct_mentions": 0,
+            "wrong_auto_mentions": 0,
+            "unique_amounts": 1,
+            "unique_core": 0,
+            "correct_review_mentions": 0,
+            "missed": [],
+            "core_missed": [
+              "BQ-loss"
+            ],
+            "amount_mention_precision": 1.0,
+            "amount_filing_recall": 1.0
+          },
+          "BK": {
+            "reference": 1,
+            "automatic_mentions": 0,
+            "review_mentions": 0,
+            "correct_amount_mentions": 0,
+            "repeated_correct_mentions": 0,
+            "wrong_auto_mentions": 0,
+            "unique_amounts": 0,
+            "unique_core": 0,
+            "correct_review_mentions": 0,
+            "missed": [
+              "BK-loss"
+            ],
+            "core_missed": [
+              "BK-loss"
+            ],
+            "amount_mention_precision": null,
+            "amount_filing_recall": 0.0
+          }
+        },
+        "rows": [
+          {
+            "row": 1,
+            "doc_id": "BQ",
+            "verdict": {
+              "pid": "BQ-P01379",
+              "cid": "BQ-loss",
+              "bounds_usd": [
+                975000000,
+                975000000
+              ],
+              "review": false,
+              "core": false,
+              "note": "Source explicitly ties this pre-tax catastrophe loss to Ian in the current quarter; issuer, status, number and tax basis are right. Structured economic quarter is absent; the report period, where provided, is not the economic period. The annual restatement of the same amount was missed."
+            },
+            "proposal": {
+              "doc_id": "BQ",
+              "passage_id": "BQ-P01379",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615922000014/cb-20220930.htm",
+              "issuer": "Chubb Limited",
+              "reporting_issuer": "Chubb Limited",
+              "entity_scope": "reporting_company",
+              "event": "Ian",
+              "measure": "claims_losses",
+              "basis": null,
+              "gross_ultimate": false,
+              "at_contractual_cap": false,
+              "approximate_amount": false,
+              "status_detail": "reported",
+              "event_quarter": null,
+              "event_date_text": null,
+              "event_date_evidence": null,
+              "recognition_period": null,
+              "tax_basis": "pretax",
+              "status": "reported",
+              "period": null,
+              "estimate_as_of": null,
+              "low_usd": 975000000,
+              "high_usd": 975000000,
+              "bound_type": "point",
+              "evidence": "Catastrophe losses in the current quarter were primarily from Hurricane Ian losses of $975 million pre-tax and global weather-related events.",
+              "event_evidence": "Catastrophe losses in the current quarter were primarily from Hurricane Ian losses of $975 million pre-tax and global weather-related events.",
+              "amount_text": "$975 million",
+              "review": false,
+              "review_reasons": [],
+              "source_channel": "legacy_evidence",
+              "accession": "0000896159-22-000014",
+              "reporting_period": "2022-Q3",
+              "reporting_period_source": "BQ-P00006",
+              "evidence_passage_ids": [
+                "BQ-P01379",
+                "BQ-P01437"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "unit": "Two filing-specific opportunities refer to one economic loss estimate. Repeats within a filing count once; the later disclosure is a reaffirmation. Wrong amount or event is an incorrect automatic mention; incomplete basis, status, economic quarter or owner means no complete credit even if amount and event are supported.",
+    "caveat": "Three versions each produce one valid quarterly mention and no annual mention, even though the amount is disclosed separately for Ian alongside a separate Elliott amount. Gross/net of reinsurance left unspecified as in the source; no credit deducted for that abstention. One economic exposure, two filing-specific opportunities.",
+    "time_convention": "Two preexisting scoring formulations are named explicitly. Strict economic-time completeness requires an explicit normalized economic-period field. Accounting-period completeness accepts the normalized reporting quarter, its source, plus the source sentence explicitly saying current quarter; v4 and v5 provide this for BQ, v3 does not normalize the reporting quarter. Neither convention converts a report date by itself into occurrence time."
+  }
+}
