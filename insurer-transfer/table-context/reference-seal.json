@@ -1,0 +1,9 @@
+{
+  "source_reference_sha256": "4a8ff139a920da9d2d50b5428f551d8f880462c7fc2a130be1dff84b053abb51",
+  "independent_reference_sha256": "acde9bea03664b8a4398f145862774b7915cc0f75fa2f0becbce2d9138016f47",
+  "primary_files_sha256": "bab45c1bd6092f22b3c84249125104d4fe1a351edd30a3193f706097df52f414",
+  "selection_sha256": "6ea5fff263027c68b1b2c1a30dceec7b517302f20c2b826c74cc1e79a4d4f700",
+  "scoring_sha256": "b095e971af227b5ae1f38387d3e4decba7da29ef4680af54fdae2e7e08091ded",
+  "screen_sha256": "5a4fab319fd56a324d84999ecb95ea1601042afac6714d962d7078ee9ea5a988",
+  "method_commit": "263e8521c9a82771d26d08d28a6d9e89b14c22b2"
+}

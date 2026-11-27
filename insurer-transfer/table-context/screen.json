@@ -1,0 +1,560 @@
+{
+  "selection_sha256": "6ea5fff263027c68b1b2c1a30dceec7b517302f20c2b826c74cc1e79a4d4f700",
+  "scope": "Primary annual-report/prospectus stratum. All three slots were filled in the primary list; no reserve document contributes to the scored sample.",
+  "registered_primary_families": 12,
+  "source_families_considered": 10,
+  "source_families_with_documents": 9,
+  "excluded_by_family_overlap": 1,
+  "documents_examined": 23,
+  "selected_issuer_families": 3,
+  "selected_tables": 3,
+  "selected_reference_cells": 8,
+  "families": [
+    {
+      "issuer": "Hamilton Insurance Group",
+      "documents": [
+        "HG23",
+        "HG24"
+      ],
+      "decision": "exhausted"
+    },
+    {
+      "issuer": "Federated National / 21st Century Holding Company",
+      "documents": [
+        "FN17",
+        "FN05"
+      ],
+      "decision": "selected"
+    },
+    {
+      "issuer": "Greenlight Capital Re",
+      "documents": [
+        "GL22",
+        "GL17",
+        "GL18",
+        "GL19",
+        "GL21",
+        "GL24"
+      ],
+      "decision": "exhausted"
+    },
+    {
+      "issuer": "Fidelis Insurance Holdings",
+      "documents": [
+        "FI23",
+        "FI24"
+      ],
+      "decision": "exhausted"
+    },
+    {
+      "issuer": "American Integrity Insurance Group",
+      "documents": [
+        "AI25"
+      ],
+      "decision": "exhausted; separate FY2024 public 10-K unavailable, IPO was in 2025"
+    },
+    {
+      "issuer": "Slide Insurance Holdings",
+      "documents": [],
+      "decision": "excluded by preregistered FedNat/Slide asset-overlap rule after FN05 qualified"
+    },
+    {
+      "issuer": "NYMAGIC / New York Marine",
+      "documents": [
+        "NY05",
+        "NY08",
+        "NY04"
+      ],
+      "decision": "exhausted"
+    },
+    {
+      "issuer": "Maiden Holdings",
+      "documents": [
+        "MD17",
+        "MD12"
+      ],
+      "decision": "selected"
+    },
+    {
+      "issuer": "Kinsale Capital Group",
+      "documents": [
+        "KN22",
+        "KN24",
+        "KN17",
+        "KN18"
+      ],
+      "decision": "exhausted"
+    },
+    {
+      "issuer": "Safety Insurance Group",
+      "documents": [
+        "SF12"
+      ],
+      "decision": "selected; third qualifying family, stop"
+    }
+  ],
+  "screened_documents_in_order": [
+    {
+      "doc_id": "HG23",
+      "issuer": "Hamilton Insurance Group, Ltd.",
+      "form": "424B4",
+      "accession": "0001628280-23-038412",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1593275/000162828023038412/hamilton-424b4prospectus.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1593275/000162828023038412/0001628280-23-038412-index.htm",
+      "primary_bytes": 7863161,
+      "primary_sha256": "c352f00469ae2f106232dfd5e5e760632181a8d282439cf591e6eb506be85f3a",
+      "index_sha256": "f243242739a12f1d7f49b1922a51f7a2b7cd5cb07404b90531cc142386d0fc74",
+      "storms_checked": [
+        "Ian",
+        "Fiona",
+        "Ida",
+        "Laura",
+        "Dorian",
+        "Michael",
+        "Irma",
+        "Harvey",
+        "Maria",
+        "Jebi",
+        "Hagibis",
+        "Faxai"
+      ],
+      "decision": "ineligible",
+      "reason": "No named-storm financial-table cell. Ian, Ida and other event allocations are in prose; tabled catastrophe aggregates include other hazards and/or prior-event development."
+    },
+    {
+      "doc_id": "HG24",
+      "issuer": "Hamilton Insurance Group, Ltd.",
+      "form": "10-K",
+      "accession": "0001593275-25-000023",
+      "period": "2024-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1593275/000159327525000023/hg-20241231.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1593275/000159327525000023/0001593275-25-000023-index.htm",
+      "primary_bytes": 5416042,
+      "primary_sha256": "db507e89623dfe473e706ece119f373e6a6e07e3dd5cfb09e335862b71203ab5",
+      "index_sha256": "5ee1562fc6f6f6bc3e504c630a3c287d6e857d7678ac0ea77bfe05814c9b9f69",
+      "storms_checked": [
+        "Milton",
+        "Helene",
+        "Debby",
+        "Beryl"
+      ],
+      "decision": "ineligible",
+      "reason": "Individual amounts such as Helene and Milton are in prose; tables 29, 35 and 42 use multi-event catastrophe subtotals."
+    },
+    {
+      "doc_id": "FN17",
+      "issuer": "Federated National Holding Company",
+      "form": "10-K",
+      "accession": "0001069996-18-000003",
+      "period": "2017-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069996/000106999618000003/fnhc-123117x10xk.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1069996/000106999618000003/0001069996-18-000003-index.htm",
+      "primary_bytes": 4446044,
+      "primary_sha256": "729e3b08ccca98ea6a1fdcd73f0aef75842967211d9663a6ad4551bca26b6eea",
+      "index_sha256": "a7a325a2a1bc624551ef936d7b84bea97ae0c3a757eb6f1c072da84167dea6e8",
+      "storms_checked": [
+        "Irma",
+        "Harvey",
+        "Maria"
+      ],
+      "decision": "ineligible",
+      "reason": "Reported Irma losses are in prose. The paid and unpaid recoverables table is portfolio-wide; the disclosed change was driven primarily by Irma."
+    },
+    {
+      "doc_id": "FN05",
+      "issuer": "21st Century Holding Company",
+      "form": "10-K",
+      "accession": "0001144204-06-012513",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069996/000114420406012513/v039025_10k.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1069996/000114420406012513/0001144204-06-012513-index.htm",
+      "primary_bytes": 4034115,
+      "primary_sha256": "b1714b0d58a6a6e6d363e608252be65bb92fc38d0221d11fe8bd6c46a587e52e",
+      "index_sha256": "9cb95ed21fe03ec627a88db618994f35650a73657bea345727afb3136721b4cd",
+      "storms_checked": [
+        "Katrina",
+        "Rita",
+        "Wilma",
+        "Dennis"
+      ],
+      "decision": "selected",
+      "reason": "Selected. First eligible table 13 allocates separate gross loss, reinsurance recoveries and net loss to Katrina. Claim count excluded."
+    },
+    {
+      "doc_id": "GL22",
+      "issuer": "Greenlight Capital Re, Ltd.",
+      "form": "10-K",
+      "accession": "0001385613-23-000012",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561323000012/glre-20221231.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561323000012/0001385613-23-000012-index.htm",
+      "primary_bytes": 5308384,
+      "primary_sha256": "532222ba8b5692a1bd298407ae34395daaa4e3f386c7987354250cd270d21385",
+      "index_sha256": "dc5f77364bb66537fb148251d1ec7b6c07d221172fc5af17cf818fea78119d62",
+      "storms_checked": [
+        "Ian",
+        "Fiona",
+        "Nicole"
+      ],
+      "decision": "ineligible",
+      "reason": "Table 56 segment changes have multiple drivers; 25.7m spans several events and the individually stated Ian reserve is in prose."
+    },
+    {
+      "doc_id": "GL17",
+      "issuer": "Greenlight Capital Re, Ltd.",
+      "form": "10-K",
+      "accession": "0001385613-18-000013",
+      "period": "2017-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561318000013/glre-20171231x10kdocument.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561318000013/0001385613-18-000013-index.htm",
+      "primary_bytes": 4117128,
+      "primary_sha256": "e5eaeac46720f799d0e3ba4da3bf4f139ffe62217877ecdc64325e3c7365161e",
+      "index_sha256": "3bb988118dbbf92751349a5832cb0b52b44d4e53f343df0f575c81268241b2aa",
+      "storms_checked": [
+        "Irma",
+        "Harvey",
+        "Maria"
+      ],
+      "decision": "ineligible",
+      "reason": "Tables 65 and 66 contain bullet prose with ratios for several storms and other catastrophes. No separate event dollar cell."
+    },
+    {
+      "doc_id": "GL18",
+      "issuer": "Greenlight Capital Re, Ltd.",
+      "form": "10-K",
+      "accession": "0001385613-19-000016",
+      "period": "2018-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561319000016/glre-20181231x10kdocumentq4.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561319000016/0001385613-19-000016-index.htm",
+      "primary_bytes": 4741216,
+      "primary_sha256": "6ad4ecff020ca9eb2fdaeb36a653cded03555879d0154ac4e851ef0f854d39f7",
+      "index_sha256": "46058e1205e92af5931d295c960f89de4457031eb06b279f1201467bf6f9e09d",
+      "storms_checked": [
+        "Michael",
+        "Florence",
+        "Jebi"
+      ],
+      "decision": "ineligible",
+      "reason": "2018 hurricane and typhoon losses are combined with California wildfires in prose; apparent Michael hits in an exhibit index are personal names."
+    },
+    {
+      "doc_id": "GL19",
+      "issuer": "Greenlight Capital Re, Ltd.",
+      "form": "10-K",
+      "accession": "0001385613-20-000012",
+      "period": "2019-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561320000012/glre-20191231x10kdocument.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561320000012/0001385613-20-000012-index.htm",
+      "primary_bytes": 4390467,
+      "primary_sha256": "bfc5f5c80955482f5a575cac4077a25d6c6609e57965f89bc42863998aa2f7c1",
+      "index_sha256": "99dc430dbb8429c581e432dea938eb900c9f22173eb989645efa6b9a5dc541ab",
+      "storms_checked": [
+        "Dorian",
+        "Hagibis",
+        "Faxai"
+      ],
+      "decision": "ineligible",
+      "reason": "Dorian, Faxai and Hagibis are pooled in the loss discussion; no separately attributed cell."
+    },
+    {
+      "doc_id": "GL21",
+      "issuer": "Greenlight Capital Re, Ltd.",
+      "form": "10-K",
+      "accession": "0001385613-22-000026",
+      "period": "2021-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561322000026/glre-20211231.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561322000026/0001385613-22-000026-index.htm",
+      "primary_bytes": 5020985,
+      "primary_sha256": "d141869a0d5982e348c9b111b1b6dc678f3c8e20bfa040e4336bfad870741d37",
+      "index_sha256": "25900d1955d6ec9c325c6b1276ea22dfb166cf2910e334c4aa2f91d914fd9731",
+      "storms_checked": [
+        "Ida"
+      ],
+      "decision": "ineligible",
+      "reason": "Table 56 segment changes and their explanatory bullets include Uri, Ida and other events, with no event-specific cell."
+    },
+    {
+      "doc_id": "GL24",
+      "issuer": "Greenlight Capital Re, Ltd.",
+      "form": "10-K",
+      "accession": "0001385613-25-000007",
+      "period": "2024-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561325000007/glre-20241231.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1385613/000138561325000007/0001385613-25-000007-index.htm",
+      "primary_bytes": 4984041,
+      "primary_sha256": "8a98f217f926fe9a54da1254c04446c91b3bd79c0ae78d02980b68458f607a45",
+      "index_sha256": "ecdb70371a788ad81f25197a05311c77af909600f2f1776b69269ea5b8f46a52",
+      "storms_checked": [
+        "Milton",
+        "Helene",
+        "Debby",
+        "Beryl"
+      ],
+      "decision": "ineligible",
+      "reason": "Catastrophe amounts reflect the Baltimore bridge collapse, Helene, Milton and other losses; no event-specific cell."
+    },
+    {
+      "doc_id": "FI23",
+      "issuer": "Fidelis Insurance Holdings Limited",
+      "form": "424B4",
+      "accession": "0001193125-23-180448",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1636639/000119312523180448/d377320d424b4.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1636639/000119312523180448/0001193125-23-180448-index.htm",
+      "primary_bytes": 4590723,
+      "primary_sha256": "f3fbedc77e38c27eba8910e72f8f8619a6deb9002342516b20d148288886fdb8",
+      "index_sha256": "15ce2b81cfec45331a23d5c7dda466b142fada19354ce2febbaf99217659f317",
+      "storms_checked": [
+        "Ian",
+        "Fiona",
+        "Ida",
+        "Laura",
+        "Dorian",
+        "Michael",
+        "Irma",
+        "Harvey",
+        "Maria",
+        "Jebi",
+        "Hagibis",
+        "Faxai"
+      ],
+      "decision": "ineligible",
+      "reason": "Prospectus table hits are layout prose, directors or executives. Actual monetary tables aggregate losses from several events, including developments and large losses."
+    },
+    {
+      "doc_id": "FI24",
+      "issuer": "Fidelis Insurance Holdings Limited",
+      "form": "20-F",
+      "accession": "0001636639-25-000022",
+      "period": "2024-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1636639/000163663925000022/fihl-20241231.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1636639/000163663925000022/0001636639-25-000022-index.htm",
+      "primary_bytes": 4324502,
+      "primary_sha256": "81ef7f5d51f89324139a63218541be00d9ce05fa1bfb572a6b5ca2a5bb9fe1b1",
+      "index_sha256": "cbb9d7cfb4d1047f8d54e5db5b2ceb8cc4b5f3963afafbbc63336f45c0585207",
+      "storms_checked": [
+        "Milton",
+        "Helene",
+        "Debby",
+        "Beryl"
+      ],
+      "decision": "ineligible",
+      "reason": "Catastrophe and large-loss tables include asset-backed losses, bridge losses and multiple storms. Form 20-F EX-13.1/.2 are officer certifications, not an incorporated annual report."
+    },
+    {
+      "doc_id": "AI25",
+      "issuer": "American Integrity Insurance Group, Inc.",
+      "form": "424B4",
+      "accession": "0001193125-25-115969",
+      "period": "2024-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2007587/000119312525115969/d63061d424b4.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/2007587/000119312525115969/0001193125-25-115969-index.htm",
+      "primary_bytes": 2246444,
+      "primary_sha256": "c7c1d152377f238ecd626677e70b0e43a176f9d4671fafbae40b51fffaf9a5e1",
+      "index_sha256": "4460923b660540e7ccce2edda10c36e0186086b473fd314db5d826730d26fe6f",
+      "storms_checked": [
+        "Milton",
+        "Helene",
+        "Debby",
+        "Ian",
+        "Idalia",
+        "Nicole",
+        "Michael",
+        "Irma"
+      ],
+      "decision": "ineligible",
+      "reason": "Table 281 is explicitly hypothetical AIR-model replay of historical storms against policies in force in 2024; the PML and hypothetical retention are not the amount the issuer suffered in the named historical hurricane. No actual-event financial cell."
+    },
+    {
+      "doc_id": "NY05",
+      "issuer": "NYMAGIC, Inc.",
+      "form": "10-K",
+      "accession": "0000950123-06-003148",
+      "period": "2005-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/847431/000095012306003148/j1909901e10vk.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/847431/000095012306003148/0000950123-06-003148-index.htm",
+      "primary_bytes": 1017515,
+      "primary_sha256": "d87730efe00069729a2bf7f6c896cc1ab438bbfb86f43e8f2ea6d289960e41c1",
+      "index_sha256": "27e27e1c5f8b89248c21773eb8fa4db8216b6306d729a38216a35e08f7f93702",
+      "storms_checked": [
+        "Katrina",
+        "Rita",
+        "Wilma",
+        "Dennis"
+      ],
+      "decision": "ineligible",
+      "reason": "Table 34 covers Katrina and Rita together, without any separate allocation. The table-30 presentation bullet also covers both storms."
+    },
+    {
+      "doc_id": "NY08",
+      "issuer": "NYMAGIC, Inc.",
+      "form": "10-K",
+      "accession": "0001362310-09-003896",
+      "period": "2008-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/847431/000136231009003896/c82595e10vk.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/847431/000136231009003896/0001362310-09-003896-index.htm",
+      "primary_bytes": 1467520,
+      "primary_sha256": "c36016183282bd3847c8a2a319043faf0f170ee9892d3817e1a40e9e13cd7c9a",
+      "index_sha256": "3edc7689b954bf8cb0a865ac4fe1e262f06b1a9f9f676dfa18085e8cdfcbaa4d",
+      "storms_checked": [
+        "Ike",
+        "Gustav"
+      ],
+      "decision": "ineligible",
+      "reason": "Gross and net loss estimates for Ike and Gustav are combined and in prose; no single-storm table."
+    },
+    {
+      "doc_id": "NY04",
+      "issuer": "NYMAGIC, Inc.",
+      "form": "10-K",
+      "period": "2004-12-31",
+      "accession": "0001116679-05-000736",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/847431/000111667905000736/nym10k.txt",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/847431/000111667905000736/0001116679-05-000736-index.htm",
+      "primary_bytes": 414905,
+      "index_sha256": "a1755d966acc0791098da1798dd1044f16b70f4f86eeb5f6adae491446fe88ee",
+      "non_html_note": "Report has no HTML td data cells.",
+      "storms_checked": [
+        "Charley",
+        "Frances",
+        "Ivan",
+        "Jeanne"
+      ],
+      "decision": "ineligible",
+      "reason": "Original primary SEC file nym10k.txt is a plain-text SGML report with no HTML td cells, excluded by native HTML requirement."
+    },
+    {
+      "doc_id": "MD17",
+      "issuer": "Maiden Holdings, Ltd.",
+      "form": "10-K",
+      "period": "2017-12-31",
+      "accession": "0001412100-18-000015",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1412100/000141210018000015/q4201710k.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1412100/000141210018000015/0001412100-18-000015-index.htm",
+      "primary_bytes": 7724988,
+      "index_sha256": "f31e6fad76f87c4e6aded689a8acd207d68f31831c302b03d7cb2b38582116e0",
+      "negative_source_check": "Official full text inspected separately for each of three registered names.",
+      "storms_checked": [
+        "Irma",
+        "Harvey",
+        "Maria"
+      ],
+      "decision": "ineligible",
+      "reason": "The original Form 10-K contains none of the registered names Harvey, Irma or Maria (separate searches in official full text). No eligible attribution."
+    },
+    {
+      "doc_id": "MD12",
+      "issuer": "Maiden Holdings, Ltd.",
+      "form": "10-K",
+      "accession": "0001412100-13-000009",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1412100/000141210013000009/mhld-20121231x10k.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1412100/000141210013000009/0001412100-13-000009-index.htm",
+      "primary_bytes": 5856765,
+      "primary_sha256": "9a352edc69120b1a2ee2cc4cc7cc9dc2a22f249b7c6fbffefbc9812a2afa341e",
+      "index_sha256": "b71dc72932e4b777096972d1e67b42f762a0520f3be7791eb2849cd94c34465a",
+      "storms_checked": [
+        "Sandy"
+      ],
+      "decision": "selected",
+      "reason": "Selected. Table 123 and its governing Sandy paragraph give three sources of incurred losses and the consolidated total."
+    },
+    {
+      "doc_id": "KN22",
+      "issuer": "Kinsale Capital Group, Inc.",
+      "form": "10-K",
+      "accession": "0001669162-23-000009",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916223000009/knsl-20221231.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916223000009/0001669162-23-000009-index.htm",
+      "primary_bytes": 3780265,
+      "primary_sha256": "bc9752fce98f0bc584bcf47f155b0519830b9e5070352c97c57af9ef21384659",
+      "index_sha256": "2e058b0a1c2f04a8f03b59bbaa9de05cb2622d85539906f58f25284b29daa33e",
+      "storms_checked": [
+        "Ian",
+        "Fiona",
+        "Nicole"
+      ],
+      "decision": "ineligible",
+      "reason": "Current-year catastrophe row and aggregate losses are only primarily attributable to Ian; the insurer does not allocate the exact table cell to Ian alone."
+    },
+    {
+      "doc_id": "KN24",
+      "issuer": "Kinsale Capital Group, Inc.",
+      "form": "10-K",
+      "accession": "0001669162-25-000010",
+      "period": "2024-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916225000010/knsl-20241231.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916225000010/0001669162-25-000010-index.htm",
+      "primary_bytes": 3220695,
+      "primary_sha256": "a99be8cf62fbd15cf30c464a25fe60502d59892be7f2b7a8ee5d433661b49078",
+      "index_sha256": "6c51c99219191e6b8bfb52c3b84ae66303820c39a6c4c575a76fb97466cb1b79",
+      "storms_checked": [
+        "Milton",
+        "Helene",
+        "Debby",
+        "Beryl"
+      ],
+      "decision": "ineligible",
+      "reason": "Catastrophe losses combine Milton, Helene, Francine and tornadoes; no unique event figure."
+    },
+    {
+      "doc_id": "KN17",
+      "issuer": "Kinsale Capital Group, Inc.",
+      "form": "10-K",
+      "accession": "0001669162-18-000005",
+      "period": "2017-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916218000005/knsl10-k12312017.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916218000005/0001669162-18-000005-index.htm",
+      "primary_bytes": 3807176,
+      "primary_sha256": "0b38de99d918425f1b69c19feb6926121d1556e6675b6500d8d87982b3b47294",
+      "index_sha256": "4297df023d42408ed442e988877456f010467422b8e8756efcd09f164b6e9bb3",
+      "storms_checked": [
+        "Irma",
+        "Harvey",
+        "Maria"
+      ],
+      "decision": "ineligible",
+      "reason": "Losses for Harvey and Irma are combined with no single-storm allocation in any cell."
+    },
+    {
+      "doc_id": "KN18",
+      "issuer": "Kinsale Capital Group, Inc.",
+      "form": "10-K",
+      "accession": "0001669162-19-000005",
+      "period": "2018-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916219000005/knsl10-k12312018.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916219000005/0001669162-19-000005-index.htm",
+      "primary_bytes": 3814687,
+      "primary_sha256": "8ea4746856907093b1893f7ebc92a848cf729a8fb2f2d40dcff64a860d057542",
+      "index_sha256": "536273959b677f214fb0460834ef16a0afb4f5dcdc54563a9de0f1a3efa0ff8f",
+      "storms_checked": [
+        "Michael",
+        "Florence",
+        "Jebi"
+      ],
+      "decision": "ineligible",
+      "reason": "Registered storm names are absent from attributable dollar cells. The direct Michael matches are officers named Michael."
+    },
+    {
+      "doc_id": "SF12",
+      "issuer": "Safety Insurance Group, Inc.",
+      "form": "10-K",
+      "accession": "0001047469-13-002988",
+      "period": "2012-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1172052/000104746913002988/a2213726z10-k.htm",
+      "official_index_url": "https://www.sec.gov/Archives/edgar/data/1172052/000104746913002988/0001047469-13-002988-index.htm",
+      "primary_bytes": 1866826,
+      "primary_sha256": "5a85920dc2edb3e015c14c875db9927dc72e5f5439521952a15acd332631a927",
+      "index_sha256": "188d1bd89dfcde5afaf0ddb236b406add7a46c605f28a5543f5925405738ac14",
+      "storms_checked": [
+        "Sandy"
+      ],
+      "decision": "selected",
+      "reason": "Selected. The precise Q4 Sandy loss agrees with the entire FY2012 hurricane/tropical-storm cell in table 21. The local unit convention is thousands of USD and the adjacent footnote defines included expenses."
+    }
+  ],
+  "stopping_point": "The first FY2012 annual report for Safety (10th family in registered order) supplies the third eligible table. American National and Hallmark are after the stopping point. Concurrent lower-priority studies, quarter/exhibit screens and the international contingency are unscored.",
+  "reserve_selection_sha256": "faffc9e6f834b5841f15b412710562bfda60f22a5e6d26da3a6bbdd10efd8e78"
+}
