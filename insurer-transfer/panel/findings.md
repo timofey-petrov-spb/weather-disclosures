@@ -1,0 +1,22 @@
+# Blind test on four insurers
+
+The final method recovered two of 39 filing-specific Hurricane Ian figures on new issuers. Its predecessor recovered one. Both matches came from Progressive's quarterly filing. The final method issued three automatic records. Its third record treated estimated coverage for a possible second catastrophe as a loss retained on Ian. None of the automatic records identified all required financial fields.
+
+| Issuer | Q3 and annual references | Earlier amount matches | Final amount matches | Final automatic records | Extra automatic records | Sent to review |
+|---|---:|---:|---:|---:|---:|---:|
+| Travelers | 2 + 2 | 0/4 | 0/4 | 0 | 0 | 0 |
+| Progressive | 10 + 2 | 1/12 | 2/12 | 3 | 1 | 0 |
+| Hartford | 3 + 2 | 0/5 | 0/5 | 0 | 0 | 6 |
+| RenaissanceRe | 9 + 9 | 0/18 | 0/18 | 0 | 0 | 0 |
+
+Pooled amount recall rose from 2.6% (1/39) to 5.1% (2/39). Unweighted mean recall across four issuers rose from 2.1% to 4.2%. The fraction of supported amounts among automatic records rose from 1/2 to 2/3, with zero repeated automatic records. Only Progressive produced any automatic records, so the other three issuer-level precision values are undefined. Complete financial-field coverage was 0/39 for both methods. Every one of the eight filings contained at least one positive fact. The experiment cannot estimate a false-positive rate on wholly negative filings. All eight were original Q3 or annual forms selected in advance for the same storm. The two reporting dates are correlated.
+
+## What the filings explain
+
+- **Travelers.** The Ian row reports both losses incurred and estimated ultimate losses. The Q3 table printed $326m for both concepts, and the annual table printed $227m for both. Distinct column headings matter even when the amounts coincide. We counted the identical Q3 and year-to-date incurred amounts in Q3 as one event-level incurred measure. Counting these period columns separately would add one missed Q3 observation and change the final amount recall to 2/40. [Quarterly filing](https://www.sec.gov/Archives/edgar/data/86312/000008631222000065/trv-20220930.htm) · [Annual filing](https://www.sec.gov/Archives/edgar/data/86312/000008631223000011/trv-20221231.htm)
+- **Progressive.** Both versions retrieved the Property business's $1.4bn gross estimate, including allocated loss-adjustment expenses, but assigned it to the reporting parent. The final version also recovered roughly $570m of Personal Lines losses and recorded the wrong segment label. Its $2.1bn upper bound is potential reinsurance coverage for another event. In the annual filing, $200m retained and $800m ceded for Ian were both missed. [Quarterly filing](https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm) · [Annual filing](https://www.sec.gov/Archives/edgar/data/80661/000008066123000006/pgr-20221231.htm)
+- **Hartford.** The Q3 form reports $214m of Ian losses net of reinsurance, including $35m in the global assumed reinsurance business. The annual form reports $186m, including the same $35m component. Its preceding footnote reports a different $35m recoverable for Winter Storm Elliott. The final method queued six passages for review, including two mentions of the same Commercial Lines figure. It read amounts stated in millions as whole dollars. Zero review rows contributed to automatic coverage. [Quarterly filing](https://www.sec.gov/Archives/edgar/data/874766/000087476622000102/hig-20220930.htm) · [Annual filing](https://www.sec.gov/Archives/edgar/data/874766/000087476623000023/hig-20221231.htm)
+- **RenaissanceRe.** An Ian column spans rows for incurred claims, reinstatement premiums, commissions, shareholders and business segments. The nine separate accounting measures per filing must be read with the column heading, row label, unit and sign. For example, the reported negative impact on common shareholders was $539.701m in Q3 and $532.878m in the annual filing. Both methods returned no records. [Quarterly filing](https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm) · [Annual filing](https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm)
+
+The result supports the narrower claim that an explicit event–amount construction can be recovered in some prose. It provides little evidence that these rules can automatically monitor diverse insurance filings. In particular, 18 of the 39 reference measures came from two RenaissanceRe filings, making both issuer-level results and the pooled count important.
+

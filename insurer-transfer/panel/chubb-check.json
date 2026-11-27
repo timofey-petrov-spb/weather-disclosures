@@ -1,0 +1,85 @@
+{
+  "chubb_ian": {
+    "v5": [
+      {
+        "doc_id": "BQ",
+        "event": "Ian",
+        "low_usd": 975000000,
+        "high_usd": 975000000,
+        "tax_basis": "pretax",
+        "basis": null,
+        "status": "reported",
+        "review": false,
+        "reporting_period": "2022-Q3",
+        "event_quarter": null,
+        "passage_id": "BQ-P01379",
+        "evidence_passage_ids": [
+          "BQ-P01379",
+          "BQ-P01437"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615922000014/cb-20220930.htm"
+      }
+    ],
+    "v6": [
+      {
+        "doc_id": "BQ",
+        "event": "Ian",
+        "low_usd": 975000000,
+        "high_usd": 975000000,
+        "tax_basis": "pretax",
+        "basis": null,
+        "status": "reported",
+        "review": false,
+        "reporting_period": "2022-Q3",
+        "event_quarter": null,
+        "passage_id": "BQ-P01379",
+        "evidence_passage_ids": [
+          "BQ-P01379",
+          "BQ-P01437"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615922000014/cb-20220930.htm"
+      },
+      {
+        "doc_id": "BK",
+        "event": "Ian",
+        "low_usd": 975000000,
+        "high_usd": 975000000,
+        "tax_basis": "pretax",
+        "basis": null,
+        "status": "reported",
+        "review": false,
+        "reporting_period": "FY2022",
+        "event_quarter": null,
+        "passage_id": "BK-P00725",
+        "evidence_passage_ids": [
+          "BK-P00725",
+          "BK-P00784"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615923000007/cb-20221231.htm"
+      }
+    ]
+  },
+  "chubb_elliott": {
+    "v5": [],
+    "v6": [
+      {
+        "doc_id": "BK",
+        "event": "Elliott",
+        "low_usd": 400000000,
+        "high_usd": 400000000,
+        "tax_basis": "pretax",
+        "basis": null,
+        "status": "reported",
+        "review": false,
+        "reporting_period": "FY2022",
+        "event_quarter": null,
+        "passage_id": "BK-P00725",
+        "evidence_passage_ids": [
+          "BK-P00725",
+          "BK-P00784"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/896159/000089615923000007/cb-20221231.htm"
+      }
+    ]
+  }
+}

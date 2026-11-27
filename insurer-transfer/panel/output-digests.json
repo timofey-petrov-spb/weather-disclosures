@@ -1,0 +1,26 @@
+{
+  "travelers": {
+    "v5": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v6": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "progressive": {
+    "v5": "1ed9afe50012d61bb6f74902a43b57782d9d22d320a1eac59ec2adc956baa93a",
+    "v6": "a1b8727fa4c25b641dd5e1b04a1216ba8af4880544187efd87af914fc7d88b25"
+  },
+  "hartford": {
+    "v5": "95691d0201d42ea5ac7a0aa0e4f908707a9e61ac32cca2266b5474c4dab58a3b",
+    "v6": "95691d0201d42ea5ac7a0aa0e4f908707a9e61ac32cca2266b5474c4dab58a3b"
+  },
+  "renaissance": {
+    "v5": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v6": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "chubb_ian": {
+    "v5": "633219e47ca7b55dda66376808167540d91c1e9a644129933943704ef597da7e",
+    "v6": "2b5ef61a600f297b96b8b7aa3bd55105bbab99c9e430f0679f44d7c9b8e5502e"
+  },
+  "chubb_elliott": {
+    "v5": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v6": "a492e8c24d71e05992b215d09d764c19e773f62ead5af49dc01067f4b24f60bb"
+  }
+}

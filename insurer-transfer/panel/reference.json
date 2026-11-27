@@ -1,0 +1,1078 @@
+{
+  "frozen_utc": "2026-11-27T16:02:08.545912+00:00",
+  "source_roster": "Four consecutive originally selected issuer pairs from the panel protocol, retained regardless of outcome.",
+  "reference_sha256": {
+    "source_reference.json-travelers": "d7271c095bac16b2fb7b73ef8bfe3e6913bd4c3126d391e64f34976caefe1f5f",
+    "source_reference.json-progressive": "852e20a962b3f538f109c7c2151c2b0779c1a0aaacf8463dc6344665d5a9b234",
+    "hartford-renaissance-reference.json-panel_audit": "ee7a4b5098bd04bc4da5fe42cad6736e0506c78e25b3b65be9f6390e5fa40dc0",
+    "travelers-progressive-second-read.json-panel_audit": "61fc041dfe352dd33c819b091ea21cfbdd1ccd6e4bbb19f5c73d736a21f123f9",
+    "protocol.json-insurer-panel": "c02bcebf7b4d9545455f13d2b08dc037fbd7f883dd328df291e3420b4a69e740",
+    "scoring-protocol.json-panel_audit": "0442db74216c7bb5694699d5c7f7885a5fc576b3c4bacf83ad6399b54f88c982"
+  },
+  "by_filing": {
+    "TQ": 2,
+    "TK": 2,
+    "PQ": 10,
+    "PK": 2,
+    "FQ": 3,
+    "FK": 2,
+    "RQ": 9,
+    "RK": 9
+  },
+  "claims": [
+    {
+      "claim_id": "TQ-incurred",
+      "doc_id": "TQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Travelers Companies, Inc.",
+      "affected_entity": "The Travelers Companies, Inc.",
+      "measure": "catastrophe losses incurred",
+      "basis": "net of reinsurance; pre-tax",
+      "status": "recorded incurred",
+      "reporting_or_recognition_period": "Q3 and YTD through 2022-09-30",
+      "low_usd": 326000000,
+      "high_usd": 326000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "TQ-P01013"
+      ],
+      "literal": "326",
+      "source_grade": "named event table row",
+      "context_ids": [
+        "TQ-P00987",
+        "TQ-P00990",
+        "TQ-P00989",
+        "TQ-P01016"
+      ],
+      "qualifiers": "Q3/YTD current-year incurred columns are equivalent for this September event.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/86312/000008631222000065/trv-20220930.htm"
+    },
+    {
+      "claim_id": "TQ-ultimate",
+      "doc_id": "TQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Travelers Companies, Inc.",
+      "affected_entity": "The Travelers Companies, Inc.",
+      "measure": "estimated ultimate catastrophe losses",
+      "basis": "net of reinsurance; pre-tax",
+      "status": "ultimate estimate",
+      "reporting_or_recognition_period": "2022-09-30",
+      "low_usd": 326000000,
+      "high_usd": 326000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "TQ-P01013"
+      ],
+      "literal": "326",
+      "source_grade": "named event table row",
+      "context_ids": [
+        "TQ-P00987",
+        "TQ-P00990",
+        "TQ-P00989",
+        "TQ-P01016"
+      ],
+      "qualifiers": "Separately headed ultimate estimate; same numeric value as current-period incurred loss.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/86312/000008631222000065/trv-20220930.htm"
+    },
+    {
+      "claim_id": "TK-incurred",
+      "doc_id": "TK",
+      "event": "Hurricane Ian",
+      "issuer": "The Travelers Companies, Inc.",
+      "affected_entity": "The Travelers Companies, Inc.",
+      "measure": "catastrophe losses incurred",
+      "basis": "net of reinsurance; pre-tax",
+      "status": "recorded incurred",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 227000000,
+      "high_usd": 227000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "TK-P01010"
+      ],
+      "literal": "227",
+      "source_grade": "named event table row",
+      "context_ids": [
+        "TK-P00987",
+        "TK-P00988"
+      ],
+      "qualifiers": "Current-year incurred; not the comparative years or a change in reserves for an earlier catastrophe.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/86312/000008631223000011/trv-20221231.htm"
+    },
+    {
+      "claim_id": "TK-ultimate",
+      "doc_id": "TK",
+      "event": "Hurricane Ian",
+      "issuer": "The Travelers Companies, Inc.",
+      "affected_entity": "The Travelers Companies, Inc.",
+      "measure": "estimated ultimate catastrophe losses",
+      "basis": "net of reinsurance; pre-tax",
+      "status": "ultimate estimate",
+      "reporting_or_recognition_period": "2022-12-31",
+      "low_usd": 227000000,
+      "high_usd": 227000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "TK-P01010"
+      ],
+      "literal": "227",
+      "source_grade": "named event table row",
+      "context_ids": [
+        "TK-P00987",
+        "TK-P00988"
+      ],
+      "qualifiers": "Separately headed ultimate estimate; same numeric value as current-period incurred loss.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/86312/000008631223000011/trv-20221231.htm"
+    },
+    {
+      "claim_id": "PQ-company-cat",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "The Progressive Corporation",
+      "measure": "catastrophe losses excluding loss adjustment expenses",
+      "basis": "vehicle and net property losses, LAE excluded",
+      "status": "incurred",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 760000000,
+      "high_usd": 760000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "PQ-P01048"
+      ],
+      "literal": "$760 million",
+      "source_grade": "named prose",
+      "context_ids": [
+        "PQ-P00917"
+      ],
+      "qualifiers": "Progressive compares Ian 2022 to Ida 2021. The printed $510m is Ida. The combined figure of $760m equals $585m vehicle losses and $175m retained property losses; ALAE is separate.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PQ-vehicle",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "vehicle lines",
+      "measure": "vehicle catastrophe losses excluding loss adjustment expenses",
+      "basis": "vehicle losses; LAE excluded",
+      "status": "incurred",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 585000000,
+      "high_usd": 585000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "PQ-P00917"
+      ],
+      "literal": "$585 million",
+      "source_grade": "named prose",
+      "context_ids": [],
+      "qualifiers": "The paragraph names Ian and separately identifies the vehicle and property amounts.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PQ-special",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Special Lines",
+      "measure": "special lines vehicle catastrophe losses",
+      "basis": "component of vehicle losses; LAE excluded",
+      "status": "incurred",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 290000000,
+      "high_usd": 290000000,
+      "bound_type": "point",
+      "approximate": true,
+      "passage_ids": [
+        "PQ-P00917"
+      ],
+      "literal": "$290 million",
+      "source_grade": "named prose",
+      "context_ids": [],
+      "qualifiers": "Nearly; mostly boats. Do not treat this rounded figure and the Personal Lines total as additive.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PQ-personal-auto",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Personal auto",
+      "measure": "personal auto catastrophe losses",
+      "basis": "component of vehicle losses; LAE excluded",
+      "status": "incurred",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 285000000,
+      "high_usd": 285000000,
+      "bound_type": "point",
+      "approximate": true,
+      "passage_ids": [
+        "PQ-P00917"
+      ],
+      "literal": "$285 million",
+      "source_grade": "named prose",
+      "context_ids": [],
+      "qualifiers": "About; excludes the other vehicle lines.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PQ-property-loss",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Property",
+      "measure": "property losses retained excluding allocated loss adjustment expenses",
+      "basis": "net of reinsurance; loss alone",
+      "status": "retained incurred",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 175000000,
+      "high_usd": 175000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "PQ-P00917",
+        "PQ-P01053"
+      ],
+      "literal": "$175 million",
+      "source_grade": "named prose",
+      "context_ids": [],
+      "qualifiers": "Property losses excluding allocated loss adjustment expenses. Same measure disclosed twice.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PQ-property-alae",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Property",
+      "measure": "allocated loss adjustment expense retained",
+      "basis": "net of reinsurance; ALAE only",
+      "status": "retained incurred",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 25000000,
+      "high_usd": 25000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "PQ-P00917",
+        "PQ-P01048",
+        "PQ-P01053"
+      ],
+      "literal": "$25 million",
+      "source_grade": "named prose",
+      "context_ids": [],
+      "qualifiers": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PQ-property-combined",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Property",
+      "measure": "property losses and allocated loss adjustment expense retained",
+      "basis": "net retained combined losses and ALAE",
+      "status": "retained incurred",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 200000000,
+      "high_usd": 200000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "PQ-P00994"
+      ],
+      "literal": "$200 million",
+      "source_grade": "named prose",
+      "context_ids": [
+        "PQ-P00917"
+      ],
+      "qualifiers": "Direct recognition is in paragraph 994. Paragraph 917 states the matching contract retention, which alone is not evidence of actual retained losses.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PQ-personal",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Personal Lines",
+      "measure": "recognized losses related to Ian",
+      "basis": "segment losses",
+      "status": "recognized incurred",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 570000000,
+      "high_usd": 570000000,
+      "bound_type": "point",
+      "approximate": true,
+      "passage_ids": [
+        "PQ-P00994"
+      ],
+      "literal": "$570 million",
+      "source_grade": "named prose",
+      "context_ids": [],
+      "qualifiers": "About; separate segment figure from rounded product breakouts.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PQ-property-gross",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Property",
+      "measure": "estimated property losses and allocated loss adjustment expenses",
+      "basis": "gross before excess-of-loss reinsurance",
+      "status": "estimate",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 1400000000,
+      "high_usd": 1400000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "PQ-P01048"
+      ],
+      "literal": "$1.4 billion",
+      "source_grade": "named prose",
+      "context_ids": [],
+      "qualifiers": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PQ-property-ceded",
+      "doc_id": "PQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Property",
+      "measure": "ceded losses and allocated loss adjustment expenses",
+      "basis": "ceded; per occurrence excess-of-loss program",
+      "status": "ceded incurred",
+      "reporting_or_recognition_period": "2022-Q3",
+      "low_usd": 1200000000,
+      "high_usd": 1200000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "PQ-P01053"
+      ],
+      "literal": "$1.2 billion",
+      "source_grade": "named prose",
+      "context_ids": [
+        "PQ-P01049",
+        "PQ-P01052"
+      ],
+      "qualifiers": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066122000080/pgr-20220930.htm"
+    },
+    {
+      "claim_id": "PK-property-retained",
+      "doc_id": "PK",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Property",
+      "measure": "property losses and allocated loss adjustment expenses retained",
+      "basis": "net retained, per occurrence excess-of-loss program",
+      "status": "retained incurred",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 200000000,
+      "high_usd": 200000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "PK-P00110"
+      ],
+      "literal": "$200 million",
+      "source_grade": "named prose",
+      "context_ids": [
+        "PK-P00104",
+        "PK-P00105",
+        "PK-P00106"
+      ],
+      "qualifiers": "Annual period, actual retained loss, not the possible retention limit in paragraph 106.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066123000006/pgr-20221231.htm"
+    },
+    {
+      "claim_id": "PK-property-ceded",
+      "doc_id": "PK",
+      "event": "Hurricane Ian",
+      "issuer": "The Progressive Corporation",
+      "affected_entity": "Property",
+      "measure": "ceded losses and allocated loss adjustment expenses",
+      "basis": "ceded; per occurrence excess-of-loss program",
+      "status": "ceded incurred",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 800000000,
+      "high_usd": 800000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "PK-P00110"
+      ],
+      "literal": "$800 million",
+      "source_grade": "named prose",
+      "context_ids": [
+        "PK-P00104",
+        "PK-P00105"
+      ],
+      "qualifiers": "Annual valuation differs from quarterly estimate. Do not sum the two periods.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066123000006/pgr-20221231.htm"
+    },
+    {
+      "claim_id": "FQ-group",
+      "doc_id": "FQ",
+      "issuer": "The Hartford Financial Services Group, Inc.",
+      "affected_entity": "Hartford property and casualty, Commercial and Personal Lines combined",
+      "measure": "Current accident-year catastrophe losses",
+      "basis": "net of reinsurance, in a current-accident-year catastrophe-loss table",
+      "status": "reported incurred current-accident-year loss",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 214000000,
+      "high_usd": 214000000,
+      "signed_economic_effect_usd": 214000000,
+      "passage_ids": [
+        "FQ-P02014"
+      ],
+      "attribution": "direct note",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/874766/000087476622000102/hig-20220930.htm",
+      "header_ids": [
+        "FQ-P02002",
+        "FQ-P02003"
+      ],
+      "loss_expense_magnitude": true,
+      "signed_economic_effect_usd_note": "Amount is the positive reported magnitude of a loss; it is not a positive earnings effect."
+    },
+    {
+      "claim_id": "FQ-assumed",
+      "doc_id": "FQ",
+      "issuer": "The Hartford Financial Services Group, Inc.",
+      "affected_entity": "Hartford global assumed reinsurance business",
+      "measure": "Global assumed reinsurance loss component of the Ian catastrophe loss",
+      "basis": "net of reinsurance, in a current-accident-year catastrophe-loss table",
+      "status": "reported incurred current-accident-year loss",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 35000000,
+      "high_usd": 35000000,
+      "signed_economic_effect_usd": 35000000,
+      "passage_ids": [
+        "FQ-P02014"
+      ],
+      "attribution": "direct note",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/874766/000087476622000102/hig-20220930.htm",
+      "header_ids": [
+        "FQ-P02002",
+        "FQ-P02003"
+      ],
+      "loss_expense_magnitude": true,
+      "signed_economic_effect_usd_note": "Amount is the positive reported magnitude of a loss; it is not a positive earnings effect."
+    },
+    {
+      "claim_id": "FQ-commercial",
+      "doc_id": "FQ",
+      "issuer": "The Hartford Financial Services Group, Inc.",
+      "affected_entity": "Hartford Commercial Lines",
+      "measure": "Current accident-year catastrophe losses",
+      "basis": "Commercial Lines segment catastrophe cost, before tax, segment reporting basis",
+      "status": "reported incurred current-accident-year loss",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 133000000,
+      "high_usd": 133000000,
+      "signed_economic_effect_usd": 133000000,
+      "passage_ids": [
+        "FQ-P02250",
+        "FQ-P02252"
+      ],
+      "attribution": "direct narrative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/874766/000087476622000102/hig-20220930.htm"
+    },
+    {
+      "claim_id": "FK-group",
+      "doc_id": "FK",
+      "issuer": "The Hartford Financial Services Group, Inc.",
+      "affected_entity": "Hartford property and casualty, Commercial and Personal Lines combined",
+      "measure": "Current accident-year catastrophe losses",
+      "basis": "net of reinsurance, in a current-accident-year catastrophe-loss table",
+      "status": "reported incurred current-accident-year loss",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 186000000,
+      "high_usd": 186000000,
+      "signed_economic_effect_usd": 186000000,
+      "passage_ids": [
+        "FK-P01206"
+      ],
+      "attribution": "direct note",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/874766/000087476623000023/hig-20221231.htm",
+      "header_ids": [
+        "FK-P01194",
+        "FK-P01195"
+      ],
+      "loss_expense_magnitude": true,
+      "signed_economic_effect_usd_note": "Amount is the positive reported magnitude of a loss; it is not a positive earnings effect."
+    },
+    {
+      "claim_id": "FK-assumed",
+      "doc_id": "FK",
+      "issuer": "The Hartford Financial Services Group, Inc.",
+      "affected_entity": "Hartford global assumed reinsurance business",
+      "measure": "Global assumed reinsurance loss component of the Ian catastrophe loss",
+      "basis": "net of reinsurance, in a current-accident-year catastrophe-loss table",
+      "status": "reported incurred current-accident-year loss",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 35000000,
+      "high_usd": 35000000,
+      "signed_economic_effect_usd": 35000000,
+      "passage_ids": [
+        "FK-P01206"
+      ],
+      "attribution": "direct note",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/874766/000087476623000023/hig-20221231.htm",
+      "header_ids": [
+        "FK-P01194",
+        "FK-P01195"
+      ],
+      "loss_expense_magnitude": true,
+      "signed_economic_effect_usd_note": "Amount is the positive reported magnitude of a loss; it is not a positive earnings effect."
+    },
+    {
+      "claim_id": "RQ-net-claims",
+      "doc_id": "RQ",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Net claims and claims expenses incurred",
+      "basis": "net claims after reinsurance; negative impact on results",
+      "status": "incurred",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 990382000,
+      "high_usd": 990382000,
+      "signed_economic_effect_usd": -990382000,
+      "passage_ids": [
+        "RQ-P01332",
+        "RQ-P01607"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "event_column_header_ids": [
+        "RQ-P01330",
+        "RQ-P01605"
+      ],
+      "unit_header_ids": [
+        "RQ-P01331",
+        "RQ-P01606"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RQ-assumed-premium",
+      "doc_id": "RQ",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Assumed reinstatement premiums earned",
+      "basis": "assumed premium income; positive contribution",
+      "status": "earned",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 221799000,
+      "high_usd": 221799000,
+      "signed_economic_effect_usd": 221799000,
+      "passage_ids": [
+        "RQ-P01333",
+        "RQ-P01608"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "event_column_header_ids": [
+        "RQ-P01330",
+        "RQ-P01605"
+      ],
+      "unit_header_ids": [
+        "RQ-P01331",
+        "RQ-P01606"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RQ-ceded-premium",
+      "doc_id": "RQ",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Ceded reinstatement premiums earned",
+      "basis": "ceded reinstatement premium; negative contribution",
+      "status": "earned",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 57733000,
+      "high_usd": 57733000,
+      "signed_economic_effect_usd": -57733000,
+      "passage_ids": [
+        "RQ-P01334",
+        "RQ-P01609"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "event_column_header_ids": [
+        "RQ-P01330",
+        "RQ-P01605"
+      ],
+      "unit_header_ids": [
+        "RQ-P01331",
+        "RQ-P01606"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RQ-commissions",
+      "doc_id": "RQ",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Earned (lost) profit commissions",
+      "basis": "lost profit commissions; negative contribution",
+      "status": "reported lost commission",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 1487000,
+      "high_usd": 1487000,
+      "signed_economic_effect_usd": -1487000,
+      "passage_ids": [
+        "RQ-P01335",
+        "RQ-P01610"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "event_column_header_ids": [
+        "RQ-P01330",
+        "RQ-P01605"
+      ],
+      "unit_header_ids": [
+        "RQ-P01331",
+        "RQ-P01606"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RQ-underwriting",
+      "doc_id": "RQ",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Net negative impact on underwriting result",
+      "basis": "net adverse underwriting result",
+      "status": "reported impact",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 827803000,
+      "high_usd": 827803000,
+      "signed_economic_effect_usd": -827803000,
+      "passage_ids": [
+        "RQ-P01336",
+        "RQ-P01344",
+        "RQ-P01611",
+        "RQ-P01619"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "event_column_header_ids": [
+        "RQ-P01330",
+        "RQ-P01340",
+        "RQ-P01605",
+        "RQ-P01615"
+      ],
+      "unit_header_ids": [
+        "RQ-P01331",
+        "RQ-P01341",
+        "RQ-P01606",
+        "RQ-P01616"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RQ-noncontrolling",
+      "doc_id": "RQ",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Redeemable noncontrolling interest",
+      "basis": "positive noncontrolling-interest allocation in the bridge to common shareholders",
+      "status": "reported allocation",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 288383000,
+      "high_usd": 288383000,
+      "signed_economic_effect_usd": 288383000,
+      "passage_ids": [
+        "RQ-P01337",
+        "RQ-P01612"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "event_column_header_ids": [
+        "RQ-P01330",
+        "RQ-P01605"
+      ],
+      "unit_header_ids": [
+        "RQ-P01331",
+        "RQ-P01606"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RQ-shareholders",
+      "doc_id": "RQ",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe common shareholders",
+      "measure": "Net negative impact on net income (loss) available (attributable) to RenaissanceRe common shareholders",
+      "basis": "net adverse impact borne by common shareholders",
+      "status": "reported impact",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 539701000,
+      "high_usd": 539701000,
+      "signed_economic_effect_usd": -539701000,
+      "passage_ids": [
+        "RQ-P01338",
+        "RQ-P01613"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "event_column_header_ids": [
+        "RQ-P01330",
+        "RQ-P01605"
+      ],
+      "unit_header_ids": [
+        "RQ-P01331",
+        "RQ-P01606"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RQ-property-uw",
+      "doc_id": "RQ",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe Property segment",
+      "measure": "Net negative impact on Property segment underwriting result",
+      "basis": "net adverse segment underwriting result",
+      "status": "reported impact",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 820765000,
+      "high_usd": 820765000,
+      "signed_economic_effect_usd": -820765000,
+      "passage_ids": [
+        "RQ-P01342",
+        "RQ-P01617"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "event_column_header_ids": [
+        "RQ-P01340",
+        "RQ-P01615"
+      ],
+      "unit_header_ids": [
+        "RQ-P01341",
+        "RQ-P01616"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RQ-casualty-uw",
+      "doc_id": "RQ",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe Casualty and Specialty segment",
+      "measure": "Net negative impact on Casualty and Specialty segment underwriting result",
+      "basis": "net adverse segment underwriting result",
+      "status": "reported impact",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "2022-Q3, likewise included in YTD",
+      "low_usd": 7038000,
+      "high_usd": 7038000,
+      "signed_economic_effect_usd": -7038000,
+      "passage_ids": [
+        "RQ-P01343",
+        "RQ-P01618"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "event_column_header_ids": [
+        "RQ-P01340",
+        "RQ-P01615"
+      ],
+      "unit_header_ids": [
+        "RQ-P01341",
+        "RQ-P01616"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RK-net-claims",
+      "doc_id": "RK",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Net claims and claims expenses incurred",
+      "basis": "net claims after reinsurance; negative impact on results",
+      "status": "incurred",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 982189000,
+      "high_usd": 982189000,
+      "signed_economic_effect_usd": -982189000,
+      "passage_ids": [
+        "RK-P01064"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "event_column_header_ids": [
+        "RK-P01062"
+      ],
+      "unit_header_ids": [
+        "RK-P01063"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RK-assumed-premium",
+      "doc_id": "RK",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Assumed reinstatement premiums earned",
+      "basis": "assumed premium income; positive contribution",
+      "status": "earned",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 221801000,
+      "high_usd": 221801000,
+      "signed_economic_effect_usd": 221801000,
+      "passage_ids": [
+        "RK-P01065"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "event_column_header_ids": [
+        "RK-P01062"
+      ],
+      "unit_header_ids": [
+        "RK-P01063"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RK-ceded-premium",
+      "doc_id": "RK",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Ceded reinstatement premiums earned",
+      "basis": "ceded reinstatement premium; negative contribution",
+      "status": "earned",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 57913000,
+      "high_usd": 57913000,
+      "signed_economic_effect_usd": -57913000,
+      "passage_ids": [
+        "RK-P01066"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "event_column_header_ids": [
+        "RK-P01062"
+      ],
+      "unit_header_ids": [
+        "RK-P01063"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RK-commissions",
+      "doc_id": "RK",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Earned (lost) profit commissions",
+      "basis": "lost profit commissions; negative contribution",
+      "status": "reported lost commission",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 1487000,
+      "high_usd": 1487000,
+      "signed_economic_effect_usd": -1487000,
+      "passage_ids": [
+        "RK-P01067"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "event_column_header_ids": [
+        "RK-P01062"
+      ],
+      "unit_header_ids": [
+        "RK-P01063"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RK-underwriting",
+      "doc_id": "RK",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Net negative impact on underwriting result",
+      "basis": "net adverse underwriting result",
+      "status": "reported impact",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 819788000,
+      "high_usd": 819788000,
+      "signed_economic_effect_usd": -819788000,
+      "passage_ids": [
+        "RK-P01068",
+        "RK-P01076"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "event_column_header_ids": [
+        "RK-P01062",
+        "RK-P01072"
+      ],
+      "unit_header_ids": [
+        "RK-P01063",
+        "RK-P01073"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RK-noncontrolling",
+      "doc_id": "RK",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe consolidated",
+      "measure": "Redeemable noncontrolling interest",
+      "basis": "positive noncontrolling-interest allocation in the bridge to common shareholders",
+      "status": "reported allocation",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 286910000,
+      "high_usd": 286910000,
+      "signed_economic_effect_usd": 286910000,
+      "passage_ids": [
+        "RK-P01069"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "event_column_header_ids": [
+        "RK-P01062"
+      ],
+      "unit_header_ids": [
+        "RK-P01063"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RK-shareholders",
+      "doc_id": "RK",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe common shareholders",
+      "measure": "Net negative impact on net income (loss) available (attributable) to RenaissanceRe common shareholders",
+      "basis": "net adverse impact borne by common shareholders",
+      "status": "reported impact",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 532878000,
+      "high_usd": 532878000,
+      "signed_economic_effect_usd": -532878000,
+      "passage_ids": [
+        "RK-P01070"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "event_column_header_ids": [
+        "RK-P01062"
+      ],
+      "unit_header_ids": [
+        "RK-P01063"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RK-property-uw",
+      "doc_id": "RK",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe Property segment",
+      "measure": "Net negative impact on Property segment underwriting result",
+      "basis": "net adverse segment underwriting result",
+      "status": "reported impact",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 811828000,
+      "high_usd": 811828000,
+      "signed_economic_effect_usd": -811828000,
+      "passage_ids": [
+        "RK-P01074"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "event_column_header_ids": [
+        "RK-P01072"
+      ],
+      "unit_header_ids": [
+        "RK-P01073"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    },
+    {
+      "claim_id": "RK-casualty-uw",
+      "doc_id": "RK",
+      "issuer": "RenaissanceRe Holdings Ltd.",
+      "affected_entity": "RenaissanceRe Casualty and Specialty segment",
+      "measure": "Net negative impact on Casualty and Specialty segment underwriting result",
+      "basis": "net adverse segment underwriting result",
+      "status": "reported impact",
+      "event": "Hurricane Ian",
+      "event_quarter": "2022-Q3",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 7960000,
+      "high_usd": 7960000,
+      "signed_economic_effect_usd": -7960000,
+      "passage_ids": [
+        "RK-P01075"
+      ],
+      "attribution": "named event column in USD thousands",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "event_column_header_ids": [
+        "RK-P01072"
+      ],
+      "unit_header_ids": [
+        "RK-P01073"
+      ],
+      "sign_convention": "USD magnitude for loss or inflow; signed bridge impact stored separately. An unsupported sign or economic direction cannot earn full semantic credit."
+    }
+  ],
+  "limitations": [
+    "RenaissanceRe has nine semantically separate dollar rows in each of two filings, totalling 18/39 reference records. The macro-issuer score is reported separately.",
+    "Travelers Q3/YTD incurred displays are repetitions of the same single-event incurred amount. Keeping current-quarter and year-to-date columns as separate opportunities would add one positive; estimated ultimate is always a separate source-labelled measure.",
+    "Sign, ownership, tax/reinsurance scope, as-of date and column are part of semantic validation. Company-specific aggregate portfolio movements described as only principally related to Ian are excluded.",
+    "Reference entries are filing-level and frequently economically overlap. Never sum them as an estimate of losses. All forms have at least one positive record, so a blank-form false-positive rate cannot be estimated here."
+  ]
+}
