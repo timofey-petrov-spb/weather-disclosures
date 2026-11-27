@@ -1,0 +1,117 @@
+[
+  {
+    "doc_id": "CIQ",
+    "issuer": "Cincinnati Financial Corporation",
+    "cik": "20286",
+    "accession": "0000020286-22-000066",
+    "form": "10-Q",
+    "period": "2022-09-30",
+    "accepted_at_utc": "2022-10-31T20:09:39Z",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/0000020286-22-000066-index.htm",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/20286/000002028622000066/cinf-20220930.htm",
+    "primary_sha256": "d694cd62f9b4321075e8214ca8fa5630d60417a1e4427156d77323249ef0d93b",
+    "primary_bytes": 4233348,
+    "index_sha256": "1ed64539550eb10f98d4385c3488e49d861798c834aaf163d0b49e7e40e10dcf",
+    "rows": 1660,
+    "inputs_sha256": "4ff870490f8f5c7145740daec94f87f14dd3f873b8a4c088df1b147688e7d04d",
+    "event": "Ian",
+    "role": "development",
+    "output_digests": {
+      "v7": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v8": "6104a47cb1da0b8cf805c40ed5cd56e9ce1453620ba243ffcd6b7e93ae98404a"
+    }
+  },
+  {
+    "doc_id": "PLQ",
+    "issuer": "Palomar Holdings, Inc.",
+    "cik": "1761312",
+    "accession": "0001558370-22-016296",
+    "form": "10-Q",
+    "period": "2022-09-30",
+    "accepted_at_utc": "2022-11-03T21:17:16Z",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/0001558370-22-016296-index.htm",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/plmr-20220930x10q.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1761312/000155837022016296/plmr-20220930x10q.htm",
+    "primary_sha256": "ca5cf4f87d26abe9401d32f0a404d6cd0a56b421cb99fb7929236c395fa1d28e",
+    "primary_bytes": 3167545,
+    "index_sha256": "fe5c82a99183cea53057a9b39e26b1e2aa03a6cdd608c13d08ce1acc693193fb",
+    "rows": 1474,
+    "inputs_sha256": "2b350e800b92588b848239c0b9b23d50e3fbcf4c20603d03a9bc8e0ce6312bd1",
+    "event": "Ian",
+    "role": "development",
+    "output_digests": {
+      "v7": "26ba3aaa790e4e494ffd84b4b69b39fb7ed38a8311733742167e98e5d0997e91",
+      "v8": "a611fab4f2c507353f57ec6752051f3e9b69851d228e826fcac02a422be446da"
+    }
+  },
+  {
+    "doc_id": "PR05",
+    "issuer": "PartnerRe Ltd.",
+    "event": "Katrina",
+    "cik": "911421",
+    "accession": "0001193125-06-043961",
+    "form": "10-K",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-03-02T21:43:15Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/911421/000119312506043961/d10k.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/911421/000119312506043961/0001193125-06-043961-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/911421/000119312506043961/d10k.htm",
+    "primary_bytes": 2335202,
+    "primary_sha256": "4b4fac162b0221be8e6ab2bc71b03b5202309ad53ad00453504bd8115615de17",
+    "index_sha256": "e9389073863c5003fb87778b98b12b1d55b08509fe1136dfb6607d24642764cf",
+    "rows": 2569,
+    "inputs_sha256": "9a256cdf46355f1a06c562597950daed12c0752df1a4419499fddc28a3bab8e0",
+    "role": "holdout",
+    "output_digests": {
+      "v7": "8a54e51ffe2faf81c4b5b9358345c0dbc5c7d639da961693ac4b45f2064dd413",
+      "v8": "8a54e51ffe2faf81c4b5b9358345c0dbc5c7d639da961693ac4b45f2064dd413"
+    }
+  },
+  {
+    "doc_id": "XL05",
+    "issuer": "XL Capital Ltd",
+    "event": "Katrina",
+    "cik": "875159",
+    "accession": "0000930413-06-001850",
+    "form": "10-K",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-03-07T22:22:54Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/0000930413-06-001850-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/875159/000093041306001850/c41009_10k.htm",
+    "primary_bytes": 2545101,
+    "primary_sha256": "f4d04df72465887b008b20129f0a3b8845e7f3c83e1977c3c165e2775e2c4a9c",
+    "index_sha256": "49cff7998941c0d1d1a054454faede66458b1a311ee1d5f17adcb90ca3bb3761",
+    "rows": 4036,
+    "inputs_sha256": "78de109ed1cad14345049a22ee480a1221c4894d6bca961474e1782c6dbe7b32",
+    "role": "holdout",
+    "output_digests": {
+      "v7": "a9d090ba413f505247ab25beacadba1b2cbb611583622a74aad4c7e6274b8e39",
+      "v8": "a9d090ba413f505247ab25beacadba1b2cbb611583622a74aad4c7e6274b8e39"
+    }
+  },
+  {
+    "doc_id": "AS05",
+    "issuer": "Aspen Insurance Holdings Limited",
+    "event": "Katrina",
+    "cik": "1267395",
+    "accession": "0000950136-06-001663",
+    "form": "10-K",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-03-06T22:23:46Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1267395/000095013606001663/file001.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1267395/000095013606001663/0000950136-06-001663-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1267395/000095013606001663/file001.htm",
+    "primary_bytes": 7474332,
+    "primary_sha256": "1d4d3f2162b3aa4cfa501c741059d897e8f06fc6359bca00bd9fe91a62819bf7",
+    "index_sha256": "cdd2bace5070ba7c6c30e02ff691cd644ad18d21fa51ebf12126494a6046f34c",
+    "rows": 3159,
+    "inputs_sha256": "f33d69065a7c788cf4e17a27619850b9f611866baa9344b46d47c21259c65554",
+    "role": "holdout",
+    "output_digests": {
+      "v7": "e08bdfe877f6969125a9c43e6d4477d21347858d3d898cced7e094689d24a0d6",
+      "v8": "e08bdfe877f6969125a9c43e6d4477d21347858d3d898cced7e094689d24a0d6"
+    }
+  }
+]

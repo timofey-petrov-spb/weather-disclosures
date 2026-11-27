@@ -1,0 +1,169 @@
+{
+  "method_freeze": "9c5dac6168cce18db47910b5ba2087c0232a22ea",
+  "reference_sha256": "89c29ddf1210bd48b2dab0bc9933e1723ee58f3e3044389ed7266f1201f96662",
+  "procedure": "Post-score diagnostic. Read the same complete canonical source passages and primary HTML with the frozen v7/tables.py reader. Ran the original v7 table generator and v8 additional table generator on each selected grid. Traced the v7 rejection in the reference row. Numeric cells shown include cross-year distractors; signs/positions shown here are before USD scaling. No extractor or labels changed.",
+  "v8_guard": "v8/extract.py:253 attributed_cells calls source_title and note_rows (lines 65, 125). In all three tables the external title classifier returned None and the eligible following notes list was empty. The early guard returned without generating candidates. This does not mean the filings lack printed headings or all explanatory prose.",
+  "tables": [
+    {
+      "doc_id": "PR05",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/911421/000119312506043961/d10k.htm",
+      "table": 36,
+      "source_rows": [
+        "PR05-P00603",
+        "PR05-P00604",
+        "PR05-P00605",
+        "PR05-P00608"
+      ],
+      "reference_count": 4,
+      "visible_grid_reconstructed": true,
+      "reported_event": "Katrina",
+      "numeric_cells_on_target_rows": [
+        {
+          "passage": "PR05-P00608",
+          "column": 4,
+          "printed": "(563)"
+        },
+        {
+          "passage": "PR05-P00608",
+          "column": 8,
+          "printed": "(2)"
+        },
+        {
+          "passage": "PR05-P00608",
+          "column": 12,
+          "printed": "54"
+        },
+        {
+          "passage": "PR05-P00608",
+          "column": 15,
+          "printed": "(511)"
+        }
+      ],
+      "v7_first_observed_rejection": {
+        "code": "v7/extract.py:152 active_units, called from values_for_table:261",
+        "observation": "All four signed literals and their measure columns were recognized. The preceding introduction (214 characters) ends with a scale instruction in millions of U.S. dollars. The unit regex captured 'millions', but the nearby-prose gate requires a table/amounts/figures/data keyword or fewer than 85 characters. Neither condition was true. The target row's numeric cells omitted a currency symbol. active_units returned None in all four calls."
+      },
+      "v8_title_from_source_title": null,
+      "v8_adjacent_notes_from_note_rows": [],
+      "v7_records_for_table": 0,
+      "v8_additional_records_for_table": 0
+    },
+    {
+      "doc_id": "XL05",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "table": 31,
+      "source_rows": [
+        "XL05-P00929",
+        "XL05-P00932",
+        "XL05-P00934",
+        "XL05-P00935",
+        "XL05-P00940",
+        "XL05-P00941",
+        "XL05-P00946",
+        "XL05-P00947"
+      ],
+      "reference_count": 11,
+      "visible_grid_reconstructed": true,
+      "reported_event": "Katrina",
+      "numeric_cells_on_target_rows": [
+        {
+          "passage": "XL05-P00935",
+          "column": 4,
+          "printed": "(74.6)"
+        },
+        {
+          "passage": "XL05-P00935",
+          "column": 8,
+          "printed": "16.3"
+        },
+        {
+          "passage": "XL05-P00935",
+          "column": 12,
+          "printed": "23.6"
+        },
+        {
+          "passage": "XL05-P00935",
+          "column": 16,
+          "printed": "(34.7)"
+        },
+        {
+          "passage": "XL05-P00941",
+          "column": 4,
+          "printed": "1,339.7"
+        },
+        {
+          "passage": "XL05-P00941",
+          "column": 8,
+          "printed": "1,128.0"
+        },
+        {
+          "passage": "XL05-P00941",
+          "column": 12,
+          "printed": "45.0"
+        },
+        {
+          "passage": "XL05-P00941",
+          "column": 16,
+          "printed": "2,512.7"
+        },
+        {
+          "passage": "XL05-P00947",
+          "column": 4,
+          "printed": "748.6"
+        },
+        {
+          "passage": "XL05-P00947",
+          "column": 8,
+          "printed": "495.3"
+        },
+        {
+          "passage": "XL05-P00947",
+          "column": 16,
+          "printed": "1,243.9"
+        }
+      ],
+      "v7_first_observed_rejection": {
+        "code": "v7/extract.py:238 values_for_table",
+        "observation": "The storm was recognized in the data rows. Each numeric column names an owner or the group total. Three left-stub rows above the storm rows provide the financial measure. The required same-column financial heading list was empty for each of 4 premiums, 4 gross losses and 3 recovery values. A separate table-wide unit cell specifies U.S. dollars in millions."
+      },
+      "v8_title_from_source_title": null,
+      "v8_adjacent_notes_from_note_rows": [],
+      "v7_records_for_table": 0,
+      "v8_additional_records_for_table": 0
+    },
+    {
+      "doc_id": "AS05",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1267395/000095013606001663/file001.htm",
+      "table": 185,
+      "source_rows": [
+        "AS05-P01333",
+        "AS05-P01334",
+        "AS05-P01335",
+        "AS05-P01336"
+      ],
+      "reference_count": 1,
+      "visible_grid_reconstructed": true,
+      "reported_event": "Katrina",
+      "numeric_cells_on_target_rows": [
+        {
+          "passage": "AS05-P01336",
+          "column": 5,
+          "printed": "$427.5"
+        },
+        {
+          "passage": "AS05-P01336",
+          "column": 21,
+          "printed": "$15.3"
+        }
+      ],
+      "v7_first_observed_rejection": {
+        "code": "v7/extract.py:238 values_for_table",
+        "observation": "The same rendered row contains different event/amount pairs for different years. Its 2005 target amount cell starts in visible column 5; the financial title and unit each start in column 9 and span 7 columns. The 2005 heading spans columns 1–7. Thus the same-column metric list was empty above $427.5 even though the table contains both title and unit. The 2003 $15.3 on that row belongs to California brush fires."
+      },
+      "v8_title_from_source_title": null,
+      "v8_adjacent_notes_from_note_rows": [],
+      "v7_records_for_table": 0,
+      "v8_additional_records_for_table": 0
+    }
+  ]
+}

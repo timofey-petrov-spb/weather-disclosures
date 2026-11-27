@@ -1,0 +1,1003 @@
+{
+  "scope": "Two development tables, five existing source references. The amount, scale and signed value were compared against the original cells and independently reviewed headings, reporting windows, ownership and note evidence. Each repeated period is preserved as a source observation.",
+  "by_doc": {
+    "CIQ": {
+      "reference": 4,
+      "v7_table": 0,
+      "v8_table": 4,
+      "other_v8_records": []
+    },
+    "PLQ": {
+      "reference": 1,
+      "v7_table": 0,
+      "v8_table": 1,
+      "other_v8_records": [
+        {
+          "passage_id": "PLQ-P00701",
+          "low_usd": 1300000,
+          "measure": "reinsurance acceleration or reinstatement expense",
+          "review": false
+        }
+      ]
+    }
+  },
+  "matches": [
+    {
+      "reference": "CIQ-commercial",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+      "owner": "Cincinnati Financial Corporation — Commercial lines",
+      "measure": "Catastrophe Losses and Loss Expenses Incurred",
+      "basis": "net of reinsurance",
+      "status": "incurred",
+      "signed_usd": 26000000,
+      "unit_scale": 1000000,
+      "observations": [
+        {
+          "amount_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 7,
+            "rowspan": 1,
+            "colspan": 2,
+            "text": "26",
+            "passage_id": "CIQ-P00952"
+          },
+          "metric_cell": {
+            "table": 38,
+            "caption": "Consolidated Property Casualty Insurance Catastrophe Losses and Loss Expenses Incurred",
+            "passage_id": "CIQ-P00939"
+          },
+          "event_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 4,
+            "rowspan": 1,
+            "colspan": 3,
+            "text": "South (Ian)",
+            "passage_id": "CIQ-P00952"
+          },
+          "period_cells": [
+            {
+              "table": 38,
+              "row": 2,
+              "column": 7,
+              "rowspan": 1,
+              "colspan": 27,
+              "text": "Three months ended September 30,",
+              "passage_id": "CIQ-P00940"
+            },
+            {
+              "table": 38,
+              "row": 5,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "2022",
+              "passage_id": "CIQ-P00943"
+            }
+          ],
+          "qualifier_cells": [
+            {
+              "table": 38,
+              "row": 3,
+              "column": 7,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "Comm.",
+              "passage_id": "CIQ-P00941"
+            },
+            {
+              "table": 38,
+              "row": 4,
+              "column": 7,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "lines",
+              "passage_id": "CIQ-P00942"
+            }
+          ],
+          "sign_cells": [],
+          "unit_evidence": "(Dollars in millions, net of reinsurance)",
+          "unit_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "currency_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "window": "Three months ended September 30, 2022",
+          "field_evidence": {
+            "event": "CIQ-P00952",
+            "measure_and_status": "CIQ-P00939",
+            "owner": [
+              "CIQ-P00941",
+              "CIQ-P00942"
+            ],
+            "period": [
+              "CIQ-P00940",
+              "CIQ-P00943"
+            ],
+            "unit": "CIQ-P00940",
+            "tax_and_reinsurance_basis": [
+              "CIQ-P00940",
+              "CIQ-P00939"
+            ]
+          }
+        },
+        {
+          "amount_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 37,
+            "rowspan": 1,
+            "colspan": 2,
+            "text": "26",
+            "passage_id": "CIQ-P00952"
+          },
+          "metric_cell": {
+            "table": 38,
+            "caption": "Consolidated Property Casualty Insurance Catastrophe Losses and Loss Expenses Incurred",
+            "passage_id": "CIQ-P00939"
+          },
+          "event_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 4,
+            "rowspan": 1,
+            "colspan": 3,
+            "text": "South (Ian)",
+            "passage_id": "CIQ-P00952"
+          },
+          "period_cells": [
+            {
+              "table": 38,
+              "row": 2,
+              "column": 37,
+              "rowspan": 1,
+              "colspan": 27,
+              "text": "Nine months ended September 30,",
+              "passage_id": "CIQ-P00940"
+            },
+            {
+              "table": 38,
+              "row": 5,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "2022",
+              "passage_id": "CIQ-P00943"
+            }
+          ],
+          "qualifier_cells": [
+            {
+              "table": 38,
+              "row": 3,
+              "column": 37,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "Comm.",
+              "passage_id": "CIQ-P00941"
+            },
+            {
+              "table": 38,
+              "row": 4,
+              "column": 37,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "lines",
+              "passage_id": "CIQ-P00942"
+            }
+          ],
+          "sign_cells": [],
+          "unit_evidence": "(Dollars in millions, net of reinsurance)",
+          "unit_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "currency_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "window": "Nine months ended September 30, 2022",
+          "field_evidence": {
+            "event": "CIQ-P00952",
+            "measure_and_status": "CIQ-P00939",
+            "owner": [
+              "CIQ-P00941",
+              "CIQ-P00942"
+            ],
+            "period": [
+              "CIQ-P00940",
+              "CIQ-P00943"
+            ],
+            "unit": "CIQ-P00940",
+            "tax_and_reinsurance_basis": [
+              "CIQ-P00940",
+              "CIQ-P00939"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "CIQ-P00938",
+        "CIQ-P00939",
+        "CIQ-P00940",
+        "CIQ-P00941",
+        "CIQ-P00942",
+        "CIQ-P00943",
+        "CIQ-P00952"
+      ]
+    },
+    {
+      "reference": "CIQ-personal",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+      "owner": "Cincinnati Financial Corporation — Personal lines",
+      "measure": "Catastrophe Losses and Loss Expenses Incurred",
+      "basis": "net of reinsurance",
+      "status": "incurred",
+      "signed_usd": 51000000,
+      "unit_scale": 1000000,
+      "observations": [
+        {
+          "amount_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 13,
+            "rowspan": 1,
+            "colspan": 2,
+            "text": "51",
+            "passage_id": "CIQ-P00952"
+          },
+          "metric_cell": {
+            "table": 38,
+            "caption": "Consolidated Property Casualty Insurance Catastrophe Losses and Loss Expenses Incurred",
+            "passage_id": "CIQ-P00939"
+          },
+          "event_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 4,
+            "rowspan": 1,
+            "colspan": 3,
+            "text": "South (Ian)",
+            "passage_id": "CIQ-P00952"
+          },
+          "period_cells": [
+            {
+              "table": 38,
+              "row": 2,
+              "column": 7,
+              "rowspan": 1,
+              "colspan": 27,
+              "text": "Three months ended September 30,",
+              "passage_id": "CIQ-P00940"
+            },
+            {
+              "table": 38,
+              "row": 5,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "2022",
+              "passage_id": "CIQ-P00943"
+            }
+          ],
+          "qualifier_cells": [
+            {
+              "table": 38,
+              "row": 3,
+              "column": 13,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "Pers.",
+              "passage_id": "CIQ-P00941"
+            },
+            {
+              "table": 38,
+              "row": 4,
+              "column": 13,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "lines",
+              "passage_id": "CIQ-P00942"
+            }
+          ],
+          "sign_cells": [],
+          "unit_evidence": "(Dollars in millions, net of reinsurance)",
+          "unit_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "currency_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "window": "Three months ended September 30, 2022",
+          "field_evidence": {
+            "event": "CIQ-P00952",
+            "measure_and_status": "CIQ-P00939",
+            "owner": [
+              "CIQ-P00941",
+              "CIQ-P00942"
+            ],
+            "period": [
+              "CIQ-P00940",
+              "CIQ-P00943"
+            ],
+            "unit": "CIQ-P00940",
+            "tax_and_reinsurance_basis": [
+              "CIQ-P00940",
+              "CIQ-P00939"
+            ]
+          }
+        },
+        {
+          "amount_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 43,
+            "rowspan": 1,
+            "colspan": 2,
+            "text": "51",
+            "passage_id": "CIQ-P00952"
+          },
+          "metric_cell": {
+            "table": 38,
+            "caption": "Consolidated Property Casualty Insurance Catastrophe Losses and Loss Expenses Incurred",
+            "passage_id": "CIQ-P00939"
+          },
+          "event_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 4,
+            "rowspan": 1,
+            "colspan": 3,
+            "text": "South (Ian)",
+            "passage_id": "CIQ-P00952"
+          },
+          "period_cells": [
+            {
+              "table": 38,
+              "row": 2,
+              "column": 37,
+              "rowspan": 1,
+              "colspan": 27,
+              "text": "Nine months ended September 30,",
+              "passage_id": "CIQ-P00940"
+            },
+            {
+              "table": 38,
+              "row": 5,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "2022",
+              "passage_id": "CIQ-P00943"
+            }
+          ],
+          "qualifier_cells": [
+            {
+              "table": 38,
+              "row": 3,
+              "column": 43,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "Pers.",
+              "passage_id": "CIQ-P00941"
+            },
+            {
+              "table": 38,
+              "row": 4,
+              "column": 43,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "lines",
+              "passage_id": "CIQ-P00942"
+            }
+          ],
+          "sign_cells": [],
+          "unit_evidence": "(Dollars in millions, net of reinsurance)",
+          "unit_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "currency_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "window": "Nine months ended September 30, 2022",
+          "field_evidence": {
+            "event": "CIQ-P00952",
+            "measure_and_status": "CIQ-P00939",
+            "owner": [
+              "CIQ-P00941",
+              "CIQ-P00942"
+            ],
+            "period": [
+              "CIQ-P00940",
+              "CIQ-P00943"
+            ],
+            "unit": "CIQ-P00940",
+            "tax_and_reinsurance_basis": [
+              "CIQ-P00940",
+              "CIQ-P00939"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "CIQ-P00938",
+        "CIQ-P00939",
+        "CIQ-P00940",
+        "CIQ-P00941",
+        "CIQ-P00942",
+        "CIQ-P00943",
+        "CIQ-P00952"
+      ]
+    },
+    {
+      "reference": "CIQ-other",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+      "owner": "Cincinnati Financial Corporation — Other",
+      "measure": "Catastrophe Losses and Loss Expenses Incurred",
+      "basis": "net of reinsurance",
+      "status": "incurred",
+      "signed_usd": 143000000,
+      "unit_scale": 1000000,
+      "observations": [
+        {
+          "amount_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 25,
+            "rowspan": 1,
+            "colspan": 2,
+            "text": "143",
+            "passage_id": "CIQ-P00952"
+          },
+          "metric_cell": {
+            "table": 38,
+            "caption": "Consolidated Property Casualty Insurance Catastrophe Losses and Loss Expenses Incurred",
+            "passage_id": "CIQ-P00939"
+          },
+          "event_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 4,
+            "rowspan": 1,
+            "colspan": 3,
+            "text": "South (Ian)",
+            "passage_id": "CIQ-P00952"
+          },
+          "period_cells": [
+            {
+              "table": 38,
+              "row": 2,
+              "column": 7,
+              "rowspan": 1,
+              "colspan": 27,
+              "text": "Three months ended September 30,",
+              "passage_id": "CIQ-P00940"
+            },
+            {
+              "table": 38,
+              "row": 5,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "2022",
+              "passage_id": "CIQ-P00943"
+            }
+          ],
+          "qualifier_cells": [
+            {
+              "table": 38,
+              "row": 4,
+              "column": 25,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "Other",
+              "passage_id": "CIQ-P00942"
+            }
+          ],
+          "sign_cells": [],
+          "unit_evidence": "(Dollars in millions, net of reinsurance)",
+          "unit_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "currency_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "window": "Three months ended September 30, 2022",
+          "field_evidence": {
+            "event": "CIQ-P00952",
+            "measure_and_status": "CIQ-P00939",
+            "owner": [
+              "CIQ-P00942"
+            ],
+            "period": [
+              "CIQ-P00940",
+              "CIQ-P00943"
+            ],
+            "unit": "CIQ-P00940",
+            "tax_and_reinsurance_basis": [
+              "CIQ-P00940",
+              "CIQ-P00939"
+            ]
+          }
+        },
+        {
+          "amount_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 55,
+            "rowspan": 1,
+            "colspan": 2,
+            "text": "143",
+            "passage_id": "CIQ-P00952"
+          },
+          "metric_cell": {
+            "table": 38,
+            "caption": "Consolidated Property Casualty Insurance Catastrophe Losses and Loss Expenses Incurred",
+            "passage_id": "CIQ-P00939"
+          },
+          "event_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 4,
+            "rowspan": 1,
+            "colspan": 3,
+            "text": "South (Ian)",
+            "passage_id": "CIQ-P00952"
+          },
+          "period_cells": [
+            {
+              "table": 38,
+              "row": 2,
+              "column": 37,
+              "rowspan": 1,
+              "colspan": 27,
+              "text": "Nine months ended September 30,",
+              "passage_id": "CIQ-P00940"
+            },
+            {
+              "table": 38,
+              "row": 5,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "2022",
+              "passage_id": "CIQ-P00943"
+            }
+          ],
+          "qualifier_cells": [
+            {
+              "table": 38,
+              "row": 4,
+              "column": 55,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "Other",
+              "passage_id": "CIQ-P00942"
+            }
+          ],
+          "sign_cells": [],
+          "unit_evidence": "(Dollars in millions, net of reinsurance)",
+          "unit_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "currency_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "window": "Nine months ended September 30, 2022",
+          "field_evidence": {
+            "event": "CIQ-P00952",
+            "measure_and_status": "CIQ-P00939",
+            "owner": [
+              "CIQ-P00942"
+            ],
+            "period": [
+              "CIQ-P00940",
+              "CIQ-P00943"
+            ],
+            "unit": "CIQ-P00940",
+            "tax_and_reinsurance_basis": [
+              "CIQ-P00940",
+              "CIQ-P00939"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "CIQ-P00938",
+        "CIQ-P00939",
+        "CIQ-P00940",
+        "CIQ-P00942",
+        "CIQ-P00943",
+        "CIQ-P00952"
+      ]
+    },
+    {
+      "reference": "CIQ-total",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+      "owner": "Cincinnati Financial Corporation — Consolidated Property Casualty Insurance",
+      "measure": "Catastrophe Losses and Loss Expenses Incurred",
+      "basis": "net of reinsurance",
+      "status": "incurred",
+      "signed_usd": 220000000,
+      "unit_scale": 1000000,
+      "observations": [
+        {
+          "amount_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 31,
+            "rowspan": 1,
+            "colspan": 2,
+            "text": "220",
+            "passage_id": "CIQ-P00952"
+          },
+          "metric_cell": {
+            "table": 38,
+            "caption": "Consolidated Property Casualty Insurance Catastrophe Losses and Loss Expenses Incurred",
+            "passage_id": "CIQ-P00939"
+          },
+          "event_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 4,
+            "rowspan": 1,
+            "colspan": 3,
+            "text": "South (Ian)",
+            "passage_id": "CIQ-P00952"
+          },
+          "period_cells": [
+            {
+              "table": 38,
+              "row": 2,
+              "column": 7,
+              "rowspan": 1,
+              "colspan": 27,
+              "text": "Three months ended September 30,",
+              "passage_id": "CIQ-P00940"
+            },
+            {
+              "table": 38,
+              "row": 5,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "2022",
+              "passage_id": "CIQ-P00943"
+            }
+          ],
+          "qualifier_cells": [
+            {
+              "table": 38,
+              "row": 4,
+              "column": 31,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "Total",
+              "passage_id": "CIQ-P00942"
+            }
+          ],
+          "sign_cells": [],
+          "unit_evidence": "(Dollars in millions, net of reinsurance)",
+          "unit_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "currency_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "window": "Three months ended September 30, 2022",
+          "field_evidence": {
+            "event": "CIQ-P00952",
+            "measure_and_status": "CIQ-P00939",
+            "owner": [
+              "CIQ-P00942",
+              "CIQ-P00939"
+            ],
+            "period": [
+              "CIQ-P00940",
+              "CIQ-P00943"
+            ],
+            "unit": "CIQ-P00940",
+            "tax_and_reinsurance_basis": [
+              "CIQ-P00940",
+              "CIQ-P00939"
+            ]
+          }
+        },
+        {
+          "amount_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 61,
+            "rowspan": 1,
+            "colspan": 2,
+            "text": "220",
+            "passage_id": "CIQ-P00952"
+          },
+          "metric_cell": {
+            "table": 38,
+            "caption": "Consolidated Property Casualty Insurance Catastrophe Losses and Loss Expenses Incurred",
+            "passage_id": "CIQ-P00939"
+          },
+          "event_cell": {
+            "table": 38,
+            "row": 17,
+            "column": 4,
+            "rowspan": 1,
+            "colspan": 3,
+            "text": "South (Ian)",
+            "passage_id": "CIQ-P00952"
+          },
+          "period_cells": [
+            {
+              "table": 38,
+              "row": 2,
+              "column": 37,
+              "rowspan": 1,
+              "colspan": 27,
+              "text": "Nine months ended September 30,",
+              "passage_id": "CIQ-P00940"
+            },
+            {
+              "table": 38,
+              "row": 5,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "2022",
+              "passage_id": "CIQ-P00943"
+            }
+          ],
+          "qualifier_cells": [
+            {
+              "table": 38,
+              "row": 4,
+              "column": 61,
+              "rowspan": 1,
+              "colspan": 3,
+              "text": "Total",
+              "passage_id": "CIQ-P00942"
+            }
+          ],
+          "sign_cells": [],
+          "unit_evidence": "(Dollars in millions, net of reinsurance)",
+          "unit_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "currency_cell": {
+            "table": 38,
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 6,
+            "text": "(Dollars in millions, net of reinsurance)",
+            "passage_id": "CIQ-P00940"
+          },
+          "window": "Nine months ended September 30, 2022",
+          "field_evidence": {
+            "event": "CIQ-P00952",
+            "measure_and_status": "CIQ-P00939",
+            "owner": [
+              "CIQ-P00942",
+              "CIQ-P00939"
+            ],
+            "period": [
+              "CIQ-P00940",
+              "CIQ-P00943"
+            ],
+            "unit": "CIQ-P00940",
+            "tax_and_reinsurance_basis": [
+              "CIQ-P00940",
+              "CIQ-P00939"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "CIQ-P00938",
+        "CIQ-P00939",
+        "CIQ-P00940",
+        "CIQ-P00942",
+        "CIQ-P00943",
+        "CIQ-P00952"
+      ]
+    },
+    {
+      "reference": "PLQ-cat",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/plmr-20220930x10q.htm",
+      "owner": "Palomar Holdings, Inc.",
+      "measure": "Catastrophe losses",
+      "basis": null,
+      "status": "reported",
+      "signed_usd": 12500000,
+      "unit_scale": 1000,
+      "observations": [
+        {
+          "amount_cell": {
+            "table": 51,
+            "row": 6,
+            "column": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "text": "12,500",
+            "passage_id": "PLQ-P00724"
+          },
+          "metric_cell": {
+            "table": 51,
+            "row": 6,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "text": "Catastrophe losses",
+            "passage_id": "PLQ-P00724"
+          },
+          "event_cell": {
+            "table": 51,
+            "passage_id": "PLQ-P00727",
+            "text": "Our catastrophe loss ratio was 16.0% during the three months ended September 30, 2022. Catastrophe losses were related to losses from Hurricane Ian which primarily impacted our Commercial All Risk line of business."
+          },
+          "period_cells": [
+            {
+              "table": 51,
+              "row": 2,
+              "column": 3,
+              "rowspan": 1,
+              "colspan": 5,
+              "text": "Three Months Ended",
+              "passage_id": "PLQ-P00720"
+            },
+            {
+              "table": 51,
+              "row": 3,
+              "column": 3,
+              "rowspan": 1,
+              "colspan": 5,
+              "text": "September 30,",
+              "passage_id": "PLQ-P00721"
+            },
+            {
+              "table": 51,
+              "row": 4,
+              "column": 3,
+              "rowspan": 1,
+              "colspan": 2,
+              "text": "2022",
+              "passage_id": "PLQ-P00722"
+            }
+          ],
+          "qualifier_cells": [],
+          "sign_cells": [],
+          "unit_evidence": "($ in thousands)",
+          "unit_cell": {
+            "table": 51,
+            "row": 5,
+            "column": 3,
+            "rowspan": 1,
+            "colspan": 10,
+            "text": "($ in thousands)",
+            "passage_id": "PLQ-P00723"
+          },
+          "currency_cell": {
+            "table": 51,
+            "row": 5,
+            "column": 3,
+            "rowspan": 1,
+            "colspan": 10,
+            "text": "($ in thousands)",
+            "passage_id": "PLQ-P00723"
+          },
+          "window": "Three Months Ended September 30, 2022",
+          "field_evidence": {
+            "event": "PLQ-P00727",
+            "measure_and_status": "PLQ-P00724",
+            "owner": [],
+            "period": [
+              "PLQ-P00720",
+              "PLQ-P00721",
+              "PLQ-P00722"
+            ],
+            "unit": "PLQ-P00723",
+            "tax_and_reinsurance_basis": []
+          }
+        }
+      ],
+      "evidence": [
+        "PLQ-P00718",
+        "PLQ-P00720",
+        "PLQ-P00721",
+        "PLQ-P00722",
+        "PLQ-P00723",
+        "PLQ-P00724",
+        "PLQ-P00727"
+      ]
+    }
+  ]
+}

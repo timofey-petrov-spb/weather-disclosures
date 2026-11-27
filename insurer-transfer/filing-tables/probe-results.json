@@ -1,0 +1,48 @@
+[
+  {
+    "case": "regional_event",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "case": "commercial_and_total",
+    "expected": [
+      39000000,
+      51000000,
+      143000000,
+      233000000
+    ],
+    "actual": [
+      39000000,
+      51000000,
+      143000000,
+      233000000
+    ],
+    "passed": true
+  },
+  {
+    "case": "other_storm",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "case": "mixed_storms",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "case": "partly_attributed",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "case": "wrong_year",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "eligible_issuer_count": 3,
+  "forms_assessed": 3,
+  "unused_roster": "Three eligible families appeared in the first three original 2005 annual filings. Lower-priority issuers, years and storms were not needed.",
+  "forms": [
+    {
+      "doc_id": "PR05",
+      "issuer": "PartnerRe Ltd.",
+      "period": "2005-12-31",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/911421/000119312506043961/d10k.htm",
+      "selected_table": 36,
+      "event": "Katrina",
+      "counts": 4,
+      "qualification": "First qualifying named hurricane table verified in filing order."
+    },
+    {
+      "doc_id": "XL05",
+      "issuer": "XL Capital Ltd",
+      "period": "2005-12-31",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "selected_table": 31,
+      "event": "Katrina",
+      "counts": 11,
+      "qualification": "First qualifying named hurricane table verified in filing order."
+    },
+    {
+      "doc_id": "AS05",
+      "issuer": "Aspen Insurance Holdings Limited",
+      "period": "2005-12-31",
+      "form": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1267395/000095013606001663/file001.htm",
+      "selected_table": 185,
+      "event": "Katrina",
+      "counts": 1,
+      "qualification": "First qualifying named hurricane table verified in filing order."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "document": "CIQ",
+    "change": "Removing the storm name from the Cincinnati regional row",
+    "old": "South (Ian)",
+    "new": "South (unallocated)",
+    "expected_signed_usd": [],
+    "observed_signed_usd": [],
+    "match": true
+  },
+  {
+    "document": "CIQ",
+    "change": "Changing the Cincinnati title while retaining its explicit preceding loss definition",
+    "old": "Catastrophe Losses and Loss Expenses Incurred",
+    "new": "Claims Paid",
+    "expected_signed_usd": [
+      26000000,
+      51000000,
+      143000000,
+      220000000
+    ],
+    "observed_signed_usd": [
+      26000000,
+      51000000,
+      143000000,
+      220000000
+    ],
+    "match": true,
+    "interpretation": "The four magnitudes survive removal of the catastrophe-specific heading because the preceding introduction still states incurred losses. The new paid heading conflicts with it; the frozen implementation did not flag that conflict. A magnitude-only pass does not establish semantic correctness in this artificial case."
+  },
+  {
+    "document": "PLQ",
+    "change": "Weakening a complete attribution to a partial one",
+    "old": "Catastrophe losses were related to losses from Hurricane Ian",
+    "new": "Catastrophe losses were partly related to losses from Hurricane Ian",
+    "expected_signed_usd": [],
+    "observed_signed_usd": [],
+    "match": true
+  },
+  {
+    "document": "PLQ",
+    "change": "Substituting a different storm in the footnote",
+    "old": "Catastrophe losses were related to losses from Hurricane Ian",
+    "new": "Catastrophe losses were related to losses from Hurricane Ida",
+    "expected_signed_usd": [],
+    "observed_signed_usd": [],
+    "match": true
+  }
+]
