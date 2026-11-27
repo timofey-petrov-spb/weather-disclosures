@@ -1,0 +1,34 @@
+{
+  "arch": {
+    "v6": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v7": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "everest": {
+    "v6": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v7": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "axis": {
+    "v6": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v7": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "hanover": {
+    "v6": "debf837aea12912b6c78a8b496ebdce3a24aca916e516431914ad3515f9797d5",
+    "v7": "debf837aea12912b6c78a8b496ebdce3a24aca916e516431914ad3515f9797d5"
+  },
+  "travelers": {
+    "v6": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v7": "17b6e8889678d50c55d6fe984c20320b14355ef9dadfca7200db7c218275cc62"
+  },
+  "renaissance": {
+    "v6": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "v7": "d26e3d37c5c2e1efb576dee2dd4c86cd1421fd6068ed10fbb6bed760d7ecb36c"
+  },
+  "progressive": {
+    "v6": "a1b8727fa4c25b641dd5e1b04a1216ba8af4880544187efd87af914fc7d88b25",
+    "v7": "a1b8727fa4c25b641dd5e1b04a1216ba8af4880544187efd87af914fc7d88b25"
+  },
+  "hartford": {
+    "v6": "95691d0201d42ea5ac7a0aa0e4f908707a9e61ac32cca2266b5474c4dab58a3b",
+    "v7": "95691d0201d42ea5ac7a0aa0e4f908707a9e61ac32cca2266b5474c4dab58a3b"
+  }
+}

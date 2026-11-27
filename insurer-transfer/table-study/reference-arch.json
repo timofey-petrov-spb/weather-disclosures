@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-11-27T16:11:42.814851+00:00",
+  "sample": "arch",
+  "inputs_sha256": "c58bdf2e37cf3dabd33b915d2aff54d2fb694901b29a048cb66193f15d064ec3",
+  "source_inventory_sha256": "b7deda8646732a7285011e1f0261ef2cb04864e1d867c48ee85110bb29efd55c",
+  "claims": [],
+  "excluded_examples": {
+    "AXQ": [
+      "13.4/6.1 points for Insurance and 42.8/20.1 points for Reinsurance are mix-of-events ratio points. Book-value change is also a ratio; no allocated dollar amount."
+    ],
+    "AXK": [
+      "5.2 and 13.9 are segment ratio points spanning several events."
+    ]
+  },
+  "counts": {
+    "AXQ": 0,
+    "AXK": 0
+  },
+  "sources": {
+    "AXQ": "https://www.sec.gov/Archives/edgar/data/947484/000094748422000077/acgl-20220930.htm",
+    "AXK": "https://www.sec.gov/Archives/edgar/data/947484/000094748423000015/acgl-20221231.htm"
+  }
+}

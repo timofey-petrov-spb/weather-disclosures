@@ -1,0 +1,58 @@
+{
+  "frozen_utc": "2026-11-27T16:11:42.814851+00:00",
+  "sample": "hanover",
+  "inputs_sha256": "2a57d89b645900e95481a8054f91cb508d2a45ce39803a2b92e2f5a56352e701",
+  "source_inventory_sha256": "9d0ca5745646829e3191988d17535450a731196b0b4ed8b665bef8493c98a205",
+  "claims": [
+    {
+      "claim_id": "HVQ-cat",
+      "doc_id": "HVQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Hanover Insurance Group, Inc.",
+      "affected_entity": "The Hanover Insurance Group, Inc.",
+      "measure": "consolidated pre-tax catastrophe losses incurred",
+      "basis": "pre-tax; reinsurance basis not explicitly stated in the event passage",
+      "status": "recognized / incurred",
+      "reporting_or_recognition_period": "nine months ended 2022-09-30",
+      "low_usd": 28000000,
+      "high_usd": 28000000,
+      "signed_low_usd": 28000000,
+      "signed_high_usd": 28000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "HVQ-P00765"
+      ],
+      "context_ids": [
+        "HVQ-P00758",
+        "HVQ-P00759",
+        "HVQ-P00760"
+      ],
+      "literal": "$28.0 million",
+      "unit_scale_usd": 1000000,
+      "source_sign": "Positive amount of recognized expense, not a signed effect on net income.",
+      "table_native": false,
+      "row_label": null,
+      "column_label": null,
+      "source_grade": "narrative, allocated event amount",
+      "qualifiers": "Group overview. The $213.0m and $363.6m totals and the $150.6m change cover broader periods/events; the $19.2m and $41.7m concern prior-year development.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/944695/000095017022021284/thg-20220930.htm"
+    }
+  ],
+  "excluded_examples": {
+    "HVQ": [
+      "HVQ-P00765: $213.0m YTD catastrophe loss versus $363.6m, change $150.6m; $28.0m is the only explicitly allocated Ian component. The same paragraph then turns to prior-year reserve development."
+    ],
+    "HVK": [
+      "HVK-P00618: $402.6m is the all-event annual total. $165.0m is expressly for Winter Storm Elliott. HVK-P00944 relates to Hurricane Ida in 2021. The annual filing does not repeat the quarterly $28.0m as an Ian-specific year-end value."
+    ]
+  },
+  "counts": {
+    "HVQ": 1,
+    "HVK": 0
+  },
+  "sources": {
+    "HVQ": "https://www.sec.gov/Archives/edgar/data/944695/000095017022021284/thg-20220930.htm",
+    "HVK": "https://www.sec.gov/Archives/edgar/data/944695/000095017023004178/thg-20221231.htm"
+  }
+}

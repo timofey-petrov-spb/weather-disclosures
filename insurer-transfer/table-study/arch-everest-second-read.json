@@ -1,0 +1,182 @@
+{
+  "sealed_utc": "2026-11-27T16:10:50.644534+00:00",
+  "selection_sha256": "66b0a360ef9fcfcae5fba37b9946903387478cd2da88544ee8017e51a49637fa",
+  "scoring_protocol_sha256": "f1968777e6b20442a7fa17035e8df1c235b5c788efae0ed748d6bbfae4d174ad",
+  "method": "Primary SEC filings only. A separate copy of each filing was checked for the event name and hurricane or catastrophe descriptions, including nearby rows, headings and monetary assertions. Paragraphs laid out in HTML tables or split across lines retain narrative status. Scope, source sign and allocation were reviewed before opening predictions. Independent primary-file digests refer to the SEC document as returned by its index mirror, before SGML wrapping.",
+  "filings": {
+    "AXQ": {
+      "doc_id": "AXQ",
+      "form": "10-Q",
+      "period": "2022-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/947484/000094748422000077/acgl-20220930.htm",
+      "independent_primary_sha256": "b0ea036df4a19f23f10c5cc41f711a47158470ca4e75ef0731328101597a8a1a",
+      "passages": 2453,
+      "literal_ian_occurrences": [
+        "AXQ-P01359",
+        "AXQ-P01370",
+        "AXQ-P01562",
+        "AXQ-P01563",
+        "AXQ-P01678",
+        "AXQ-P01679"
+      ],
+      "reference_count": 0,
+      "negative_controls": [
+        "13.4/6.1 points for Insurance and 42.8/20.1 points for Reinsurance are mix-of-events ratio points. Book-value change is also a ratio; no allocated dollar amount."
+      ],
+      "observations": []
+    },
+    "AXK": {
+      "doc_id": "AXK",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/947484/000094748423000015/acgl-20221231.htm",
+      "independent_primary_sha256": "90e38a824006ad32e955977c9ef8593cf9352cab0f46e1eab22af3ce95630ecb",
+      "passages": 4612,
+      "literal_ian_occurrences": [
+        "AXK-P01044",
+        "AXK-P01107"
+      ],
+      "reference_count": 0,
+      "negative_controls": [
+        "5.2 and 13.9 are segment ratio points spanning several events."
+      ],
+      "observations": []
+    },
+    "EVQ": {
+      "doc_id": "EVQ",
+      "form": "10-Q",
+      "period": "2022-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507322000026/re-20220930.htm",
+      "independent_primary_sha256": "0e24c7886bce6ff2a77e6d8dea5541ed7d2a0fcc36d96f85fe049023a400840c",
+      "passages": 16483,
+      "literal_ian_occurrences": [
+        "EVQ-P09879",
+        "EVQ-P09982",
+        "EVQ-P10145",
+        "EVQ-P12343",
+        "EVQ-P12444",
+        "EVQ-P13334",
+        "EVQ-P13418"
+      ],
+      "reference_count": 3,
+      "negative_controls": [
+        "Consolidated $840m Q3 and $1.0bn YTD are whole catastrophe totals. Cat bond up to $350m, $48.1bn/$63.8bn attachment/industry thresholds, and the industry estimate are not recognized entity loss or recovery for Ian. Parentheses around an attributed amount in running prose are punctuation."
+      ],
+      "observations": [
+        {
+          "owner": "group",
+          "amount_usd": 700000000,
+          "signed_usd": 700000000,
+          "unit_scale_usd": 1000000,
+          "measure": "current-year catastrophe losses incurred and LAE",
+          "status": "incurred",
+          "period": "Q3 and YTD through 2022-09-30",
+          "event_anchor_ids": [
+            "EVQ-P09879",
+            "EVQ-P09982"
+          ],
+          "channel": "running prose fragmented over HTML divs",
+          "table_native": false,
+          "sign": "positive loss magnitude"
+        },
+        {
+          "owner": "reinsurance segment",
+          "amount_usd": 600000000,
+          "signed_usd": 600000000,
+          "unit_scale_usd": 1000000,
+          "measure": "current-year catastrophe losses incurred and LAE",
+          "status": "incurred",
+          "period": "Q3 and YTD through 2022-09-30",
+          "event_anchor_ids": [
+            "EVQ-P12343",
+            "EVQ-P12444"
+          ],
+          "channel": "running prose fragmented over HTML divs",
+          "table_native": false,
+          "sign": "positive loss magnitude"
+        },
+        {
+          "owner": "insurance segment",
+          "amount_usd": 100000000,
+          "signed_usd": 100000000,
+          "unit_scale_usd": 1000000,
+          "measure": "current-year catastrophe losses incurred and LAE",
+          "status": "incurred",
+          "period": "Q3 and YTD through 2022-09-30",
+          "event_anchor_ids": [
+            "EVQ-P13334",
+            "EVQ-P13418"
+          ],
+          "channel": "running prose fragmented over HTML divs",
+          "table_native": false,
+          "sign": "positive loss magnitude"
+        }
+      ]
+    },
+    "EVK": {
+      "doc_id": "EVK",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507323000007/re-20221231.htm",
+      "independent_primary_sha256": "55008139406086d5b21417abd5efb1995e653e491212432ed67693f1eab0dcc2",
+      "passages": 44710,
+      "literal_ian_occurrences": [
+        "EVK-P16891",
+        "EVK-P17050",
+        "EVK-P18669",
+        "EVK-P19220"
+      ],
+      "reference_count": 3,
+      "negative_controls": [
+        "$1.1bn total spans multiple events. $350m bond limit, industry triggers and forecast excluded. Consolidated $699m is reported separately from segment $599m and $99m, rounding preserved."
+      ],
+      "observations": [
+        {
+          "owner": "group",
+          "amount_usd": 699000000,
+          "signed_usd": 699000000,
+          "unit_scale_usd": 1000000,
+          "measure": "current-year catastrophe losses incurred and LAE",
+          "status": "incurred",
+          "period": "year ended 2022-12-31",
+          "event_anchor_ids": [
+            "EVK-P16891"
+          ],
+          "channel": "running prose fragmented over HTML divs",
+          "table_native": false,
+          "sign": "positive loss magnitude"
+        },
+        {
+          "owner": "reinsurance segment",
+          "amount_usd": 599000000,
+          "signed_usd": 599000000,
+          "unit_scale_usd": 1000000,
+          "measure": "current-year catastrophe losses incurred and LAE",
+          "status": "incurred",
+          "period": "year ended 2022-12-31",
+          "event_anchor_ids": [
+            "EVK-P18669"
+          ],
+          "channel": "running prose fragmented over HTML divs",
+          "table_native": false,
+          "sign": "positive loss magnitude"
+        },
+        {
+          "owner": "insurance segment",
+          "amount_usd": 99000000,
+          "signed_usd": 99000000,
+          "unit_scale_usd": 1000000,
+          "measure": "current-year catastrophe losses incurred and LAE",
+          "status": "incurred",
+          "period": "year ended 2022-12-31",
+          "event_anchor_ids": [
+            "EVK-P19220"
+          ],
+          "channel": "running prose fragmented over HTML divs",
+          "table_native": false,
+          "sign": "positive loss magnitude"
+        }
+      ]
+    }
+  }
+}

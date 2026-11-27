@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-11-27T16:11:42.814851+00:00",
+  "sample": "axis",
+  "inputs_sha256": "1e43910c04c31572798dc84d06518c8e8070e5e6837a3a68708adc8c2d47b0ae",
+  "source_inventory_sha256": "208229e0b973a70e5780638b8984ff3e194d22854aa6bd1d7e3fc595d46c5d94",
+  "claims": [],
+  "excluded_examples": {
+    "XSQ": [
+      "XSQ-P01402: $212m group; $113m insurance and $99m reinsurance are whole-period catastrophe/weather losses chiefly driven by Ian. XSQ-P01603 and P01709 explicitly describe other events.",
+      "XSQ-P01604/P01710: $174m and $166m YTD are multi-event totals. $23m attaches to June European storms; $20m/$13m attach to war; 2021 dollars are comparators.",
+      "XSQ-P01046: enumerates events in reserves with no independent monetary allocation."
+    ],
+    "XSK": [
+      "XSK-P00591/P00883: $403m pre-tax/$350m after-tax and $338m named natural-event subtotal span multiple catastrophes. $207m and $196m split businesses, not individual events.",
+      "XSK-P01083/P01181: $177m insurance and $160m reinsurance natural catastrophes and accompanying ratios span several storms; $29m/$13m/$23m relate to war or pandemic.",
+      "XSK-P03475: catastrophe reserve commentary lists events only."
+    ]
+  },
+  "counts": {
+    "XSQ": 0,
+    "XSK": 0
+  },
+  "sources": {
+    "XSQ": "https://www.sec.gov/Archives/edgar/data/1214816/000121481622000050/axs-20220930.htm",
+    "XSK": "https://www.sec.gov/Archives/edgar/data/1214816/000121481623000013/axs-20221231.htm"
+  }
+}

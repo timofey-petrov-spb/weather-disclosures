@@ -1,0 +1,115 @@
+{
+  "sealed_utc": "2026-11-27T16:10:50.644534+00:00",
+  "selection_sha256": "66b0a360ef9fcfcae5fba37b9946903387478cd2da88544ee8017e51a49637fa",
+  "scoring_protocol_sha256": "f1968777e6b20442a7fa17035e8df1c235b5c788efae0ed748d6bbfae4d174ad",
+  "method": "Primary SEC filings only. A separate copy of each filing was checked for the event name and hurricane or catastrophe descriptions, including nearby rows, headings and monetary assertions. Paragraphs laid out in HTML tables or split across lines retain narrative status. Scope, source sign and allocation were reviewed before opening predictions. Independent primary-file digests refer to the SEC document as returned by its index mirror, before SGML wrapping.",
+  "filings": {
+    "XSQ": {
+      "doc_id": "XSQ",
+      "form": "10-Q",
+      "period": "2022-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1214816/000121481622000050/axs-20220930.htm",
+      "independent_primary_sha256": "b92ed25b04896d569d28fff1ee6b2ad50d965e28c96afd1056f8d5ac913aa41b",
+      "passages": 2128,
+      "literal_ian_occurrences": [
+        "XSQ-P01046",
+        "XSQ-P01402",
+        "XSQ-P01603",
+        "XSQ-P01604",
+        "XSQ-P01709",
+        "XSQ-P01710"
+      ],
+      "reference_count": 0,
+      "negative_controls": [
+        "XSQ-P01402: $212m group; $113m insurance and $99m reinsurance are whole-period catastrophe/weather losses chiefly driven by Ian. XSQ-P01603 and P01709 explicitly describe other events.",
+        "XSQ-P01604/P01710: $174m and $166m YTD are multi-event totals. $23m attaches to June European storms; $20m/$13m attach to war; 2021 dollars are comparators.",
+        "XSQ-P01046: enumerates events in reserves with no independent monetary allocation."
+      ]
+    },
+    "XSK": {
+      "doc_id": "XSK",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1214816/000121481623000013/axs-20221231.htm",
+      "independent_primary_sha256": "7acc97a5c602074bf51a8fb5afb788260f2bbd373464a3ceac3b715cc697a767",
+      "passages": 5285,
+      "literal_ian_occurrences": [
+        "XSK-P00591",
+        "XSK-P00883",
+        "XSK-P01083",
+        "XSK-P01181",
+        "XSK-P03475"
+      ],
+      "reference_count": 0,
+      "negative_controls": [
+        "XSK-P00591/P00883: $403m pre-tax/$350m after-tax and $338m named natural-event subtotal span multiple catastrophes. $207m and $196m split businesses, not individual events.",
+        "XSK-P01083/P01181: $177m insurance and $160m reinsurance natural catastrophes and accompanying ratios span several storms; $29m/$13m/$23m relate to war or pandemic.",
+        "XSK-P03475: catastrophe reserve commentary lists events only."
+      ]
+    },
+    "HVQ": {
+      "doc_id": "HVQ",
+      "form": "10-Q",
+      "period": "2022-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/944695/000095017022021284/thg-20220930.htm",
+      "independent_primary_sha256": "3c3fe395a72e5da84762c1453f6549d06c0261837c8e78c0fb92d31740c1b55e",
+      "passages": 1307,
+      "literal_ian_occurrences": [
+        "HVQ-P00765"
+      ],
+      "reference_count": 1,
+      "negative_controls": [
+        "HVQ-P00765: $213.0m YTD catastrophe loss versus $363.6m, change $150.6m; $28.0m is the only explicitly allocated Ian component. The same paragraph then turns to prior-year reserve development."
+      ]
+    },
+    "HVK": {
+      "doc_id": "HVK",
+      "form": "10-K",
+      "period": "2022-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/944695/000095017023004178/thg-20221231.htm",
+      "independent_primary_sha256": "bdfe3da72aa50b5ac11e9ce2a239f1c09c0ae07403d0f654ef8bb8beedd7b314",
+      "passages": 3090,
+      "literal_ian_occurrences": [],
+      "reference_count": 0,
+      "negative_controls": [
+        "HVK-P00618: $402.6m is the all-event annual total. $165.0m is expressly for Winter Storm Elliott. HVK-P00944 relates to Hurricane Ida in 2021. The annual filing does not repeat the quarterly $28.0m as an Ian-specific year-end value."
+      ]
+    }
+  },
+  "claims": [
+    {
+      "claim_id": "HVQ-cat",
+      "doc_id": "HVQ",
+      "event": "Hurricane Ian",
+      "issuer": "The Hanover Insurance Group, Inc.",
+      "affected_entity": "The Hanover Insurance Group, Inc.",
+      "measure": "consolidated pre-tax catastrophe losses incurred",
+      "basis": "pre-tax; reinsurance basis not explicitly stated in the event passage",
+      "status": "recognized / incurred",
+      "reporting_or_recognition_period": "nine months ended 2022-09-30",
+      "low_usd": 28000000,
+      "high_usd": 28000000,
+      "signed_low_usd": 28000000,
+      "signed_high_usd": 28000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "HVQ-P00765"
+      ],
+      "context_ids": [
+        "HVQ-P00758",
+        "HVQ-P00759",
+        "HVQ-P00760"
+      ],
+      "literal": "$28.0 million",
+      "unit_scale_usd": 1000000,
+      "source_sign": "Positive amount of recognized expense, not a signed effect on net income.",
+      "table_native": false,
+      "row_label": null,
+      "column_label": null,
+      "source_grade": "narrative, allocated event amount",
+      "qualifiers": "Group overview. The $213.0m and $363.6m totals and the $150.6m change cover broader periods/events; the $19.2m and $41.7m concern prior-year development.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/944695/000095017022021284/thg-20220930.htm"
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "reference_lock_sha256": "a26d79328ed730a9fa67071dbc1d33220f9e538f55562e98beff3594906dffcf",
+  "run_sha256": "46277826b599fb6e32cc13b30c4a7178ae423f441926bfcdf44df57dedb4bb7d",
+  "adjudications_sha256": "c374b1f7efa6773a23ab18c52609886328115979a27394fa24ec68444d670e35",
+  "versions": {
+    "v6": {
+      "pooled": {
+        "reference": 7,
+        "automatic": 1,
+        "matched_mentions": 1,
+        "unique_amount": 1,
+        "signed": 1,
+        "full": 0,
+        "unsupported": 0,
+        "duplicates": 0,
+        "review_only": 0,
+        "unique_recall": 0.14285714285714285,
+        "automatic_precision": 1.0,
+        "unique_precision": 1.0,
+        "full_recall": 0.0,
+        "missed": [
+          "EVK-group",
+          "EVK-insurance",
+          "EVK-reinsurance",
+          "EVQ-group",
+          "EVQ-insurance",
+          "EVQ-reinsurance"
+        ],
+        "missing_full": [
+          "EVK-group",
+          "EVK-insurance",
+          "EVK-reinsurance",
+          "EVQ-group",
+          "EVQ-insurance",
+          "EVQ-reinsurance",
+          "HVQ-cat"
+        ]
+      },
+      "macro_recall_positive_issuers": 0.5,
+      "macro_precision_issuers_with_automatic": 1.0,
+      "positive_issuers": 2,
+      "issuers_with_automatic": 1,
+      "strata": {
+        "table_native": {
+          "reference": 0,
+          "unique_amount": 0,
+          "signed": 0,
+          "full": 0,
+          "negative_signed_references": 0,
+          "unique_recall": null
+        },
+        "narrative": {
+          "reference": 7,
+          "unique_amount": 1,
+          "signed": 1,
+          "full": 0,
+          "negative_signed_references": 0,
+          "unique_recall": 0.14285714285714285
+        }
+      },
+      "issuers": {
+        "arch": {
+          "summary": {
+            "reference": 0,
+            "automatic": 0,
+            "matched_mentions": 0,
+            "unique_amount": 0,
+            "signed": 0,
+            "full": 0,
+            "unsupported": 0,
+            "duplicates": 0,
+            "review_only": 0,
+            "unique_recall": null,
+            "automatic_precision": null,
+            "unique_precision": null,
+            "full_recall": null,
+            "missed": [],
+            "missing_full": []
+          },
+          "by_form": {
+            "AXQ": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            },
+            "AXK": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            }
+          },
+          "all_output_rows": []
+        },
+        "everest": {
+          "summary": {
+            "reference": 6,
+            "automatic": 0,
+            "matched_mentions": 0,
+            "unique_amount": 0,
+            "signed": 0,
+            "full": 0,
+            "unsupported": 0,
+            "duplicates": 0,
+            "review_only": 0,
+            "unique_recall": 0.0,
+            "automatic_precision": null,
+            "unique_precision": null,
+            "full_recall": 0.0,
+            "missed": [
+              "EVK-group",
+              "EVK-insurance",
+              "EVK-reinsurance",
+              "EVQ-group",
+              "EVQ-insurance",
+              "EVQ-reinsurance"
+            ],
+            "missing_full": [
+              "EVK-group",
+              "EVK-insurance",
+              "EVK-reinsurance",
+              "EVQ-group",
+              "EVQ-insurance",
+              "EVQ-reinsurance"
+            ]
+          },
+          "by_form": {
+            "EVQ": {
+              "reference": 3,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": 0.0,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": 0.0,
+              "missed": [
+                "EVQ-group",
+                "EVQ-insurance",
+                "EVQ-reinsurance"
+              ],
+              "missing_full": [
+                "EVQ-group",
+                "EVQ-insurance",
+                "EVQ-reinsurance"
+              ]
+            },
+            "EVK": {
+              "reference": 3,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": 0.0,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": 0.0,
+              "missed": [
+                "EVK-group",
+                "EVK-insurance",
+                "EVK-reinsurance"
+              ],
+              "missing_full": [
+                "EVK-group",
+                "EVK-insurance",
+                "EVK-reinsurance"
+              ]
+            }
+          },
+          "all_output_rows": []
+        },
+        "axis": {
+          "summary": {
+            "reference": 0,
+            "automatic": 0,
+            "matched_mentions": 0,
+            "unique_amount": 0,
+            "signed": 0,
+            "full": 0,
+            "unsupported": 0,
+            "duplicates": 0,
+            "review_only": 0,
+            "unique_recall": null,
+            "automatic_precision": null,
+            "unique_precision": null,
+            "full_recall": null,
+            "missed": [],
+            "missing_full": []
+          },
+          "by_form": {
+            "XSQ": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            },
+            "XSK": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            }
+          },
+          "all_output_rows": []
+        },
+        "hanover": {
+          "summary": {
+            "reference": 1,
+            "automatic": 1,
+            "matched_mentions": 1,
+            "unique_amount": 1,
+            "signed": 1,
+            "full": 0,
+            "unsupported": 0,
+            "duplicates": 0,
+            "review_only": 0,
+            "unique_recall": 1.0,
+            "automatic_precision": 1.0,
+            "unique_precision": 1.0,
+            "full_recall": 0.0,
+            "missed": [],
+            "missing_full": [
+              "HVQ-cat"
+            ]
+          },
+          "by_form": {
+            "HVQ": {
+              "reference": 1,
+              "automatic": 1,
+              "matched_mentions": 1,
+              "unique_amount": 1,
+              "signed": 1,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": 1.0,
+              "automatic_precision": 1.0,
+              "unique_precision": 1.0,
+              "full_recall": 0.0,
+              "missed": [],
+              "missing_full": [
+                "HVQ-cat"
+              ]
+            },
+            "HVK": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            }
+          },
+          "all_output_rows": [
+            {
+              "doc_id": "HVQ",
+              "row": 0,
+              "passage_id": "HVQ-P00765",
+              "amount_low": 28000000,
+              "amount_high": 28000000,
+              "review": false,
+              "source_channel": "single_cause_prose",
+              "claim_id": "HVQ-cat",
+              "sign_correct": true,
+              "full": false,
+              "owner_correct": true,
+              "reported_amount_unit_correct": true,
+              "event_correct": true,
+              "table_evidence": false,
+              "assessment": "Direct positive USD loss incurred by the consolidated group. Both versions omit the pre-tax basis and the nine-month recognition window; the filing-quarter metadata is not the window stated for this claim. The labels claims_losses and reported also omit the more specific recognized catastrophe measure. Basis for reinsurance is not specified in this event allocation and does not itself cause the failure."
+            }
+          ]
+        }
+      }
+    },
+    "v7": {
+      "pooled": {
+        "reference": 7,
+        "automatic": 1,
+        "matched_mentions": 1,
+        "unique_amount": 1,
+        "signed": 1,
+        "full": 0,
+        "unsupported": 0,
+        "duplicates": 0,
+        "review_only": 0,
+        "unique_recall": 0.14285714285714285,
+        "automatic_precision": 1.0,
+        "unique_precision": 1.0,
+        "full_recall": 0.0,
+        "missed": [
+          "EVK-group",
+          "EVK-insurance",
+          "EVK-reinsurance",
+          "EVQ-group",
+          "EVQ-insurance",
+          "EVQ-reinsurance"
+        ],
+        "missing_full": [
+          "EVK-group",
+          "EVK-insurance",
+          "EVK-reinsurance",
+          "EVQ-group",
+          "EVQ-insurance",
+          "EVQ-reinsurance",
+          "HVQ-cat"
+        ]
+      },
+      "macro_recall_positive_issuers": 0.5,
+      "macro_precision_issuers_with_automatic": 1.0,
+      "positive_issuers": 2,
+      "issuers_with_automatic": 1,
+      "strata": {
+        "table_native": {
+          "reference": 0,
+          "unique_amount": 0,
+          "signed": 0,
+          "full": 0,
+          "negative_signed_references": 0,
+          "unique_recall": null
+        },
+        "narrative": {
+          "reference": 7,
+          "unique_amount": 1,
+          "signed": 1,
+          "full": 0,
+          "negative_signed_references": 0,
+          "unique_recall": 0.14285714285714285
+        }
+      },
+      "issuers": {
+        "arch": {
+          "summary": {
+            "reference": 0,
+            "automatic": 0,
+            "matched_mentions": 0,
+            "unique_amount": 0,
+            "signed": 0,
+            "full": 0,
+            "unsupported": 0,
+            "duplicates": 0,
+            "review_only": 0,
+            "unique_recall": null,
+            "automatic_precision": null,
+            "unique_precision": null,
+            "full_recall": null,
+            "missed": [],
+            "missing_full": []
+          },
+          "by_form": {
+            "AXQ": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            },
+            "AXK": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            }
+          },
+          "all_output_rows": []
+        },
+        "everest": {
+          "summary": {
+            "reference": 6,
+            "automatic": 0,
+            "matched_mentions": 0,
+            "unique_amount": 0,
+            "signed": 0,
+            "full": 0,
+            "unsupported": 0,
+            "duplicates": 0,
+            "review_only": 0,
+            "unique_recall": 0.0,
+            "automatic_precision": null,
+            "unique_precision": null,
+            "full_recall": 0.0,
+            "missed": [
+              "EVK-group",
+              "EVK-insurance",
+              "EVK-reinsurance",
+              "EVQ-group",
+              "EVQ-insurance",
+              "EVQ-reinsurance"
+            ],
+            "missing_full": [
+              "EVK-group",
+              "EVK-insurance",
+              "EVK-reinsurance",
+              "EVQ-group",
+              "EVQ-insurance",
+              "EVQ-reinsurance"
+            ]
+          },
+          "by_form": {
+            "EVQ": {
+              "reference": 3,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": 0.0,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": 0.0,
+              "missed": [
+                "EVQ-group",
+                "EVQ-insurance",
+                "EVQ-reinsurance"
+              ],
+              "missing_full": [
+                "EVQ-group",
+                "EVQ-insurance",
+                "EVQ-reinsurance"
+              ]
+            },
+            "EVK": {
+              "reference": 3,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": 0.0,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": 0.0,
+              "missed": [
+                "EVK-group",
+                "EVK-insurance",
+                "EVK-reinsurance"
+              ],
+              "missing_full": [
+                "EVK-group",
+                "EVK-insurance",
+                "EVK-reinsurance"
+              ]
+            }
+          },
+          "all_output_rows": []
+        },
+        "axis": {
+          "summary": {
+            "reference": 0,
+            "automatic": 0,
+            "matched_mentions": 0,
+            "unique_amount": 0,
+            "signed": 0,
+            "full": 0,
+            "unsupported": 0,
+            "duplicates": 0,
+            "review_only": 0,
+            "unique_recall": null,
+            "automatic_precision": null,
+            "unique_precision": null,
+            "full_recall": null,
+            "missed": [],
+            "missing_full": []
+          },
+          "by_form": {
+            "XSQ": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            },
+            "XSK": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            }
+          },
+          "all_output_rows": []
+        },
+        "hanover": {
+          "summary": {
+            "reference": 1,
+            "automatic": 1,
+            "matched_mentions": 1,
+            "unique_amount": 1,
+            "signed": 1,
+            "full": 0,
+            "unsupported": 0,
+            "duplicates": 0,
+            "review_only": 0,
+            "unique_recall": 1.0,
+            "automatic_precision": 1.0,
+            "unique_precision": 1.0,
+            "full_recall": 0.0,
+            "missed": [],
+            "missing_full": [
+              "HVQ-cat"
+            ]
+          },
+          "by_form": {
+            "HVQ": {
+              "reference": 1,
+              "automatic": 1,
+              "matched_mentions": 1,
+              "unique_amount": 1,
+              "signed": 1,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": 1.0,
+              "automatic_precision": 1.0,
+              "unique_precision": 1.0,
+              "full_recall": 0.0,
+              "missed": [],
+              "missing_full": [
+                "HVQ-cat"
+              ]
+            },
+            "HVK": {
+              "reference": 0,
+              "automatic": 0,
+              "matched_mentions": 0,
+              "unique_amount": 0,
+              "signed": 0,
+              "full": 0,
+              "unsupported": 0,
+              "duplicates": 0,
+              "review_only": 0,
+              "unique_recall": null,
+              "automatic_precision": null,
+              "unique_precision": null,
+              "full_recall": null,
+              "missed": [],
+              "missing_full": []
+            }
+          },
+          "all_output_rows": [
+            {
+              "doc_id": "HVQ",
+              "row": 0,
+              "passage_id": "HVQ-P00765",
+              "amount_low": 28000000,
+              "amount_high": 28000000,
+              "review": false,
+              "source_channel": "single_cause_prose",
+              "claim_id": "HVQ-cat",
+              "sign_correct": true,
+              "full": false,
+              "owner_correct": true,
+              "reported_amount_unit_correct": true,
+              "event_correct": true,
+              "table_evidence": false,
+              "assessment": "Direct positive USD loss incurred by the consolidated group. Both versions omit the pre-tax basis and the nine-month recognition window; the filing-quarter metadata is not the window stated for this claim. The labels claims_losses and reported also omit the more specific recognized catastrophe measure. Basis for reinsurance is not specified in this event allocation and does not itself cause the failure."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "doc_id": "CIQ",
+    "issuer": "Cincinnati Financial Corporation",
+    "cik": "20286",
+    "accession": "0000020286-22-000066",
+    "form": "10-Q",
+    "period": "2022-09-30",
+    "accepted_at_utc": "2022-10-31T20:09:39Z",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/0000020286-22-000066-index.htm",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/20286/000002028622000066/cinf-20220930.htm",
+    "primary_sha256": "d694cd62f9b4321075e8214ca8fa5630d60417a1e4427156d77323249ef0d93b",
+    "primary_bytes": 4233348,
+    "index_sha256": "1ed64539550eb10f98d4385c3488e49d861798c834aaf163d0b49e7e40e10dcf",
+    "rows": 1660,
+    "inputs_sha256": "4ff870490f8f5c7145740daec94f87f14dd3f873b8a4c088df1b147688e7d04d",
+    "output_digests": {
+      "v6": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v7": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  {
+    "doc_id": "PLQ",
+    "issuer": "Palomar Holdings, Inc.",
+    "cik": "1761312",
+    "accession": "0001558370-22-016296",
+    "form": "10-Q",
+    "period": "2022-09-30",
+    "accepted_at_utc": "2022-11-03T21:17:16Z",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/0001558370-22-016296-index.htm",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/plmr-20220930x10q.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1761312/000155837022016296/plmr-20220930x10q.htm",
+    "primary_sha256": "ca5cf4f87d26abe9401d32f0a404d6cd0a56b421cb99fb7929236c395fa1d28e",
+    "primary_bytes": 3167545,
+    "index_sha256": "fe5c82a99183cea53057a9b39e26b1e2aa03a6cdd608c13d08ce1acc693193fb",
+    "rows": 1474,
+    "inputs_sha256": "2b350e800b92588b848239c0b9b23d50e3fbcf4c20603d03a9bc8e0ce6312bd1",
+    "output_digests": {
+      "v6": "26ba3aaa790e4e494ffd84b4b69b39fb7ed38a8311733742167e98e5d0997e91",
+      "v7": "26ba3aaa790e4e494ffd84b4b69b39fb7ed38a8311733742167e98e5d0997e91"
+    }
+  }
+]

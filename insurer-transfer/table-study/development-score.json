@@ -1,0 +1,542 @@
+{
+  "note": "The reference set of 39 from the previous issuer panel is development data here. Signed-table matches require the original filing, printed source cell and sign, correct event and financial row/column, USD magnitude and scale, and unique accounting measure. Amounts from the unmodified v6 branch retain the previous source judgments. This measure is distinct from full economic-record correctness.",
+  "issuers": {
+    "travelers": {
+      "counts": {
+        "target_signed_with_correct_cell": 4,
+        "target_reference": 4,
+        "unmatched_table_ids": [],
+        "confirmed_amounts": 4,
+        "auto": 4,
+        "review": 0
+      },
+      "signed_table_matches": [
+        {
+          "ref": "TQ-incurred",
+          "prediction_index": 0,
+          "printed": "326",
+          "signed_usd": 326000000,
+          "unit_scale": 1000000,
+          "source_cell": [
+            54,
+            54,
+            7
+          ],
+          "source_row": "TQ-P01013",
+          "event_header": "61 — Hurricane Ian (2)",
+          "metric_header": "Losses Incurred/Unfavorable (Favorable) Prior Year Reserve Development",
+          "owner": "The Travelers Companies, Inc.",
+          "status": "incurred",
+          "tax_basis": "pretax",
+          "period": "Three Months Ended September 30, 2022 / Nine Months Ended September 30, 2022"
+        },
+        {
+          "ref": "TQ-ultimate",
+          "prediction_index": 1,
+          "printed": "326",
+          "signed_usd": 326000000,
+          "unit_scale": 1000000,
+          "source_cell": [
+            54,
+            54,
+            31
+          ],
+          "source_row": "TQ-P01013",
+          "event_header": "61 — Hurricane Ian (2)",
+          "metric_header": "Estimated Ultimate Losses",
+          "owner": "The Travelers Companies, Inc.",
+          "status": "ultimate estimate",
+          "tax_basis": "pretax",
+          "period": "September 30, 2022"
+        },
+        {
+          "ref": "TK-incurred",
+          "prediction_index": 2,
+          "printed": "227",
+          "signed_usd": 227000000,
+          "unit_scale": 1000000,
+          "source_cell": [
+            34,
+            49,
+            7
+          ],
+          "source_row": "TK-P01010",
+          "event_header": "61 — Hurricane Ian",
+          "metric_header": "Losses Incurred / Unfavorable (Favorable) Prior Year Reserve Development for the Year Ended December 31,",
+          "owner": "The Travelers Companies, Inc.",
+          "status": "incurred",
+          "tax_basis": "pretax",
+          "period": "for the Year Ended December 31, 2022"
+        },
+        {
+          "ref": "TK-ultimate",
+          "prediction_index": 3,
+          "printed": "227",
+          "signed_usd": 227000000,
+          "unit_scale": 1000000,
+          "source_cell": [
+            34,
+            49,
+            25
+          ],
+          "source_row": "TK-P01010",
+          "event_header": "61 — Hurricane Ian",
+          "metric_header": "Estimated Ultimate Losses at December 31,",
+          "owner": "The Travelers Companies, Inc.",
+          "status": "ultimate estimate",
+          "tax_basis": "pretax",
+          "period": "at December 31, 2022"
+        }
+      ],
+      "inherited_decisions": [],
+      "unreviewed_new": []
+    },
+    "renaissance": {
+      "counts": {
+        "target_signed_with_correct_cell": 18,
+        "target_reference": 18,
+        "unmatched_table_ids": [],
+        "confirmed_amounts": 18,
+        "auto": 18,
+        "review": 0
+      },
+      "signed_table_matches": [
+        {
+          "ref": "RQ-net-claims",
+          "prediction_index": 0,
+          "printed": "(990,382)",
+          "signed_usd": -990382000,
+          "unit_scale": 1000,
+          "source_cell": [
+            56,
+            5,
+            8
+          ],
+          "source_row": "RQ-P01332",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net claims and claims expenses incurred",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "incurred",
+          "tax_basis": null,
+          "period": "Three months ended September 30, 2022 / Nine months ended September 30, 2022"
+        },
+        {
+          "ref": "RQ-assumed-premium",
+          "prediction_index": 1,
+          "printed": "221,799",
+          "signed_usd": 221799000,
+          "unit_scale": 1000,
+          "source_cell": [
+            56,
+            6,
+            7
+          ],
+          "source_row": "RQ-P01333",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Assumed reinstatement premiums earned",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "earned",
+          "tax_basis": null,
+          "period": "Three months ended September 30, 2022 / Nine months ended September 30, 2022"
+        },
+        {
+          "ref": "RQ-ceded-premium",
+          "prediction_index": 2,
+          "printed": "(57,733)",
+          "signed_usd": -57733000,
+          "unit_scale": 1000,
+          "source_cell": [
+            56,
+            7,
+            7
+          ],
+          "source_row": "RQ-P01334",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Ceded reinstatement premiums earned",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "earned",
+          "tax_basis": null,
+          "period": "Three months ended September 30, 2022 / Nine months ended September 30, 2022"
+        },
+        {
+          "ref": "RQ-commissions",
+          "prediction_index": 3,
+          "printed": "(1,487)",
+          "signed_usd": -1487000,
+          "unit_scale": 1000,
+          "source_cell": [
+            56,
+            8,
+            7
+          ],
+          "source_row": "RQ-P01335",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Earned (lost) profit commissions",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "reported commission",
+          "tax_basis": null,
+          "period": "Three months ended September 30, 2022 / Nine months ended September 30, 2022"
+        },
+        {
+          "ref": "RQ-underwriting",
+          "prediction_index": 4,
+          "printed": "(827,803)",
+          "signed_usd": -827803000,
+          "unit_scale": 1000,
+          "source_cell": [
+            56,
+            9,
+            7
+          ],
+          "source_row": "RQ-P01336",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net negative impact on underwriting result",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "reported impact",
+          "tax_basis": "pretax",
+          "period": "Three months ended September 30, 2022 / Nine months ended September 30, 2022"
+        },
+        {
+          "ref": "RQ-noncontrolling",
+          "prediction_index": 5,
+          "printed": "288,383",
+          "signed_usd": 288383000,
+          "unit_scale": 1000,
+          "source_cell": [
+            56,
+            13,
+            7
+          ],
+          "source_row": "RQ-P01337",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Redeemable noncontrolling interest",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "reported allocation",
+          "tax_basis": "pretax",
+          "period": "Three months ended September 30, 2022 / Nine months ended September 30, 2022"
+        },
+        {
+          "ref": "RQ-shareholders",
+          "prediction_index": 6,
+          "printed": "(539,701)",
+          "signed_usd": -539701000,
+          "unit_scale": 1000,
+          "source_cell": [
+            56,
+            14,
+            8
+          ],
+          "source_row": "RQ-P01338",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net negative impact on net income (loss) available (attributable) to RenaissanceRe common shareholders",
+          "owner": "RenaissanceRe Holdings Ltd. — common shareholders",
+          "status": "reported impact",
+          "tax_basis": "pretax",
+          "period": "Three months ended September 30, 2022 / Nine months ended September 30, 2022"
+        },
+        {
+          "ref": "RQ-property-uw",
+          "prediction_index": 7,
+          "printed": "(820,765)",
+          "signed_usd": -820765000,
+          "unit_scale": 1000,
+          "source_cell": [
+            57,
+            5,
+            8
+          ],
+          "source_row": "RQ-P01342",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net negative impact on Property segment underwriting result",
+          "owner": "RenaissanceRe Holdings Ltd. — Property segment",
+          "status": "reported impact",
+          "tax_basis": null,
+          "period": "Three months ended September 30, 2022 / Nine months ended September 30, 2022"
+        },
+        {
+          "ref": "RQ-casualty-uw",
+          "prediction_index": 8,
+          "printed": "(7,038)",
+          "signed_usd": -7038000,
+          "unit_scale": 1000,
+          "source_cell": [
+            57,
+            6,
+            7
+          ],
+          "source_row": "RQ-P01343",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net negative impact on Casualty and Specialty segment underwriting result",
+          "owner": "RenaissanceRe Holdings Ltd. — Casualty and Specialty segment",
+          "status": "reported impact",
+          "tax_basis": null,
+          "period": "Three months ended September 30, 2022 / Nine months ended September 30, 2022"
+        },
+        {
+          "ref": "RK-net-claims",
+          "prediction_index": 9,
+          "printed": "(982,189)",
+          "signed_usd": -982189000,
+          "unit_scale": 1000,
+          "source_cell": [
+            94,
+            5,
+            8
+          ],
+          "source_row": "RK-P01064",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net claims and claims expenses incurred",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "incurred",
+          "tax_basis": null,
+          "period": "Year ended December 31, 2022"
+        },
+        {
+          "ref": "RK-assumed-premium",
+          "prediction_index": 10,
+          "printed": "221,801",
+          "signed_usd": 221801000,
+          "unit_scale": 1000,
+          "source_cell": [
+            94,
+            6,
+            7
+          ],
+          "source_row": "RK-P01065",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Assumed reinstatement premiums earned",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "earned",
+          "tax_basis": null,
+          "period": "Year ended December 31, 2022"
+        },
+        {
+          "ref": "RK-ceded-premium",
+          "prediction_index": 11,
+          "printed": "(57,913)",
+          "signed_usd": -57913000,
+          "unit_scale": 1000,
+          "source_cell": [
+            94,
+            7,
+            7
+          ],
+          "source_row": "RK-P01066",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Ceded reinstatement premiums earned",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "earned",
+          "tax_basis": null,
+          "period": "Year ended December 31, 2022"
+        },
+        {
+          "ref": "RK-commissions",
+          "prediction_index": 12,
+          "printed": "(1,487)",
+          "signed_usd": -1487000,
+          "unit_scale": 1000,
+          "source_cell": [
+            94,
+            8,
+            7
+          ],
+          "source_row": "RK-P01067",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Earned (lost) profit commissions",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "reported commission",
+          "tax_basis": null,
+          "period": "Year ended December 31, 2022"
+        },
+        {
+          "ref": "RK-underwriting",
+          "prediction_index": 13,
+          "printed": "(819,788)",
+          "signed_usd": -819788000,
+          "unit_scale": 1000,
+          "source_cell": [
+            94,
+            9,
+            7
+          ],
+          "source_row": "RK-P01068",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net negative impact on underwriting result",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "reported impact",
+          "tax_basis": "pretax",
+          "period": "Year ended December 31, 2022"
+        },
+        {
+          "ref": "RK-noncontrolling",
+          "prediction_index": 14,
+          "printed": "286,910",
+          "signed_usd": 286910000,
+          "unit_scale": 1000,
+          "source_cell": [
+            94,
+            13,
+            7
+          ],
+          "source_row": "RK-P01069",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Redeemable noncontrolling interest",
+          "owner": "RenaissanceRe Holdings Ltd.",
+          "status": "reported allocation",
+          "tax_basis": "pretax",
+          "period": "Year ended December 31, 2022"
+        },
+        {
+          "ref": "RK-shareholders",
+          "prediction_index": 15,
+          "printed": "(532,878)",
+          "signed_usd": -532878000,
+          "unit_scale": 1000,
+          "source_cell": [
+            94,
+            14,
+            8
+          ],
+          "source_row": "RK-P01070",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net negative impact on net income (loss) available (attributable) to RenaissanceRe common shareholders",
+          "owner": "RenaissanceRe Holdings Ltd. — common shareholders",
+          "status": "reported impact",
+          "tax_basis": "pretax",
+          "period": "Year ended December 31, 2022"
+        },
+        {
+          "ref": "RK-property-uw",
+          "prediction_index": 16,
+          "printed": "(811,828)",
+          "signed_usd": -811828000,
+          "unit_scale": 1000,
+          "source_cell": [
+            95,
+            5,
+            8
+          ],
+          "source_row": "RK-P01074",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net negative impact on Property segment underwriting result",
+          "owner": "RenaissanceRe Holdings Ltd. — Property segment",
+          "status": "reported impact",
+          "tax_basis": null,
+          "period": "Year ended December 31, 2022"
+        },
+        {
+          "ref": "RK-casualty-uw",
+          "prediction_index": 17,
+          "printed": "(7,960)",
+          "signed_usd": -7960000,
+          "unit_scale": 1000,
+          "source_cell": [
+            95,
+            6,
+            7
+          ],
+          "source_row": "RK-P01075",
+          "event_header": "Hurricane Ian",
+          "metric_header": "Net negative impact on Casualty and Specialty segment underwriting result",
+          "owner": "RenaissanceRe Holdings Ltd. — Casualty and Specialty segment",
+          "status": "reported impact",
+          "tax_basis": null,
+          "period": "Year ended December 31, 2022"
+        }
+      ],
+      "inherited_decisions": [],
+      "unreviewed_new": []
+    },
+    "progressive": {
+      "counts": {
+        "target_signed_with_correct_cell": 0,
+        "target_reference": 0,
+        "unmatched_table_ids": [],
+        "confirmed_amounts": 2,
+        "auto": 3,
+        "review": 0
+      },
+      "signed_table_matches": [],
+      "inherited_decisions": [
+        {
+          "index": 0,
+          "ref": "PQ-property-gross",
+          "review": false,
+          "passage": "PQ-P01048",
+          "reason": "Correct gross estimate before reinsurance. The source explicitly identifies the Property business and includes allocated loss adjustment expenses. The structured owner is the reporting parent and the broad claims metric omits ALAE."
+        },
+        {
+          "index": 1,
+          "ref": null,
+          "review": false,
+          "passage": "PQ-P01053",
+          "reason": "The conditional ceiling applies to a possible second event. It is an amount of coverage in the treaty, not an Ian loss, retention or recovery."
+        },
+        {
+          "index": 2,
+          "ref": "PQ-personal",
+          "review": false,
+          "passage": "PQ-P00994",
+          "reason": "Approximate and event-specific amount is supported, and the source says incurred. The emitted owner “A. segment” does not identify Personal Lines."
+        }
+      ],
+      "unreviewed_new": []
+    },
+    "hartford": {
+      "counts": {
+        "target_signed_with_correct_cell": 0,
+        "target_reference": 0,
+        "unmatched_table_ids": [],
+        "confirmed_amounts": 0,
+        "auto": 0,
+        "review": 6
+      },
+      "signed_table_matches": [],
+      "inherited_decisions": [
+        {
+          "index": 0,
+          "ref": null,
+          "review": true,
+          "passage": "FQ-P01810",
+          "reason": "Pooled catastrophe costs from Ian, wind and hail. Also parsed 293 dollars instead of 293 million."
+        },
+        {
+          "index": 1,
+          "ref": null,
+          "review": true,
+          "passage": "FQ-P01871",
+          "reason": "The 27 million belongs to the Ukraine conflict and includes no isolated Ian amount here. Units were also parsed as dollars."
+        },
+        {
+          "index": 2,
+          "ref": null,
+          "review": true,
+          "passage": "FQ-P02014",
+          "reason": "The note explicitly states 214 million of Ian losses net of reinsurance, including a 35 million component; the proposed 214-dollar row is held for review and fails on scale."
+        },
+        {
+          "index": 3,
+          "ref": null,
+          "review": true,
+          "passage": "FQ-P02250",
+          "reason": "Commercial Lines incurred 133 million. The review row erroneously interprets 133 dollars."
+        },
+        {
+          "index": 4,
+          "ref": null,
+          "review": true,
+          "passage": "FQ-P02252",
+          "reason": "A repeated 133 million Commercial Lines loss is returned again in unscaled dollars for review."
+        },
+        {
+          "index": 5,
+          "ref": null,
+          "review": true,
+          "passage": "FK-P01206",
+          "reason": "The annual note says 186 million net, including 35 million assumed; the proposed 186-dollar row is held for review."
+        }
+      ],
+      "unreviewed_new": []
+    }
+  }
+}

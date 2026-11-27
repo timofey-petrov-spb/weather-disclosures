@@ -1,0 +1,599 @@
+{
+  "interpretation": "Source-side review of 22 existing development references, independently located in the original HTML. Table, row and expanded grid column are one-based. The visible column excludes display:none cells. Repeated quarterly/YTD presentations are one economic fact. Identical-valued Travelers measures are distinguished by the accounting header. No coordinates or amounts from this file enter the extractor.",
+  "rows": [
+    {
+      "id": "TQ-incurred",
+      "filing": "TQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/86312/000008631222000065/trv-20220930.htm",
+      "owner": "The Travelers Companies, Inc.",
+      "meaning": "catastrophe losses incurred",
+      "expected_signed_usd": 326000000,
+      "verified_cells": [
+        {
+          "table": 54,
+          "row": 54,
+          "column": 7,
+          "row_label": "61 — Hurricane Ian (2)",
+          "column_label": "Losses Incurred/Unfavorable (Favorable)Prior Year Reserve Development",
+          "printed": "326",
+          "units": "(in millions, pre-tax and net of reinsurance) (1)",
+          "scale": 1000000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "TQ-ultimate",
+      "filing": "TQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/86312/000008631222000065/trv-20220930.htm",
+      "owner": "The Travelers Companies, Inc.",
+      "meaning": "estimated ultimate catastrophe losses",
+      "expected_signed_usd": 326000000,
+      "verified_cells": [
+        {
+          "table": 54,
+          "row": 54,
+          "column": 31,
+          "row_label": "61 — Hurricane Ian (2)",
+          "column_label": "Estimated Ultimate Losses",
+          "printed": "326",
+          "units": "(in millions, pre-tax and net of reinsurance) (1)",
+          "scale": 1000000,
+          "visible_column": 31
+        }
+      ]
+    },
+    {
+      "id": "TK-incurred",
+      "filing": "TK",
+      "source": "https://www.sec.gov/Archives/edgar/data/86312/000008631223000011/trv-20221231.htm",
+      "owner": "The Travelers Companies, Inc.",
+      "meaning": "catastrophe losses incurred",
+      "expected_signed_usd": 227000000,
+      "verified_cells": [
+        {
+          "table": 34,
+          "row": 49,
+          "column": 7,
+          "row_label": "61 — Hurricane Ian",
+          "column_label": "Losses Incurred / Unfavorable (Favorable)Prior Year Reserve Development for the Year Ended December 31,",
+          "printed": "227",
+          "units": "(in millions, pre-tax and net of reinsurance)(1)",
+          "scale": 1000000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "TK-ultimate",
+      "filing": "TK",
+      "source": "https://www.sec.gov/Archives/edgar/data/86312/000008631223000011/trv-20221231.htm",
+      "owner": "The Travelers Companies, Inc.",
+      "meaning": "estimated ultimate catastrophe losses",
+      "expected_signed_usd": 227000000,
+      "verified_cells": [
+        {
+          "table": 34,
+          "row": 49,
+          "column": 25,
+          "row_label": "61 — Hurricane Ian",
+          "column_label": "Estimated Ultimate Losses atDecember 31,",
+          "printed": "227",
+          "units": "(in millions, pre-tax and net of reinsurance)(1)",
+          "scale": 1000000,
+          "visible_column": 25
+        }
+      ]
+    },
+    {
+      "id": "RQ-net-claims",
+      "filing": "RQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Net claims and claims expenses incurred",
+      "expected_signed_usd": -990382000,
+      "verified_cells": [
+        {
+          "table": 56,
+          "row": 5,
+          "column": 20,
+          "row_label": "Net claims and claims expenses incurred",
+          "column_label": "Hurricane Ian",
+          "printed": "(990,382)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 8
+        },
+        {
+          "table": 77,
+          "row": 5,
+          "column": 20,
+          "row_label": "Net claims and claims expenses incurred",
+          "column_label": "Hurricane Ian",
+          "printed": "(990,382)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 8
+        }
+      ]
+    },
+    {
+      "id": "RQ-assumed-premium",
+      "filing": "RQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Assumed reinstatement premiums earned",
+      "expected_signed_usd": 221799000,
+      "verified_cells": [
+        {
+          "table": 56,
+          "row": 6,
+          "column": 19,
+          "row_label": "Assumed reinstatement premiums earned",
+          "column_label": "Hurricane Ian",
+          "printed": "221,799",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        },
+        {
+          "table": 77,
+          "row": 6,
+          "column": 19,
+          "row_label": "Assumed reinstatement premiums earned",
+          "column_label": "Hurricane Ian",
+          "printed": "221,799",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "RQ-ceded-premium",
+      "filing": "RQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Ceded reinstatement premiums earned",
+      "expected_signed_usd": -57733000,
+      "verified_cells": [
+        {
+          "table": 56,
+          "row": 7,
+          "column": 19,
+          "row_label": "Ceded reinstatement premiums earned",
+          "column_label": "Hurricane Ian",
+          "printed": "(57,733)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        },
+        {
+          "table": 77,
+          "row": 7,
+          "column": 19,
+          "row_label": "Ceded reinstatement premiums earned",
+          "column_label": "Hurricane Ian",
+          "printed": "(57,733)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "RQ-commissions",
+      "filing": "RQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Earned (lost) profit commissions",
+      "expected_signed_usd": -1487000,
+      "verified_cells": [
+        {
+          "table": 56,
+          "row": 8,
+          "column": 19,
+          "row_label": "Earned (lost) profit commissions",
+          "column_label": "Hurricane Ian",
+          "printed": "(1,487)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        },
+        {
+          "table": 77,
+          "row": 8,
+          "column": 19,
+          "row_label": "Earned (lost) profit commissions",
+          "column_label": "Hurricane Ian",
+          "printed": "(1,487)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "RQ-underwriting",
+      "filing": "RQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Net negative impact on underwriting result",
+      "expected_signed_usd": -827803000,
+      "verified_cells": [
+        {
+          "table": 56,
+          "row": 9,
+          "column": 19,
+          "row_label": "Net negative impact on underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(827,803)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        },
+        {
+          "table": 57,
+          "row": 7,
+          "column": 8,
+          "row_label": "Net negative impact on underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(827,803)",
+          "units": "(in thousands, except percentages)",
+          "scale": 1000,
+          "visible_column": 8
+        },
+        {
+          "table": 77,
+          "row": 9,
+          "column": 19,
+          "row_label": "Net negative impact on underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(827,803)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        },
+        {
+          "table": 78,
+          "row": 7,
+          "column": 20,
+          "row_label": "Net negative impact on underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(827,803)",
+          "units": "(in thousands, except percentages)",
+          "scale": 1000,
+          "visible_column": 8
+        }
+      ]
+    },
+    {
+      "id": "RQ-noncontrolling",
+      "filing": "RQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Redeemable noncontrolling interest",
+      "expected_signed_usd": 288383000,
+      "verified_cells": [
+        {
+          "table": 56,
+          "row": 13,
+          "column": 19,
+          "row_label": "Redeemable noncontrolling interest",
+          "column_label": "Hurricane Ian",
+          "printed": "288,383",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        },
+        {
+          "table": 77,
+          "row": 13,
+          "column": 19,
+          "row_label": "Redeemable noncontrolling interest",
+          "column_label": "Hurricane Ian",
+          "printed": "288,383",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "RQ-shareholders",
+      "filing": "RQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "owner": "RenaissanceRe common shareholders",
+      "meaning": "Net negative impact on net income (loss) available (attributable) to RenaissanceRe common shareholders",
+      "expected_signed_usd": -539701000,
+      "verified_cells": [
+        {
+          "table": 56,
+          "row": 14,
+          "column": 20,
+          "row_label": "Net negative impact on net income (loss) available (attributable) to RenaissanceRe common shareholders",
+          "column_label": "Hurricane Ian",
+          "printed": "(539,701)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 8
+        },
+        {
+          "table": 77,
+          "row": 14,
+          "column": 20,
+          "row_label": "Net negative impact on net income (loss) available (attributable) to RenaissanceRe common shareholders",
+          "column_label": "Hurricane Ian",
+          "printed": "(539,701)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 8
+        }
+      ]
+    },
+    {
+      "id": "RQ-property-uw",
+      "filing": "RQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "owner": "RenaissanceRe Property segment",
+      "meaning": "Net negative impact on Property segment underwriting result",
+      "expected_signed_usd": -820765000,
+      "verified_cells": [
+        {
+          "table": 57,
+          "row": 5,
+          "column": 8,
+          "row_label": "Net negative impact on Property segment underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(820,765)",
+          "units": "(in thousands, except percentages)",
+          "scale": 1000,
+          "visible_column": 8
+        },
+        {
+          "table": 78,
+          "row": 5,
+          "column": 20,
+          "row_label": "Net negative impact on Property segment underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(820,765)",
+          "units": "(in thousands, except percentages)",
+          "scale": 1000,
+          "visible_column": 8
+        }
+      ]
+    },
+    {
+      "id": "RQ-casualty-uw",
+      "filing": "RQ",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314422000099/rnr-20220930.htm",
+      "owner": "RenaissanceRe Casualty and Specialty segment",
+      "meaning": "Net negative impact on Casualty and Specialty segment underwriting result",
+      "expected_signed_usd": -7038000,
+      "verified_cells": [
+        {
+          "table": 57,
+          "row": 6,
+          "column": 7,
+          "row_label": "Net negative impact on Casualty and Specialty segment underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(7,038)",
+          "units": "(in thousands, except percentages)",
+          "scale": 1000,
+          "visible_column": 7
+        },
+        {
+          "table": 78,
+          "row": 6,
+          "column": 19,
+          "row_label": "Net negative impact on Casualty and Specialty segment underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(7,038)",
+          "units": "(in thousands, except percentages)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "RK-net-claims",
+      "filing": "RK",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Net claims and claims expenses incurred",
+      "expected_signed_usd": -982189000,
+      "verified_cells": [
+        {
+          "table": 94,
+          "row": 5,
+          "column": 20,
+          "row_label": "Net claims and claims expenses incurred",
+          "column_label": "Hurricane Ian",
+          "printed": "(982,189)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 8
+        }
+      ]
+    },
+    {
+      "id": "RK-assumed-premium",
+      "filing": "RK",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Assumed reinstatement premiums earned",
+      "expected_signed_usd": 221801000,
+      "verified_cells": [
+        {
+          "table": 94,
+          "row": 6,
+          "column": 19,
+          "row_label": "Assumed reinstatement premiums earned",
+          "column_label": "Hurricane Ian",
+          "printed": "221,801",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "RK-ceded-premium",
+      "filing": "RK",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Ceded reinstatement premiums earned",
+      "expected_signed_usd": -57913000,
+      "verified_cells": [
+        {
+          "table": 94,
+          "row": 7,
+          "column": 19,
+          "row_label": "Ceded reinstatement premiums earned",
+          "column_label": "Hurricane Ian",
+          "printed": "(57,913)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "RK-commissions",
+      "filing": "RK",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Earned (lost) profit commissions",
+      "expected_signed_usd": -1487000,
+      "verified_cells": [
+        {
+          "table": 94,
+          "row": 8,
+          "column": 19,
+          "row_label": "Earned (lost) profit commissions",
+          "column_label": "Hurricane Ian",
+          "printed": "(1,487)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "RK-underwriting",
+      "filing": "RK",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Net negative impact on underwriting result",
+      "expected_signed_usd": -819788000,
+      "verified_cells": [
+        {
+          "table": 94,
+          "row": 9,
+          "column": 19,
+          "row_label": "Net negative impact on underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(819,788)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        },
+        {
+          "table": 95,
+          "row": 7,
+          "column": 20,
+          "row_label": "Net negative impact on underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(819,788)",
+          "units": "(in thousands, except percentages)",
+          "scale": 1000,
+          "visible_column": 8
+        }
+      ]
+    },
+    {
+      "id": "RK-noncontrolling",
+      "filing": "RK",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "owner": "RenaissanceRe consolidated",
+      "meaning": "Redeemable noncontrolling interest",
+      "expected_signed_usd": 286910000,
+      "verified_cells": [
+        {
+          "table": 94,
+          "row": 13,
+          "column": 19,
+          "row_label": "Redeemable noncontrolling interest",
+          "column_label": "Hurricane Ian",
+          "printed": "286,910",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    },
+    {
+      "id": "RK-shareholders",
+      "filing": "RK",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "owner": "RenaissanceRe common shareholders",
+      "meaning": "Net negative impact on net income (loss) available (attributable) to RenaissanceRe common shareholders",
+      "expected_signed_usd": -532878000,
+      "verified_cells": [
+        {
+          "table": 94,
+          "row": 14,
+          "column": 20,
+          "row_label": "Net negative impact on net income (loss) available (attributable) to RenaissanceRe common shareholders",
+          "column_label": "Hurricane Ian",
+          "printed": "(532,878)",
+          "units": "(in thousands)",
+          "scale": 1000,
+          "visible_column": 8
+        }
+      ]
+    },
+    {
+      "id": "RK-property-uw",
+      "filing": "RK",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "owner": "RenaissanceRe Property segment",
+      "meaning": "Net negative impact on Property segment underwriting result",
+      "expected_signed_usd": -811828000,
+      "verified_cells": [
+        {
+          "table": 95,
+          "row": 5,
+          "column": 20,
+          "row_label": "Net negative impact on Property segment underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(811,828)",
+          "units": "(in thousands, except percentages)",
+          "scale": 1000,
+          "visible_column": 8
+        }
+      ]
+    },
+    {
+      "id": "RK-casualty-uw",
+      "filing": "RK",
+      "source": "https://www.sec.gov/Archives/edgar/data/913144/000091314423000011/rnr-20221231.htm",
+      "owner": "RenaissanceRe Casualty and Specialty segment",
+      "meaning": "Net negative impact on Casualty and Specialty segment underwriting result",
+      "expected_signed_usd": -7960000,
+      "verified_cells": [
+        {
+          "table": 95,
+          "row": 6,
+          "column": 19,
+          "row_label": "Net negative impact on Casualty and Specialty segment underwriting result",
+          "column_label": "Hurricane Ian",
+          "printed": "(7,960)",
+          "units": "(in thousands, except percentages)",
+          "scale": 1000,
+          "visible_column": 7
+        }
+      ]
+    }
+  ]
+}

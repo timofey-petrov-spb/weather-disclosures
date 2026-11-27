@@ -1,0 +1,249 @@
+{
+  "sealed_utc": "2026-11-27T16:21:30.728403+00:00",
+  "protocol_sha256": "074414db18351c875391472dec34c34d7641723726f3dd8faf137d42c9e1c17e",
+  "screen_sha256": "f55a413b51667b1277b9ea40d231e1cb234b79141894dda6c2272f91ea0d58c1",
+  "method_freeze_git": "779d53deeb816e1bd14d18f65267cef6568f4e8b",
+  "scoring_protocol_sha256": "f1968777e6b20442a7fa17035e8df1c235b5c788efae0ed748d6bbfae4d174ad",
+  "tables": [
+    {
+      "doc_id": "CIQ",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+      "primary_sha256": "d694cd62f9b4321075e8214ca8fa5630d60417a1e4427156d77323249ef0d93b",
+      "inputs_sha256": "4ff870490f8f5c7145740daec94f87f14dd3f873b8a4c088df1b147688e7d04d",
+      "table_index_one_based": 38,
+      "visible_table_row_one_based": 13,
+      "table_html_bytes_half_open": [
+        2720987,
+        2883798
+      ],
+      "table_html_sha256": "37723bf2602caf957703e9307c79c3c147915e4a9cfaf29cc150e0ff9ee3e610",
+      "table_first_last": [
+        "CIQ-P00940",
+        "CIQ-P00968"
+      ],
+      "adjudication_first_last": [
+        "CIQ-P00938",
+        "CIQ-P00968"
+      ],
+      "independent_source_text": {
+        "CIQ-P00938": "The following table shows consolidated property casualty insurance catastrophe losses and loss expenses incurred, net of reinsurance, as well as the effect of loss development on prior period catastrophe events. We individually list declared catastrophe events for which our incurred losses reached or exceeded $10 million.",
+        "CIQ-P00939": "Consolidated Property Casualty Insurance Catastrophe Losses and Loss Expenses Incurred",
+        "CIQ-P00940": "(Dollars in millions, net of reinsurance) | Three months ended September 30, | | Nine months ended September 30,",
+        "CIQ-P00941": "Comm. | | Pers. | | E&S | | | | | | Comm. | | Pers. | | E&S",
+        "CIQ-P00942": "Dates | Region | lines | | lines | | lines | | Other | | Total | | lines | | lines | | lines | | Other | | Total",
+        "CIQ-P00943": "2022",
+        "CIQ-P00952": "Sep. 27 - Oct. 1 | South (Ian) | 26 | | | 51 | | | — | | | 143 | | | 220 | | | 26 | | | 51 | | | — | | | 143 | | | 220"
+      }
+    },
+    {
+      "doc_id": "PLQ",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/plmr-20220930x10q.htm",
+      "primary_sha256": "ca5cf4f87d26abe9401d32f0a404d6cd0a56b421cb99fb7929236c395fa1d28e",
+      "inputs_sha256": "2b350e800b92588b848239c0b9b23d50e3fbcf4c20603d03a9bc8e0ce6312bd1",
+      "table_index_one_based": 51,
+      "visible_table_row_one_based": 5,
+      "table_html_bytes_half_open": [
+        1996802,
+        2023229
+      ],
+      "table_html_sha256": "6c841174801a37e2e383f933ab1df1c2524b125391f482947d9b8a887752fb31",
+      "table_first_last": [
+        "PLQ-P00720",
+        "PLQ-P00726"
+      ],
+      "adjudication_first_last": [
+        "PLQ-P00718",
+        "PLQ-P00728"
+      ],
+      "independent_source_text": {
+        "PLQ-P00718": "Losses and Loss Adjustment Expenses",
+        "PLQ-P00719": "Losses and loss adjustment expenses increased $2.4 million, or 8.5% to $30.9 million for the three months ended September 30, 2022 from $28.5 million for the three months ended September 30, 2021. Losses and loss adjustment expenses consisted of the following elements during the respective periods:",
+        "PLQ-P00720": "Three Months Ended",
+        "PLQ-P00721": "September 30,",
+        "PLQ-P00722": "2022 | | 2021 | | Change | | % Change",
+        "PLQ-P00723": "($ in thousands)",
+        "PLQ-P00724": "Catastrophe losses | | $ | 12,500 | | $ | 17,487 | | $ | (4,987) | | (28.5) | %",
+        "PLQ-P00727": "Our catastrophe loss ratio was 16.0% during the three months ended September 30, 2022. Catastrophe losses were related to losses from Hurricane Ian which primarily impacted our Commercial All Risk line of business.",
+        "PLQ-P00728": "Our catastrophe loss ratio was 27.0% during the three months ended September 30, 2021. Catastrophe losses included losses from Hurricanes Ida and Nicholas which impacted our Commercial All Risk and Specialty Homeowners lines of business and a single loss from an excess liability indemnity policy covered by PESIC."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CIQ-commercial",
+      "doc_id": "CIQ",
+      "event": "Hurricane Ian",
+      "issuer": "Cincinnati Financial Corporation",
+      "owner": "Cincinnati Financial Corporation / Commercial lines",
+      "measure": "catastrophe losses and loss expenses incurred",
+      "status": "incurred",
+      "basis": "net of reinsurance",
+      "period": "three and nine months ended 2022-09-30, same event incurred during Q3; both duplicated column groups recorded once",
+      "low_usd": 26000000,
+      "high_usd": 26000000,
+      "signed_low_usd": 26000000,
+      "signed_high_usd": 26000000,
+      "row": "Sep. 27 - Oct. 1 / South (Ian)",
+      "column": "2022 Q3 and YTD / Commercial lines",
+      "unit": "USD millions",
+      "unit_scale_usd": 1000000,
+      "printed": "26",
+      "source_sign": "positive incurred cost",
+      "passage_id": "CIQ-P00952",
+      "header_ids": [
+        "CIQ-P00940",
+        "CIQ-P00941",
+        "CIQ-P00942",
+        "CIQ-P00943"
+      ],
+      "caption_ids": [
+        "CIQ-P00938",
+        "CIQ-P00939"
+      ],
+      "evidence_origin": "named event in row",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm"
+    },
+    {
+      "claim_id": "CIQ-personal",
+      "doc_id": "CIQ",
+      "event": "Hurricane Ian",
+      "issuer": "Cincinnati Financial Corporation",
+      "owner": "Cincinnati Financial Corporation / Personal lines",
+      "measure": "catastrophe losses and loss expenses incurred",
+      "status": "incurred",
+      "basis": "net of reinsurance",
+      "period": "three and nine months ended 2022-09-30, same event incurred during Q3; both duplicated column groups recorded once",
+      "low_usd": 51000000,
+      "high_usd": 51000000,
+      "signed_low_usd": 51000000,
+      "signed_high_usd": 51000000,
+      "row": "Sep. 27 - Oct. 1 / South (Ian)",
+      "column": "2022 Q3 and YTD / Personal lines",
+      "unit": "USD millions",
+      "unit_scale_usd": 1000000,
+      "printed": "51",
+      "source_sign": "positive incurred cost",
+      "passage_id": "CIQ-P00952",
+      "header_ids": [
+        "CIQ-P00940",
+        "CIQ-P00941",
+        "CIQ-P00942",
+        "CIQ-P00943"
+      ],
+      "caption_ids": [
+        "CIQ-P00938",
+        "CIQ-P00939"
+      ],
+      "evidence_origin": "named event in row",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm"
+    },
+    {
+      "claim_id": "CIQ-other",
+      "doc_id": "CIQ",
+      "event": "Hurricane Ian",
+      "issuer": "Cincinnati Financial Corporation",
+      "owner": "Cincinnati Financial Corporation / Other",
+      "measure": "catastrophe losses and loss expenses incurred",
+      "status": "incurred",
+      "basis": "net of reinsurance",
+      "period": "three and nine months ended 2022-09-30, same event incurred during Q3; both duplicated column groups recorded once",
+      "low_usd": 143000000,
+      "high_usd": 143000000,
+      "signed_low_usd": 143000000,
+      "signed_high_usd": 143000000,
+      "row": "Sep. 27 - Oct. 1 / South (Ian)",
+      "column": "2022 Q3 and YTD / Other",
+      "unit": "USD millions",
+      "unit_scale_usd": 1000000,
+      "printed": "143",
+      "source_sign": "positive incurred cost",
+      "passage_id": "CIQ-P00952",
+      "header_ids": [
+        "CIQ-P00940",
+        "CIQ-P00941",
+        "CIQ-P00942",
+        "CIQ-P00943"
+      ],
+      "caption_ids": [
+        "CIQ-P00938",
+        "CIQ-P00939"
+      ],
+      "evidence_origin": "named event in row",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm"
+    },
+    {
+      "claim_id": "CIQ-total",
+      "doc_id": "CIQ",
+      "event": "Hurricane Ian",
+      "issuer": "Cincinnati Financial Corporation",
+      "owner": "Cincinnati Financial Corporation / consolidated property casualty",
+      "measure": "catastrophe losses and loss expenses incurred",
+      "status": "incurred",
+      "basis": "net of reinsurance",
+      "period": "three and nine months ended 2022-09-30, same event incurred during Q3; both duplicated column groups recorded once",
+      "low_usd": 220000000,
+      "high_usd": 220000000,
+      "signed_low_usd": 220000000,
+      "signed_high_usd": 220000000,
+      "row": "Sep. 27 - Oct. 1 / South (Ian)",
+      "column": "2022 Q3 and YTD / Total",
+      "unit": "USD millions",
+      "unit_scale_usd": 1000000,
+      "printed": "220",
+      "source_sign": "positive incurred cost",
+      "passage_id": "CIQ-P00952",
+      "header_ids": [
+        "CIQ-P00940",
+        "CIQ-P00941",
+        "CIQ-P00942",
+        "CIQ-P00943"
+      ],
+      "caption_ids": [
+        "CIQ-P00938",
+        "CIQ-P00939"
+      ],
+      "evidence_origin": "named event in row",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm"
+    },
+    {
+      "claim_id": "PLQ-cat",
+      "doc_id": "PLQ",
+      "event": "Hurricane Ian",
+      "issuer": "Palomar Holdings, Inc.",
+      "owner": "Palomar Holdings, Inc. / consolidated",
+      "measure": "catastrophe losses, from losses and loss adjustment expenses",
+      "status": "recorded for quarter",
+      "basis": "tax and reinsurance qualifiers not explicit in this table",
+      "period": "three months ended 2022-09-30",
+      "low_usd": 12500000,
+      "high_usd": 12500000,
+      "signed_low_usd": 12500000,
+      "signed_high_usd": 12500000,
+      "row": "Catastrophe losses",
+      "column": "Three months ended September 30 / 2022",
+      "unit": "USD thousands",
+      "unit_scale_usd": 1000,
+      "printed": "12,500",
+      "source_sign": "positive incurred cost",
+      "passage_id": "PLQ-P00724",
+      "header_ids": [
+        "PLQ-P00720",
+        "PLQ-P00721",
+        "PLQ-P00722",
+        "PLQ-P00723"
+      ],
+      "caption_ids": [
+        "PLQ-P00718",
+        "PLQ-P00719",
+        "PLQ-P00727",
+        "PLQ-P00728"
+      ],
+      "evidence_origin": "direct post-table period-specific commentary (not a named event in a cell)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/plmr-20220930x10q.htm"
+    }
+  ],
+  "negative_controls": [
+    "CIQ: both E&S cells are printed dashes. No distinct numeric zero claimed. The second group repeats all four amounts; 2021 Ida, other-event adjustments in parentheses and aggregate rows do not pertain to Ian. The filing shows the event Sep. 27–Oct. 1 although the accounting window closes Sep. 30; this is not a filing-date substitution.",
+    "PLQ: 17,487 is 2021 catastrophe losses, (4,987) is the year-over-year change across different sets of catastrophes and (28.5) is a percentage. The note for 2022 attributes the losses to Ian; its word primarily modifies the insured line of business. 2021 text separately names two other hurricanes and an unrelated loss. No negative Ian-valued cell in either selected table."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "v6": {
+    "HVQ-P00765|28000000|28000000|claims_losses|0": {
+      "claim_id": "HVQ-cat",
+      "sign_correct": true,
+      "full": false,
+      "owner_correct": true,
+      "reported_amount_unit_correct": true,
+      "event_correct": true,
+      "table_evidence": false,
+      "assessment": "Direct positive USD loss incurred by the consolidated group. Both versions omit the pre-tax basis and the nine-month recognition window; the filing-quarter metadata is not the window stated for this claim. The labels claims_losses and reported also omit the more specific recognized catastrophe measure. Basis for reinsurance is not specified in this event allocation and does not itself cause the failure."
+    }
+  },
+  "v7": {
+    "HVQ-P00765|28000000|28000000|claims_losses|0": {
+      "claim_id": "HVQ-cat",
+      "sign_correct": true,
+      "full": false,
+      "owner_correct": true,
+      "reported_amount_unit_correct": true,
+      "event_correct": true,
+      "table_evidence": false,
+      "assessment": "Direct positive USD loss incurred by the consolidated group. Both versions omit the pre-tax basis and the nine-month recognition window; the filing-quarter metadata is not the window stated for this claim. The labels claims_losses and reported also omit the more specific recognized catastrophe measure. Basis for reinsurance is not specified in this event allocation and does not itself cause the failure."
+    }
+  }
+}

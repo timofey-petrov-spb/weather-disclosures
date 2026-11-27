@@ -1,0 +1,255 @@
+{
+  "frozen_utc": "2026-11-27T16:11:42.814851+00:00",
+  "sample": "everest",
+  "inputs_sha256": "c0019c441301baef6301f6847c2d234923e46c0d6a4503e4536e9cc3b945f1b1",
+  "source_inventory_sha256": "1fe7ab7f9e3057ed1c6c3578d07baf46400e9163f00521a0150a4ba91a3c85bb",
+  "claims": [
+    {
+      "claim_id": "EVQ-group",
+      "doc_id": "EVQ",
+      "event": "Hurricane Ian",
+      "issuer": "Everest Re Group, Ltd.",
+      "affected_entity": "Everest Re Group, Ltd.",
+      "measure": "current-year catastrophe losses and loss adjustment expenses",
+      "basis": "as reported in incurred losses/LAE; tax and gross/net not specified in the event allocation",
+      "status": "incurred",
+      "reporting_or_recognition_period": "Q3 and YTD through 2022-09-30",
+      "low_usd": 700000000,
+      "high_usd": 700000000,
+      "signed_low_usd": 700000000,
+      "signed_high_usd": 700000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "EVQ-P09878",
+        "EVQ-P09879",
+        "EVQ-P09880",
+        "EVQ-P09881",
+        "EVQ-P09981",
+        "EVQ-P09982"
+      ],
+      "context_ids": [
+        "EVQ-P09867",
+        "EVQ-P09873",
+        "EVQ-P09974",
+        "EVQ-P09977"
+      ],
+      "literal": "$700 million",
+      "unit_scale_usd": 1000000,
+      "source_sign": "Positive incurred loss value; source-parentheses introduce a narrative parenthetical.",
+      "table_native": false,
+      "row_label": null,
+      "column_label": null,
+      "source_grade": "running prose, explicit allocation across HTML divs",
+      "qualifiers": "Annual rounded components are preserved as printed. Quarter and YTD repeat the September event on the same valuation date.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507322000026/re-20220930.htm"
+    },
+    {
+      "claim_id": "EVQ-reinsurance",
+      "doc_id": "EVQ",
+      "event": "Hurricane Ian",
+      "issuer": "Everest Re Group, Ltd.",
+      "affected_entity": "Reinsurance segment",
+      "measure": "current-year catastrophe losses and loss adjustment expenses",
+      "basis": "as reported in incurred losses/LAE; tax and gross/net not specified in the event allocation",
+      "status": "incurred",
+      "reporting_or_recognition_period": "Q3 and YTD through 2022-09-30",
+      "low_usd": 600000000,
+      "high_usd": 600000000,
+      "signed_low_usd": 600000000,
+      "signed_high_usd": 600000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "EVQ-P12342",
+        "EVQ-P12343",
+        "EVQ-P12344",
+        "EVQ-P12345",
+        "EVQ-P12444",
+        "EVQ-P12445"
+      ],
+      "context_ids": [
+        "EVQ-P12330",
+        "EVQ-P12338",
+        "EVQ-P12437",
+        "EVQ-P12443"
+      ],
+      "literal": "$600 million",
+      "unit_scale_usd": 1000000,
+      "source_sign": "Positive incurred loss value; source-parentheses introduce a narrative parenthetical.",
+      "table_native": false,
+      "row_label": null,
+      "column_label": null,
+      "source_grade": "running prose, explicit allocation across HTML divs",
+      "qualifiers": "Annual rounded components are preserved as printed. Quarter and YTD repeat the September event on the same valuation date.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507322000026/re-20220930.htm"
+    },
+    {
+      "claim_id": "EVQ-insurance",
+      "doc_id": "EVQ",
+      "event": "Hurricane Ian",
+      "issuer": "Everest Re Group, Ltd.",
+      "affected_entity": "Insurance segment",
+      "measure": "current-year catastrophe losses and loss adjustment expenses",
+      "basis": "as reported in incurred losses/LAE; tax and gross/net not specified in the event allocation",
+      "status": "incurred",
+      "reporting_or_recognition_period": "Q3 and YTD through 2022-09-30",
+      "low_usd": 100000000,
+      "high_usd": 100000000,
+      "signed_low_usd": 100000000,
+      "signed_high_usd": 100000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "EVQ-P13333",
+        "EVQ-P13334",
+        "EVQ-P13335",
+        "EVQ-P13418",
+        "EVQ-P13419",
+        "EVQ-P13420"
+      ],
+      "context_ids": [
+        "EVQ-P13328",
+        "EVQ-P13331",
+        "EVQ-P13416",
+        "EVQ-P13417"
+      ],
+      "literal": "$100 million",
+      "unit_scale_usd": 1000000,
+      "source_sign": "Positive incurred loss value; source-parentheses introduce a narrative parenthetical.",
+      "table_native": false,
+      "row_label": null,
+      "column_label": null,
+      "source_grade": "running prose, explicit allocation across HTML divs",
+      "qualifiers": "Annual rounded components are preserved as printed. Quarter and YTD repeat the September event on the same valuation date.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507322000026/re-20220930.htm"
+    },
+    {
+      "claim_id": "EVK-group",
+      "doc_id": "EVK",
+      "event": "Hurricane Ian",
+      "issuer": "Everest Re Group, Ltd.",
+      "affected_entity": "Everest Re Group, Ltd.",
+      "measure": "current-year catastrophe losses and loss adjustment expenses",
+      "basis": "as reported in incurred losses/LAE; tax and gross/net not specified in the event allocation",
+      "status": "incurred",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 699000000,
+      "high_usd": 699000000,
+      "signed_low_usd": 699000000,
+      "signed_high_usd": 699000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "EVK-P16890",
+        "EVK-P16891",
+        "EVK-P16892"
+      ],
+      "context_ids": [
+        "EVK-P16884",
+        "EVK-P16885",
+        "EVK-P16886",
+        "EVK-P16888"
+      ],
+      "literal": "$699 million",
+      "unit_scale_usd": 1000000,
+      "source_sign": "Positive incurred loss value; source-parentheses introduce a narrative parenthetical.",
+      "table_native": false,
+      "row_label": null,
+      "column_label": null,
+      "source_grade": "running prose, explicit allocation across HTML divs",
+      "qualifiers": "Annual rounded components are preserved as printed. Quarter and YTD repeat the September event on the same valuation date.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507323000007/re-20221231.htm"
+    },
+    {
+      "claim_id": "EVK-reinsurance",
+      "doc_id": "EVK",
+      "event": "Hurricane Ian",
+      "issuer": "Everest Re Group, Ltd.",
+      "affected_entity": "Reinsurance segment",
+      "measure": "current-year catastrophe losses and loss adjustment expenses",
+      "basis": "as reported in incurred losses/LAE; tax and gross/net not specified in the event allocation",
+      "status": "incurred",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 599000000,
+      "high_usd": 599000000,
+      "signed_low_usd": 599000000,
+      "signed_high_usd": 599000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "EVK-P18668",
+        "EVK-P18669",
+        "EVK-P18670",
+        "EVK-P18671"
+      ],
+      "context_ids": [
+        "EVK-P18657",
+        "EVK-P18658",
+        "EVK-P18661",
+        "EVK-P18664"
+      ],
+      "literal": "$599 million",
+      "unit_scale_usd": 1000000,
+      "source_sign": "Positive incurred loss value; source-parentheses introduce a narrative parenthetical.",
+      "table_native": false,
+      "row_label": null,
+      "column_label": null,
+      "source_grade": "running prose, explicit allocation across HTML divs",
+      "qualifiers": "Annual rounded components are preserved as printed. Quarter and YTD repeat the September event on the same valuation date.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507323000007/re-20221231.htm"
+    },
+    {
+      "claim_id": "EVK-insurance",
+      "doc_id": "EVK",
+      "event": "Hurricane Ian",
+      "issuer": "Everest Re Group, Ltd.",
+      "affected_entity": "Insurance segment",
+      "measure": "current-year catastrophe losses and loss adjustment expenses",
+      "basis": "as reported in incurred losses/LAE; tax and gross/net not specified in the event allocation",
+      "status": "incurred",
+      "reporting_or_recognition_period": "FY2022",
+      "low_usd": 99000000,
+      "high_usd": 99000000,
+      "signed_low_usd": 99000000,
+      "signed_high_usd": 99000000,
+      "bound_type": "point",
+      "approximate": false,
+      "passage_ids": [
+        "EVK-P19220",
+        "EVK-P19221"
+      ],
+      "context_ids": [
+        "EVK-P19215",
+        "EVK-P19216",
+        "EVK-P19217",
+        "EVK-P19219"
+      ],
+      "literal": "$99 million",
+      "unit_scale_usd": 1000000,
+      "source_sign": "Positive incurred loss value; source-parentheses introduce a narrative parenthetical.",
+      "table_native": false,
+      "row_label": null,
+      "column_label": null,
+      "source_grade": "running prose, explicit allocation across HTML divs",
+      "qualifiers": "Annual rounded components are preserved as printed. Quarter and YTD repeat the September event on the same valuation date.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507323000007/re-20221231.htm"
+    }
+  ],
+  "excluded_examples": {
+    "EVQ": [
+      "Consolidated $840m Q3 and $1.0bn YTD are whole catastrophe totals. Cat bond up to $350m, $48.1bn/$63.8bn attachment/industry thresholds, and the industry estimate are not recognized entity loss or recovery for Ian. Parentheses around an attributed amount in running prose are punctuation."
+    ],
+    "EVK": [
+      "$1.1bn total spans multiple events. $350m bond limit, industry triggers and forecast excluded. Consolidated $699m is reported separately from segment $599m and $99m, rounding preserved."
+    ]
+  },
+  "counts": {
+    "EVQ": 3,
+    "EVK": 3
+  },
+  "sources": {
+    "EVQ": "https://www.sec.gov/Archives/edgar/data/1095073/000109507322000026/re-20220930.htm",
+    "EVK": "https://www.sec.gov/Archives/edgar/data/1095073/000109507323000007/re-20221231.htm"
+  }
+}

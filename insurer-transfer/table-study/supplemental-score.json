@@ -1,0 +1,269 @@
+{
+  "scored_utc": "2026-11-27T16:22:49.967835+00:00",
+  "reference_sha256": "33db10f981514556b52e80419919993ce56d3b877122d9d58daca26943cccf5f",
+  "run_manifest_sha256": "f16f24120d3e59bc4ae3c7a0cd96c0095be332df01600c99ac36715159610bfa",
+  "supplement_protocol_sha256": "074414db18351c875391472dec34c34d7641723726f3dd8faf137d42c9e1c17e",
+  "qualifying_issuers": 2,
+  "screened_issuers": 10,
+  "screened_filings": 18,
+  "registered_issuer_roster_size": 12,
+  "versions": {
+    "v6": {
+      "by_doc": {
+        "CIQ": {
+          "reference": 4,
+          "table_reference": 4,
+          "negative_reference": 0,
+          "automatic_in_table": 0,
+          "review_in_table": 0,
+          "unsupported_in_table": 0,
+          "duplicate_in_table": 0,
+          "unique_amount": 0,
+          "unique_signed": 0,
+          "unique_row_and_column_and_unit": 0,
+          "unique_full": 0,
+          "amount_recall": 0.0,
+          "full_recall": 0.0,
+          "signed_recall": 0.0,
+          "returned_table_row_precision": null,
+          "sign_accuracy_among_emitted": null,
+          "full_document_automatic": 0,
+          "false_positive_rate_among_all_table_cells": null
+        },
+        "PLQ": {
+          "reference": 1,
+          "table_reference": 1,
+          "negative_reference": 0,
+          "automatic_in_table": 0,
+          "review_in_table": 0,
+          "unsupported_in_table": 0,
+          "duplicate_in_table": 0,
+          "unique_amount": 0,
+          "unique_signed": 0,
+          "unique_row_and_column_and_unit": 0,
+          "unique_full": 0,
+          "amount_recall": 0.0,
+          "full_recall": 0.0,
+          "signed_recall": 0.0,
+          "returned_table_row_precision": null,
+          "sign_accuracy_among_emitted": null,
+          "full_document_automatic": 1,
+          "false_positive_rate_among_all_table_cells": null
+        }
+      },
+      "pooled": {
+        "reference": 5,
+        "automatic_in_table": 0,
+        "unsupported_in_table": 0,
+        "review_in_table": 0,
+        "duplicate_in_table": 0,
+        "unique_amount": 0,
+        "unique_signed": 0,
+        "unique_row_and_column_and_unit": 0,
+        "unique_full": 0,
+        "amount_recall": 0.0,
+        "signed_recall": 0.0,
+        "full_recall": 0.0,
+        "precision_in_table": null,
+        "macro_amount_recall_positive_issuers": 0.0,
+        "macro_full_recall_positive_issuers": 0.0,
+        "issuers_eligible_for_macro": 2,
+        "negative_reference": 0,
+        "negative_signed_recall": null
+      },
+      "missed": [
+        {
+          "claim_id": "CIQ-commercial",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+          "amount_usd": 26000000,
+          "row": "Sep. 27 - Oct. 1 / South (Ian)",
+          "column": "2022 Q3 and YTD / Commercial lines",
+          "unit": "USD millions",
+          "failure_reason": "The literal \"South (Ian)\" is a region-qualified event label. The four column labels are reporting segments while the accounting measure is carried by a title above the grid. These two conditions do not satisfy the frozen event-row pathway."
+        },
+        {
+          "claim_id": "CIQ-personal",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+          "amount_usd": 51000000,
+          "row": "Sep. 27 - Oct. 1 / South (Ian)",
+          "column": "2022 Q3 and YTD / Personal lines",
+          "unit": "USD millions",
+          "failure_reason": "The literal \"South (Ian)\" is a region-qualified event label. The four column labels are reporting segments while the accounting measure is carried by a title above the grid. These two conditions do not satisfy the frozen event-row pathway."
+        },
+        {
+          "claim_id": "CIQ-other",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+          "amount_usd": 143000000,
+          "row": "Sep. 27 - Oct. 1 / South (Ian)",
+          "column": "2022 Q3 and YTD / Other",
+          "unit": "USD millions",
+          "failure_reason": "The literal \"South (Ian)\" is a region-qualified event label. The four column labels are reporting segments while the accounting measure is carried by a title above the grid. These two conditions do not satisfy the frozen event-row pathway."
+        },
+        {
+          "claim_id": "CIQ-total",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+          "amount_usd": 220000000,
+          "row": "Sep. 27 - Oct. 1 / South (Ian)",
+          "column": "2022 Q3 and YTD / Total",
+          "unit": "USD millions",
+          "failure_reason": "The literal \"South (Ian)\" is a region-qualified event label. The four column labels are reporting segments while the accounting measure is carried by a title above the grid. These two conditions do not satisfy the frozen event-row pathway."
+        },
+        {
+          "claim_id": "PLQ-cat",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/plmr-20220930x10q.htm",
+          "amount_usd": 12500000,
+          "row": "Catastrophe losses",
+          "column": "Three months ended September 30 / 2022",
+          "unit": "USD thousands",
+          "failure_reason": "The dollar row contains no event name. The immediately following note assigns the 2022 column to Ian; the frozen caption pathway does not read this post-table explanation."
+        }
+      ],
+      "full_document_rows": [
+        {
+          "doc_id": "PLQ",
+          "passage_id": "PLQ-P00701",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/plmr-20220930x10q.htm",
+          "review": false,
+          "label": "claims_losses",
+          "amount_usd": 1300000,
+          "eligible_for_table_score": false,
+          "adjudication": "The positive $1.3m is a disclosed acceleration/reinstatement expense of excess-of-loss reinsurance. The submitted field claims_losses does not describe it. The value is covered by a separate narrative and no evidence links the row to the selected table."
+        }
+      ]
+    },
+    "v7": {
+      "by_doc": {
+        "CIQ": {
+          "reference": 4,
+          "table_reference": 4,
+          "negative_reference": 0,
+          "automatic_in_table": 0,
+          "review_in_table": 0,
+          "unsupported_in_table": 0,
+          "duplicate_in_table": 0,
+          "unique_amount": 0,
+          "unique_signed": 0,
+          "unique_row_and_column_and_unit": 0,
+          "unique_full": 0,
+          "amount_recall": 0.0,
+          "full_recall": 0.0,
+          "signed_recall": 0.0,
+          "returned_table_row_precision": null,
+          "sign_accuracy_among_emitted": null,
+          "full_document_automatic": 0,
+          "false_positive_rate_among_all_table_cells": null
+        },
+        "PLQ": {
+          "reference": 1,
+          "table_reference": 1,
+          "negative_reference": 0,
+          "automatic_in_table": 0,
+          "review_in_table": 0,
+          "unsupported_in_table": 0,
+          "duplicate_in_table": 0,
+          "unique_amount": 0,
+          "unique_signed": 0,
+          "unique_row_and_column_and_unit": 0,
+          "unique_full": 0,
+          "amount_recall": 0.0,
+          "full_recall": 0.0,
+          "signed_recall": 0.0,
+          "returned_table_row_precision": null,
+          "sign_accuracy_among_emitted": null,
+          "full_document_automatic": 1,
+          "false_positive_rate_among_all_table_cells": null
+        }
+      },
+      "pooled": {
+        "reference": 5,
+        "automatic_in_table": 0,
+        "unsupported_in_table": 0,
+        "review_in_table": 0,
+        "duplicate_in_table": 0,
+        "unique_amount": 0,
+        "unique_signed": 0,
+        "unique_row_and_column_and_unit": 0,
+        "unique_full": 0,
+        "amount_recall": 0.0,
+        "signed_recall": 0.0,
+        "full_recall": 0.0,
+        "precision_in_table": null,
+        "macro_amount_recall_positive_issuers": 0.0,
+        "macro_full_recall_positive_issuers": 0.0,
+        "issuers_eligible_for_macro": 2,
+        "negative_reference": 0,
+        "negative_signed_recall": null
+      },
+      "missed": [
+        {
+          "claim_id": "CIQ-commercial",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+          "amount_usd": 26000000,
+          "row": "Sep. 27 - Oct. 1 / South (Ian)",
+          "column": "2022 Q3 and YTD / Commercial lines",
+          "unit": "USD millions",
+          "failure_reason": "The literal \"South (Ian)\" is a region-qualified event label. The four column labels are reporting segments while the accounting measure is carried by a title above the grid. These two conditions do not satisfy the frozen event-row pathway."
+        },
+        {
+          "claim_id": "CIQ-personal",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+          "amount_usd": 51000000,
+          "row": "Sep. 27 - Oct. 1 / South (Ian)",
+          "column": "2022 Q3 and YTD / Personal lines",
+          "unit": "USD millions",
+          "failure_reason": "The literal \"South (Ian)\" is a region-qualified event label. The four column labels are reporting segments while the accounting measure is carried by a title above the grid. These two conditions do not satisfy the frozen event-row pathway."
+        },
+        {
+          "claim_id": "CIQ-other",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+          "amount_usd": 143000000,
+          "row": "Sep. 27 - Oct. 1 / South (Ian)",
+          "column": "2022 Q3 and YTD / Other",
+          "unit": "USD millions",
+          "failure_reason": "The literal \"South (Ian)\" is a region-qualified event label. The four column labels are reporting segments while the accounting measure is carried by a title above the grid. These two conditions do not satisfy the frozen event-row pathway."
+        },
+        {
+          "claim_id": "CIQ-total",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028622000066/cinf-20220930.htm",
+          "amount_usd": 220000000,
+          "row": "Sep. 27 - Oct. 1 / South (Ian)",
+          "column": "2022 Q3 and YTD / Total",
+          "unit": "USD millions",
+          "failure_reason": "The literal \"South (Ian)\" is a region-qualified event label. The four column labels are reporting segments while the accounting measure is carried by a title above the grid. These two conditions do not satisfy the frozen event-row pathway."
+        },
+        {
+          "claim_id": "PLQ-cat",
+          "observed": "missing",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/plmr-20220930x10q.htm",
+          "amount_usd": 12500000,
+          "row": "Catastrophe losses",
+          "column": "Three months ended September 30 / 2022",
+          "unit": "USD thousands",
+          "failure_reason": "The dollar row contains no event name. The immediately following note assigns the 2022 column to Ian; the frozen caption pathway does not read this post-table explanation."
+        }
+      ],
+      "full_document_rows": [
+        {
+          "doc_id": "PLQ",
+          "passage_id": "PLQ-P00701",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1761312/000155837022016296/plmr-20220930x10q.htm",
+          "review": false,
+          "label": "claims_losses",
+          "amount_usd": 1300000,
+          "eligible_for_table_score": false,
+          "adjudication": "The positive $1.3m is a disclosed acceleration/reinstatement expense of excess-of-loss reinsurance. The submitted field claims_losses does not describe it. The value is covered by a separate narrative and no evidence links the row to the selected table."
+        }
+      ]
+    }
+  },
+  "qualifiers": "Targeted table subset; each method ran on two entire filings. Scope comprises the selected table and its adjoining caption/explanation. Full-document narrative is shown separately. No negative signed target occurred, and neither method emitted an in-scope row; conditional precision and negative sign performance are undefined."
+}

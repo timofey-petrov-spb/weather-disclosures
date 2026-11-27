@@ -1,0 +1,21 @@
+{
+  "bound_at_utc": "2026-11-27T16:13:34.281646+00:00",
+  "protocol_sha256": "66b0a360ef9fcfcae5fba37b9946903387478cd2da88544ee8017e51a49637fa",
+  "reference_lock_sha256": "a26d79328ed730a9fa67071dbc1d33220f9e538f55562e98beff3594906dffcf",
+  "method_lock_sha256": {
+    "v6": "4532af69d461c2fc4b85fd411f2dbd3a029cf22e0a6f7e2bb745de3e6db4a04f",
+    "v7": "32c475edef8cb40152bf9d16233aba9f2c6e922a3292ef0cf88eadd1cb5e54bd"
+  },
+  "public_pre_run_commit": "779d53deeb816e1bd14d18f65267cef6568f4e8b",
+  "outputs_sha256": {
+    "arch/v6": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "arch/v7": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "everest/v6": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "everest/v7": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "axis/v6": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "axis/v7": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "hanover/v6": "509d54efc443717ecdba4ae0945d5f0b35fb4261eab52005dd6ff73f281d12e1",
+    "hanover/v7": "509d54efc443717ecdba4ae0945d5f0b35fb4261eab52005dd6ff73f281d12e1"
+  },
+  "output_directory": "../table_audit/runs/<issuer>/<version>.json"
+}
