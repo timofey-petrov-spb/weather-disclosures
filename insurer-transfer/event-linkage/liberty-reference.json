@@ -1,0 +1,22 @@
+{
+  "source": "https://www.libertymutualgroup.com/about-lm/news/media/1651",
+  "scope": "A manually transcribed extract, separate from the native-HTML test. One numeric row from Liberty Mutual's actual Q3 2005 press release. Columns and signs are copied from the published table. Section wording is abbreviated. The reader receives the same extract for both versions. This tests reading the source layout after transcription. It does not measure PDF ingestion or filing-level recall. The family overlaps the separate State Auto source through its later acquisition, so the two cases are not counted as different independent families.",
+  "gold": [
+    {
+      "table": 1,
+      "row": 3,
+      "column": 2,
+      "signed_usd": -818000000,
+      "period": "Three Months Ended September 30, 2005",
+      "measure": "Hurricane Katrina catastrophe loss contribution to pre-tax operating income"
+    },
+    {
+      "table": 1,
+      "row": 3,
+      "column": 3,
+      "signed_usd": -809000000,
+      "period": "Nine Months Ended September 30, 2005",
+      "measure": "Hurricane Katrina catastrophe loss contribution to pre-tax operating income"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "v10": {
+    "cases": {
+      "BA05": {
+        "targets": 0,
+        "matched_numeric": 0,
+        "tested_decoys": 4,
+        "decoys_falsely_attributed": 0,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [],
+        "other_outputs": [
+          {
+            "index": 0,
+            "anchor": "BA05-P00544",
+            "amount_usd": [
+              3400000000,
+              3400000000
+            ],
+            "measure": "claims_losses",
+            "entity": "Berkshire Hathaway Inc.",
+            "review": true
+          },
+          {
+            "index": 1,
+            "anchor": "BA05-P00626",
+            "amount_usd": [
+              480000000,
+              480000000
+            ],
+            "measure": "claims_losses",
+            "entity": "Berkshire Hathaway Inc.",
+            "review": true
+          }
+        ]
+      },
+      "TW12": {
+        "targets": 4,
+        "matched_numeric": 3,
+        "tested_decoys": 2,
+        "decoys_falsely_attributed": 0,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [
+          {
+            "index": 1,
+            "category": "targets",
+            "reference_index": 1,
+            "usd": 58200000,
+            "passage": "TW12-P01284"
+          },
+          {
+            "index": 2,
+            "category": "targets",
+            "reference_index": 2,
+            "usd": 9000000,
+            "passage": "TW12-P01339"
+          },
+          {
+            "index": 3,
+            "category": "targets",
+            "reference_index": 3,
+            "usd": 101000000,
+            "passage": "TW12-P02783"
+          }
+        ],
+        "other_outputs": [
+          {
+            "index": 0,
+            "anchor": "TW12-P01229",
+            "amount_usd": [
+              80100000,
+              80100000
+            ],
+            "measure": "claims_losses",
+            "entity": "Tower Group, Inc.",
+            "review": true
+          }
+        ]
+      },
+      "WME05": {
+        "targets": 1,
+        "matched_numeric": 1,
+        "tested_decoys": 2,
+        "decoys_falsely_attributed": 1,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [
+          {
+            "index": 2,
+            "category": "decoys",
+            "reference_index": 0,
+            "usd": 91000000,
+            "passage": "WME05-P00007"
+          },
+          {
+            "index": 3,
+            "category": "targets",
+            "reference_index": 0,
+            "usd": 44000000,
+            "passage": "WME05-P00007"
+          }
+        ],
+        "other_outputs": [
+          {
+            "index": 0,
+            "anchor": "WME05-P00007",
+            "amount_usd": [
+              91000000,
+              91000000
+            ],
+            "measure": "claims_losses",
+            "entity": "White Mountains Insurance Group, Ltd.",
+            "review": true
+          },
+          {
+            "index": 1,
+            "anchor": "WME05-P00007",
+            "amount_usd": [
+              44000000,
+              44000000
+            ],
+            "measure": "claims_losses",
+            "entity": "White Mountains Insurance Group, Ltd.",
+            "review": true
+          }
+        ]
+      },
+      "SAE12": {
+        "targets": 1,
+        "matched_numeric": 1,
+        "tested_decoys": 0,
+        "decoys_falsely_attributed": 0,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [
+          {
+            "index": 0,
+            "category": "targets",
+            "reference_index": 0,
+            "usd": 7300000,
+            "passage": "SAE12-P00021"
+          }
+        ],
+        "other_outputs": []
+      },
+      "HG24": {
+        "targets": 1,
+        "matched_numeric": 1,
+        "tested_decoys": 1,
+        "decoys_falsely_attributed": 0,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [
+          {
+            "index": 0,
+            "category": "targets",
+            "reference_index": 0,
+            "usd": 3700000,
+            "passage": "HG24-P00791"
+          },
+          {
+            "index": 1,
+            "category": "targets",
+            "reference_index": 0,
+            "usd": 3700000,
+            "passage": "HG24-P01970"
+          }
+        ],
+        "other_outputs": []
+      }
+    },
+    "numeric_matches": 6,
+    "targets": 7,
+    "incorrect_decoys": 1,
+    "tested_decoys": 9
+  },
+  "v11": {
+    "cases": {
+      "BA05": {
+        "targets": 0,
+        "matched_numeric": 0,
+        "tested_decoys": 4,
+        "decoys_falsely_attributed": 0,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [],
+        "other_outputs": [
+          {
+            "index": 0,
+            "anchor": "BA05-P00544",
+            "amount_usd": [
+              3400000000,
+              3400000000
+            ],
+            "measure": "claims_losses",
+            "entity": "Berkshire Hathaway Inc.",
+            "review": true
+          },
+          {
+            "index": 1,
+            "anchor": "BA05-P00626",
+            "amount_usd": [
+              480000000,
+              480000000
+            ],
+            "measure": "claims_losses",
+            "entity": "Berkshire Hathaway Inc.",
+            "review": true
+          }
+        ]
+      },
+      "TW12": {
+        "targets": 4,
+        "matched_numeric": 3,
+        "tested_decoys": 2,
+        "decoys_falsely_attributed": 0,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [
+          {
+            "index": 1,
+            "category": "targets",
+            "reference_index": 1,
+            "usd": 58200000,
+            "passage": "TW12-P01284"
+          },
+          {
+            "index": 2,
+            "category": "targets",
+            "reference_index": 2,
+            "usd": 9000000,
+            "passage": "TW12-P01339"
+          },
+          {
+            "index": 3,
+            "category": "targets",
+            "reference_index": 3,
+            "usd": 101000000,
+            "passage": "TW12-P02783"
+          }
+        ],
+        "other_outputs": [
+          {
+            "index": 0,
+            "anchor": "TW12-P01229",
+            "amount_usd": [
+              80100000,
+              80100000
+            ],
+            "measure": "claims_losses",
+            "entity": "Tower Group, Inc.",
+            "review": true
+          }
+        ]
+      },
+      "WME05": {
+        "targets": 1,
+        "matched_numeric": 1,
+        "tested_decoys": 2,
+        "decoys_falsely_attributed": 1,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [
+          {
+            "index": 2,
+            "category": "decoys",
+            "reference_index": 0,
+            "usd": 91000000,
+            "passage": "WME05-P00007"
+          },
+          {
+            "index": 3,
+            "category": "targets",
+            "reference_index": 0,
+            "usd": 44000000,
+            "passage": "WME05-P00007"
+          }
+        ],
+        "other_outputs": [
+          {
+            "index": 0,
+            "anchor": "WME05-P00007",
+            "amount_usd": [
+              91000000,
+              91000000
+            ],
+            "measure": "claims_losses",
+            "entity": "White Mountains Insurance Group, Ltd.",
+            "review": true
+          },
+          {
+            "index": 1,
+            "anchor": "WME05-P00007",
+            "amount_usd": [
+              44000000,
+              44000000
+            ],
+            "measure": "claims_losses",
+            "entity": "White Mountains Insurance Group, Ltd.",
+            "review": true
+          }
+        ]
+      },
+      "SAE12": {
+        "targets": 1,
+        "matched_numeric": 1,
+        "tested_decoys": 0,
+        "decoys_falsely_attributed": 0,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [
+          {
+            "index": 0,
+            "category": "targets",
+            "reference_index": 0,
+            "usd": 7300000,
+            "passage": "SAE12-P00021"
+          }
+        ],
+        "other_outputs": []
+      },
+      "HG24": {
+        "targets": 1,
+        "matched_numeric": 1,
+        "tested_decoys": 1,
+        "decoys_falsely_attributed": 0,
+        "automatic_table_rows": 0,
+        "verified_at_anchor": [
+          {
+            "index": 0,
+            "category": "targets",
+            "reference_index": 0,
+            "usd": 3700000,
+            "passage": "HG24-P00791"
+          },
+          {
+            "index": 1,
+            "category": "targets",
+            "reference_index": 0,
+            "usd": 3700000,
+            "passage": "HG24-P01970"
+          }
+        ],
+        "other_outputs": []
+      }
+    },
+    "numeric_matches": 6,
+    "targets": 7,
+    "incorrect_decoys": 1,
+    "tested_decoys": 9
+  }
+}

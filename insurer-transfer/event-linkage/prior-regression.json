@@ -1,0 +1,50 @@
+[
+  {
+    "case": "PR05",
+    "same": true,
+    "digests": {
+      "v10": "eb7e217aaa20043b5e7452220d68f880663766d8f955006b1d8dc454b31e8010",
+      "v11": "eb7e217aaa20043b5e7452220d68f880663766d8f955006b1d8dc454b31e8010"
+    }
+  },
+  {
+    "case": "XL05",
+    "same": true,
+    "digests": {
+      "v10": "a89e8638b4515a07980f4c69a7916dec2f5a1eed9baf35d62ba9957766a9a5eb",
+      "v11": "a89e8638b4515a07980f4c69a7916dec2f5a1eed9baf35d62ba9957766a9a5eb"
+    }
+  },
+  {
+    "case": "AS05",
+    "same": true,
+    "digests": {
+      "v10": "c9c06336814e3566964f8a3b4e8ca5a5ac058d8e05462730c988e0f17b37a817",
+      "v11": "c9c06336814e3566964f8a3b4e8ca5a5ac058d8e05462730c988e0f17b37a817"
+    }
+  },
+  {
+    "case": "PX05",
+    "same": true,
+    "digests": {
+      "v10": "b7d4e1dd1debe50a909f04f96f4d30e01c134f2a0530a2c9e0794fde9bafadfe",
+      "v11": "b7d4e1dd1debe50a909f04f96f4d30e01c134f2a0530a2c9e0794fde9bafadfe"
+    }
+  },
+  {
+    "case": "CV05",
+    "same": true,
+    "digests": {
+      "v10": "fbd422fb108d0bfc0b721c27efaf4b3c2b4c560fecb513913ee15da0fc647591",
+      "v11": "fbd422fb108d0bfc0b721c27efaf4b3c2b4c560fecb513913ee15da0fc647591"
+    }
+  },
+  {
+    "case": "PH05",
+    "same": true,
+    "digests": {
+      "v10": "4870aa2a1c24621fef4119edf53408dd2cd549eed097202bc4bebaaf62545721",
+      "v11": "4870aa2a1c24621fef4119edf53408dd2cd549eed097202bc4bebaaf62545721"
+    }
+  }
+]
