@@ -1,0 +1,21 @@
+{
+  "freeze_utc": "2026-11-27T22:09:58.227118+00:00",
+  "implementation": {
+    "v6/extract.py": "b4e8686a9733c7fd97577d90f9d20c0c84038c24148ae76a69199e942543f20e",
+    "v5/extract.py": "e6c774ea8894f962ab3e863388e2ecff9261895c6cced4b82f7b5d6bc21d4b0c",
+    "v4/extract.py": "8691f90f08724ab5a312aa43aff5a3b82885dc5856470cae36ad1506d9c0c383",
+    "v4/source_reader.py": "6dabdd91eebc3e1b5925f304f7e98a1d86f144d45ac79a238327aaa7275eb0b5",
+    "xbrl_units.py": "1f59a71ca3facd12ec25049b4cc8dea1c3231ddd8fd19b193942b3c6e8544353",
+    "extractor_v3.py": "d95fb23188e6e73b46d1c36bd3b63fa1819e75555ded5634f7f575504a144bc2",
+    "v7/extract.py": "ad3f2984a11fcde582c4c5221a70c9eac3b3253b24c11181fa0badc25eaefafd",
+    "v7/tables.py": "3d234f1089040eb401e2d245d6e053b2f9f8232d2ffd1d3109d54ef747b5e736",
+    "v8/extract.py": "fec8ff1c178f9a829ec00a25b8d54942297e162a8df5fe55892d32a3edefbee5",
+    "v9/extract.py": "bec4bb22e6246b179ed22b797e1b07157e20ddee4bf53d9ca2b9e3da1a6f5c13",
+    "v10/extract.py": "2e3ed6ea63a00c723515b8235e9f5ef74b034166022e6d5526a3b147977bf921",
+    "v11/extract.py": "def11dfd03984057d4b1ce5d95fdf1d656ad301f40688b862517677359e88448"
+  },
+  "implementation_fingerprint": "e90bdebfc66a2a022148ecb17bd637eb153dfa902f49c1425d4f0ba267bcb9c4",
+  "selection_sha256": "2b17b9cfcaa6bc873383b7aa6d5078a07792d542a37ff853be6f9e32894d9c77",
+  "development_report_sha256": "ea597a432ef8f346d7784b4d59ee53eef57791e584a01ffb395302be24af577a",
+  "control_script_sha256": "354ad23ef466120d79594a133de1e35857d13a614ad057b4ae8c97c675f72f76"
+}

@@ -1,0 +1,22 @@
+{
+  "registered_utc": "2026-11-27 22:05:57 UTC",
+  "prior_release": "dd9d74a751e19d1d6e7fdb484b1d173d90912245",
+  "purpose": "Prospective source-transfer check for the fixed v11 reader. This sample is conditional on a table with a separately printed, identifiable event-specific dollar figure.",
+  "roster": [
+    "Hannover Rück SE (Hannover Re, including E+S Rück)",
+    "Berkshire Hathaway Inc. (including General Re and National Indemnity)",
+    "Tower Group Inc. / Tower Group International (only if it passes the family test)",
+    "Liberty Mutual Holding Company / Liberty Mutual Group Inc. (including Safeco and State Auto)",
+    "Munich Re Group (including Munich Reinsurance America)",
+    "White Mountains Insurance Group (exclude any document from a previously screened subsidiary/successor)",
+    "Old Republic International Corporation",
+    "Erie Indemnity Company / Erie Insurance Exchange",
+    "MS&AD Insurance Group / Amlin (only if it passes the family test)",
+    "Oxbridge Re Holdings Limited",
+    "ICC Holdings, Inc."
+  ],
+  "family_exclusion": "Exclude any family with earlier filings actually screened or run (also exclude earlier primary and supplemental named candidate panels). Overlap across former subsidiaries must be investigated. Hannover Re SE is separate from US Hanover Insurance Group.",
+  "filing_order": "Within each family consider FY2017 Irma/Harvey/Maria, then FY2012 Sandy, FY2005 Katrina/Rita/Wilma, FY2022 Ian/Fiona/Nicole, FY2024 Milton/Helene/Debby/Beryl, FY2018 Michael/Florence/Jebi, FY2019 Dorian/Hagibis/Faxai. For each year inspect original full FY native HTML annual statements where publicly indexed, then Q3, then Q4/FY completed financial results and Q3 completed financial results published as original regulatory exhibit or native issuer release where publicly indexed. Record unavailable or inaccessible and source search limits. Native English HTML financial sections of split annual reports are allowed with the section's publication metadata. Retain the first eligible original table in document order per issuer and first event in stated priority. Stop after three eligible independent families or exhaustion; do not use PDFs or external summaries as extraction input.",
+  "eligibility": "All explicitly allocated USD financial amounts in separate cells of the selected table, including signed adjustments, expected losses, amounts rounded as published, estimates and accounts with clearly attributed amounts. Exclude currency conversions, aggregates for multiple events without separate attribution, scenario replay exposures, plain prose, sector/industry figures and values derived without a printed cell. Rank/structure and governing text may be used to identify an event with unique original evidence. Record the gross/net, reporting owner, dates and units only as warranted by the source.",
+  "scoring": "Reuse the prior independent scoring rubric. Label each source fact and seal original bytes, inputs and references before v10/v11 inference. Exact signed USD from correct source cell is a separate endpoint from measure and entity match, which is separate from full accounting provenance. Record unsupported/duplicate outputs and misses. Document manual source review and whether a second reader is used. Replaying after the seal is permitted; changing the frozen reader is not."
+}
