@@ -1,0 +1,49 @@
+{
+  "registered_utc": "2026-11-27 16:58:45 UTC",
+  "purpose": "Contingency sample fixed before the reserve filings or any held-out predictions are examined. Keep all original-panel outcomes, including negative screens. Use only enough supplemental issuer families to reach three distinct table-positive families overall. Report the two sampling frames separately. Concurrent source-only searches may prefetch reserve candidates. If the original roster yields three, no reserve table enters the scored comparison.",
+  "existing_method_commit": "b73ed79320adc5986bfa4a00dfeea38d858b3d9f",
+  "priority": [
+    [
+      "Converium Holding AG (SCOR family)",
+      "FY2005 original Form 20-F, Katrina/Rita/Wilma"
+    ],
+    [
+      "United America Indemnity / Global Indemnity Group",
+      "FY2005 original 10-K, Katrina/Rita/Wilma",
+      "FY2012 original 10-K, Sandy",
+      "FY2022 original 10-K, Ian"
+    ],
+    [
+      "Philadelphia Consolidated Holding Corp. (Tokio Marine family)",
+      "FY2005 original 10-K, Katrina/Rita/Wilma",
+      "FY2008 original 10-K, Ike/Gustav"
+    ],
+    [
+      "Hamilton Insurance Group",
+      "first final 2023 common-share IPO prospectus with full 2022 figures, Ian",
+      "FY2022 original annual filing if available, Ian",
+      "FY2024 original 10-K/20-F, Helene/Milton/Beryl"
+    ],
+    [
+      "Fidelis Insurance Holdings Ltd.",
+      "first final 2023 common-share IPO prospectus with full 2022 figures, Ian",
+      "FY2023 original 20-F, Idalia",
+      "FY2024 original 20-F, Helene/Milton/Beryl"
+    ],
+    [
+      "American Integrity Insurance Group",
+      "first final common-share IPO prospectus filed 2025 with FY2024 figures, Helene/Milton/Debby/Ian"
+    ],
+    [
+      "Slide Insurance Holdings",
+      "first final common-share IPO prospectus filed 2025 with FY2024 figures, Helene/Milton/Debby/Ian"
+    ],
+    [
+      "New York Marine / NYMAGIC",
+      "FY2005 original 10-K, Katrina/Rita/Wilma",
+      "FY2008 original 10-K, Ike/Gustav"
+    ]
+  ],
+  "eligibility": "Original SEC primary HTML or substantive HTML annual report explicitly incorporated by reference. First true table in filing order with a separately printed company dollar amount unambiguously attributed to a listed named hurricane, then the first eligible named storm in the stated priority in that table. Include all distinct attributable monetary facts anywhere in that selected physical table, retaining signs and basis. Exclude physical layout bullets, amounts only in prose, multi-storm undivided totals, number of policies, equity per share, industry totals and unsupported inferred values. Preserve failures, unavailable documents and duplicate-family exclusions. Reuse the already frozen scoring protocol. Reject any family overlapping a source already screened and retain distinct successor families across reserve and main. Source collector and secondary reviewer must agree on reference before any predictions are produced.",
+  "interpretation": "This is a table-positive stress test across potentially different storms and periods, not a prevalence or whole-industry accuracy estimate."
+}
