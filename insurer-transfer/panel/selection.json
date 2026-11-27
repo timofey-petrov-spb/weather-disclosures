@@ -1,0 +1,66 @@
+{
+  "registered_utc": "2026-11-27T15:58:12.998700+00:00",
+  "event": "Hurricane Ian (2022), US landfall on 2022-09-28",
+  "issuers": [
+    {
+      "id": "travelers",
+      "prefix": "T",
+      "cik": 86312,
+      "filing_issuer": "The Travelers Companies, Inc.",
+      "SEC_name_when_fetched": "TRAVELERS COMPANIES, INC.",
+      "metadata_url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000180/0000086312-26-000180-index-headers.html"
+    },
+    {
+      "id": "progressive",
+      "prefix": "P",
+      "cik": 80661,
+      "filing_issuer": "The Progressive Corporation",
+      "SEC_name_when_fetched": "PROGRESSIVE CORP/OH/",
+      "metadata_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000099/0000080661-26-000099-index.htm"
+    },
+    {
+      "id": "hartford",
+      "prefix": "F",
+      "cik": 874766,
+      "filing_issuer": "The Hartford Financial Services Group, Inc.",
+      "SEC_name_when_fetched": "HARTFORD INSURANCE GROUP, INC.",
+      "metadata_url": "https://www.sec.gov/edgar/browse/index.html?cik=874766"
+    },
+    {
+      "id": "renaissance",
+      "prefix": "R",
+      "cik": 913144,
+      "filing_issuer": "RenaissanceRe Holdings Ltd.",
+      "SEC_name_when_fetched": "RENAISSANCERE HOLDINGS LTD",
+      "metadata_url": "https://www.sec.gov/Archives/edgar/data/913144/000091314426000096/0000913144-26-000096-index.htm"
+    }
+  ],
+  "previous_inventory_files": [
+    "Disclosures_extension/evaluation/source_inventory.json",
+    "Disclosures_extension/evaluation/confirmation/source_inventory.json",
+    "Disclosures_extension/evaluation/ian_hci/source_inventory.json",
+    "Disclosures_extension/new_insurer_test/source_inventory.json",
+    "Disclosures_extension/new_insurer_chubb_test/source_inventory.json",
+    "Disclosures_extension/insurer-transfer/filings.json",
+    "Ida_validation/method/data/inventory.json"
+  ],
+  "previous_named_entities": [
+    "0000891166",
+    "0000896159",
+    "0000899051",
+    "0001400810",
+    "0001401521",
+    "0001598665",
+    "Chubb Limited",
+    "Entergy Corporation",
+    "H&E Equipment Services, Inc.",
+    "HCI Group, Inc.",
+    "Heritage Insurance Holdings, Inc.",
+    "The Allstate Corporation",
+    "United Insurance Holdings Corp.",
+    "Universal Insurance Holdings, Inc."
+  ],
+  "selection": "Every issuer contributes its first originally filed 10-Q with period end 2022-09-30 and first originally filed 10-K with period end 2022-12-31. Select by EDGAR submissions metadata and filing date, before inspecting disclosure content. Main primary document only. No amendments, 8-Ks, or exhibits. Report missing forms. No substitution or deletion based on outcomes. Eight target forms, two per issuer.",
+  "score": "Each economically distinct, specifically attributable USD-denominated measure in each filing is a reference unit; separately disclose directly named versus table/footnote-associated units. Score automatic amount/event with source location, then company/measure/basis/status/period. Distinguish repeats across forms from separate economic losses. Include zero-relevant forms and abstentions. Never infer allocation of joint storms, market losses or portfolio totals. The primary endpoint is frozen method vs previous frozen method on the same complete panel.",
+  "blinding": "No new primary content or predictions read by the collector before this protocol. Reference reading is separated from method development. One hurricane, not a test of independent events."
+}

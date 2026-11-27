@@ -1,0 +1,49 @@
+{
+  "freeze_utc": "2026-11-27T16:01:16.875266+00:00",
+  "implementation": {
+    "v6/extract.py": "b4e8686a9733c7fd97577d90f9d20c0c84038c24148ae76a69199e942543f20e",
+    "v5/extract.py": "e6c774ea8894f962ab3e863388e2ecff9261895c6cced4b82f7b5d6bc21d4b0c",
+    "v4/extract.py": "8691f90f08724ab5a312aa43aff5a3b82885dc5856470cae36ad1506d9c0c383",
+    "v4/source_reader.py": "6dabdd91eebc3e1b5925f304f7e98a1d86f144d45ac79a238327aaa7275eb0b5",
+    "xbrl_units.py": "1f59a71ca3facd12ec25049b4cc8dea1c3231ddd8fd19b193942b3c6e8544353",
+    "extractor_v3.py": "d95fb23188e6e73b46d1c36bd3b63fa1819e75555ded5634f7f575504a144bc2"
+  },
+  "implementation_fingerprint": "ff3528e04eb83664d56e7f77cd90455e9720e5b62d9e7885a5b85b9fcf2693a8",
+  "tests_sha256": "0a9d95b3ec4ecc2443f96fbcb25b0bceb8562d662835e897b8d823c87bfb2f62",
+  "development": {
+    "hci": {
+      "output_sha256": "f0e67810b6ac8e9d494d33300a094127ec48f231f676035f4568011c6334f951",
+      "automatic": 23,
+      "review": 0
+    },
+    "allstate": {
+      "output_sha256": "1f7cc8be6c7940d35508eaf3fc4d86edf9bf76f901fee3489744d8d9530bbabb",
+      "automatic": 5,
+      "review": 0
+    },
+    "michael": {
+      "output_sha256": "d511f8908a98024069eac3cfe482193fc6f4ab85e949c7027d9ed31681c20a7c",
+      "automatic": 6,
+      "review": 0
+    },
+    "irma": {
+      "output_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "automatic": 0,
+      "review": 0
+    },
+    "chubb": {
+      "output_sha256": "c76f4fda5d418b10fe09e53f11232f17e83682a0e5265989cd4888abdcbf02d5",
+      "automatic": 2,
+      "review": 0
+    },
+    "elliott": {
+      "output_sha256": "d2a724d6d99e5e05b8cd9f48171d6775163716d9c2b35c0cb15a29994dea9b39",
+      "automatic": 1,
+      "review": 0
+    }
+  },
+  "runtime": "Standard library, Python 3.10+",
+  "cli": "python v6/extract.py INPUTS_JSONL PRIMARY_HTML_DIRECTORY OUTPUT_JSON [--event EVENT]",
+  "method": "Local source-anchored financial phrases, per-event allocation, qualified ordinal lists, existing row verification and accounting-tag support.",
+  "boundary": "HCI, Allstate, Chubb and earlier Michael/Irma filings are development controls. The developer did not access the identities, filings, reference annotations or outputs of any newly selected confirmation insurer before this freeze. Chubb results are post-fix development results."
+}
