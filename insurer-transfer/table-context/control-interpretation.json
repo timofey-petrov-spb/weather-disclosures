@@ -1,0 +1,192 @@
+[
+  {
+    "id": "equivalent_unit",
+    "raw_expected": [
+      [
+        5,
+        4,
+        771010000,
+        "gross"
+      ],
+      [
+        5,
+        7,
+        638010000,
+        "net"
+      ]
+    ],
+    "raw_observed": [
+      [
+        5,
+        4,
+        771010000,
+        "gross"
+      ],
+      [
+        5,
+        7,
+        638010000,
+        "net of reinsurance recoveries"
+      ]
+    ],
+    "literal": false,
+    "coordinates_and_usd": true,
+    "economic_direction": true
+  },
+  {
+    "id": "flat_dollars",
+    "raw_expected": [
+      [
+        5,
+        4,
+        771010,
+        "gross"
+      ],
+      [
+        5,
+        7,
+        638010,
+        "net"
+      ]
+    ],
+    "raw_observed": [
+      [
+        5,
+        4,
+        771010,
+        "gross"
+      ],
+      [
+        5,
+        7,
+        638010,
+        "net result"
+      ]
+    ],
+    "literal": false,
+    "coordinates_and_usd": true,
+    "economic_direction": true
+  },
+  {
+    "id": "governing_measure",
+    "raw_expected": [
+      [
+        5,
+        4,
+        51700000,
+        "gross"
+      ]
+    ],
+    "raw_observed": [
+      [
+        5,
+        4,
+        51700000,
+        "gross"
+      ]
+    ],
+    "literal": true,
+    "coordinates_and_usd": true,
+    "economic_direction": true
+  },
+  {
+    "id": "multiple_storms",
+    "raw_expected": [],
+    "raw_observed": [],
+    "literal": true,
+    "coordinates_and_usd": true,
+    "economic_direction": true
+  },
+  {
+    "id": "four_digit_dates",
+    "raw_expected": [
+      [
+        7,
+        8,
+        2000000,
+        "net"
+      ],
+      [
+        8,
+        8,
+        5700000,
+        "net"
+      ],
+      [
+        10,
+        8,
+        7700000,
+        "net"
+      ]
+    ],
+    "raw_observed": [
+      [
+        7,
+        8,
+        2000000,
+        "retained net of catastrophe reinsurance"
+      ],
+      [
+        8,
+        8,
+        5700000,
+        "retained net of catastrophe reinsurance"
+      ],
+      [
+        10,
+        8,
+        7700000,
+        "retained net of catastrophe reinsurance"
+      ]
+    ],
+    "literal": false,
+    "coordinates_and_usd": true,
+    "economic_direction": true
+  },
+  {
+    "id": "other_column",
+    "raw_expected": [
+      [
+        7,
+        8,
+        2000000,
+        "net"
+      ],
+      [
+        8,
+        8,
+        5700000,
+        "net"
+      ],
+      [
+        10,
+        8,
+        7700000,
+        "net"
+      ]
+    ],
+    "raw_observed": [
+      [
+        7,
+        8,
+        2000000,
+        "retained net of catastrophe reinsurance"
+      ],
+      [
+        8,
+        8,
+        5700000,
+        "retained net of catastrophe reinsurance"
+      ],
+      [
+        10,
+        8,
+        7700000,
+        "retained net of catastrophe reinsurance"
+      ]
+    ],
+    "literal": false,
+    "coordinates_and_usd": true,
+    "economic_direction": true
+  }
+]

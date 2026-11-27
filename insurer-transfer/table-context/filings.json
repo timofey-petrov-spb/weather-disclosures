@@ -1,0 +1,140 @@
+[
+  {
+    "doc_id": "PX05",
+    "issuer": "PXRE Group Ltd.",
+    "event": "Katrina",
+    "cik": "1091748",
+    "accession": "0001125282-06-001680",
+    "form": "10-K",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-03-16T20:38:07Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/b412207_10k.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/0001125282-06-001680-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1091748/000112528206001680/b412207_10k.htm",
+    "primary_bytes": 2287889,
+    "primary_sha256": "1575d7a463af372fbb5a6d7b5fcacc381c60625751a3d3a86738dcd434d7ae9a",
+    "index_sha256": "84efd8870100ad2c3e0544816dec9fdc712fec2fc56d22fdb6f490a2c2db2ef9",
+    "rows": 2435,
+    "inputs_sha256": "29ecb001afd5dbfc9adb08b7c844a9aabd35ee26ab7ec53a2b54a6ad1e2dc75d",
+    "role": "development",
+    "output_digests": {
+      "v9": "f4008dad08999d3839a32a9b642f6e0706e46d519e6c6c79b690564e487724da",
+      "v10": "b7d4e1dd1debe50a909f04f96f4d30e01c134f2a0530a2c9e0794fde9bafadfe"
+    }
+  },
+  {
+    "doc_id": "CV05",
+    "issuer": "Converium Holding AG",
+    "event": "Katrina",
+    "cik": "1162586",
+    "accession": "0001156973-06-000763",
+    "form": "20-F",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-06-29T19:56:23Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/u50380e20vf.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/0001156973-06-000763-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1162586/000115697306000763/u50380e20vf.htm",
+    "primary_bytes": 2264810,
+    "primary_sha256": "02872b0a9631d662dd981100041a315667240164a8a7bc84f520189edd47060c",
+    "index_sha256": "496f5c5e8c61f45067382b2145b0713e326405b53c3fd5286cf7b2aa9f42fa67",
+    "rows": 4568,
+    "inputs_sha256": "f4b1be5f45ede1bd06f9d6940f49ffe5e03dd4c8f0f25442cb9db4f9910ff092",
+    "role": "development",
+    "output_digests": {
+      "v9": "25f16878c3c0b0fdfe4374b7ae9b440eaa5d4dae7c3e2042354ea88c6e2c9958",
+      "v10": "fbd422fb108d0bfc0b721c27efaf4b3c2b4c560fecb513913ee15da0fc647591"
+    }
+  },
+  {
+    "doc_id": "PH05",
+    "issuer": "Philadelphia Consolidated Holding Corp.",
+    "event": "Katrina",
+    "cik": "909109",
+    "accession": "0000893220-06-000532",
+    "form": "10-K",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-03-14T21:10:33Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/w18434e10vk.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/0000893220-06-000532-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/909109/000089322006000532/w18434e10vk.htm",
+    "primary_bytes": 1235253,
+    "primary_sha256": "fd92170669032317704e6d89e914743bf68762c4123526414c0668ac283fd89d",
+    "index_sha256": "d190e301893e832010a55d32f6d5b78f5fbba3e37e5e72496223e24cbc73a40a",
+    "rows": 2141,
+    "inputs_sha256": "85bcae1885faa62def553a9b8060f600b2ec21347d021c53c437cd54e31bc95f",
+    "role": "development",
+    "output_digests": {
+      "v9": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v10": "4870aa2a1c24621fef4119edf53408dd2cd549eed097202bc4bebaaf62545721"
+    }
+  },
+  {
+    "doc_id": "FN05",
+    "issuer": "21st Century Holding Company",
+    "event": "Katrina",
+    "cik": "1069996",
+    "accession": "0001144204-06-012513",
+    "form": "10-K",
+    "period": "2005-12-31",
+    "accepted_at_utc": "2006-03-30T22:32:21Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1069996/000114420406012513/v039025_10k.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1069996/000114420406012513/0001144204-06-012513-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1069996/000114420406012513/v039025_10k.htm",
+    "primary_bytes": 4034115,
+    "primary_sha256": "b1714b0d58a6a6e6d363e608252be65bb92fc38d0221d11fe8bd6c46a587e52e",
+    "index_sha256": "9cb95ed21fe03ec627a88db618994f35650a73657bea345727afb3136721b4cd",
+    "rows": 2287,
+    "inputs_sha256": "2d1e271d014f05faae54774d3f52f090b2bc51a3dcc7e96102a7353405380250",
+    "role": "holdout",
+    "output_digests": {
+      "v9": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v10": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  {
+    "doc_id": "MD12",
+    "issuer": "Maiden Holdings, Ltd.",
+    "event": "Sandy",
+    "cik": "1412100",
+    "accession": "0001412100-13-000009",
+    "form": "10-K",
+    "period": "2012-12-31",
+    "accepted_at_utc": "2013-03-11T11:59:59Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1412100/000141210013000009/mhld-20121231x10k.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1412100/000141210013000009/0001412100-13-000009-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1412100/000141210013000009/mhld-20121231x10k.htm",
+    "primary_bytes": 5856765,
+    "primary_sha256": "9a352edc69120b1a2ee2cc4cc7cc9dc2a22f249b7c6fbffefbc9812a2afa341e",
+    "index_sha256": "b71dc72932e4b777096972d1e67b42f762a0520f3be7791eb2849cd94c34465a",
+    "rows": 3664,
+    "inputs_sha256": "693ca5479292e06f01c06fe575b21d16b214406c3a22e9283418e7eb7f284c99",
+    "role": "holdout",
+    "output_digests": {
+      "v9": "54035bf03aef84392e53aa815eafe18b999b985a41dd6145d738525019ac06a4",
+      "v10": "54035bf03aef84392e53aa815eafe18b999b985a41dd6145d738525019ac06a4"
+    }
+  },
+  {
+    "doc_id": "SF12",
+    "issuer": "Safety Insurance Group, Inc.",
+    "event": "Sandy",
+    "cik": "1172052",
+    "accession": "0001047469-13-002988",
+    "form": "10-K",
+    "period": "2012-12-31",
+    "accepted_at_utc": "2013-03-18T21:08:16Z",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1172052/000104746913002988/a2213726z10-k.htm",
+    "official_index_url": "https://www.sec.gov/Archives/edgar/data/1172052/000104746913002988/0001047469-13-002988-index.htm",
+    "download_url": "https://edgar-mirror.sec-api.io/1172052/000104746913002988/a2213726z10-k.htm",
+    "primary_bytes": 1866826,
+    "primary_sha256": "5a85920dc2edb3e015c14c875db9927dc72e5f5439521952a15acd332631a927",
+    "index_sha256": "188d1bd89dfcde5afaf0ddb236b406add7a46c605f28a5543f5925405738ac14",
+    "rows": 2112,
+    "inputs_sha256": "08771d0a4f97db0eef2a4382a1fbfdd023ce71812f85a441192d5da3f0e5dbfc",
+    "role": "holdout",
+    "output_digests": {
+      "v9": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "v10": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  }
+]

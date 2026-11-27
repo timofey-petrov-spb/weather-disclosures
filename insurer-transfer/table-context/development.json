@@ -1,0 +1,453 @@
+{
+  "PX05": {
+    "v9": {
+      "matched": 0,
+      "reference": 2,
+      "details": [
+        {
+          "id": "PX05-gross",
+          "coordinate": [
+            23,
+            5,
+            4
+          ],
+          "original_cell": "771,010",
+          "reference_usd": 771010000,
+          "correct": false,
+          "outputs": [
+            {
+              "correct": false,
+              "signed_usd": 771010,
+              "measure": "Gross Incurred Loss",
+              "owner": "PXRE Group Ltd.",
+              "basis": "gross",
+              "tax": null,
+              "status": "incurred",
+              "window": "As of December 31, 2005",
+              "occurrences": [],
+              "scale": 1,
+              "unit": "771,010",
+              "source_passages": [
+                "PX05-P00290",
+                "PX05-P00289",
+                "PX05-P00288"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PX05-net",
+          "coordinate": [
+            23,
+            5,
+            7
+          ],
+          "original_cell": "638,010",
+          "reference_usd": 638010000,
+          "correct": false,
+          "outputs": [
+            {
+              "correct": false,
+              "signed_usd": 638010,
+              "measure": "Net Incurred Loss (1)",
+              "owner": "PXRE Group Ltd.",
+              "basis": "net result",
+              "tax": null,
+              "status": "incurred",
+              "window": "As of December 31, 2005",
+              "occurrences": [],
+              "scale": 1,
+              "unit": "638,010",
+              "source_passages": [
+                "PX05-P00290",
+                "PX05-P00289",
+                "PX05-P00288"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_records": [
+        {
+          "passage": "PX05-P00123",
+          "usd": 806900000,
+          "measure": "insurance_recovery",
+          "review": false
+        },
+        {
+          "passage": "PX05-P00204",
+          "usd": 771000000,
+          "measure": "claims_losses",
+          "review": false
+        },
+        {
+          "passage": "PX05-P00287",
+          "usd": 850800000,
+          "measure": "claims_losses",
+          "review": false
+        },
+        {
+          "passage": "PX05-P01023",
+          "usd": 1014500000,
+          "measure": "claims_losses",
+          "review": false
+        },
+        {
+          "passage": "PX05-P00738",
+          "usd": 771000000,
+          "measure": "catastrophe_losses",
+          "review": false
+        },
+        {
+          "passage": "PX05-P00739",
+          "usd": 556400000,
+          "measure": "catastrophe_losses",
+          "review": false
+        },
+        {
+          "passage": "PX05-P00758",
+          "usd": 638000000,
+          "measure": "catastrophe_losses",
+          "review": false
+        }
+      ]
+    },
+    "v10": {
+      "matched": 2,
+      "reference": 2,
+      "details": [
+        {
+          "id": "PX05-gross",
+          "coordinate": [
+            23,
+            5,
+            4
+          ],
+          "original_cell": "771,010",
+          "reference_usd": 771010000,
+          "correct": true,
+          "outputs": [
+            {
+              "correct": true,
+              "signed_usd": 771010000,
+              "measure": "Gross Incurred Loss",
+              "owner": "PXRE Group Ltd.",
+              "basis": "gross",
+              "tax": "pretax",
+              "status": "incurred; estimated ultimate loss",
+              "window": "As of December 31, 2005",
+              "occurrences": [],
+              "scale": 1000,
+              "unit": "($000’s)",
+              "source_passages": [
+                "PX05-P00290",
+                "PX05-P00289",
+                "PX05-P00288",
+                "PX05-P00287",
+                "PX05-P00295"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PX05-net",
+          "coordinate": [
+            23,
+            5,
+            7
+          ],
+          "original_cell": "638,010",
+          "reference_usd": 638010000,
+          "correct": true,
+          "outputs": [
+            {
+              "correct": true,
+              "signed_usd": 638010000,
+              "measure": "Net Incurred Loss (1)",
+              "owner": "PXRE Group Ltd.",
+              "basis": "net of reinsurance recoveries",
+              "tax": "pretax",
+              "status": "incurred; estimated ultimate loss",
+              "window": "As of December 31, 2005",
+              "occurrences": [],
+              "scale": 1000,
+              "unit": "($000’s)",
+              "source_passages": [
+                "PX05-P00290",
+                "PX05-P00289",
+                "PX05-P00288",
+                "PX05-P00287",
+                "PX05-P00294",
+                "PX05-P00295"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_records": [
+        {
+          "passage": "PX05-P00204",
+          "usd": 771000000,
+          "measure": "claims_losses",
+          "review": false
+        },
+        {
+          "passage": "PX05-P00738",
+          "usd": 771000000,
+          "measure": "catastrophe_losses",
+          "review": false
+        },
+        {
+          "passage": "PX05-P00739",
+          "usd": 556400000,
+          "measure": "catastrophe_losses",
+          "review": false
+        },
+        {
+          "passage": "PX05-P00758",
+          "usd": 638000000,
+          "measure": "catastrophe_losses",
+          "review": false
+        }
+      ]
+    }
+  },
+  "CV05": {
+    "v9": {
+      "matched": 0,
+      "reference": 1,
+      "details": [
+        {
+          "id": "CV05-net",
+          "coordinate": [
+            104,
+            5,
+            4
+          ],
+          "original_cell": "44.6",
+          "reference_usd": 44600000,
+          "correct": false,
+          "outputs": []
+        }
+      ],
+      "other_records": [
+        {
+          "passage": "CV05-P01849",
+          "usd": 15600000,
+          "measure": "claims_losses",
+          "review": false
+        }
+      ]
+    },
+    "v10": {
+      "matched": 1,
+      "reference": 1,
+      "details": [
+        {
+          "id": "CV05-net",
+          "coordinate": [
+            104,
+            5,
+            4
+          ],
+          "original_cell": "44.6",
+          "reference_usd": 44600000,
+          "correct": true,
+          "outputs": [
+            {
+              "correct": true,
+              "signed_usd": 44600000,
+              "measure": "net incurred property catastrophe losses",
+              "owner": "Converium Holding AG",
+              "basis": "net",
+              "tax": null,
+              "status": "incurred",
+              "window": "year ended December 31, 2005",
+              "occurrences": [],
+              "scale": 1000000,
+              "unit": "(US$ millions)",
+              "source_passages": [
+                "CV05-P01454",
+                "CV05-P01450",
+                "CV05-P01451",
+                "CV05-P01458"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_records": []
+    }
+  },
+  "PH05": {
+    "v9": {
+      "matched": 0,
+      "reference": 3,
+      "details": [
+        {
+          "id": "PH05-personal",
+          "coordinate": [
+            57,
+            7,
+            8
+          ],
+          "original_cell": "2.0",
+          "reference_usd": 2000000,
+          "correct": false,
+          "outputs": []
+        },
+        {
+          "id": "PH05-commercial",
+          "coordinate": [
+            57,
+            8,
+            8
+          ],
+          "original_cell": "5.7",
+          "reference_usd": 5700000,
+          "correct": false,
+          "outputs": []
+        },
+        {
+          "id": "PH05-total",
+          "coordinate": [
+            57,
+            10,
+            8
+          ],
+          "original_cell": "7.7",
+          "reference_usd": 7700000,
+          "correct": false,
+          "outputs": []
+        }
+      ],
+      "other_records": []
+    },
+    "v10": {
+      "matched": 3,
+      "reference": 3,
+      "details": [
+        {
+          "id": "PH05-personal",
+          "coordinate": [
+            57,
+            7,
+            8
+          ],
+          "original_cell": "2.0",
+          "reference_usd": 2000000,
+          "correct": true,
+          "outputs": [
+            {
+              "correct": true,
+              "signed_usd": 2000000,
+              "measure": "Net Loss and Loss Adjustment Expense Estimates",
+              "owner": "Philadelphia Consolidated Holding Corp. — Personal Lines",
+              "basis": "retained net of catastrophe reinsurance",
+              "tax": null,
+              "status": "estimate",
+              "window": "FY2005",
+              "occurrences": [
+                "2005-08-25",
+                "2005-08-29"
+              ],
+              "scale": 1000000,
+              "unit": "(In millions)",
+              "source_passages": [
+                "PH05-P00616",
+                "PH05-P00618",
+                "PH05-P00619",
+                "PH05-P00006",
+                "PH05-P00617",
+                "PH05-P00614",
+                "PH05-P00615",
+                "PH05-P00613"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PH05-commercial",
+          "coordinate": [
+            57,
+            8,
+            8
+          ],
+          "original_cell": "5.7",
+          "reference_usd": 5700000,
+          "correct": true,
+          "outputs": [
+            {
+              "correct": true,
+              "signed_usd": 5700000,
+              "measure": "Net Loss and Loss Adjustment Expense Estimates",
+              "owner": "Philadelphia Consolidated Holding Corp. — Commercial Lines",
+              "basis": "retained net of catastrophe reinsurance",
+              "tax": null,
+              "status": "estimate",
+              "window": "FY2005",
+              "occurrences": [
+                "2005-08-25",
+                "2005-08-29"
+              ],
+              "scale": 1000000,
+              "unit": "(In millions)",
+              "source_passages": [
+                "PH05-P00616",
+                "PH05-P00618",
+                "PH05-P00620",
+                "PH05-P00006",
+                "PH05-P00617",
+                "PH05-P00619",
+                "PH05-P00614",
+                "PH05-P00615",
+                "PH05-P00613"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PH05-total",
+          "coordinate": [
+            57,
+            10,
+            8
+          ],
+          "original_cell": "7.7",
+          "reference_usd": 7700000,
+          "correct": true,
+          "outputs": [
+            {
+              "correct": true,
+              "signed_usd": 7700000,
+              "measure": "Net Loss and Loss Adjustment Expense Estimates",
+              "owner": "Philadelphia Consolidated Holding Corp.",
+              "basis": "retained net of catastrophe reinsurance",
+              "tax": null,
+              "status": "estimate",
+              "window": "FY2005",
+              "occurrences": [
+                "2005-08-25",
+                "2005-08-29"
+              ],
+              "scale": 1000000,
+              "unit": "(In millions)",
+              "source_passages": [
+                "PH05-P00616",
+                "PH05-P00618",
+                "PH05-P00621",
+                "PH05-P00006",
+                "PH05-P00617",
+                "PH05-P00619",
+                "PH05-P00614",
+                "PH05-P00615",
+                "PH05-P00613"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_records": []
+    }
+  }
+}

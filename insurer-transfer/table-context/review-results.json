@@ -1,0 +1,178 @@
+[
+  {
+    "doc_id": "PX05",
+    "role": "development",
+    "url": "https://www.sec.gov/Archives/edgar/data/1091748/000112528206001680/b412207_10k.htm",
+    "reference_table": 23,
+    "rank": 1,
+    "candidate_count": 3,
+    "suggestions": [
+      {
+        "table": 23,
+        "score": 13,
+        "first_passage": "PX05-P00288",
+        "last_passage": "PX05-P00293",
+        "event_passage": "PX05-P00290",
+        "numeric_cells": 8,
+        "rows": 10
+      },
+      {
+        "table": 48,
+        "score": 13,
+        "first_passage": "PX05-P00689",
+        "last_passage": "PX05-P00694",
+        "event_passage": "PX05-P00691",
+        "numeric_cells": 8,
+        "rows": 10
+      },
+      {
+        "table": 50,
+        "score": 11,
+        "first_passage": "PX05-P00699",
+        "last_passage": "PX05-P00704",
+        "event_passage": "PX05-P00700",
+        "numeric_cells": 9,
+        "rows": 10
+      }
+    ]
+  },
+  {
+    "doc_id": "CV05",
+    "role": "development",
+    "url": "https://www.sec.gov/Archives/edgar/data/1162586/000115697306000763/u50380e20vf.htm",
+    "reference_table": 104,
+    "rank": 1,
+    "candidate_count": 2,
+    "suggestions": [
+      {
+        "table": 104,
+        "score": 13,
+        "first_passage": "CV05-P01451",
+        "last_passage": "CV05-P01457",
+        "event_passage": "CV05-P01454",
+        "numeric_cells": 6,
+        "rows": 8
+      },
+      {
+        "table": 130,
+        "score": 6,
+        "first_passage": "CV05-P01833",
+        "last_passage": "CV05-P01847",
+        "event_passage": "CV05-P01849",
+        "numeric_cells": 33,
+        "rows": 18
+      }
+    ]
+  },
+  {
+    "doc_id": "PH05",
+    "role": "development",
+    "url": "https://www.sec.gov/Archives/edgar/data/909109/000089322006000532/w18434e10vk.htm",
+    "reference_table": 57,
+    "rank": 1,
+    "candidate_count": 2,
+    "suggestions": [
+      {
+        "table": 57,
+        "score": 13,
+        "first_passage": "PH05-P00614",
+        "last_passage": "PH05-P00621",
+        "event_passage": "PH05-P00616",
+        "numeric_cells": 13,
+        "rows": 11
+      },
+      {
+        "table": 56,
+        "score": 6,
+        "first_passage": "PH05-P00603",
+        "last_passage": "PH05-P00607",
+        "event_passage": "PH05-P00609",
+        "numeric_cells": 12,
+        "rows": 6
+      }
+    ]
+  },
+  {
+    "doc_id": "FN05",
+    "role": "holdout",
+    "url": "https://www.sec.gov/Archives/edgar/data/1069996/000114420406012513/v039025_10k.htm",
+    "reference_table": 13,
+    "rank": 1,
+    "candidate_count": 3,
+    "suggestions": [
+      {
+        "table": 13,
+        "score": 13,
+        "first_passage": "FN05-P00224",
+        "last_passage": "FN05-P00231",
+        "event_passage": "FN05-P00228",
+        "numeric_cells": 19,
+        "rows": 9
+      },
+      {
+        "table": 23,
+        "score": 13,
+        "first_passage": "FN05-P00443",
+        "last_passage": "FN05-P00455",
+        "event_passage": "FN05-P00452",
+        "numeric_cells": 30,
+        "rows": 15
+      },
+      {
+        "table": 43,
+        "score": 13,
+        "first_passage": "FN05-P00857",
+        "last_passage": "FN05-P00864",
+        "event_passage": "FN05-P00861",
+        "numeric_cells": 18,
+        "rows": 9
+      }
+    ]
+  },
+  {
+    "doc_id": "MD12",
+    "role": "holdout",
+    "url": "https://www.sec.gov/Archives/edgar/data/1412100/000141210013000009/mhld-20121231x10k.htm",
+    "reference_table": 123,
+    "rank": 1,
+    "candidate_count": 3,
+    "suggestions": [
+      {
+        "table": 123,
+        "score": 6,
+        "first_passage": "MD12-P01083",
+        "last_passage": "MD12-P01086",
+        "event_passage": "MD12-P01082",
+        "numeric_cells": 8,
+        "rows": 6
+      },
+      {
+        "table": 145,
+        "score": 6,
+        "first_passage": "MD12-P01150",
+        "last_passage": "MD12-P01156",
+        "event_passage": "MD12-P01157",
+        "numeric_cells": 18,
+        "rows": 9
+      },
+      {
+        "table": 146,
+        "score": 6,
+        "first_passage": "MD12-P01159",
+        "last_passage": "MD12-P01163",
+        "event_passage": "MD12-P01157",
+        "numeric_cells": 12,
+        "rows": 7
+      }
+    ]
+  },
+  {
+    "doc_id": "SF12",
+    "role": "holdout",
+    "url": "https://www.sec.gov/Archives/edgar/data/1172052/000104746913002988/a2213726z10-k.htm",
+    "reference_table": 21,
+    "rank": null,
+    "candidate_count": 0,
+    "suggestions": []
+  }
+]

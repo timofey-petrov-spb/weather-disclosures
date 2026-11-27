@@ -1,0 +1,180 @@
+[
+  {
+    "id": "equivalent_unit",
+    "expected": [
+      [
+        5,
+        4,
+        771010000,
+        "gross"
+      ],
+      [
+        5,
+        7,
+        638010000,
+        "net"
+      ]
+    ],
+    "observed": [
+      [
+        5,
+        4,
+        771010000,
+        "gross"
+      ],
+      [
+        5,
+        7,
+        638010000,
+        "net of reinsurance recoveries"
+      ]
+    ],
+    "matched": false
+  },
+  {
+    "id": "flat_dollars",
+    "expected": [
+      [
+        5,
+        4,
+        771010,
+        "gross"
+      ],
+      [
+        5,
+        7,
+        638010,
+        "net"
+      ]
+    ],
+    "observed": [
+      [
+        5,
+        4,
+        771010,
+        "gross"
+      ],
+      [
+        5,
+        7,
+        638010,
+        "net result"
+      ]
+    ],
+    "matched": false
+  },
+  {
+    "id": "governing_measure",
+    "expected": [
+      [
+        5,
+        4,
+        51700000,
+        "gross"
+      ]
+    ],
+    "observed": [
+      [
+        5,
+        4,
+        51700000,
+        "gross"
+      ]
+    ],
+    "matched": true
+  },
+  {
+    "id": "multiple_storms",
+    "expected": [],
+    "observed": [],
+    "matched": true
+  },
+  {
+    "id": "four_digit_dates",
+    "expected": [
+      [
+        7,
+        8,
+        2000000,
+        "net"
+      ],
+      [
+        8,
+        8,
+        5700000,
+        "net"
+      ],
+      [
+        10,
+        8,
+        7700000,
+        "net"
+      ]
+    ],
+    "observed": [
+      [
+        7,
+        8,
+        2000000,
+        "retained net of catastrophe reinsurance"
+      ],
+      [
+        8,
+        8,
+        5700000,
+        "retained net of catastrophe reinsurance"
+      ],
+      [
+        10,
+        8,
+        7700000,
+        "retained net of catastrophe reinsurance"
+      ]
+    ],
+    "matched": false
+  },
+  {
+    "id": "other_column",
+    "expected": [
+      [
+        7,
+        8,
+        2000000,
+        "net"
+      ],
+      [
+        8,
+        8,
+        5700000,
+        "net"
+      ],
+      [
+        10,
+        8,
+        7700000,
+        "net"
+      ]
+    ],
+    "observed": [
+      [
+        7,
+        8,
+        2000000,
+        "retained net of catastrophe reinsurance"
+      ],
+      [
+        8,
+        8,
+        5700000,
+        "retained net of catastrophe reinsurance"
+      ],
+      [
+        10,
+        8,
+        7700000,
+        "retained net of catastrophe reinsurance"
+      ]
+    ],
+    "matched": false
+  }
+]

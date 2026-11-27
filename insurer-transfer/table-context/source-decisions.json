@@ -1,0 +1,92 @@
+{
+  "v9": {
+    "FN05": [],
+    "MD12": [
+      [
+        "MD12-P01079",
+        25000000,
+        25000000,
+        "loss_exposure",
+        "outside",
+        "unsupported_truncated_range",
+        null,
+        false,
+        false,
+        null,
+        "The cited prose explicitly reports an initial forecast between $25m and $35m net of applicable reinsurance and catastrophe provisions. The prediction treats the lower endpoint alone as a point estimate. It is not a complete forecast or a table fact."
+      ],
+      [
+        "MD12-P01082",
+        31100000,
+        31100000,
+        "claims_losses",
+        "outside",
+        "supported_prose_corroboration",
+        null,
+        false,
+        false,
+        null,
+        "The paragraph immediately before the selected table independently states a consolidated $31.1m of FY2012 incurred losses due to Sandy. It corroborates the table total. The output cites the paragraph only, supplies no table cell, and does not recover the component split."
+      ],
+      [
+        "MD12-P02140",
+        79700000,
+        79700000,
+        "reinsurance_recoveries",
+        "outside",
+        "supported_prose",
+        null,
+        false,
+        false,
+        null,
+        "The cited passage reports $79.7m of estimated reinsurance recoverable on unpaid losses tied to Sandy at December 31, 2012, a group receivable attributed almost exclusively to Maiden Specialty's book. Ceded/anticipated is compatible with a recoverable rather than a cash receipt. This is outside the selected incurred-loss table; the output leaves the specific as-of date implicit."
+      ]
+    ],
+    "SF12": []
+  },
+  "v10": {
+    "FN05": [],
+    "MD12": [
+      [
+        "MD12-P01079",
+        25000000,
+        25000000,
+        "loss_exposure",
+        "outside",
+        "unsupported_truncated_range",
+        null,
+        false,
+        false,
+        null,
+        "The cited prose explicitly reports an initial forecast between $25m and $35m net of applicable reinsurance and catastrophe provisions. The prediction treats the lower endpoint alone as a point estimate. It is not a complete forecast or a table fact."
+      ],
+      [
+        "MD12-P01082",
+        31100000,
+        31100000,
+        "claims_losses",
+        "outside",
+        "supported_prose_corroboration",
+        null,
+        false,
+        false,
+        null,
+        "The paragraph immediately before the selected table independently states a consolidated $31.1m of FY2012 incurred losses due to Sandy. It corroborates the table total. The output cites the paragraph only, supplies no table cell, and does not recover the component split."
+      ],
+      [
+        "MD12-P02140",
+        79700000,
+        79700000,
+        "reinsurance_recoveries",
+        "outside",
+        "supported_prose",
+        null,
+        false,
+        false,
+        null,
+        "The cited passage reports $79.7m of estimated reinsurance recoverable on unpaid losses tied to Sandy at December 31, 2012, a group receivable attributed almost exclusively to Maiden Specialty's book. Ceded/anticipated is compatible with a recoverable rather than a cash receipt. This is outside the selected incurred-loss table; the output leaves the specific as-of date implicit."
+      ]
+    ],
+    "SF12": []
+  }
+}
