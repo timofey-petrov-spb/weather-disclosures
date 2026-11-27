@@ -1,0 +1,535 @@
+{
+  "scoring_protocol_sha256": "87cb4b2f48739c059b1a4567fd12a99b9690ec4a05723149df42fb5ae8902751",
+  "source_review_sha256": "a503c50f8fbd726c7567ea1570cf250aaa0d0fdf51ec65e8cfc4e28221ade2dd",
+  "judgments_sha256": "48b7ebc625dbfd30da07d533852baea75ed77450ef993ff4f248ffdbb84061ab",
+  "versions": {
+    "v8": {
+      "by_filing": {
+        "PX05": {
+          "reference": 2,
+          "automatic": 2,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": 0.0,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": 0.0,
+          "distinct_amount_precision": 0.0,
+          "supported_row_precision": 0.0,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 2,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "PX05-gross",
+            "PX05-net"
+          ],
+          "missing_full": [
+            "PX05-gross",
+            "PX05-net"
+          ],
+          "table_dispositions": {
+            "wrong_unit_scale": 2
+          },
+          "outside_table_automatic": 7,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {
+            "unsupported_event_and_measure": 1,
+            "supported_prose": 3,
+            "unsupported_event_allocation": 2,
+            "supported_duplicate": 1
+          }
+        },
+        "CV05": {
+          "reference": 1,
+          "automatic": 0,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": null,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": null,
+          "distinct_amount_precision": null,
+          "supported_row_precision": null,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 0,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "CV05-net"
+          ],
+          "missing_full": [
+            "CV05-net"
+          ],
+          "table_dispositions": {},
+          "outside_table_automatic": 1,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {
+            "unsupported_event_and_owner": 1
+          }
+        },
+        "PH05": {
+          "reference": 3,
+          "automatic": 0,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": null,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": null,
+          "distinct_amount_precision": null,
+          "supported_row_precision": null,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 0,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "PH05-commercial",
+            "PH05-personal",
+            "PH05-total"
+          ],
+          "missing_full": [
+            "PH05-commercial",
+            "PH05-personal",
+            "PH05-total"
+          ],
+          "table_dispositions": {},
+          "outside_table_automatic": 0,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {}
+        }
+      },
+      "by_sampling_frame": {
+        "original_roster": {
+          "reference": 2,
+          "automatic": 2,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": 0.0,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": 0.0,
+          "distinct_amount_precision": 0.0,
+          "supported_row_precision": 0.0,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 2,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "PX05-gross",
+            "PX05-net"
+          ],
+          "missing_full": [
+            "PX05-gross",
+            "PX05-net"
+          ],
+          "table_dispositions": {
+            "wrong_unit_scale": 2
+          },
+          "outside_table_automatic": 7,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {
+            "unsupported_event_and_measure": 1,
+            "supported_prose": 3,
+            "unsupported_event_allocation": 2,
+            "supported_duplicate": 1
+          }
+        },
+        "reserve_supplement": {
+          "reference": 4,
+          "automatic": 0,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": null,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": null,
+          "distinct_amount_precision": null,
+          "supported_row_precision": null,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 0,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "CV05-net",
+            "PH05-commercial",
+            "PH05-personal",
+            "PH05-total"
+          ],
+          "missing_full": [
+            "CV05-net",
+            "PH05-commercial",
+            "PH05-personal",
+            "PH05-total"
+          ],
+          "table_dispositions": {},
+          "outside_table_automatic": 1,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {
+            "unsupported_event_and_owner": 1
+          }
+        }
+      },
+      "pooled": {
+        "reference": 6,
+        "automatic": 2,
+        "relaxed_number_and_event": 0,
+        "correct_measure_wrong_owner": 0,
+        "true_negative_rate": null,
+        "relaxed_number_and_event_recall": 0.0,
+        "relaxed_number_and_event_precision": 0.0,
+        "distinct_amount": 0,
+        "distinct_signed": 0,
+        "distinct_full": 0,
+        "amount_recall": 0.0,
+        "signed_recall": 0.0,
+        "full_recall": 0.0,
+        "full_precision": 0.0,
+        "distinct_amount_precision": 0.0,
+        "supported_row_precision": 0.0,
+        "negative_reference": 0,
+        "signed_negatives": 0,
+        "negative_signed_recall": null,
+        "unsupported": 2,
+        "duplicates": 0,
+        "review_only": 0,
+        "missing_amount": [
+          "CV05-net",
+          "PH05-commercial",
+          "PH05-personal",
+          "PH05-total",
+          "PX05-gross",
+          "PX05-net"
+        ],
+        "missing_full": [
+          "CV05-net",
+          "PH05-commercial",
+          "PH05-personal",
+          "PH05-total",
+          "PX05-gross",
+          "PX05-net"
+        ],
+        "table_dispositions": {
+          "wrong_unit_scale": 2
+        },
+        "outside_table_automatic": 8,
+        "outside_table_review": 0,
+        "outside_table_by_disposition": {
+          "unsupported_event_and_measure": 1,
+          "supported_prose": 3,
+          "unsupported_event_allocation": 2,
+          "supported_duplicate": 1,
+          "unsupported_event_and_owner": 1
+        }
+      },
+      "macro_amount_recall": 0.0,
+      "macro_filing_count": 3,
+      "macro_precision": 0.0,
+      "macro_precision_filing_count": 1
+    },
+    "v9": {
+      "by_filing": {
+        "PX05": {
+          "reference": 2,
+          "automatic": 2,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": 0.0,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": 0.0,
+          "distinct_amount_precision": 0.0,
+          "supported_row_precision": 0.0,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 2,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "PX05-gross",
+            "PX05-net"
+          ],
+          "missing_full": [
+            "PX05-gross",
+            "PX05-net"
+          ],
+          "table_dispositions": {
+            "wrong_unit_scale": 2
+          },
+          "outside_table_automatic": 7,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {
+            "unsupported_event_and_measure": 1,
+            "supported_prose": 3,
+            "unsupported_event_allocation": 2,
+            "supported_duplicate": 1
+          }
+        },
+        "CV05": {
+          "reference": 1,
+          "automatic": 0,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": null,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": null,
+          "distinct_amount_precision": null,
+          "supported_row_precision": null,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 0,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "CV05-net"
+          ],
+          "missing_full": [
+            "CV05-net"
+          ],
+          "table_dispositions": {},
+          "outside_table_automatic": 1,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {
+            "unsupported_event_and_owner": 1
+          }
+        },
+        "PH05": {
+          "reference": 3,
+          "automatic": 0,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": null,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": null,
+          "distinct_amount_precision": null,
+          "supported_row_precision": null,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 0,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "PH05-commercial",
+            "PH05-personal",
+            "PH05-total"
+          ],
+          "missing_full": [
+            "PH05-commercial",
+            "PH05-personal",
+            "PH05-total"
+          ],
+          "table_dispositions": {},
+          "outside_table_automatic": 0,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {}
+        }
+      },
+      "by_sampling_frame": {
+        "original_roster": {
+          "reference": 2,
+          "automatic": 2,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": 0.0,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": 0.0,
+          "distinct_amount_precision": 0.0,
+          "supported_row_precision": 0.0,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 2,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "PX05-gross",
+            "PX05-net"
+          ],
+          "missing_full": [
+            "PX05-gross",
+            "PX05-net"
+          ],
+          "table_dispositions": {
+            "wrong_unit_scale": 2
+          },
+          "outside_table_automatic": 7,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {
+            "unsupported_event_and_measure": 1,
+            "supported_prose": 3,
+            "unsupported_event_allocation": 2,
+            "supported_duplicate": 1
+          }
+        },
+        "reserve_supplement": {
+          "reference": 4,
+          "automatic": 0,
+          "relaxed_number_and_event": 0,
+          "correct_measure_wrong_owner": 0,
+          "true_negative_rate": null,
+          "relaxed_number_and_event_recall": 0.0,
+          "relaxed_number_and_event_precision": null,
+          "distinct_amount": 0,
+          "distinct_signed": 0,
+          "distinct_full": 0,
+          "amount_recall": 0.0,
+          "signed_recall": 0.0,
+          "full_recall": 0.0,
+          "full_precision": null,
+          "distinct_amount_precision": null,
+          "supported_row_precision": null,
+          "negative_reference": 0,
+          "signed_negatives": 0,
+          "negative_signed_recall": null,
+          "unsupported": 0,
+          "duplicates": 0,
+          "review_only": 0,
+          "missing_amount": [
+            "CV05-net",
+            "PH05-commercial",
+            "PH05-personal",
+            "PH05-total"
+          ],
+          "missing_full": [
+            "CV05-net",
+            "PH05-commercial",
+            "PH05-personal",
+            "PH05-total"
+          ],
+          "table_dispositions": {},
+          "outside_table_automatic": 1,
+          "outside_table_review": 0,
+          "outside_table_by_disposition": {
+            "unsupported_event_and_owner": 1
+          }
+        }
+      },
+      "pooled": {
+        "reference": 6,
+        "automatic": 2,
+        "relaxed_number_and_event": 0,
+        "correct_measure_wrong_owner": 0,
+        "true_negative_rate": null,
+        "relaxed_number_and_event_recall": 0.0,
+        "relaxed_number_and_event_precision": 0.0,
+        "distinct_amount": 0,
+        "distinct_signed": 0,
+        "distinct_full": 0,
+        "amount_recall": 0.0,
+        "signed_recall": 0.0,
+        "full_recall": 0.0,
+        "full_precision": 0.0,
+        "distinct_amount_precision": 0.0,
+        "supported_row_precision": 0.0,
+        "negative_reference": 0,
+        "signed_negatives": 0,
+        "negative_signed_recall": null,
+        "unsupported": 2,
+        "duplicates": 0,
+        "review_only": 0,
+        "missing_amount": [
+          "CV05-net",
+          "PH05-commercial",
+          "PH05-personal",
+          "PH05-total",
+          "PX05-gross",
+          "PX05-net"
+        ],
+        "missing_full": [
+          "CV05-net",
+          "PH05-commercial",
+          "PH05-personal",
+          "PH05-total",
+          "PX05-gross",
+          "PX05-net"
+        ],
+        "table_dispositions": {
+          "wrong_unit_scale": 2
+        },
+        "outside_table_automatic": 8,
+        "outside_table_review": 0,
+        "outside_table_by_disposition": {
+          "unsupported_event_and_measure": 1,
+          "supported_prose": 3,
+          "unsupported_event_allocation": 2,
+          "supported_duplicate": 1,
+          "unsupported_event_and_owner": 1
+        }
+      },
+      "macro_amount_recall": 0.0,
+      "macro_filing_count": 3,
+      "macro_precision": 0.0,
+      "macro_precision_filing_count": 1
+    }
+  }
+}

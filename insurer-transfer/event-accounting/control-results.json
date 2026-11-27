@@ -1,0 +1,131 @@
+[
+  {
+    "id": "premium_revision",
+    "expected": [
+      -563000000,
+      -2000000,
+      71000000,
+      -494000000
+    ],
+    "observed": [
+      {
+        "column": 4,
+        "usd": -563000000,
+        "measure": "Net losses and loss expenses",
+        "owner": "PartnerRe Ltd."
+      },
+      {
+        "column": 8,
+        "usd": -2000000,
+        "measure": "Acquisition costs",
+        "owner": "PartnerRe Ltd."
+      },
+      {
+        "column": 12,
+        "usd": 71000000,
+        "measure": "Reinstatement or additional premiums earned",
+        "owner": "PartnerRe Ltd."
+      },
+      {
+        "column": 15,
+        "usd": -494000000,
+        "measure": "Impact on pre-tax net income",
+        "owner": "PartnerRe Ltd."
+      }
+    ],
+    "matched_source_fields": true
+  },
+  {
+    "id": "caption_scale",
+    "expected": [
+      -563000,
+      -2000,
+      54000,
+      -511000
+    ],
+    "observed": [
+      {
+        "column": 4,
+        "usd": -563000,
+        "measure": "Net losses and loss expenses",
+        "owner": "PartnerRe Ltd."
+      },
+      {
+        "column": 8,
+        "usd": -2000,
+        "measure": "Acquisition costs",
+        "owner": "PartnerRe Ltd."
+      },
+      {
+        "column": 12,
+        "usd": 54000,
+        "measure": "Reinstatement or additional premiums earned",
+        "owner": "PartnerRe Ltd."
+      },
+      {
+        "column": 15,
+        "usd": -511000,
+        "measure": "Impact on pre-tax net income",
+        "owner": "PartnerRe Ltd."
+      }
+    ],
+    "matched_source_fields": true
+  },
+  {
+    "id": "premium_sign",
+    "expected": [
+      74600000,
+      16300000,
+      23600000,
+      114500000
+    ],
+    "observed": [
+      {
+        "column": 4,
+        "usd": 74600000,
+        "measure": "Net premiums earned",
+        "owner": "XL Capital Ltd — Insurance"
+      },
+      {
+        "column": 8,
+        "usd": 16300000,
+        "measure": "Net premiums earned",
+        "owner": "XL Capital Ltd — Reinsurance"
+      },
+      {
+        "column": 12,
+        "usd": 23600000,
+        "measure": "Net premiums earned",
+        "owner": "XL Capital Ltd — Financial Products and Services"
+      },
+      {
+        "column": 16,
+        "usd": 114500000,
+        "measure": "Net premiums earned",
+        "owner": "XL Capital Ltd"
+      }
+    ],
+    "matched_source_fields": true
+  },
+  {
+    "id": "different_year",
+    "expected": [
+      427500000
+    ],
+    "observed": [
+      {
+        "column": 5,
+        "usd": 427500000,
+        "measure": "Property Reinsurance losses and loss adjustment expenses",
+        "owner": "Aspen Insurance Holdings Limited — Property Reinsurance"
+      }
+    ],
+    "matched_source_fields": true
+  },
+  {
+    "id": "other_event",
+    "expected": [],
+    "observed": [],
+    "matched_source_fields": true
+  }
+]

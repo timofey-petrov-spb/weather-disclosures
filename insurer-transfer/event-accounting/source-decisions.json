@@ -1,0 +1,19 @@
+{
+  "both_versions": {
+    "PX05": [
+      [123,806900000,"insurance_recovery","outside","unsupported_event_and_measure",null,false,false,null,"The underwriting loss after recoveries and premium effects is for Katrina, Rita and Wilma combined. It is an expense after recoveries, not the amount recovered."],
+      [204,771000000,"claims_losses","outside","supported_prose",null,false,false,null,"Source explicitly assigns $771.0m gross loss and expenses to Katrina as of December 31. This narrative assertion is rounded; T23 displays $771.010m."],
+      [287,850800000,"claims_losses","outside","unsupported_event_allocation",null,false,false,null,"This sentence preceding T23 reports net losses for all three hurricanes before tax and premium effects. The heading is part of the table evidence trail, but the proposal is anchored to prose rather than a monetary data cell."],
+      [1023,1014500000,"claims_losses","outside","unsupported_event_allocation",null,false,false,null,"The year-end estimate of $1,014.5m is the gross incurred loss across Katrina, Rita and Wilma."],
+      [738,771000000,"catastrophe_losses","outside","supported_duplicate",null,false,false,null,"The dated sentence independently confirms the year-end Katrina gross estimate of $771.0m already emitted from PX05-P00204. It adds no distinct economic assertion and omits the explicit gross basis in its output fields."],
+      [739,556400000,"catastrophe_losses","outside","supported_prose",null,false,false,null,"A September 30 estimate allocates $556.4m gross to Katrina. It is a distinct earlier valuation rather than the December estimate. The output omits the gross basis and valuation date from its structured fields."],
+      [758,638000000,"catastrophe_losses","outside","supported_prose",null,false,false,null,"Current-year net incurred loss of $638.0m is explicitly allocated to Katrina in this paragraph. It is rounded and lacks the net basis in the structured proposal."],
+      [290,771010,"Gross Incurred Loss","table","wrong_unit_scale",null,false,false,null,"Table 23 row 5 column 4 is the right storm and gross loss. Header ($000’s) means $771,010,000. The prediction interprets the printed number as $771,010, one thousandth of the source value."],
+      [290,638010,"Net Incurred Loss (1)","table","wrong_unit_scale",null,false,false,null,"Table 23 row 5 column 7 is net of outwards recoveries. The prediction reads $638,010 rather than $638,010,000; the scale was 1 instead of 1,000 and note (1) is absent from the evidence."]
+    ],
+    "CV05": [
+      [1849,15600000,"claims_losses","outside","unsupported_event_and_owner",null,false,false,null,"The Run-Off segment reports $15.6m for Katrina, Rita and Wilma together. Its total net impact cannot be assigned to Katrina or recorded as the group's individual storm loss. Table 104 reports the $44.6m group figure independently."]
+    ],
+    "PH05": []
+  }
+}

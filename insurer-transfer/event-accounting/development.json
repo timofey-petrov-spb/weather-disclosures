@@ -1,0 +1,590 @@
+{
+  "test": "Original development filing, source dollar cell, sign, scale, event, measure, owner, period and disclosed tax/reinsurance terms checked against the independently reviewed source reference. Coordinates are one-based expanded HTML positions. The income bridge and its constituents are separate assertions.",
+  "issuers": {
+    "PR05": {
+      "reference": 4,
+      "correct": 4,
+      "other_records": [
+        {
+          "passage_id": "PR05-P00602",
+          "source_channel": "legacy_evidence",
+          "low_usd": 724000000,
+          "measure": "claims_losses",
+          "review": true
+        }
+      ]
+    },
+    "XL05": {
+      "reference": 11,
+      "correct": 11,
+      "other_records": [
+        {
+          "passage_id": "XL05-P00923",
+          "source_channel": "legacy_evidence",
+          "low_usd": 1270000000,
+          "measure": "estimated losses incurred",
+          "review": false
+        },
+        {
+          "passage_id": "XL05-P01170",
+          "source_channel": "legacy_evidence",
+          "low_usd": 947000000,
+          "measure": "claims_losses",
+          "review": true
+        },
+        {
+          "passage_id": "XL05-P01170",
+          "source_channel": "legacy_evidence",
+          "low_usd": 185800000,
+          "measure": "claims_losses",
+          "review": true
+        }
+      ]
+    },
+    "AS05": {
+      "reference": 1,
+      "correct": 1,
+      "other_records": [
+        {
+          "passage_id": "AS05-P00396",
+          "source_channel": "single_cause_prose",
+          "low_usd": 25000000,
+          "measure": "potential derivative recovery",
+          "review": false
+        }
+      ]
+    }
+  },
+  "matches": [
+    {
+      "id": "PR05-loss",
+      "filing": "PR05",
+      "url": "https://www.sec.gov/Archives/edgar/data/911421/000119312506043961/d10k.htm",
+      "coordinate": [
+        36,
+        6,
+        4
+      ],
+      "source_cell": "(563",
+      "sign_cells": [
+        {
+          "table": 36,
+          "row": 6,
+          "column": 5,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": ")",
+          "passage_id": "PR05-P00608"
+        }
+      ],
+      "signed_usd": -563000000,
+      "scale": 1000000,
+      "owner": "PartnerRe Ltd.",
+      "measure": "Net losses and loss expenses",
+      "basis": "net",
+      "tax": null,
+      "status": "incurred",
+      "period": "2005 Calendar Year",
+      "evidence_passage_ids": [
+        "PR05-P00608",
+        "PR05-P00605",
+        "PR05-P00604",
+        "PR05-P00603"
+      ],
+      "measure_source": "PR05-P00605",
+      "unit_source": "PR05-P00603"
+    },
+    {
+      "id": "PR05-acq",
+      "filing": "PR05",
+      "url": "https://www.sec.gov/Archives/edgar/data/911421/000119312506043961/d10k.htm",
+      "coordinate": [
+        36,
+        6,
+        8
+      ],
+      "source_cell": "(2",
+      "sign_cells": [
+        {
+          "table": 36,
+          "row": 6,
+          "column": 9,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": ")",
+          "passage_id": "PR05-P00608"
+        }
+      ],
+      "signed_usd": -2000000,
+      "scale": 1000000,
+      "owner": "PartnerRe Ltd.",
+      "measure": "Acquisition costs",
+      "basis": null,
+      "tax": null,
+      "status": "reported",
+      "period": "2005 Calendar Year",
+      "evidence_passage_ids": [
+        "PR05-P00608",
+        "PR05-P00605",
+        "PR05-P00604",
+        "PR05-P00603"
+      ],
+      "measure_source": "PR05-P00605",
+      "unit_source": "PR05-P00603"
+    },
+    {
+      "id": "PR05-premium",
+      "filing": "PR05",
+      "url": "https://www.sec.gov/Archives/edgar/data/911421/000119312506043961/d10k.htm",
+      "coordinate": [
+        36,
+        6,
+        12
+      ],
+      "source_cell": "54",
+      "sign_cells": [],
+      "signed_usd": 54000000,
+      "scale": 1000000,
+      "owner": "PartnerRe Ltd.",
+      "measure": "Reinstatement or additional premiums earned",
+      "basis": null,
+      "tax": null,
+      "status": "earned",
+      "period": "2005 Calendar Year",
+      "evidence_passage_ids": [
+        "PR05-P00608",
+        "PR05-P00605",
+        "PR05-P00604",
+        "PR05-P00603"
+      ],
+      "measure_source": "PR05-P00605",
+      "unit_source": "PR05-P00603"
+    },
+    {
+      "id": "PR05-income",
+      "filing": "PR05",
+      "url": "https://www.sec.gov/Archives/edgar/data/911421/000119312506043961/d10k.htm",
+      "coordinate": [
+        36,
+        6,
+        15
+      ],
+      "source_cell": "(511",
+      "sign_cells": [
+        {
+          "table": 36,
+          "row": 6,
+          "column": 16,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": ")",
+          "passage_id": "PR05-P00608"
+        }
+      ],
+      "signed_usd": -511000000,
+      "scale": 1000000,
+      "owner": "PartnerRe Ltd.",
+      "measure": "Impact on pre-tax net income",
+      "basis": "net income impact",
+      "tax": "pretax",
+      "status": "reported impact",
+      "period": "2005 Calendar Year",
+      "evidence_passage_ids": [
+        "PR05-P00608",
+        "PR05-P00605",
+        "PR05-P00604",
+        "PR05-P00603"
+      ],
+      "measure_source": "PR05-P00605",
+      "unit_source": "PR05-P00603"
+    },
+    {
+      "id": "XL05-prem-ins",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        11,
+        4
+      ],
+      "source_cell": "(74.6",
+      "sign_cells": [
+        {
+          "table": 31,
+          "row": 11,
+          "column": 5,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": ")",
+          "passage_id": "XL05-P00935"
+        }
+      ],
+      "signed_usd": -74600000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd — Insurance",
+      "measure": "Net premiums earned",
+      "basis": "net",
+      "tax": null,
+      "status": "earned",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00935",
+        "XL05-P00934",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929"
+      ],
+      "measure_source": "XL05-P00934",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-prem-re",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        11,
+        8
+      ],
+      "source_cell": "16.3",
+      "sign_cells": [],
+      "signed_usd": 16300000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd — Reinsurance",
+      "measure": "Net premiums earned",
+      "basis": "net",
+      "tax": null,
+      "status": "earned",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00935",
+        "XL05-P00934",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929"
+      ],
+      "measure_source": "XL05-P00934",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-prem-fps",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        11,
+        12
+      ],
+      "source_cell": "23.6",
+      "sign_cells": [],
+      "signed_usd": 23600000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd — Financial Products and Services",
+      "measure": "Net premiums earned",
+      "basis": "net",
+      "tax": null,
+      "status": "earned",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00935",
+        "XL05-P00934",
+        "XL05-P00930",
+        "XL05-P00931",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929"
+      ],
+      "measure_source": "XL05-P00934",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-prem-group",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        11,
+        16
+      ],
+      "source_cell": "(34.7",
+      "sign_cells": [
+        {
+          "table": 31,
+          "row": 11,
+          "column": 17,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": ")",
+          "passage_id": "XL05-P00935"
+        }
+      ],
+      "signed_usd": -34700000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd",
+      "measure": "Net premiums earned",
+      "basis": "net",
+      "tax": null,
+      "status": "earned",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00935",
+        "XL05-P00934",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929"
+      ],
+      "measure_source": "XL05-P00934",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-gross-ins",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        20,
+        4
+      ],
+      "source_cell": "1,339.7",
+      "sign_cells": [],
+      "signed_usd": 1339700000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd — Insurance",
+      "measure": "Gross losses and loss expenses",
+      "basis": "gross",
+      "tax": null,
+      "status": "estimated losses incurred",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00941",
+        "XL05-P00940",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929",
+        "XL05-P00923"
+      ],
+      "measure_source": "XL05-P00940",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-gross-re",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        20,
+        8
+      ],
+      "source_cell": "1,128.0",
+      "sign_cells": [],
+      "signed_usd": 1128000000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd — Reinsurance",
+      "measure": "Gross losses and loss expenses",
+      "basis": "gross",
+      "tax": null,
+      "status": "estimated losses incurred",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00941",
+        "XL05-P00940",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929",
+        "XL05-P00923"
+      ],
+      "measure_source": "XL05-P00940",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-gross-fps",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        20,
+        12
+      ],
+      "source_cell": "45.0",
+      "sign_cells": [],
+      "signed_usd": 45000000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd — Financial Products and Services",
+      "measure": "Gross losses and loss expenses",
+      "basis": "gross",
+      "tax": null,
+      "status": "estimated losses incurred",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00941",
+        "XL05-P00940",
+        "XL05-P00930",
+        "XL05-P00931",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929",
+        "XL05-P00923"
+      ],
+      "measure_source": "XL05-P00940",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-gross-group",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        20,
+        16
+      ],
+      "source_cell": "2,512.7",
+      "sign_cells": [],
+      "signed_usd": 2512700000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd",
+      "measure": "Gross losses and loss expenses",
+      "basis": "gross",
+      "tax": null,
+      "status": "estimated losses incurred",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00941",
+        "XL05-P00940",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929",
+        "XL05-P00923"
+      ],
+      "measure_source": "XL05-P00940",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-rec-ins",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        29,
+        4
+      ],
+      "source_cell": "748.6",
+      "sign_cells": [],
+      "signed_usd": 748600000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd — Insurance",
+      "measure": "Losses and loss expenses recoverable",
+      "basis": "recoverable",
+      "tax": null,
+      "status": "recognized recoverable",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00947",
+        "XL05-P00946",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929"
+      ],
+      "measure_source": "XL05-P00946",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-rec-re",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        29,
+        8
+      ],
+      "source_cell": "495.3",
+      "sign_cells": [],
+      "signed_usd": 495300000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd — Reinsurance",
+      "measure": "Losses and loss expenses recoverable",
+      "basis": "recoverable",
+      "tax": null,
+      "status": "recognized recoverable",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00947",
+        "XL05-P00946",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929"
+      ],
+      "measure_source": "XL05-P00946",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "XL05-rec-group",
+      "filing": "XL05",
+      "url": "https://www.sec.gov/Archives/edgar/data/875159/000093041306001850/c41009_10k.htm",
+      "coordinate": [
+        31,
+        29,
+        16
+      ],
+      "source_cell": "1,243.9",
+      "sign_cells": [],
+      "signed_usd": 1243900000,
+      "scale": 1000000,
+      "owner": "XL Capital Ltd",
+      "measure": "Losses and loss expenses recoverable",
+      "basis": "recoverable",
+      "tax": null,
+      "status": "recognized recoverable",
+      "period": "Year ended December 31, 2005",
+      "evidence_passage_ids": [
+        "XL05-P00947",
+        "XL05-P00946",
+        "XL05-P00932",
+        "XL05-P00927",
+        "XL05-P00928",
+        "XL05-P00929"
+      ],
+      "measure_source": "XL05-P00946",
+      "unit_source": "XL05-P00929"
+    },
+    {
+      "id": "AS05-property",
+      "filing": "AS05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1267395/000095013606001663/file001.htm",
+      "coordinate": [
+        185,
+        5,
+        5
+      ],
+      "source_cell": "$427.5",
+      "sign_cells": [],
+      "signed_usd": 427500000,
+      "scale": 1000000,
+      "owner": "Aspen Insurance Holdings Limited — Property Reinsurance",
+      "measure": "Property Reinsurance losses and loss adjustment expenses",
+      "basis": "net of reinsurance recoveries",
+      "tax": null,
+      "status": "incurred",
+      "period": "For the twelve months ended December 31, 2005",
+      "evidence_passage_ids": [
+        "AS05-P01336",
+        "AS05-P01333",
+        "AS05-P01334",
+        "AS05-P01335",
+        "AS05-P01332",
+        "AS05-P01342"
+      ],
+      "measure_source": "AS05-P01333",
+      "unit_source": "AS05-P01335"
+    }
+  ]
+}
