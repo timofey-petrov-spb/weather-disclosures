@@ -1,0 +1,7 @@
+{
+  "role": "Supplementary source retrieval for a human reviewer. It never emits dollar amounts or contributes to extraction metrics.",
+  "cutoff": 3,
+  "endpoint": "Among filings with a reference table, count the selected table if its original ordinal is in the first three suggestions. Publish exact ranks, number of suggestions and cell counts. Count all registered selected filings even if no candidates are returned. No accuracy estimate for any human reviewer.",
+  "scoring": "Consider tables with a distinct numeric cell and the supplied storm name inside the table or its caption or at most two neighbouring non-table passages on either side. Score 8 for a short storm cell, 5 for longer storm text inside the table or caption, otherwise 1. Add 2 for monetary context, 2 for financial measure language, 1 for at least two numeric cells. Break ties in source order. Selection controls and parameters are fixed before any new table identity or reference is provided to the author of the locator.",
+  "basis": "The exact extraction endpoint, independent source review, positive-only table selection and v9 comparison are unchanged. Scores on development and external filings must be separated."
+}

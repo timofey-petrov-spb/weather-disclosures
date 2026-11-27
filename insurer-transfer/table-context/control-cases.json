@@ -1,0 +1,82 @@
+[
+  {
+    "id": "equivalent_unit",
+    "doc": "PX05",
+    "table": 23,
+    "amounts": [
+      771010000,
+      638010000
+    ],
+    "basis": [
+      "gross",
+      "net"
+    ],
+    "description": "Express every monetary cell in millions at three decimal places; the USD values must be invariant."
+  },
+  {
+    "id": "flat_dollars",
+    "doc": "PX05",
+    "table": 23,
+    "amounts": [
+      771010,
+      638010
+    ],
+    "basis": [
+      "gross",
+      "net"
+    ],
+    "description": "Change only the table caption to US dollars. Both extracted USD values must fall by a factor of 1,000."
+  },
+  {
+    "id": "governing_measure",
+    "doc": "CV05",
+    "table": 104,
+    "amounts": [
+      51700000
+    ],
+    "basis": [
+      "gross"
+    ],
+    "description": "Change the governing paragraph from net to gross incurred losses and the Katrina cell from 44.6 to 51.7. Both changes must carry into the record."
+  },
+  {
+    "id": "multiple_storms",
+    "doc": "CV05",
+    "table": 104,
+    "amounts": [],
+    "basis": [],
+    "description": "Make the original Katrina amount a combined Katrina and Rita amount. No single-storm record should remain in this table."
+  },
+  {
+    "id": "four_digit_dates",
+    "doc": "PH05",
+    "table": 57,
+    "amounts": [
+      2000000,
+      5700000,
+      7700000
+    ],
+    "basis": [
+      "net",
+      "net",
+      "net"
+    ],
+    "description": "Expand both Katrina dates from 05 to 2005. The two segments and their total must stay in their original cells."
+  },
+  {
+    "id": "other_column",
+    "doc": "PH05",
+    "table": 57,
+    "amounts": [
+      2000000,
+      5700000,
+      7700000
+    ],
+    "basis": [
+      "net",
+      "net",
+      "net"
+    ],
+    "description": "Move $0.5m from Dennis personal lines to its commercial lines. The values in the neighbouring Katrina column must stay the same."
+  }
+]
