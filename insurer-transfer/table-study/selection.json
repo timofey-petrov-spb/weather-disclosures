@@ -1,0 +1,50 @@
+{
+  "registered_utc": "2026-11-27T16:06:39.850007+00:00",
+  "event": "Hurricane Ian (2022)",
+  "issuers": [
+    {
+      "id": "arch",
+      "prefix": "AX",
+      "cik": 947484,
+      "filing_issuer": "Arch Capital Group Ltd.",
+      "metadata_url": "https://www.sec.gov/edgar/browse/?CIK=947484"
+    },
+    {
+      "id": "everest",
+      "prefix": "EV",
+      "cik": 1095073,
+      "filing_issuer": "Everest Re Group, Ltd.",
+      "metadata_url": "https://www.sec.gov/edgar/browse/?CIK=1095073"
+    },
+    {
+      "id": "axis",
+      "prefix": "XS",
+      "cik": 1214816,
+      "filing_issuer": "AXIS Capital Holdings Limited",
+      "metadata_url": "https://www.sec.gov/edgar/browse/?CIK=1214816"
+    },
+    {
+      "id": "hanover",
+      "prefix": "HV",
+      "cik": 944695,
+      "filing_issuer": "The Hanover Insurance Group, Inc.",
+      "metadata_url": "https://www.sec.gov/edgar/browse/?CIK=944695"
+    }
+  ],
+  "selection": "First original 10-Q for period ended 2022-09-30 and first original 10-K for period ended 2022-12-31. Primary documents only, including real financial tables and narrative. Keep all four issuers and eight forms regardless of outcomes. No amendments or earnings exhibits. If a form is unavailable, record the reason and do not replace it.",
+  "previous_inventory_files": [
+    "Disclosures_extension/evaluation/source_inventory.json",
+    "Disclosures_extension/evaluation/confirmation/source_inventory.json",
+    "Disclosures_extension/evaluation/ian_hci/source_inventory.json",
+    "Disclosures_extension/insurer-panel/hartford/source_inventory.json",
+    "Disclosures_extension/insurer-panel/progressive/source_inventory.json",
+    "Disclosures_extension/insurer-panel/renaissance/source_inventory.json",
+    "Disclosures_extension/insurer-panel/travelers/source_inventory.json",
+    "Disclosures_extension/new_insurer_test/source_inventory.json",
+    "Disclosures_extension/new_insurer_chubb_test/source_inventory.json",
+    "Disclosures_extension/insurer-transfer/filings.json",
+    "Ida_validation/method/data/inventory.json"
+  ],
+  "reference_unit": "USD measure attributable to the targeted event within one filing, including owner/segment, economic measure, valuation period, sign, status and basis. Collapse true repeats within a filing, including a September event reported in quarter and YTD at the same valuation, unless the figures or economic meanings differ. Range and open bounds are retained. Exclude unallocated aggregates, industry losses, future capacity, counts and percentages. Within each form record which facts appear in a structurally labelled table. A prose paragraph held in layout HTML is not evidence of a financial table. Zero-positive forms stay in the test.",
+  "comparison": "Previous locked method and newly locked method, evaluated on all records in each of the original forms. Report amount/event, directional signs, false outputs, full economic fields, review rows, and table-only results independently. Benchmarks cover a new issuer panel on the same storm."
+}

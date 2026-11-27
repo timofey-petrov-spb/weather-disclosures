@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-11-27T16:11:42.814851+00:00",
+  "protocol_sha256": "66b0a360ef9fcfcae5fba37b9946903387478cd2da88544ee8017e51a49637fa",
+  "scoring_protocol_sha256": "f1968777e6b20442a7fa17035e8df1c235b5c788efae0ed748d6bbfae4d174ad",
+  "prior_independent_reviews": {
+    "axis-hanover-reference.json": "1b7fb0e54c3593520566e3702e226b083380c628515db9dbed2675a79b6cf41b",
+    "arch-everest-second-read.json": "7d32af40ce06980aed81ea325869ab7b058bd63f097622c781c94896e21e6daa"
+  },
+  "inputs": {
+    "arch": "c58bdf2e37cf3dabd33b915d2aff54d2fb694901b29a048cb66193f15d064ec3",
+    "everest": "c0019c441301baef6301f6847c2d234923e46c0d6a4503e4536e9cc3b945f1b1",
+    "axis": "1e43910c04c31572798dc84d06518c8e8070e5e6837a3a68708adc8c2d47b0ae",
+    "hanover": "2a57d89b645900e95481a8054f91cb508d2a45ce39803a2b92e2f5a56352e701"
+  },
+  "issuer_reference_sha256": {
+    "arch": "ba69941b29c33a2a24931833a58d8a69a86b53f42f3e47ce3f8374ed69856897",
+    "everest": "3442e09af8423f9ede8bf3af745668bead06a57db21f6aae04794d1fe4d3f086",
+    "axis": "8e7c59a5d4a475d6a95a0414ec8531bdd8f9bf3a749bac7ad5930963f33e7ac4",
+    "hanover": "89f1ac36555fabe4a83bfdd6fe74a73de1b97f489aaca3bd8e96616242888102"
+  },
+  "total_forms": 8,
+  "total_observations": 7,
+  "table_native": 0,
+  "reconciliation": "The independent Arch/Everest source reading agrees on every amount, sign, owner and document. AXIS/Hanover reference records were linked to verified source passage IDs. All eight forms were retained and no model output was inspected."
+}

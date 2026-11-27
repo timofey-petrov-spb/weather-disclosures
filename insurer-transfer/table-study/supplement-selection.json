@@ -1,0 +1,28 @@
+{
+  "registered_utc": "2026-11-27T16:11:26.873466+00:00",
+  "purpose": "A targeted supplemental table stress test, separately reported from the unchanged eight-form primary validation. Screens are selected for positive, explicitly tabulated Ian facts. It cannot estimate population precision, filing prevalence or performance on the unselected rows or all insurers.",
+  "event": "Hurricane Ian, 2022",
+  "preexcluded": {
+    "Universal Insurance Holdings": "prior Michael evaluation, CIK 891166",
+    "Heritage Insurance Holdings": "prior Michael evaluation, CIK 1598665",
+    "American Coastal / United Insurance Holdings": "prior Irma evaluation, same CIK 1401521"
+  },
+  "roster_in_priority_order": [
+    "SiriusPoint Ltd.",
+    "Markel Corporation",
+    "Cincinnati Financial Corporation",
+    "RLI Corp.",
+    "American Financial Group, Inc.",
+    "American International Group, Inc.",
+    "CNA Financial Corporation",
+    "Assurant, Inc.",
+    "Kemper Corporation",
+    "Palomar Holdings, Inc.",
+    "Selective Insurance Group, Inc.",
+    "United Fire Group, Inc."
+  ],
+  "stop": "First two distinct eligible issuers with a qualifying table. In priority order inspect original 2022-09-30 Form 10-Q and then original 2022-12-31 Form 10-K. For each positive include only the first qualifying table in primary document order, and do not inspect lower-priority forms or issuers after filling both slots. If fewer than two positives after exhausting the primary roster, fill remaining slots in a separate exhibit stratum, screening the same roster/order, excluding already selected names: original Item 2.02 earnings release/financial supplement (EX-99) published nearest on or before the original Q3 report filing, and then corresponding FY earnings disclosure. Only exhibits reporting completed quarter/year (not a preliminary catastrophe estimate); use exhibit-number order for multiple such exhibits. PDFs/embedded images that lack HTML data cells are logged and ineligible. Preserve negatives, unavailable forms, and stopping position.",
+  "eligibility": "A real table has multiple data columns or data rows, plus a printed event row, column, or uniquely allocating event caption/footnote. Dollar magnitude in a separate cell is required. Exclude layout tables and prose bullets alongside an amount, non-US-dollar values, company-wide/all-event totals unless specifically for Ian, earned premiums or unrelated events, industry totals, figures to be inferred and dash-only amounts. Select every explicitly attributed nonzero or explicit zero USD measure in that table using the primary scoring protocol. Distinct gross/net, segment, accounting measure, reporting date and comparable period with explicit Ian value count separately. True economic duplicates within the table are one measure.",
+  "evaluation": "Use frozen v6 and v7 with the exact same full primary-document input and existing parser. Report recalls among selected table facts, evidence and sign, misses and unsupported automatic proposals tied to selected table or its immediate caption/footnotes; exclude unrelated full-document proposals from table-slice precision. Report false positives for selected tables, even when all references missed. Explicitly distinguish unmatched unsupported rows, duplicate rows, and economic-field accuracy. No training or changes from these sources. Report negative cell subset independently (NA if absent).",
+  "blinding": "This supplemental registration and all reference labels precede opening any supplemental predictions. The reference reader did not inspect any primary-panel predictions before supplemental registration; disjoint primary and supplemental evaluators can work concurrently."
+}

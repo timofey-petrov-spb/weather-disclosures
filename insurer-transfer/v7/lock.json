@@ -1,0 +1,62 @@
+{
+  "freeze_utc": "2026-11-27T16:12:28.140919+00:00",
+  "implementation": {
+    "v6/extract.py": "b4e8686a9733c7fd97577d90f9d20c0c84038c24148ae76a69199e942543f20e",
+    "v5/extract.py": "e6c774ea8894f962ab3e863388e2ecff9261895c6cced4b82f7b5d6bc21d4b0c",
+    "v4/extract.py": "8691f90f08724ab5a312aa43aff5a3b82885dc5856470cae36ad1506d9c0c383",
+    "v4/source_reader.py": "6dabdd91eebc3e1b5925f304f7e98a1d86f144d45ac79a238327aaa7275eb0b5",
+    "xbrl_units.py": "1f59a71ca3facd12ec25049b4cc8dea1c3231ddd8fd19b193942b3c6e8544353",
+    "extractor_v3.py": "d95fb23188e6e73b46d1c36bd3b63fa1819e75555ded5634f7f575504a144bc2",
+    "v7/extract.py": "ad3f2984a11fcde582c4c5221a70c9eac3b3253b24c11181fa0badc25eaefafd",
+    "v7/tables.py": "3d234f1089040eb401e2d245d6e053b2f9f8232d2ffd1d3109d54ef747b5e736"
+  },
+  "implementation_fingerprint": "a7f296d399348884cc89c6168d2d616978cb1766cfc2f94abeeee9e5a2a8f370",
+  "fingerprint_recipe": "SHA-256 of UTF-8 compact JSON of implementation, keys sorted, separators comma and colon",
+  "tests_sha256": "79cc645d214be7a0ebfa1ab0da9565d288cc41bb58bbf95fb4b3da92dea3a7c0",
+  "development": {
+    "allstate": {
+      "output_sha256": "1f7cc8be6c7940d35508eaf3fc4d86edf9bf76f901fee3489744d8d9530bbabb",
+      "automatic": 5,
+      "review": 0
+    },
+    "chubb": {
+      "output_sha256": "c76f4fda5d418b10fe09e53f11232f17e83682a0e5265989cd4888abdcbf02d5",
+      "automatic": 2,
+      "review": 0
+    },
+    "elliott": {
+      "output_sha256": "d2a724d6d99e5e05b8cd9f48171d6775163716d9c2b35c0cb15a29994dea9b39",
+      "automatic": 1,
+      "review": 0
+    },
+    "hci": {
+      "output_sha256": "f0e67810b6ac8e9d494d33300a094127ec48f231f676035f4568011c6334f951",
+      "automatic": 23,
+      "review": 0
+    },
+    "irma": {
+      "output_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "automatic": 0,
+      "review": 0
+    },
+    "michael": {
+      "output_sha256": "d511f8908a98024069eac3cfe482193fc6f4ab85e949c7027d9ed31681c20a7c",
+      "automatic": 6,
+      "review": 0
+    },
+    "renaissance": {
+      "output_sha256": "5688942eb384d67c5e6a4122d5acc1b4d1403fb3972fe791e134c835a4264aed",
+      "automatic": 18,
+      "review": 0
+    },
+    "travelers": {
+      "output_sha256": "ee32a022a26971bdfc6dccb09cdb52490d04c3aa97f022192308ed2ef4bacfc3",
+      "automatic": 4,
+      "review": 0
+    }
+  },
+  "runtime": "Python 3.10+ standard library",
+  "cli": "python v7/extract.py INPUTS_JSONL PRIMARY_HTML_DIRECTORY OUTPUT_JSON [--event EVENT]",
+  "boundary": "Developed using the previously reviewed Travelers and RenaissanceRe Q3 and FY 2022 forms and prior regression controls. No new test issuer identities, filings, annotations or predictions were accessed during development.",
+  "pre_freeze_tests": "8 table tests and 6 legacy v6 tests passed; all six older comparison outputs exactly equal archived v6."
+}
