@@ -1,0 +1,55 @@
+{
+  "registered_utc": "2026-11-27T18:05:17.124627+00:00",
+  "related_sec_protocol_sha256": "6ea5fff263027c68b1b2c1a30dceec7b517302f20c2b826c74cc1e79a4d4f700",
+  "reason": "A preliminary source-only screen had yielded just one SEC family with separately tabulated amounts. Register this conditional stratum before looking at any candidate's international source or any test predictions. No screening outcome in the ongoing SEC stratum is changed.",
+  "priority": [
+    "Swiss Re Group (Swiss Reinsurance Company / Swiss Re Ltd)",
+    "Zurich Insurance Group",
+    "Lancashire Holdings",
+    "Hiscox Ltd",
+    "Beazley plc",
+    "Chaucer Holdings plc (only if it passes earlier-family screen)",
+    "Brit Insurance Holdings (only if it passes earlier-family screen)",
+    "CatCo Reinsurance Opportunities Fund (only if it passes earlier-family screen)"
+  ],
+  "period_order": {
+    "2022": [
+      "Ian",
+      "Fiona",
+      "Nicole"
+    ],
+    "2017": [
+      "Irma",
+      "Harvey",
+      "Maria"
+    ],
+    "2005": [
+      "Katrina",
+      "Rita",
+      "Wilma"
+    ],
+    "2024": [
+      "Milton",
+      "Helene",
+      "Debby",
+      "Beryl"
+    ],
+    "2019": [
+      "Dorian",
+      "Hagibis",
+      "Faxai"
+    ],
+    "2018": [
+      "Michael",
+      "Florence",
+      "Jebi"
+    ],
+    "2021": [
+      "Ida"
+    ]
+  },
+  "source_order": "For each issuer and year inspect the group's original full English consolidated annual/financial report in native HTML where available. A report split across official HTML pages is searched in financial/report TOC order; select entire standalone financial section page containing the first qualifying table and preserve its full source, context, financial year, edition and page URL. Where the full annual report is PDF-only/unavailable in native HTML or contains no qualifying table, inspect original completed full-year results announcement in native HTML as issued by that company, then its original January-to-September results announcement in native HTML if available. Allow issuer website or original regulator/exchange/dissemination-service RNS announcement, including the complete as-distributed HTML carried by a named authorized RNS distributor when source identified by original release date, sender, announcement ID and/or issue number. No editorial articles, transcripts, websites paraphrasing company statements, PDF conversion, mirrored HTML with unsourced provenance or renaming of PDFs. Document what was checked. Only one family in this conditional stratum can contribute each slot and previously examined corporate families ineligible, as in main registration.",
+  "eligibility": "Same physical cell, all actual-event USD monetary facts, earliest eligible table and first eligible named storm priority as SEC registration. Check denomination and distinguish issuer reports, event-specific underwriting/balance-sheet results and asset-level exposure from market estimates. Exclude hypothetical replay/model PML, purely industry figures, unsupported attribution, undivided mixed-event totals, exchanged currency or inferred amounts. Credit only distinct signed facts preserving full accounting qualifiers. Foreign-language headlines are optional corroboration, never extraction inputs.",
+  "prospective_order": "Include only enough positive new families to reach three overall, after completing registered SEC annual and quarterly eligibility screens with precedence for earlier groups. Report main, SEC quarterly/exhibit reserve and international reserve separately. Concurrent source-only assessment is allowed. If fewer than three after exhaustion, publish number actually available. No article or document belonging to a candidate in this international stratum was seen before this protocol was written.",
+  "provenance": "Pin exact downloaded HTML by SHA256, verification of the official publication metadata and precise source link. Record metadata date at reported resolution where no acceptance timestamp is published. Replay identical market documents and preserved monetary fact scope for v9 and v10; cannot describe native international sources as SEC filings. Independently seal two source readings before running readers."
+}
